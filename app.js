@@ -223,30 +223,65 @@ async function renderThreeCodes() {
   const el = document.getElementById("three-codes-table");
   if (!seg.length) return;
 
+  // Keep only substantive student utterances with actual codes applied —
+  // no moderator script, no one-word fragments, no empty-codes rows.
+  const substantive = seg.filter((s) =>
+    s.speaker === "STU" &&
+    Array.isArray(s.codes) && s.codes.length > 0 &&
+    (s.text || "").length >= 60 &&
+    s.confidence !== "low"
+  );
+
   // Group by (fg_id, line_id) so each row shows all coders for the same utterance
   const grouped = new Map();
-  for (const s of seg) {
+  for (const s of substantive) {
     const key = `${s.fg_id}:${s.line_id}`;
-    if (!grouped.has(key)) grouped.set(key, { fg_id: s.fg_id, line_id: s.line_id, text: s.text, coders: {} });
+    if (!grouped.has(key)) grouped.set(key, { fg_id: s.fg_id, line_id: s.line_id, text: s.text, section_id: s.section_id, coders: {} });
     grouped.get(key).coders[s.coder] = s;
   }
 
-  // Show at most 25 rows — prefer rows that have LM AND llm-claude, then rows with both + invivo
-  const rows = [...grouped.values()]
-    .sort((a, b) => Object.keys(b.coders).length - Object.keys(a.coders).length)
-    .slice(0, 25);
+  // Diversify by code — don't show 25 rows that are all "use.academic".
+  // Round-robin across codes: pick the first one from each code, then the
+  // second, etc. until we have 20.
+  const byCode = new Map();
+  for (const row of grouped.values()) {
+    const llm = row.coders["llm-claude"];
+    if (!llm) continue;
+    for (const code of llm.codes) {
+      if (!byCode.has(code)) byCode.set(code, []);
+      byCode.get(code).push(row);
+    }
+  }
+  const picks = [];
+  const used = new Set();
+  let added = true;
+  while (added && picks.length < 20) {
+    added = false;
+    for (const [code, rows] of byCode) {
+      const row = rows.find((r) => !used.has(`${r.fg_id}:${r.line_id}`));
+      if (row) {
+        used.add(`${row.fg_id}:${row.line_id}`);
+        picks.push(row);
+        added = true;
+        if (picks.length >= 20) break;
+      }
+    }
+  }
 
   el.innerHTML = "";
-  for (const row of rows) {
+  for (const row of picks) {
     const div = document.createElement("div");
     div.className = "three-code-row";
     const lm = row.coders["LM"];
     const llm = row.coders["llm-claude"];
     const iv = row.coders["invivo"];
+    // Build the utterance text — merge-paragraph-style (no line breaks).
+    // The quote is already one line in the JSON; we render it as one <p>.
+    const sectionLabel = prettySection(row.section_id);
     div.innerHTML = `
       <div>
-        <div class="utterance">${escape(row.text)}</div>
-        <div class="fg-id">${row.fg_id} · line ${row.line_id}</div>
+        <div class="utterance">"${escape(row.text)}"</div>
+        <div class="fg-id">${sectionLabel}</div>
       </div>
       <div class="codes">${codesHTML(lm?.codes, "lm")}</div>
       <div class="codes">${codesHTML(llm?.codes, "llm")}</div>
@@ -254,6 +289,18 @@ async function renderThreeCodes() {
     `;
     el.appendChild(div);
   }
+}
+
+function prettySection(sid) {
+  return ({
+    s1_welcome: "welcome",
+    s2_warmup_goaround: "warm-up go-around",
+    s3_warmup_reaction: "group reaction",
+    s4_two_sided_risk: "two-sided risk vote",
+    s5_professional_readiness: "professional readiness",
+    s6_pair_share: "pair share",
+    s7_dot_voting_close: "dot voting + close",
+  }[sid] || sid || "");
 }
 
 function codesHTML(codes, cls) {
@@ -283,21 +330,46 @@ async function renderDisagreements() {
 
 /**
  * Render a context window around a coded utterance as a long block quote.
- * The center line (the actual coded utterance) is highlighted; surrounding
- * lines appear as context. Speakers (MOD / STU) are shown as prefix labels.
+ * Consecutive lines from the same speaker are merged into one paragraph —
+ * so a multi-line student thought reads as one continuous block, not a
+ * staccato of STU labels. The center line (the actual coded utterance)
+ * stays highlighted within its merged paragraph.
  */
 function contextBlockHTML(context, fallbackText) {
   if (!context || !context.center) {
-    return `<blockquote class="ctx-quote"><span class="ctx-center">${escape(fallbackText || "")}</span></blockquote>`;
+    return `<blockquote class="ctx-quote"><p class="ctx-para"><span class="ctx-center">${escape(fallbackText || "")}</span></p></blockquote>`;
   }
-  const renderLine = (line, cls) => {
-    const speaker = line.speaker === "MOD" ? "MOD" : "STU";
-    return `<span class="ctx-line ${cls}"><span class="ctx-speaker">${speaker}</span> ${escape(line.text)}</span>`;
-  };
-  const before = (context.before || []).map((l) => renderLine(l, "ctx-before")).join("");
-  const center = renderLine(context.center, "ctx-center");
-  const after  = (context.after  || []).map((l) => renderLine(l, "ctx-after")).join("");
-  return `<blockquote class="ctx-quote">${before}${center}${after}</blockquote>`;
+  const all = [
+    ...(context.before || []).map((l) => ({ ...l, role: "before" })),
+    { ...context.center, role: "center" },
+    ...(context.after || []).map((l) => ({ ...l, role: "after" })),
+  ];
+
+  // Group adjacent lines by speaker
+  const groups = [];
+  for (const line of all) {
+    const last = groups[groups.length - 1];
+    if (last && last.speaker === line.speaker) {
+      last.lines.push(line);
+    } else {
+      groups.push({ speaker: line.speaker, lines: [line] });
+    }
+  }
+
+  const paras = groups.map((g) => {
+    const speakerLabel = g.speaker === "MOD" ? "MOD" : "STU";
+    // Merge line texts into one continuous paragraph. If any line is the
+    // center, wrap that line's text (only) in a .ctx-center span.
+    const merged = g.lines.map((l) => {
+      const text = escape(l.text);
+      if (l.role === "center") return `<span class="ctx-center">${text}</span>`;
+      return text;
+    }).join(" ");
+    const cls = g.lines.some((l) => l.role === "center") ? "ctx-para ctx-para-center" : "ctx-para";
+    return `<p class="${cls}"><span class="ctx-speaker">${speakerLabel}</span>${merged}</p>`;
+  }).join("");
+
+  return `<blockquote class="ctx-quote">${paras}</blockquote>`;
 }
 
 async function renderAiSlop() {
@@ -317,7 +389,7 @@ async function renderAiSlop() {
         <div class="slop-theme-def">${escape(t.definition || "")}</div>
         <div class="slop-theme-quotes">
           ${(t.quotes || []).slice(0, 2).map((q) =>
-            `${contextBlockHTML(q.context, q.quote)}<cite>line ${q.line_id} · ${escape(q.section_id || "")}</cite>`
+            `${contextBlockHTML(q.context, q.quote)}<cite>from the ${prettySection(q.section_id)} section</cite>`
           ).join("")}
         </div>
       </div>
@@ -349,107 +421,69 @@ async function renderAiSlop() {
 }
 
 async function renderFieldNotes() {
-  const d = await loadJSON("public/data/field_observations.json");
-  if (!d || !d.by_fg || Object.keys(d.by_fg).length === 0) return;
-
-  // Helper: find the full observation paragraph that contains a standout sentence.
-  function fullParagraphFor(standout) {
-    const fg = d.by_fg[standout.fg_id];
-    if (!fg) return standout.sentence;
-    const obs = (fg.observations || []).find((o) => o.index === standout.index);
-    return obs ? obs.text : standout.sentence;
+  // Prefer the new pairings view; fall back to nothing if stage_01e hasn't run
+  const pairings = await loadJSON("public/data/field_pairings.json");
+  const el = document.getElementById("field-pairings");
+  if (!el) return;
+  if (!pairings || !Object.keys(pairings).length) {
+    el.innerHTML = `<div class="empty">pairings not generated yet — run <code>make stage01e</code></div>`;
+    return;
   }
-
-  // --- global standouts grid ---
-  // Per Liz: no source FG attribution, no reaction bars, use long paragraph
-  // context around each standout so the excerpt reads.
-  const standoutsEl = document.getElementById("field-standouts");
-  standoutsEl.innerHTML = "";
-  (d.global_standouts || []).forEach((s) => {
-    const para = fullParagraphFor(s);
-    const highlighted = highlightSentence(para, s.sentence);
-    const card = document.createElement("div");
-    card.className = "field-standout";
-    card.innerHTML = `
-      <blockquote>${highlighted}</blockquote>
-      <div class="meta">
-        <span class="affect-pill affect-pill-${s.affect}">${s.affect}</span>
-      </div>
-    `;
-    standoutsEl.appendChild(card);
-  });
-  if (!standoutsEl.children.length) {
-    standoutsEl.innerHTML = `<div class="empty">no field standouts extracted yet.</div>`;
+  // Flatten to a single list; shuffle by FG so consecutive cards aren't from the same room
+  const all = [];
+  for (const [fgId, pairs] of Object.entries(pairings)) {
+    for (const p of pairs) all.push({ ...p, _fg: fgId });
   }
-
-  // --- Anonymized per-FG expandable cards ---
-  // Source FG id is redacted (labeled "focus group A", "focus group B", ...)
-  // so viewers cannot identify which room the notes came from.
-  const byFgEl = document.getElementById("field-by-fg");
-  byFgEl.innerHTML = "";
-  const fgIds = Object.keys(d.by_fg).sort();
-  const letters = "ABCDEFGHIJK".split("");
-  fgIds.forEach((fgId, idx) => {
-    const a = d.by_fg[fgId];
-    const card = document.createElement("details");
-    card.className = "field-fg-card";
-
-    // Build an affect strip from the timeline — one segment per observation
-    const timeline = a.affect_timeline || [];
-    const affectByIndex = new Array(a.observation_count).fill("neutral");
-    for (let i = 0; i < timeline.length; i++) {
-      const [start, mood] = timeline[i];
-      const end = i + 1 < timeline.length ? timeline[i + 1][0] : a.observation_count;
-      for (let j = start; j < end; j++) affectByIndex[j] = mood;
+  if (!all.length) {
+    el.innerHTML = `<div class="empty">no pairings yet.</div>`;
+    return;
+  }
+  // Interleave across FGs so reading feels varied
+  const byFg = new Map();
+  for (const p of all) {
+    if (!byFg.has(p._fg)) byFg.set(p._fg, []);
+    byFg.get(p._fg).push(p);
+  }
+  const interleaved = [];
+  while (interleaved.length < all.length) {
+    let any = false;
+    for (const list of byFg.values()) {
+      if (list.length) { interleaved.push(list.shift()); any = true; }
     }
-    const affectStrip = affectByIndex
-      .map((m) => `<div class="field-affect-seg" style="background:${affectColor(m)}"></div>`)
-      .join("");
+    if (!any) break;
+  }
 
-    const topCats = Object.entries(a.top_categories || {}).slice(0, 3)
-      .map(([k, v]) => `${k.replace(/_/g, " ")}:${v}`).join("  ·  ");
+  el.innerHTML = "";
+  for (const p of interleaved) {
+    const card = document.createElement("div");
+    card.className = `field-pair affect-${p.affect || "other"}`;
 
-    const summary = `
-      <summary class="field-fg-summary">
-        <span class="fg-name">focus group ${letters[idx] || idx + 1}</span>
-        <span class="fg-meta">${a.observation_count} observations &nbsp; ${topCats}</span>
-      </summary>
-    `;
-    const stripHTML = `<div class="field-affect-bar">${affectStrip}</div>`;
+    // Collapse transcript lines into one reading paragraph, merging same-speaker
+    const lines = p.transcript_lines || [];
+    const groups = [];
+    for (const line of lines) {
+      const last = groups[groups.length - 1];
+      if (last && last.speaker === line.speaker) last.lines.push(line);
+      else groups.push({ speaker: line.speaker, lines: [line] });
+    }
+    const transcriptHTML = groups.map((g) => {
+      const speakerLabel = g.speaker === "MOD" ? "MOD" : "STU";
+      const merged = g.lines.map((l) => escape(l.text)).join(" ");
+      return `<p class="fp-para"><span class="ctx-speaker">${speakerLabel}</span>${merged}</p>`;
+    }).join("");
 
-    const obsItems = (a.observations || []).map((o) => `
-      <div class="field-obs affect-${o.affect}">
-        <div>${escape(o.text)}</div>
-        <div class="obs-tags">${(o.categories || []).join(" · ")}</div>
+    card.innerHTML = `
+      <div class="fp-label">${escape(p.label || "")}</div>
+      <div class="fp-observation">${escape(p.observation || "")}</div>
+      <div class="fp-divider"><span>the moment in the transcript</span></div>
+      <blockquote class="fp-transcript">${transcriptHTML}</blockquote>
+      <div class="fp-meta">
+        <span class="affect-pill affect-pill-${p.affect || "other"}">${escape(p.affect || "")}</span>
+        <span class="fp-section">from the ${prettySection(p.section_id)} section</span>
       </div>
-    `).join("");
-
-    card.innerHTML = `${summary}${stripHTML}<div class="field-obs-list">${obsItems}</div>`;
-    byFgEl.appendChild(card);
-  });
-}
-
-function highlightSentence(paragraph, sentence) {
-  const safePara = escape(paragraph);
-  if (!sentence) return safePara;
-  const safeSentence = escape(sentence);
-  const idx = safePara.indexOf(safeSentence);
-  if (idx === -1) return safePara;
-  return safePara.slice(0, idx) +
-    `<mark>${safeSentence}</mark>` +
-    safePara.slice(idx + safeSentence.length);
-}
-
-function affectColor(mood) {
-  return {
-    tense: "#ff8975",
-    engaged: "#6ddb94",
-    relaxed: "#7fb6ff",
-    disengaged: "#c79cff",
-    embodied: "#ffe066",
-    mixed: "#888",
-    neutral: "#2a2a2a",
-  }[mood] || "#2a2a2a";
+    `;
+    el.appendChild(card);
+  }
 }
 
 async function renderThemes() {
@@ -470,7 +504,7 @@ async function renderThemes() {
     for (const ex of t.examples || []) {
       const e = document.createElement("div");
       e.className = "theme-example";
-      e.innerHTML = `${contextBlockHTML(ex.context, ex.quote || ex.text)}<cite>${ex.fg_id} · ${ex.section_id}</cite>`;
+      e.innerHTML = `${contextBlockHTML(ex.context, ex.quote || ex.text)}<cite>from the ${prettySection(ex.section_id)} section</cite>`;
       examples.appendChild(e);
       attachReactionBar(e, "quote", `${ex.fg_id}:${ex.line_id}`);
     }

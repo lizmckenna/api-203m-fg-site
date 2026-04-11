@@ -534,10 +534,13 @@ strong { font-weight: 600; }
   font-style: italic;
   color: var(--ink-soft);
 }
-.ctx-line {
+.ctx-para {
+  margin: 0 0 0.85rem 0;
   display: block;
-  margin: 0.15rem 0;
+  color: var(--mute);
 }
+.ctx-para:last-child { margin-bottom: 0; }
+.ctx-para-center { color: var(--ink-soft); }
 .ctx-speaker {
   display: inline-block;
   font-family: var(--font-body);
@@ -550,7 +553,6 @@ strong { font-weight: 600; }
   margin-right: 0.4rem;
   vertical-align: 0.15em;
 }
-.ctx-before, .ctx-after { color: var(--mute); }
 .ctx-center {
   color: var(--ink);
   font-weight: 500;
@@ -614,132 +616,109 @@ strong { font-weight: 600; }
 .section-field-notes .section-label { color: #ff6b7a; }
 .section-field-notes .section-lede { color: #c8c8c8; max-width: 60ch; }
 
-.field-standouts {
+/* =====================================================================
+   Field-notes pairings — observation + the transcript moment it was about
+   ===================================================================== */
+.field-pairings {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.25rem;
-  margin: 2rem 0 3rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
 }
-.field-standout {
+.field-pair {
   border: 1px solid #2d2d2d;
-  padding: 1.5rem;
   background: #141414;
+  padding: 1.75rem;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
+  position: relative;
 }
-.field-standout blockquote {
-  margin: 0;
+.field-pair::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: #2d2d2d;
+}
+.field-pair.affect-tense::before        { background: #ff8975; }
+.field-pair.affect-engaged::before      { background: #6ddb94; }
+.field-pair.affect-relaxed::before      { background: #7fb6ff; }
+.field-pair.affect-surprise::before     { background: #ffcf5a; }
+.field-pair.affect-laughter::before     { background: #ffe066; }
+.field-pair.affect-silence::before      { background: #a6a6a6; }
+.field-pair.affect-disagreement::before { background: #c79cff; }
+
+.fp-label {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ff6b7a;
+}
+.fp-observation {
   font-family: var(--font-quote);
   font-style: italic;
-  font-size: 0.98rem;
+  font-size: 1.05rem;
   line-height: 1.5;
-  color: #d4d4d4;
-}
-.field-standout blockquote mark {
-  background: transparent;
   color: var(--paper);
-  font-weight: 500;
-  border-bottom: 1.5px solid #ff6b7a;
-  padding-bottom: 1px;
 }
-.field-standout .meta {
-  font-size: 0.72rem;
+.fp-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #666;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.fp-divider::before, .fp-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #2d2d2d;
+}
+.fp-transcript {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+.fp-para {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #c8c8c8;
+  margin: 0 0 0.6rem 0;
+}
+.fp-para:last-child { margin-bottom: 0; }
+.fp-para .ctx-speaker { color: #666; }
+.fp-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 0.68rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #888;
-  display: flex;
-  gap: 0.75rem;
+  margin-top: 0.25rem;
   flex-wrap: wrap;
 }
-.field-standout .affect-pill {
+.fp-meta .affect-pill {
   display: inline-block;
-  padding: 0.1rem 0.45rem;
-  border-radius: 2px;
-  font-weight: 500;
+  padding: 0.15rem 0.5rem;
   color: #1a1a1a;
-}
-.affect-pill-tense      { background: #ffb3a7; }
-.affect-pill-engaged    { background: #b2efc5; }
-.affect-pill-relaxed    { background: #c8e0ff; }
-.affect-pill-disengaged { background: #e0c8ff; }
-.affect-pill-embodied   { background: #fff2a8; }
-.affect-pill-mixed      { background: #dcdcdc; }
-.affect-pill-neutral    { background: #2a2a2a; color: #999; }
-
-.field-subhead {
-  font-family: var(--font-display);
-  font-size: var(--fs-h3);
-  margin: 3rem 0 1.5rem 0;
-  color: var(--paper);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.field-by-fg { display: grid; gap: 1rem; }
-.field-fg-card {
-  border: 1px solid #2d2d2d;
-  background: #141414;
-}
-.field-fg-summary {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 1.5rem;
-  cursor: pointer;
-  font-family: var(--font-display);
   font-weight: 500;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  list-style: none;
-  color: var(--paper);
 }
-.field-fg-summary::-webkit-details-marker { display: none; }
-.field-fg-summary::after {
-  content: "+";
-  font-size: 1.3rem;
-  line-height: 1;
-}
-details[open] .field-fg-summary::after { content: "–"; }
-.field-fg-summary .fg-name { color: #d4d4d4; letter-spacing: 0.06em; }
-.field-fg-summary .fg-meta { color: #888; font-weight: 400; font-size: 0.78rem; text-transform: none; letter-spacing: 0.03em; }
-
-.field-affect-bar {
-  display: flex;
-  height: 6px;
-  margin: 0 1.5rem 0.5rem 1.5rem;
-  border: 1px solid #2d2d2d;
-}
-.field-affect-seg { flex: 1; }
-
-.field-obs-list {
-  padding: 0.75rem 1.5rem 1.5rem 1.5rem;
-  display: grid;
-  gap: 1rem;
-  border-top: 1px solid #2d2d2d;
-}
-.field-obs {
-  font-family: var(--font-body);
-  font-size: 0.92rem;
-  line-height: 1.55;
-  color: #d4d4d4;
-  padding-left: 1rem;
-  border-left: 2px solid #2d2d2d;
-}
-.field-obs.affect-tense      { border-left-color: #ff8975; }
-.field-obs.affect-engaged    { border-left-color: #6ddb94; }
-.field-obs.affect-relaxed    { border-left-color: #7fb6ff; }
-.field-obs.affect-disengaged { border-left-color: #c79cff; }
-.field-obs.affect-embodied   { border-left-color: #ffe066; }
-.field-obs.affect-mixed      { border-left-color: #dcdcdc; }
-
-.field-obs .obs-tags {
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #888;
-  margin-top: 0.35rem;
-}
+.affect-pill-tense        { background: #ffb3a7; }
+.affect-pill-engaged      { background: #b2efc5; }
+.affect-pill-relaxed      { background: #c8e0ff; }
+.affect-pill-surprise     { background: #ffe0a1; }
+.affect-pill-laughter     { background: #fff2a8; }
+.affect-pill-silence      { background: #dcdcdc; }
+.affect-pill-disagreement { background: #e0c8ff; }
+.affect-pill-other        { background: #2a2a2a; color: #999; }
 
 /* =====================================================================
    Themes list

@@ -1,0 +1,2260 @@
+{
+  "01-Cheng": [
+    {
+      "observation": "P-06 is rolling a water bottle in her hand, showing nervousness. Everyone is leaning inward with their body language, perhaps showing a defensive posture.",
+      "label": "nervous energy at the start",
+      "affect": "tense",
+      "transcript_lines": [
+        {
+          "line_id": 31,
+          "speaker": "STU",
+          "text": "Okay, well, good morning everyone.",
+          "section_id": "s1_welcome"
+        },
+        {
+          "line_id": 35,
+          "speaker": "STU",
+          "text": "This focus group will last approximately 30 minutes.",
+          "section_id": "s1_welcome"
+        },
+        {
+          "line_id": 36,
+          "speaker": "STU",
+          "text": "P-01 will take notes and record a voice memo of our conversation.",
+          "section_id": "s1_welcome"
+        },
+        {
+          "line_id": 37,
+          "speaker": "STU",
+          "text": "And Luis will capture ideas on the flip chart during our activity.",
+          "section_id": "s1_welcome"
+        },
+        {
+          "line_id": 38,
+          "speaker": "STU",
+          "text": "Everything will be anonymized in any report that we produce.",
+          "section_id": "s1_welcome"
+        },
+        {
+          "line_id": 39,
+          "speaker": "STU",
+          "text": "So before we begin, could you please help yourself with snacks, which we did,",
+          "section_id": "s1_welcome"
+        },
+        {
+          "line_id": 42,
+          "speaker": "STU",
+          "text": "I want each of you to share one specific concrete example of how you or someone you know has used AI recently.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 43,
+          "speaker": "STU",
+          "text": "It doesn't have to be in academic work.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 44,
+          "speaker": "STU",
+          "text": "It does not have to be something you feel great about.",
+          "section_id": "s2_warmup_goaround"
+        }
+      ],
+      "section_id": "s1_welcome"
+    },
+    {
+      "observation": "When speaking on 'critical thinking,' the group nodded their heads. The group kept nodding during P-02's experience.",
+      "label": "what made everyone nod in agreement",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 177,
+          "speaker": "STU",
+          "text": "Well, so that's kind of from a different perspective that just seeing a lot of people in like younger",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 178,
+          "speaker": "STU",
+          "text": "generations just rely so much on AI.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 179,
+          "speaker": "STU",
+          "text": "I literally just replace critical thinking to such an extent that's been mind boggling",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 180,
+          "speaker": "STU",
+          "text": "to me.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 181,
+          "speaker": "STU",
+          "text": "But also just I find that AI is really good at some things and really, really bad at other",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 182,
+          "speaker": "STU",
+          "text": "things.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 183,
+          "speaker": "STU",
+          "text": "I mean, where my interests lie and are more so where AI is very bad.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 184,
+          "speaker": "STU",
+          "text": "So like what Kathy was talking about coding, AI is fantastic at anything quantitative because",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 185,
+          "speaker": "STU",
+          "text": "math is math.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 186,
+          "speaker": "STU",
+          "text": "It literally has its own set of rules.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "P-06 is laughing and looking at P-02's speech.",
+      "label": "what got a laugh",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 199,
+          "speaker": "STU",
+          "text": "For instance, whenever I try to get it to write for me, I'm just like, this is literal",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 200,
+          "speaker": "STU",
+          "text": "garbage that I don't even use a single word from because it's just like the most generic,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 201,
+          "speaker": "STU",
+          "text": "just like, you know, what's the like highest probability next word that's going to happen?",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 202,
+          "speaker": "STU",
+          "text": "And so that's kind of where I don't feel the need to get super, super good at it because",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 203,
+          "speaker": "STU",
+          "text": "I'm not planning to go into a field at the moment where like it really excels at.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 204,
+          "speaker": "STU",
+          "text": "If I was going decoding, absolutely.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 205,
+          "speaker": "STU",
+          "text": "Why would I learn how to code by myself when I can just, you know, get Claude to put things",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 206,
+          "speaker": "STU",
+          "text": "together for me?",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "P-02 interrupted the conversation, showing signs of disagreement and agreement. P-02 is trying to insert his opinion into P-03's speech the entire time.",
+      "label": "a tense interruption",
+      "affect": "disagreement",
+      "transcript_lines": [
+        {
+          "line_id": 270,
+          "speaker": "STU",
+          "text": "You guys remember the Roselane negotiation? I was negotiating against ChatGPT.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 271,
+          "speaker": "STU",
+          "text": "And it was like very clear that my partner was just using AI to write his answers.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 272,
+          "speaker": "STU",
+          "text": "I'm literally just negotiating against ChatGPT right now.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 273,
+          "speaker": "STU",
+          "text": "But it's like that's the kind of problem I feel like we're facing with ethics.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 274,
+          "speaker": "STU",
+          "text": "Not like I don't think any of us are in danger of being gaslit.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 275,
+          "speaker": "STU",
+          "text": "Like I don't want to general, but I just really don't feel like anyone here is going to like develop a parasocial relationship with AI and go off it rails.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 276,
+          "speaker": "STU",
+          "text": "I can't say 100%. Like what feels like a concern for us is like are people going to be ethical?",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 277,
+          "speaker": "STU",
+          "text": "I definitely have friends that have like parasocial relationships.",
+          "section_id": "s5_professional_readiness"
+        }
+      ],
+      "section_id": "s5_professional_readiness"
+    },
+    {
+      "observation": "When P-03 joined the conversation, he leaned toward P-05 and entirely ignored the presence of P-06. 99% of the time during P-03's conversation, he was leaning toward P-05 but not P-06.",
+      "label": "body language showing who was excluded",
+      "affect": "other",
+      "transcript_lines": [
+        {
+          "line_id": 331,
+          "speaker": "STU",
+          "text": "Were you in government?",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 332,
+          "speaker": "STU",
+          "text": "I was.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 333,
+          "speaker": "STU",
+          "text": "Because I feel like people who are in government don't actually have standards.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 334,
+          "speaker": "STU",
+          "text": "Yeah, but they're like, they have that type of concern.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 335,
+          "speaker": "STU",
+          "text": "Like if we're not using this, we're just going to fall behind.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 336,
+          "speaker": "STU",
+          "text": "But then on the other hand, I feel like HKS, I agree with what you said now.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 337,
+          "speaker": "STU",
+          "text": "Yeah, I was just wondering.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 338,
+          "speaker": "STU",
+          "text": "Yeah, that's how I feel.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 339,
+          "speaker": "STU",
+          "text": "Using AI to supplement things.",
+          "section_id": "s6_pair_share"
+        }
+      ],
+      "section_id": "s6_pair_share"
+    },
+    {
+      "observation": "At this stage, the group is very relaxed; there are no actual actions of taking turns, but rather whoever wants to jump into the conversation. They seem relaxed and don't really care that the time is up.",
+      "label": "the moment formality dissolved",
+      "affect": "relaxed",
+      "transcript_lines": [
+        {
+          "line_id": 476,
+          "speaker": "STU",
+          "text": "Okay, anything else quick on the top of your head and then we're going to vote on them.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 477,
+          "speaker": "STU",
+          "text": "So like anything major that like this is what we have so far.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 478,
+          "speaker": "STU",
+          "text": "So like AI, professional skill, competency training.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 479,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 480,
+          "speaker": "STU",
+          "text": "We're not ever going to leave here knowing just as much.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 481,
+          "speaker": "STU",
+          "text": "Some of us are going to leave here knowing just as much about AI.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 547,
+          "speaker": "STU",
+          "text": "Well, thanks so much.",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 548,
+          "speaker": "STU",
+          "text": "Once we have compiled our results across all focus groups, we'll make a report and make",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 549,
+          "speaker": "STU",
+          "text": "it available to participants.",
+          "section_id": "s7_dot_voting_close"
+        }
+      ],
+      "section_id": "s6_pair_share"
+    }
+  ],
+  "02-Chyung": [
+    {
+      "observation": "The one person who said they don't use AI looked down more, particularly after answering",
+      "label": "discomfort with being the outlier",
+      "affect": "tense",
+      "transcript_lines": [
+        {
+          "line_id": 66,
+          "speaker": "STU",
+          "text": "I try my hardest to not use AI.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 67,
+          "speaker": "STU",
+          "text": "I've used it on one assignment so far,",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 68,
+          "speaker": "STU",
+          "text": "and that was to adjust the transcript,",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 69,
+          "speaker": "STU",
+          "text": "just to like fix spacing,",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 70,
+          "speaker": "STU",
+          "text": "because I didn't want to go through",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 71,
+          "speaker": "STU",
+          "text": "and adjust it all by hand.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 134,
+          "speaker": "STU",
+          "text": "I'm just gonna say, Joe,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 135,
+          "speaker": "STU",
+          "text": "I feel like now so many people use AI",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 136,
+          "speaker": "STU",
+          "text": "like in a variety of ways,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 137,
+          "speaker": "STU",
+          "text": "whether it's like academically or personal,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 138,
+          "speaker": "STU",
+          "text": "so I was just surprised to hear that",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 139,
+          "speaker": "STU",
+          "text": "like you actively try not to use it.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 140,
+          "speaker": "STU",
+          "text": "I was just curious like why?",
+          "section_id": "s3_warmup_reaction"
+        }
+      ],
+      "section_id": "s2_warmup_goaround"
+    },
+    {
+      "observation": "Someone said \"Surprised you don't use AI\" (person laughed sheepishly)",
+      "label": "when the non-user became the spectacle",
+      "affect": "surprise",
+      "transcript_lines": [
+        {
+          "line_id": 134,
+          "speaker": "STU",
+          "text": "I'm just gonna say, Joe,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 135,
+          "speaker": "STU",
+          "text": "I feel like now so many people use AI",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 136,
+          "speaker": "STU",
+          "text": "like in a variety of ways,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 137,
+          "speaker": "STU",
+          "text": "whether it's like academically or personal,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 138,
+          "speaker": "STU",
+          "text": "so I was just surprised to hear that",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 139,
+          "speaker": "STU",
+          "text": "like you actively try not to use it.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 177,
+          "speaker": "STU",
+          "text": "that you don't use AI.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 178,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s3_warmup_reaction"
+        }
+      ],
+      "section_id": "s3_warmup_reaction"
+    },
+    {
+      "observation": "Someone else jokes, \"What does that say about us?\"",
+      "label": "self-aware laugh about AI dependence",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 179,
+          "speaker": "STU",
+          "text": "What does that say about us?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 189,
+          "speaker": "STU",
+          "text": "I just think it's funny",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 190,
+          "speaker": "STU",
+          "text": "because we all exist without it",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 191,
+          "speaker": "STU",
+          "text": "and then the moment that someone is it,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 192,
+          "speaker": "STU",
+          "text": "it's like, what are you and me?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 193,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s3_warmup_reaction"
+        }
+      ],
+      "section_id": "s3_warmup_reaction"
+    },
+    {
+      "observation": "\"Becoming less patient\" point: lots of agreement, noises of affirmation",
+      "label": "shared recognition of AI's cognitive cost",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 303,
+          "speaker": "STU",
+          "text": "One of my concerns is that I feel like my patience",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 304,
+          "speaker": "STU",
+          "text": "has dropped a lot because I know I can rely on AI.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 305,
+          "speaker": "STU",
+          "text": "Like you just give it a few points",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 306,
+          "speaker": "STU",
+          "text": "and then it could come up a full thing for you.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 307,
+          "speaker": "STU",
+          "text": "But you need to, but at the same time,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 308,
+          "speaker": "STU",
+          "text": "I feel like to learn how to use it,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 309,
+          "speaker": "STU",
+          "text": "to consciously improve the skill of AI is very important",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 310,
+          "speaker": "STU",
+          "text": "because people can tell that this comes from AI.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 311,
+          "speaker": "STU",
+          "text": "So how to distinguish it and to make it your own thing",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 312,
+          "speaker": "STU",
+          "text": "is another thing that I also actually concern",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 313,
+          "speaker": "STU",
+          "text": "that I'm not learning at the moment.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "\"it's so hard to put the genie back in the bottle\"",
+      "label": "the regret of learning to use it well",
+      "affect": "tense",
+      "transcript_lines": [
+        {
+          "line_id": 382,
+          "speaker": "STU",
+          "text": "And so once I know that, it's so hard to go back",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 383,
+          "speaker": "STU",
+          "text": "and put the genie back in the bottle.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 384,
+          "speaker": "STU",
+          "text": "And I was like, what if we didn't take that class?",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 385,
+          "speaker": "STU",
+          "text": "It's to some extent, because now I use it way more.",
+          "section_id": "s5_professional_readiness"
+        }
+      ],
+      "section_id": "s5_professional_readiness"
+    },
+    {
+      "observation": "\"I think it's a bad idea to use it in the classroom, I'm sorry\"; sheepish look, laugh / \"I completely disagree, we don't have to get into it\" (laughs) \"No disagree with me!\"",
+      "label": "apologetic disagreement that turned playful",
+      "affect": "disagreement",
+      "transcript_lines": [
+        {
+          "line_id": 528,
+          "speaker": "STU",
+          "text": "I, I genuinely don't think HKS",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 529,
+          "speaker": "STU",
+          "text": "should teach us about how to use AI.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 530,
+          "speaker": "STU",
+          "text": "I think they should train teachers how to use it best.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 531,
+          "speaker": "STU",
+          "text": "I think the slippery slope to engage it in classrooms,",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 532,
+          "speaker": "STU",
+          "text": "I don't think it's a good idea.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 533,
+          "speaker": "STU",
+          "text": "Genuinely.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 534,
+          "speaker": "STU",
+          "text": "That's why I'm against it.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 535,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 556,
+          "speaker": "STU",
+          "text": "Oh, I completely disagree,",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 557,
+          "speaker": "STU",
+          "text": "but I totally understand the concern.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 558,
+          "speaker": "STU",
+          "text": "Disagree!",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 559,
+          "speaker": "STU",
+          "text": "We don't have to get into it.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 560,
+          "speaker": "STU",
+          "text": "No, disagree!",
+          "section_id": "s6_pair_share"
+        }
+      ],
+      "section_id": "s6_pair_share"
+    }
+  ],
+  "03-Davis": [],
+  "04-Fausto": [],
+  "05-Ge": [
+    {
+      "observation": "Discussing this use of AI helped break the ice. A few other participants answer 'I do'; people nod in agreement",
+      "label": "the ice-breaker admission",
+      "affect": "relaxed",
+      "transcript_lines": [
+        {
+          "line_id": 82,
+          "speaker": "STU",
+          "text": "I wonder if there's something we're like afraid to talk about on this group like if we use",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 83,
+          "speaker": "STU",
+          "text": "it to help directly with homework or essays or things like that seems like we're talking",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 84,
+          "speaker": "STU",
+          "text": "about really cool but whatever we don't have to go into that right now I'm just addressing",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 85,
+          "speaker": "STU",
+          "text": "that.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 86,
+          "speaker": "STU",
+          "text": "I do.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 87,
+          "speaker": "STU",
+          "text": "I do.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 88,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 89,
+          "speaker": "STU",
+          "text": "Same.",
+          "section_id": "s2_warmup_goaround"
+        }
+      ],
+      "section_id": "s2_warmup_goaround"
+    },
+    {
+      "observation": "One participant noted the phenomenon where some people write full papers using AI then do great on them; use of AI in some cases was not directly identified by the professor (people laugh)",
+      "label": "what got a laugh",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 110,
+          "speaker": "STU",
+          "text": "I know so many people who have written full papers like not even touching like the paper like",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 111,
+          "speaker": "STU",
+          "text": "multi-page papers who do like great on them like professors like we know when you're using",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 112,
+          "speaker": "STU",
+          "text": "a gel you don't.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 113,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 114,
+          "speaker": "STU",
+          "text": "They get all in like yeah.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 115,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s3_warmup_reaction"
+        }
+      ],
+      "section_id": "s3_warmup_reaction"
+    },
+    {
+      "observation": "Here, people were paying attention (some participants seemed to concur; overall it seemed that there were less enthusiastic concurrences / fewer people nodding along)",
+      "label": "the moment engagement cooled",
+      "affect": "tense",
+      "transcript_lines": [
+        {
+          "line_id": 123,
+          "speaker": "STU",
+          "text": "But like I've inputted original writing into GPT zero and had it say that it was AI and",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 124,
+          "speaker": "STU",
+          "text": "I've also put in AI assisted writing or just purely generated AI and it's also said",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 125,
+          "speaker": "STU",
+          "text": "that it was not.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 126,
+          "speaker": "STU",
+          "text": "So I think like the current tools we have to like detect AI is quite poor.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 127,
+          "speaker": "STU",
+          "text": "I definitely use it on assignments.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 128,
+          "speaker": "STU",
+          "text": "I'll be like I use it honestly I think at this point if I'm like writing out a draft",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 129,
+          "speaker": "STU",
+          "text": "of something like it's kind of like all like brain dumb stream of conscious like my thoughts",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 130,
+          "speaker": "STU",
+          "text": "and my own original ideas but then use whatever a cloud chat whatever to like help formulate",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 131,
+          "speaker": "STU",
+          "text": "it into some sentences and then I will go back and edit it and it's kind of like an iterative",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 132,
+          "speaker": "STU",
+          "text": "process.",
+          "section_id": "s3_warmup_reaction"
+        }
+      ],
+      "section_id": "s3_warmup_reaction"
+    },
+    {
+      "observation": "Mention of how we're lucky because we all finished undergrad before AI really came out (People concur / nod / laugh)",
+      "label": "nervous relief",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 167,
+          "speaker": "STU",
+          "text": "And I am worried about that because I think we can escape it because we probably all finished undergrad before AI really came into the brain.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 168,
+          "speaker": "STU",
+          "text": "But I'm looking at, like, people in undergrad now and it's dramatic.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 169,
+          "speaker": "STU",
+          "text": "It's actually scary a little bit.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 170,
+          "speaker": "STU",
+          "text": "Yeah.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 171,
+          "speaker": "STU",
+          "text": "So, the kids are all right.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 172,
+          "speaker": "STU",
+          "text": "And I worry about that becoming more right to what spread society.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "In the use of case of using AI to help write papers in English (the participant was not a native speaker of English), one participant mentioned the risk of developing an 'English/ChatGPT accent'; people laugh.",
+      "label": "the accent joke",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 177,
+          "speaker": "STU",
+          "text": "I voted on this one on a personal reason particularly because one of my goals here, like, doing a master's degree, not in my native language,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 178,
+          "speaker": "STU",
+          "text": "is to, like, guarantee that, like, how you evolve in that sense and, like, write academic papers in English and that kind of stuff.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 179,
+          "speaker": "STU",
+          "text": "And, of course, chatchapity has helped me a lot to be, like, as productive as someone who is, like, a negative English speaker.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 180,
+          "speaker": "STU",
+          "text": "Because I think that's what's demanded.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 181,
+          "speaker": "STU",
+          "text": "Like, that's the rule, you know, like, here in HKS.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 182,
+          "speaker": "STU",
+          "text": "But I'm scared that I won't evolve a skill that I think I was supposed to.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 183,
+          "speaker": "STU",
+          "text": "Or that my English would be, like, English slash chatchapity accent, you know.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "One participants gives an example of AI use in the work of a state legislature. Staffer for state legislator actively using AI for content creation, drafting questions, fixing press release. Thus able to be more productive and output a lot of work. Other participants seemed to be in deep thought / nodded",
+      "label": "when the room went serious",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 238,
+          "speaker": "STU",
+          "text": "I think, on the point about, like, falling behind if you don't, I have a good example, I think, from when I was working my last job,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 239,
+          "speaker": "STU",
+          "text": "I was a staffer for a state legislator in Jersey, and we were one of the few offices that were, like, actively using AI in a lot of our content creation,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 240,
+          "speaker": "STU",
+          "text": "and whether it was, like, something as simple as, like, drafting up questions for a legislative hearing or, like, helping fix up a press release.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 241,
+          "speaker": "STU",
+          "text": "Like, because offices are so small, it's, like, three staff members, we were using AI and we were able to work on way more issues,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 242,
+          "speaker": "STU",
+          "text": "and output much more, I would argue, like, really good work, compared to offices where, like, they had three staffers,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 243,
+          "speaker": "STU",
+          "text": "and they were, like, all 40, 50, and 60, and, like, we're not using it, and they were, like, one press release every, you know,",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 244,
+          "speaker": "STU",
+          "text": "like, two days, three days, and we could do, like, five to six, and, like, a very short time span.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 245,
+          "speaker": "STU",
+          "text": "It's like, there was a real productivity trade-off that I actually think, in this situation, was, like, a public service trade-off.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    }
+  ],
+  "06-Giles": [
+    {
+      "observation": "The moderator probes with the question about hearing anything surprising. It is very quiet when moderator is speaking. There is some silence. Someone begins to respond. People continue to nod. There is silence in between answers. Not many people respond to this question.",
+      "label": "the question that fell flat",
+      "affect": "silence",
+      "transcript_lines": [
+        {
+          "line_id": 49,
+          "speaker": "STU",
+          "text": "But I wanted, I'm curious to hear, so we heard from everyone.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 50,
+          "speaker": "STU",
+          "text": "I want to hear if any of, if anything that you guys heard from someone in this group here today surprised you.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 51,
+          "speaker": "STU",
+          "text": "For example, the alumni notebook surprised me.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 52,
+          "speaker": "STU",
+          "text": "It didn't really know that.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 53,
+          "speaker": "STU",
+          "text": "So I'll make sure to use it forward for test readings.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 54,
+          "speaker": "STU",
+          "text": "And what is really surprising is that LLM, that makes a podcast for you using the text, or the text itself.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 55,
+          "speaker": "STU",
+          "text": "It makes a podcast for like 15 to 20 minutes long podcast on that subject.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 56,
+          "speaker": "STU",
+          "text": "Or the AI, can I say?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 57,
+          "speaker": "STU",
+          "text": "Yeah, like, movie clip on that subject.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 58,
+          "speaker": "STU",
+          "text": "It's really great.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 59,
+          "speaker": "STU",
+          "text": "Can anyone else use it?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 60,
+          "speaker": "STU",
+          "text": "Anyone else use it?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 61,
+          "speaker": "STU",
+          "text": "No, it's not.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 62,
+          "speaker": "STU",
+          "text": "Is it paid?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 63,
+          "speaker": "STU",
+          "text": "No, it's free.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 64,
+          "speaker": "STU",
+          "text": "At least I've never paid.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 65,
+          "speaker": "STU",
+          "text": "Did anyone else hear anything that surprised them from their responses?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 66,
+          "speaker": "STU",
+          "text": "I think most of the things that we talked about seem pretty run-of-the-mill for AI use.",
+          "section_id": "s3_warmup_reaction"
+        }
+      ],
+      "section_id": "s3_warmup_reaction"
+    },
+    {
+      "observation": "People get more enthusiastic. when one participant starts talking about how they had never used it before getting to HKS. This is the first time someone interjects to say 'ya!'.",
+      "label": "first moment of spontaneous agreement",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 125,
+          "speaker": "STU",
+          "text": "I also think like I've been thinking a lot about how I didn't use AI in college at all.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 126,
+          "speaker": "STU",
+          "text": "And feeling like inferior to my college self in the way that I have started to rely on it for so many assignments.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 127,
+          "speaker": "STU",
+          "text": "So I think like looking back, like that kind of like retrospective looking back at like what I was able to do on my own.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 128,
+          "speaker": "STU",
+          "text": "Makes me more like existential stress for my brain as I become more and more reliant on it.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 147,
+          "speaker": "STU",
+          "text": "Yeah, I feel like even like currently I almost feel like at a disadvantage.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 148,
+          "speaker": "STU",
+          "text": "I also didn't use it all in college and I literally didn't use it at all until I got here.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 149,
+          "speaker": "STU",
+          "text": "I'm like saw other people using it to like be more efficient or like to anticipate questions like on presentations or so many things that I didn't even think of that.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 150,
+          "speaker": "STU",
+          "text": "And I think maybe I could be like better at my academics if I did use it more.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 151,
+          "speaker": "STU",
+          "text": "And like leaving here I think I feel already a little bit behind in terms of like using it and like in my future career I think if I don't start using it now more, I'm not going to learn how to use it in all these ways that could be helpful.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 152,
+          "speaker": "STU",
+          "text": "Yeah, I agree. I had never really used it until I got here myself.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "Everyone simultaneously responds. People laugh as they definitively say yes or no in response to part 4- especially those who say no about feeling confident.",
+      "label": "what got a laugh",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 162,
+          "speaker": "STU",
+          "text": "Do you feel like you could walk in on one day and use AI confidently?",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 163,
+          "speaker": "STU",
+          "text": "Oh, use it confident.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 164,
+          "speaker": "STU",
+          "text": "Yeah, like do you think that hitting into your job after HKS or let's say like you're in summer internship with the current skills that you have right now?",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 165,
+          "speaker": "STU",
+          "text": "Do you think you'd be able to like walk into this job or this experience and use AI confidently in that context?",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 166,
+          "speaker": "STU",
+          "text": "I think so.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 167,
+          "speaker": "STU",
+          "text": "I would like to learn more.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 168,
+          "speaker": "STU",
+          "text": "Yeah, that's kind of why I'm like cheers back.",
+          "section_id": "s5_professional_readiness"
+        }
+      ],
+      "section_id": "s5_professional_readiness"
+    },
+    {
+      "observation": "One participant crosses her arms and sighs.",
+      "label": "a body language shift",
+      "affect": "tense",
+      "transcript_lines": [
+        {
+          "line_id": 102,
+          "speaker": "STU",
+          "text": "I came to Harvard.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 103,
+          "speaker": "STU",
+          "text": "I realized that I developed AI using capability a lot.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 104,
+          "speaker": "STU",
+          "text": "A lot more from AI.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 105,
+          "speaker": "STU",
+          "text": "I think that's the problem.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 106,
+          "speaker": "STU",
+          "text": "I use like multiple AI's.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 107,
+          "speaker": "STU",
+          "text": "AI's from Google or Anthropy.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 108,
+          "speaker": "STU",
+          "text": "Change the opinion and everything.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 109,
+          "speaker": "STU",
+          "text": "I use about four to five AI's.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 110,
+          "speaker": "STU",
+          "text": "Sometimes I think like AI severely decreased my ability to assess something.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 111,
+          "speaker": "STU",
+          "text": "Sometimes.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 112,
+          "speaker": "STU",
+          "text": "So I'm trying not to use too much AI.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 113,
+          "speaker": "STU",
+          "text": "So these days I drift everything on my own.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 114,
+          "speaker": "STU",
+          "text": "And I just ask the editing of everything.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "We come back together after the pairs. The circle feels more animated, the volume has risen; the energy is more upbeat after the pair and share",
+      "label": "the energy shift after breakout",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 432,
+          "speaker": "STU",
+          "text": "I think we're talking a lot more about the environment in HCS and how that a lot of classes",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 433,
+          "speaker": "STU",
+          "text": "have rigid AI policies that are almost never enforced so we see a lot of people continuing",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 434,
+          "speaker": "STU",
+          "text": "to use AI or even sometimes get falsely accused of using AI because it's so commonplace",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 435,
+          "speaker": "STU",
+          "text": "and there's a lack of enforcement.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 436,
+          "speaker": "STU",
+          "text": "So something we had briefly discussed was maybe having like dedicated spaces or projects",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 437,
+          "speaker": "STU",
+          "text": "that promote the use of AI.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 438,
+          "speaker": "STU",
+          "text": "Like here's a project we want you to do.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 439,
+          "speaker": "STU",
+          "text": "This is a way you can use AI to like do it and how would you go about this work type",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 440,
+          "speaker": "STU",
+          "text": "of thing?",
+          "section_id": "s6_pair_share"
+        }
+      ],
+      "section_id": "s6_pair_share"
+    },
+    {
+      "observation": "People verbally affirm and nod now, rather than just nodding.",
+      "label": "when nonverbal became verbal",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 444,
+          "speaker": "STU",
+          "text": "Or also like just some bringing in some knowledge about like ways AI is being used in public",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 445,
+          "speaker": "STU",
+          "text": "offices or in private sector in like real spaces that we might be working in in the future",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 446,
+          "speaker": "STU",
+          "text": "what their policies are so that we can like work off of those in terms of how we're using",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 447,
+          "speaker": "STU",
+          "text": "it here.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 448,
+          "speaker": "STU",
+          "text": "That's a very important thing.",
+          "section_id": "s6_pair_share"
+        }
+      ],
+      "section_id": "s6_pair_share"
+    }
+  ],
+  "08-Mardia": [
+    {
+      "observation": "the first participant says something that got a laugh from everyone, before this 2 out of 6 participants had crossed arms - not any longer",
+      "label": "the joke that uncrossed arms",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 11,
+          "speaker": "STU",
+          "text": "I can start, my mom just sent me a note",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 12,
+          "speaker": "STU",
+          "text": "and my mom used AI.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 13,
+          "speaker": "STU",
+          "text": "She said she pretended to do it.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 14,
+          "speaker": "STU",
+          "text": "And then just gave it my decisions I've been waiting, specifically my internship",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 15,
+          "speaker": "STU",
+          "text": "they just gave me four locations to choose from.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 16,
+          "speaker": "STU",
+          "text": "And she just ranked them from which ones the least safe for your young daughter to go alone.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 17,
+          "speaker": "STU",
+          "text": "And then she sent me almost 40 screenshots of the answers.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 18,
+          "speaker": "STU",
+          "text": "And all of them are not safe for your young daughter to be alone.",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 19,
+          "speaker": "STU",
+          "text": "So, yay.",
+          "section_id": "s2_warmup_goaround"
+        }
+      ],
+      "section_id": "s2_warmup_goaround"
+    },
+    {
+      "observation": "one of the participants says that they are surprised that no one mentioned using AI for assignments or readings - that opens the door for another participant to smile and talk about their friend using it to save time",
+      "label": "the elephant enters the room",
+      "affect": "surprise",
+      "transcript_lines": [
+        {
+          "line_id": 55,
+          "speaker": "STU",
+          "text": "I think I was a little surprised that no one said school assignments.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 56,
+          "speaker": "STU",
+          "text": "And I think judging, even if people aren't using them to rate the whole assignment,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 57,
+          "speaker": "STU",
+          "text": "it's like, I think most people, maybe for my limited perception of who I've heard experiences,",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 58,
+          "speaker": "STU",
+          "text": "are using it in ways to generate ideas for different assignments.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 59,
+          "speaker": "STU",
+          "text": "Or like, oh, I use it for citations often.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 60,
+          "speaker": "STU",
+          "text": "And I'm like, here's my sources, can you put them to MLA format?",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 61,
+          "speaker": "STU",
+          "text": "Because that's not my job.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 62,
+          "speaker": "STU",
+          "text": "And so I feel like, I don't know, maybe it was, I was less represented than I had expected.",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 98,
+          "speaker": "STU",
+          "text": "But I think I often found at the beginning of the year, I was doing the like 300 pages of reading across like all the classes.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 99,
+          "speaker": "STU",
+          "text": "And I was like, wow, I'm really drowning. I'm not getting out of the experience, the other things that I wanted.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 100,
+          "speaker": "STU",
+          "text": "And then I kept hearing people being like, oh, if you just put it in AI, it'll read you a podcast of like them talking about XYZ.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 101,
+          "speaker": "STU",
+          "text": "And it's like, am I really thinking my sitting down reading for multiple hours trying to like force myself to concentrate is more effective for my understanding than it is to do like a different version.",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 102,
+          "speaker": "STU",
+          "text": "So yeah, that's why I've been like, oh, maybe I'm just a little behind the curve on like what people are using AI for.",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s3_warmup_reaction"
+    },
+    {
+      "observation": "Skills flagged - discernment, knowing where your skills are getting negatively impacted and which situations require 'a human touch' (a lot of nodding for the latter part)",
+      "label": "what got collective agreement",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 110,
+          "speaker": "STU",
+          "text": "I think yes, I think after like using AI for I don't know, two or three years, I think the point is like not using it correctly, but it's knowing when to use it and when to like have in human interventions.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 111,
+          "speaker": "STU",
+          "text": "Like for example, if I'm writing something that's clearly meant to be personal, I think yes, I can use AI to have a draft, but I think it's so important that people who read it don't think that it's excellent.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 112,
+          "speaker": "STU",
+          "text": "It's like flawless, but they can feel that it was actually written by human.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 113,
+          "speaker": "STU",
+          "text": "I work in in diplomacy and I think that's like really important that there are some flaws than just having like a flawless, grammatically perfect essay.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 165,
+          "speaker": "STU",
+          "text": "What do we share? I guess, yeah, we talked about human, humans value add.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 166,
+          "speaker": "STU",
+          "text": "Do you have to elaborate?",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 167,
+          "speaker": "STU",
+          "text": "Just like how everyone thinks that we're gonna be replaced by AI, so I think in the job market",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 168,
+          "speaker": "STU",
+          "text": "or in convincing of our skills, I think we should be more conscious of what we are,",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 169,
+          "speaker": "STU",
+          "text": "how our humanity is, what parts of our humanity can't be replaced by cloth,",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 170,
+          "speaker": "STU",
+          "text": "and I think we should be more active in selling that, in making that come to the forefront.",
+          "section_id": "s6_pair_share"
+        }
+      ],
+      "section_id": "s5_professional_readiness"
+    },
+    {
+      "observation": "One participant flags that AI safety / ethics is a minefield and she doesn't have the technical knowhow - and neither does Harvard teach you sufficiently enough about this - to differentiate between claude/chatGPT. This gets all participants nodding.",
+      "label": "shared sense of being underprepared",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 126,
+          "speaker": "STU",
+          "text": "I don't, I feel maybe I'm like not the target demographic because I don't feel like I will be confident and prepared because I feel like even here I'm not knowing.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 127,
+          "speaker": "STU",
+          "text": "Like people just keep, I haven't played around with it as much so people keep telling me like, oh, you can do this or you can do that or like you should be using cod instead of chat.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 128,
+          "speaker": "STU",
+          "text": "It's way better for XYZ, it's way something safer and ethical and whatever.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 129,
+          "speaker": "STU",
+          "text": "And I'm like, I don't know, I feel like I have not a single course on it, we have not a single discussion.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 130,
+          "speaker": "STU",
+          "text": "I know there's been optional things going on with AI but it's not something that like peaks my interest so I've been much more in my own realm and not maybe has dove into that so I don't think I will be prepared.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 131,
+          "speaker": "STU",
+          "text": "At least like coming out of this program, like certainly won't give me any skill in it.",
+          "section_id": "s5_professional_readiness"
+        }
+      ],
+      "section_id": "s5_professional_readiness"
+    },
+    {
+      "observation": "One participant speaks about how they heard someone use AI to learn R and how that makes them feel better about taking the excel version of stats - this gets some laughs",
+      "label": "vindication with a laugh",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 136,
+          "speaker": "STU",
+          "text": "Maybe like a relevant anecdote is yesterday I was in a network analysis workshop, which was mostly for researchers.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 137,
+          "speaker": "STU",
+          "text": "But one of the one person there had never used R before and was so excited because he had taught himself how to use R using Claude in two days.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 138,
+          "speaker": "STU",
+          "text": "And it was interesting to me because I chose not to take the R section and instead took Excel.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 139,
+          "speaker": "STU",
+          "text": "And that made me feel sort of indicated because I was like oh maybe I can just like teach myself R in two days using Claude or maybe I can't.",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 140,
+          "speaker": "STU",
+          "text": "I don't know but it seemed like the person next to me had done it so that was interesting.",
+          "section_id": "s5_professional_readiness"
+        }
+      ],
+      "section_id": "s5_professional_readiness"
+    },
+    {
+      "observation": "Towards the very end, one participant uses the phone as a mic to speak (as she jokes later) to the Dean - this mirrors a pattern that the moderator flagged in class as well, where participants were almost talking to the listener of this audio rather than to each other",
+      "label": "performing for the recording",
+      "affect": "other",
+      "transcript_lines": [
+        {
+          "line_id": 228,
+          "speaker": "STU",
+          "text": "I just think that I and many other people use chatchubit because Harvard",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 229,
+          "speaker": "STU",
+          "text": "gives us the more advanced version, and you can upload things,",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 230,
+          "speaker": "STU",
+          "text": "but I don't want to be using chatchubit and I want to have some influence",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 231,
+          "speaker": "STU",
+          "text": "on what student account the university gets.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 232,
+          "speaker": "STU",
+          "text": "And so I'm saying that into the ether that I would like to see that.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 233,
+          "speaker": "STU",
+          "text": "What do you think about that?",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 234,
+          "speaker": "STU",
+          "text": "Harvard, with your Harvard account, you have access to the education plan.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 235,
+          "speaker": "STU",
+          "text": "And that is a better plan than the free one.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 236,
+          "speaker": "STU",
+          "text": "It lets you upload PDFs.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 237,
+          "speaker": "STU",
+          "text": "And without that, your ability to use it is really diminished.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 238,
+          "speaker": "STU",
+          "text": "And I don't pay for cloud, for example.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 239,
+          "speaker": "STU",
+          "text": "And so I can't really use cloud much because the free version is used out very fast.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 240,
+          "speaker": "STU",
+          "text": "And so that leads to a fault of student choosing chatchubit,",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 241,
+          "speaker": "STU",
+          "text": "which I think has weaknesses in how useful it is and how good of the model it is,",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 242,
+          "speaker": "STU",
+          "text": "and then also a lot of ethical implications.",
+          "section_id": "s6_pair_share"
+        }
+      ],
+      "section_id": "s6_pair_share"
+    }
+  ],
+  "10-Sanchez": [
+    {
+      "observation": "People start laughing when someone mentions that they often use AI",
+      "label": "what got a laugh",
+      "affect": "laughter",
+      "transcript_lines": [
+        {
+          "line_id": 29,
+          "speaker": "STU",
+          "text": "I use it so often it's my extended self. I use it for day-to-day decisions as well but recently I",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 30,
+          "speaker": "STU",
+          "text": "used it to cause I wanted to meet like 500 people in two years and I've been trying to get some",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 31,
+          "speaker": "STU",
+          "text": "some narrowed information from AI that who are the people whom I can meet so I recently used it for",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 32,
+          "speaker": "STU",
+          "text": "that got an excel sheet of people of my interest across the Boston and Greater Boston and then",
+          "section_id": "s2_warmup_goaround"
+        },
+        {
+          "line_id": 33,
+          "speaker": "STU",
+          "text": "extended to that coast as well yeah so I use it very often.",
+          "section_id": "s2_warmup_goaround"
+        }
+      ],
+      "section_id": "s2_warmup_goaround"
+    },
+    {
+      "observation": "The person who stated they use AI for decisions clarifies they use it for small decisions, making other people feel inclined to say they also use it for decision-making, and people feel more comfortable saying how they actually use AI",
+      "label": "the moment defenses dropped",
+      "affect": "relaxed",
+      "transcript_lines": [
+        {
+          "line_id": 48,
+          "speaker": "STU",
+          "text": "so I thought that was interesting. I use it for small decisions",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 49,
+          "speaker": "STU",
+          "text": "like many times I here there are so many gender neutral clothes and in there it's very specific",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 50,
+          "speaker": "STU",
+          "text": "that whether you go to male stores or female stores but many like yesterday I received",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 51,
+          "speaker": "STU",
+          "text": "a few clothes from Amazon and it's gender neutral I thought it's female so I just",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 52,
+          "speaker": "STU",
+          "text": "took a picture of it and gave it to GPT and he said no it will suit on me you're just weird",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 53,
+          "speaker": "STU",
+          "text": "and then I bought it and I get it for posterity picture and it suits it doesn't matter",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 54,
+          "speaker": "STU",
+          "text": "I was gonna say I use it for a lot of decisions actually because",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 55,
+          "speaker": "STU",
+          "text": "like I get tired of Google when at a time where like it's very commercialized like Quora",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 56,
+          "speaker": "STU",
+          "text": "for like Q&A like lots of answers when we're now commercial but I mean obviously Chachi",
+          "section_id": "s3_warmup_reaction"
+        },
+        {
+          "line_id": 57,
+          "speaker": "STU",
+          "text": "BT is now incorporating ads which makes me more skeptical using it for decisions but I use cloth",
+          "section_id": "s3_warmup_reaction"
+        }
+      ],
+      "section_id": "s3_warmup_reaction"
+    },
+    {
+      "observation": "Someone shares their worries about how they use AI in the wrong way, and everyone around the table nods a lot",
+      "label": "shared anxiety about getting in trouble",
+      "affect": "tense",
+      "transcript_lines": [
+        {
+          "line_id": 116,
+          "speaker": "STU",
+          "text": "the opposite anxiety where I'm like where's the fine line of turning in something that like the",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 117,
+          "speaker": "STU",
+          "text": "sentences like maybe I had some help editing it through AI like like where's the line of like",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 118,
+          "speaker": "STU",
+          "text": "me being allowed to do that and then me like getting expelled for plagiarism like not like I",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 119,
+          "speaker": "STU",
+          "text": "don't abuse AI in that way but I feel like especially coming here I'm like oh my gosh",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 120,
+          "speaker": "STU",
+          "text": "I got to Harvard I did it what if I get expelled because I used AI in the wrong way and so I almost",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 121,
+          "speaker": "STU",
+          "text": "have anxiety from that I think the other piece is like some of the assignments we got for this class",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 122,
+          "speaker": "STU",
+          "text": "I felt very proud of because I didn't use AI at all like for the like the interview you're not",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 123,
+          "speaker": "STU",
+          "text": "really using AI or for observation you're not using AI and so it felt good I felt a lot more proud",
+          "section_id": "s4_two_sided_risk"
+        },
+        {
+          "line_id": 124,
+          "speaker": "STU",
+          "text": "of things I've turned in where I haven't touched at all anyone else felt that anxiety of like oh",
+          "section_id": "s4_two_sided_risk"
+        }
+      ],
+      "section_id": "s4_two_sided_risk"
+    },
+    {
+      "observation": "People are not quick to answer this question. People are looking around for others to answer. A person asks the moderator what the question was again for clarification. Their mouth opens, then closes, unsure of how to answer.",
+      "label": "the moment uncertainty surfaced",
+      "affect": "silence",
+      "transcript_lines": [
+        {
+          "line_id": 153,
+          "speaker": "STU",
+          "text": "yes so okay let's shift to our professional lives so think about your future job fellowship",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 154,
+          "speaker": "MOD",
+          "text": "or whatever you're going to do after HDS how do you do you feel like you could walk in on day one",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 155,
+          "speaker": "STU",
+          "text": "and use AI confidently and competently in that context to be in after graduation",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 156,
+          "speaker": "STU",
+          "text": "I don't know after after my job but I'm doing internship",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 157,
+          "speaker": "STU",
+          "text": "and I don't think so I can use a lot of AI because there's a real time situation",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 158,
+          "speaker": "STU",
+          "text": "many times when we are working with public and if someone is asking you for advice",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 159,
+          "speaker": "STU",
+          "text": "in real time and really should you just cannot use AI and ask what are your opinions and what's going on",
+          "section_id": "s5_professional_readiness"
+        },
+        {
+          "line_id": 160,
+          "speaker": "STU",
+          "text": "like the question is whether we feel confident or yeah",
+          "section_id": "s5_professional_readiness"
+        }
+      ],
+      "section_id": "s5_professional_readiness"
+    },
+    {
+      "observation": "People are talking more openly and are excited about their ideas, building off each other's ideas",
+      "label": "when energy shifted to building together",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 247,
+          "speaker": "STU",
+          "text": "Okay, um, I don't know if this",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 248,
+          "speaker": "STU",
+          "text": "answers the question, but I'll just say it.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 249,
+          "speaker": "STU",
+          "text": "Um, I was talking about how I kind of want",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 250,
+          "speaker": "STU",
+          "text": "the school to push back on us and",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 251,
+          "speaker": "STU",
+          "text": "frame classes in a way where",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 252,
+          "speaker": "STU",
+          "text": "we aren't actually allowed to use AI.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 253,
+          "speaker": "STU",
+          "text": "Like, using AI wouldn't make sense in an assignment.",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 297,
+          "speaker": "STU",
+          "text": "I think I almost",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 298,
+          "speaker": "STU",
+          "text": "came at it from, like, the opposite",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 299,
+          "speaker": "STU",
+          "text": "kind of view, so",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 300,
+          "speaker": "STU",
+          "text": "I think that the school should also",
+          "section_id": "s6_pair_share"
+        },
+        {
+          "line_id": 301,
+          "speaker": "STU",
+          "text": "do more to incentivize us to use",
+          "section_id": "s6_pair_share"
+        }
+      ],
+      "section_id": "s6_pair_share"
+    },
+    {
+      "observation": "Everyone is nodding their heads, seeming to agree with the consensus on the flipchart with both options that have the most",
+      "label": "collective agreement made visible",
+      "affect": "engaged",
+      "transcript_lines": [
+        {
+          "line_id": 419,
+          "speaker": "STU",
+          "text": "I think a lot of people",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 420,
+          "speaker": "STU",
+          "text": "kind of said the same thing",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 421,
+          "speaker": "STU",
+          "text": "about how they should",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 422,
+          "speaker": "STU",
+          "text": "think about AI.",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 423,
+          "speaker": "STU",
+          "text": "There should be more of a focus, but I think",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 424,
+          "speaker": "STU",
+          "text": "a lot of people talked about like a",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 425,
+          "speaker": "STU",
+          "text": "person connection point",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 426,
+          "speaker": "STU",
+          "text": "that should not be forgotten about.",
+          "section_id": "s7_dot_voting_close"
+        },
+        {
+          "line_id": 427,
+          "speaker": "STU",
+          "text": "So I voted for both of those because",
+          "section_id": "s7_dot_voting_close"
+        }
+      ],
+      "section_id": "s7_dot_voting_close"
+    }
+  ]
+}
