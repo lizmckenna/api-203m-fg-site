@@ -1,1 +1,938 @@
-{"fg_id": null, "rigorous": {"themes": []}, "slop": {"themes": []}}
+{
+  "fg_id": "01-Cheng",
+  "rigorous": {
+    "source": "stage_02_deductive",
+    "themes": [
+      {
+        "code": "use.meta",
+        "definition": "Talking about the practice of using AI in general, not a specific instance.",
+        "count": 33,
+        "quotes": [
+          {
+            "line_id": 50,
+            "quote": "I use it a lot for research",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 47,
+                  "speaker": "STU",
+                  "text": "or my roommate used it to prep for a job interview."
+                },
+                {
+                  "line_id": 48,
+                  "speaker": "MOD",
+                  "text": "So it should be about 20 seconds each."
+                },
+                {
+                  "line_id": 49,
+                  "speaker": "STU",
+                  "text": "P-02, you want to start a little more on this one?"
+                }
+              ],
+              "center": {
+                "line_id": 50,
+                "speaker": "STU",
+                "text": "Sure. I use it a lot for research."
+              },
+              "after": [
+                {
+                  "line_id": 51,
+                  "speaker": "STU",
+                  "text": "It's basically as like an extended Google search, or like a much more in-depth Google search."
+                },
+                {
+                  "line_id": 52,
+                  "speaker": "STU",
+                  "text": "So I was writing an op-ed for a class recently."
+                },
+                {
+                  "line_id": 53,
+                  "speaker": "STU",
+                  "text": "And so I use it just to find a bunch of research sources for."
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 51,
+            "quote": "It's basically as like an extended Google search, or like a much more in-depth Google search",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 48,
+                  "speaker": "MOD",
+                  "text": "So it should be about 20 seconds each."
+                },
+                {
+                  "line_id": 49,
+                  "speaker": "STU",
+                  "text": "P-02, you want to start a little more on this one?"
+                },
+                {
+                  "line_id": 50,
+                  "speaker": "STU",
+                  "text": "Sure. I use it a lot for research."
+                }
+              ],
+              "center": {
+                "line_id": 51,
+                "speaker": "STU",
+                "text": "It's basically as like an extended Google search, or like a much more in-depth Google search."
+              },
+              "after": [
+                {
+                  "line_id": 52,
+                  "speaker": "STU",
+                  "text": "So I was writing an op-ed for a class recently."
+                },
+                {
+                  "line_id": 53,
+                  "speaker": "STU",
+                  "text": "And so I use it just to find a bunch of research sources for."
+                },
+                {
+                  "line_id": 54,
+                  "speaker": "STU",
+                  "text": "What did you say?"
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 63,
+            "quote": "I think that's how I usually use AI",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 60,
+                  "speaker": "STU",
+                  "text": "I think it's very helpful to sometimes, especially when I get an error message,"
+                },
+                {
+                  "line_id": 61,
+                  "speaker": "STU",
+                  "text": "it's very helpful to use AI to debug."
+                },
+                {
+                  "line_id": 62,
+                  "speaker": "STU",
+                  "text": "Sometimes it would take hours if I don't use AI."
+                }
+              ],
+              "center": {
+                "line_id": 63,
+                "speaker": "STU",
+                "text": "I think that's how I usually use AI."
+              },
+              "after": [
+                {
+                  "line_id": 64,
+                  "speaker": "STU",
+                  "text": "I use it very much like P-02, like an extended Google search,"
+                },
+                {
+                  "line_id": 65,
+                  "speaker": "STU",
+                  "text": "but I also use it to read over very bad drafts of emails"
+                },
+                {
+                  "line_id": 66,
+                  "speaker": "STU",
+                  "text": "that I'm sending out to people who I want to impress and not have typos for."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "code": "anxiety.integrity",
+        "definition": "Concerns about academic honesty, disclosure, plagiarism, ghostwriting boundaries.",
+        "count": 32,
+        "quotes": [
+          {
+            "line_id": 131,
+            "quote": "a lot of my friends who used AI, I only learned after the fact and after my grades came out that like they used it ethically and well",
+            "section_id": "s4_two_sided_risk",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 128,
+                  "speaker": "STU",
+                  "text": "to do with my brain or kind of a lot of the type one concerns."
+                },
+                {
+                  "line_id": 129,
+                  "speaker": "STU",
+                  "text": "And then I felt though, by the end, my understanding was actually really bad because I was just"
+                },
+                {
+                  "line_id": 130,
+                  "speaker": "STU",
+                  "text": "trying to do it myself and try to go through all these like really dense resources."
+                }
+              ],
+              "center": {
+                "line_id": 131,
+                "speaker": "STU",
+                "text": "And a lot of my friends who used AI, I only learned after the fact and after my grades"
+              },
+              "after": [
+                {
+                  "line_id": 132,
+                  "speaker": "STU",
+                  "text": "came out that like they used it ethically and well."
+                },
+                {
+                  "line_id": 133,
+                  "speaker": "STU",
+                  "text": "And I was like, okay, now going into my master in public policy, I'm going to use it a lot"
+                },
+                {
+                  "line_id": 134,
+                  "speaker": "STU",
+                  "text": "more liberally and effectively."
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 137,
+            "quote": "how do you actually use or how have you seen your peers use AI ethically or effectively in a way that doesn't jeopardize their own independent learning process",
+            "section_id": "s4_two_sided_risk",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 134,
+                  "speaker": "STU",
+                  "text": "more liberally and effectively."
+                },
+                {
+                  "line_id": 135,
+                  "speaker": "STU",
+                  "text": "And so that's why I've gravitated towards the second part, the second concern more,"
+                },
+                {
+                  "line_id": 136,
+                  "speaker": "STU",
+                  "text": "which is like, yeah, especially when grades are on a curve, right?"
+                }
+              ],
+              "center": {
+                "line_id": 137,
+                "speaker": "STU",
+                "text": "I'm actually curious, like how do you actually use or how have you seen your peers use AI"
+              },
+              "after": [
+                {
+                  "line_id": 138,
+                  "speaker": "STU",
+                  "text": "ethically or effectively in a way that doesn't jeopardize their own independent learning"
+                },
+                {
+                  "line_id": 139,
+                  "speaker": "STU",
+                  "text": "process in law school or here?"
+                },
+                {
+                  "line_id": 140,
+                  "speaker": "STU",
+                  "text": "Like what's your current pedagogy now?"
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 141,
+            "quote": "after you've done a reading, if it's a publicly facing reading that's not proprietary material, so caveatting like the HKS cases, which you should never put into a chat GBT search window, saying like, what are the key points of this?",
+            "section_id": "s4_two_sided_risk",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 138,
+                  "speaker": "STU",
+                  "text": "ethically or effectively in a way that doesn't jeopardize their own independent learning"
+                },
+                {
+                  "line_id": 139,
+                  "speaker": "STU",
+                  "text": "process in law school or here?"
+                },
+                {
+                  "line_id": 140,
+                  "speaker": "STU",
+                  "text": "Like what's your current pedagogy now?"
+                }
+              ],
+              "center": {
+                "line_id": 141,
+                "speaker": "STU",
+                "text": "Yeah, I think, I think after you've done a reading, if it's a publicly facing reading"
+              },
+              "after": [
+                {
+                  "line_id": 142,
+                  "speaker": "STU",
+                  "text": "that's not proprietary material, so caveatting like the HKS cases, which you should never"
+                },
+                {
+                  "line_id": 143,
+                  "speaker": "STU",
+                  "text": "put into a chat GBT search window, saying like, what are the key points of this?"
+                },
+                {
+                  "line_id": 144,
+                  "speaker": "STU",
+                  "text": "Just to make sure like you got the key points of it, but doing it after, I think is a good"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "code": "use.academic",
+        "definition": "Using AI for coursework: writing, editing, research, debugging code, summarizing readings.",
+        "count": 30,
+        "quotes": [
+          {
+            "line_id": 46,
+            "quote": "I had it to write the conclusion of a policy memo",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 43,
+                  "speaker": "STU",
+                  "text": "It doesn't have to be in academic work."
+                },
+                {
+                  "line_id": 44,
+                  "speaker": "STU",
+                  "text": "It does not have to be something you feel great about."
+                },
+                {
+                  "line_id": 45,
+                  "speaker": "STU",
+                  "text": "The more specific, the better."
+                }
+              ],
+              "center": {
+                "line_id": 46,
+                "speaker": "STU",
+                "text": "I had it, so for instance, you could say I had it to write the conclusion of a policy memo,"
+              },
+              "after": [
+                {
+                  "line_id": 47,
+                  "speaker": "STU",
+                  "text": "or my roommate used it to prep for a job interview."
+                },
+                {
+                  "line_id": 48,
+                  "speaker": "MOD",
+                  "text": "So it should be about 20 seconds each."
+                },
+                {
+                  "line_id": 49,
+                  "speaker": "STU",
+                  "text": "P-02, you want to start a little more on this one?"
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 50,
+            "quote": "I use it a lot for research",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 47,
+                  "speaker": "STU",
+                  "text": "or my roommate used it to prep for a job interview."
+                },
+                {
+                  "line_id": 48,
+                  "speaker": "MOD",
+                  "text": "So it should be about 20 seconds each."
+                },
+                {
+                  "line_id": 49,
+                  "speaker": "STU",
+                  "text": "P-02, you want to start a little more on this one?"
+                }
+              ],
+              "center": {
+                "line_id": 50,
+                "speaker": "STU",
+                "text": "Sure. I use it a lot for research."
+              },
+              "after": [
+                {
+                  "line_id": 51,
+                  "speaker": "STU",
+                  "text": "It's basically as like an extended Google search, or like a much more in-depth Google search."
+                },
+                {
+                  "line_id": 52,
+                  "speaker": "STU",
+                  "text": "So I was writing an op-ed for a class recently."
+                },
+                {
+                  "line_id": 53,
+                  "speaker": "STU",
+                  "text": "And so I use it just to find a bunch of research sources for."
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 52,
+            "quote": "I was writing an op-ed for a class recently",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 49,
+                  "speaker": "STU",
+                  "text": "P-02, you want to start a little more on this one?"
+                },
+                {
+                  "line_id": 50,
+                  "speaker": "STU",
+                  "text": "Sure. I use it a lot for research."
+                },
+                {
+                  "line_id": 51,
+                  "speaker": "STU",
+                  "text": "It's basically as like an extended Google search, or like a much more in-depth Google search."
+                }
+              ],
+              "center": {
+                "line_id": 52,
+                "speaker": "STU",
+                "text": "So I was writing an op-ed for a class recently."
+              },
+              "after": [
+                {
+                  "line_id": 53,
+                  "speaker": "STU",
+                  "text": "And so I use it just to find a bunch of research sources for."
+                },
+                {
+                  "line_id": 54,
+                  "speaker": "STU",
+                  "text": "What did you say?"
+                },
+                {
+                  "line_id": 55,
+                  "speaker": "STU",
+                  "text": "I used it to compile internships."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "code": "use.professional",
+        "definition": "Using AI for job search, internships, professional emails, work product outside class.",
+        "count": 25,
+        "quotes": [
+          {
+            "line_id": 47,
+            "quote": "my roommate used it to prep for a job interview",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 44,
+                  "speaker": "STU",
+                  "text": "It does not have to be something you feel great about."
+                },
+                {
+                  "line_id": 45,
+                  "speaker": "STU",
+                  "text": "The more specific, the better."
+                },
+                {
+                  "line_id": 46,
+                  "speaker": "STU",
+                  "text": "I had it, so for instance, you could say I had it to write the conclusion of a policy memo,"
+                }
+              ],
+              "center": {
+                "line_id": 47,
+                "speaker": "STU",
+                "text": "or my roommate used it to prep for a job interview."
+              },
+              "after": [
+                {
+                  "line_id": 48,
+                  "speaker": "MOD",
+                  "text": "So it should be about 20 seconds each."
+                },
+                {
+                  "line_id": 49,
+                  "speaker": "STU",
+                  "text": "P-02, you want to start a little more on this one?"
+                },
+                {
+                  "line_id": 50,
+                  "speaker": "STU",
+                  "text": "Sure. I use it a lot for research."
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 55,
+            "quote": "I used it to compile internships",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 52,
+                  "speaker": "STU",
+                  "text": "So I was writing an op-ed for a class recently."
+                },
+                {
+                  "line_id": 53,
+                  "speaker": "STU",
+                  "text": "And so I use it just to find a bunch of research sources for."
+                },
+                {
+                  "line_id": 54,
+                  "speaker": "STU",
+                  "text": "What did you say?"
+                }
+              ],
+              "center": {
+                "line_id": 55,
+                "speaker": "STU",
+                "text": "I used it to compile internships."
+              },
+              "after": [
+                {
+                  "line_id": 56,
+                  "speaker": "STU",
+                  "text": "This was actually the first time I did it. I was very pleasantly surprised."
+                },
+                {
+                  "line_id": 57,
+                  "speaker": "STU",
+                  "text": "I just fed it my resume, and I was like, this is where I want to be."
+                },
+                {
+                  "line_id": 58,
+                  "speaker": "STU",
+                  "text": "Can you give me a list of top five organizations in each sector?"
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 57,
+            "quote": "I just fed it my resume, and I was like, this is where I want to be. Can you give me a list of top five organizations in each sector?",
+            "section_id": "s2_warmup_goaround",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 54,
+                  "speaker": "STU",
+                  "text": "What did you say?"
+                },
+                {
+                  "line_id": 55,
+                  "speaker": "STU",
+                  "text": "I used it to compile internships."
+                },
+                {
+                  "line_id": 56,
+                  "speaker": "STU",
+                  "text": "This was actually the first time I did it. I was very pleasantly surprised."
+                }
+              ],
+              "center": {
+                "line_id": 57,
+                "speaker": "STU",
+                "text": "I just fed it my resume, and I was like, this is where I want to be."
+              },
+              "after": [
+                {
+                  "line_id": 58,
+                  "speaker": "STU",
+                  "text": "Can you give me a list of top five organizations in each sector?"
+                },
+                {
+                  "line_id": 59,
+                  "speaker": "STU",
+                  "text": "I use it a lot to code."
+                },
+                {
+                  "line_id": 60,
+                  "speaker": "STU",
+                  "text": "I think it's very helpful to sometimes, especially when I get an error message,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "code": "readiness.curricular_gap",
+        "definition": "Names something HKS did not teach that the speaker now wishes it had.",
+        "count": 19,
+        "quotes": [
+          {
+            "line_id": 240,
+            "quote": "I would ask them first, like what's your AI policy? And like nobody actually has answers for me",
+            "section_id": "s5_professional_readiness",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 237,
+                  "speaker": "STU",
+                  "text": "I think that's so fascinating because I think I imagine myself to go into like a pretty technical"
+                },
+                {
+                  "line_id": 238,
+                  "speaker": "STU",
+                  "text": "but also a positive driven analysis role and like working like energy markets and policy."
+                },
+                {
+                  "line_id": 239,
+                  "speaker": "STU",
+                  "text": "And I feel like, like even starting like two years ago when I was working for a utility,"
+                }
+              ],
+              "center": {
+                "line_id": 240,
+                "speaker": "STU",
+                "text": "like we're working for anyone, basically I would ask them first, like what's your AI policy?"
+              },
+              "after": [
+                {
+                  "line_id": 241,
+                  "speaker": "STU",
+                  "text": "And like nobody actually has answers for me."
+                },
+                {
+                  "line_id": 242,
+                  "speaker": "STU",
+                  "text": "And I think it's fascinating how like the legal track like actually provides you with more framework"
+                },
+                {
+                  "line_id": 243,
+                  "speaker": "STU",
+                  "text": "and like their own like code of ethics or like just how they could leverage AI."
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 246,
+            "quote": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle",
+            "section_id": "s5_professional_readiness",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 243,
+                  "speaker": "STU",
+                  "text": "and like their own like code of ethics or like just how they could leverage AI."
+                },
+                {
+                  "line_id": 244,
+                  "speaker": "STU",
+                  "text": "And even they have some cases they have their own like AI model, AI chat that you can use."
+                },
+                {
+                  "line_id": 245,
+                  "speaker": "STU",
+                  "text": "Like in the line of work that I did in the past or going forward, I'm going to do in the future."
+                }
+              ],
+              "center": {
+                "line_id": 246,
+                "speaker": "STU",
+                "text": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle."
+              },
+              "after": [
+                {
+                  "line_id": 247,
+                  "speaker": "STU",
+                  "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
+                },
+                {
+                  "line_id": 248,
+                  "speaker": "STU",
+                  "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
+                },
+                {
+                  "line_id": 249,
+                  "speaker": "STU",
+                  "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 250,
+            "quote": "I'm just overall very concerned about the lack of guidance on these days",
+            "section_id": "s5_professional_readiness",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 247,
+                  "speaker": "STU",
+                  "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
+                },
+                {
+                  "line_id": 248,
+                  "speaker": "STU",
+                  "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
+                },
+                {
+                  "line_id": 249,
+                  "speaker": "STU",
+                  "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
+                }
+              ],
+              "center": {
+                "line_id": 250,
+                "speaker": "STU",
+                "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
+              },
+              "after": [
+                {
+                  "line_id": 251,
+                  "speaker": "STU",
+                  "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
+                },
+                {
+                  "line_id": 252,
+                  "speaker": "STU",
+                  "text": "which one is maybe has more, which one has more ethics built in."
+                },
+                {
+                  "line_id": 253,
+                  "speaker": "STU",
+                  "text": "And I just feel like, yeah, a little confusing right now."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "code": "anxiety.learning_loss",
+        "definition": "Fear that AI use weakens one's own thinking, writing, or skill development.",
+        "count": 16,
+        "quotes": [
+          {
+            "line_id": 102,
+            "quote": "It's like AI makes you dumber",
+            "section_id": "s4_two_sided_risk",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 99,
+                  "speaker": "STU",
+                  "text": "Are you more concerned about it?"
+                },
+                {
+                  "line_id": 100,
+                  "speaker": "STU",
+                  "text": "Yeah."
+                },
+                {
+                  "line_id": 101,
+                  "speaker": "MOD",
+                  "text": "What makes you like concern one?"
+                }
+              ],
+              "center": {
+                "line_id": 102,
+                "speaker": "STU",
+                "text": "It's like AI makes you dumber."
+              },
+              "after": [
+                {
+                  "line_id": 103,
+                  "speaker": "STU",
+                  "text": "Yeah, it makes you lazy."
+                },
+                {
+                  "line_id": 104,
+                  "speaker": "STU",
+                  "text": "It makes you lazy."
+                },
+                {
+                  "line_id": 105,
+                  "speaker": "STU",
+                  "text": "It makes you lazy."
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 107,
+            "quote": "It makes you forget how to write well",
+            "section_id": "s4_two_sided_risk",
+            "confidence": "high",
+            "context": {
+              "before": [
+                {
+                  "line_id": 104,
+                  "speaker": "STU",
+                  "text": "It makes you lazy."
+                },
+                {
+                  "line_id": 105,
+                  "speaker": "STU",
+                  "text": "It makes you lazy."
+                },
+                {
+                  "line_id": 106,
+                  "speaker": "STU",
+                  "text": "It makes you lazy."
+                }
+              ],
+              "center": {
+                "line_id": 107,
+                "speaker": "STU",
+                "text": "It makes you forget how to write well."
+              },
+              "after": [
+                {
+                  "line_id": 108,
+                  "speaker": "MOD",
+                  "text": "And then concern two, it's like I'm falling behind."
+                },
+                {
+                  "line_id": 109,
+                  "speaker": "STU",
+                  "text": "I think I feel that a lot."
+                },
+                {
+                  "line_id": 110,
+                  "speaker": "STU",
+                  "text": "Like I fear that AI is making me less creative a lot."
+                }
+              ]
+            }
+          },
+          {
+            "line_id": 109,
+            "quote": "I think I feel that a lot",
+            "section_id": "s4_two_sided_risk",
+            "confidence": "med",
+            "context": {
+              "before": [
+                {
+                  "line_id": 106,
+                  "speaker": "STU",
+                  "text": "It makes you lazy."
+                },
+                {
+                  "line_id": 107,
+                  "speaker": "STU",
+                  "text": "It makes you forget how to write well."
+                },
+                {
+                  "line_id": 108,
+                  "speaker": "MOD",
+                  "text": "And then concern two, it's like I'm falling behind."
+                }
+              ],
+              "center": {
+                "line_id": 109,
+                "speaker": "STU",
+                "text": "I think I feel that a lot."
+              },
+              "after": [
+                {
+                  "line_id": 110,
+                  "speaker": "STU",
+                  "text": "Like I fear that AI is making me less creative a lot."
+                },
+                {
+                  "line_id": 111,
+                  "speaker": "MOD",
+                  "text": "So that would be concern one bucket, but raise your hand so that..."
+                },
+                {
+                  "line_id": 112,
+                  "speaker": "STU",
+                  "text": "What if I can't really pick which one is more dominant?"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "slop": {
+    "source": "unconstrained_single_prompt",
+    "prompt_used": "I'm going to paste a focus-group transcript. Tell me what the main themes are. Give me 5-7 themes with short names and brief descriptions, and one supporting quote for each.\n\nReturn JSON: [{\"name\": str, \"description\": str, \"evidence\": str}, ...]",
+    "model": "claude-sonnet-4-5-20250929",
+    "themes": [
+      {
+        "name": "Fear of Falling Behind",
+        "description": "Students worry that not developing AI fluency will put them at a competitive disadvantage compared to peers who use these tools more effectively, both academically and professionally.",
+        "evidence": "I fear that if I don't create a relationship with AI, other people will create a relationship with AI that allows them to do things much faster, much better, much more synthesized than if I don't."
+      },
+      {
+        "name": "Concerns About Cognitive Atrophy",
+        "description": "Participants expressed anxiety that relying on AI could diminish their critical thinking, creativity, and independent learning abilities over time.",
+        "evidence": "I think I feel that a lot. Like I fear that AI is making me less creative a lot."
+      },
+      {
+        "name": "Lack of Clear Ethical Guidelines",
+        "description": "Students feel confused by ambiguous or inconsistent institutional policies about acceptable AI use, creating anxiety about crossing ethical boundaries unknowingly.",
+        "evidence": "I wish there was an ethical guideline list from HKS. These are the yes buckets. The green buckets, the red buckets, and the yellow buckets... I experience a lot of anxiety in the gray areas. Where I'm like, am I near the line?"
+      },
+      {
+        "name": "Trust and Accountability Issues",
+        "description": "Participants emphasized the need to personally verify and defend every piece of work, expressing distrust in AI-generated content due to accuracy concerns and professional accountability requirements.",
+        "evidence": "I need to be able to like maybe this is like paranoid of me, like defend every sentence I put in a memo or like recommendation. I can't just spit out like what feels like paragraphs."
+      },
+      {
+        "name": "Domain-Specific Utility Varies",
+        "description": "Students noted that AI effectiveness differs dramatically by field\u2014excelling at quantitative/technical tasks but struggling with nuanced, qualitative, or creative work.",
+        "evidence": "AI is fantastic at anything quantitative because math is math... My focus at Kennedy School has been in international relations, which is by definition gray areas... I've just found that it just gives me the most generic, like boring, not like really thinking."
+      },
+      {
+        "name": "Desire for Practical AI Training",
+        "description": "Students want concrete instruction on prompt engineering, ethical frameworks, and technical understanding of how AI works, rather than vague policies or theoretical discussions.",
+        "evidence": "Just like having, you know, an hour seminar by some AI researcher teaching us how to write prompts and like telling us how like neural networks work better so we could just more effectively use it would be pretty helpful."
+      },
+      {
+        "name": "Professional Context Matters",
+        "description": "Acceptable and practical AI use varies significantly by career field, with some professions (like law) having strict limitations while others expect fluency, creating confusion about how to prepare.",
+        "evidence": "There are a lot of legal and ethical things around using AI with consumer data and where that data goes... The legal profession will probably be the most conservative when it comes to this type of use... Not all chat bots are created equal and not all chat bots should be used for the exact same things."
+      }
+    ]
+  }
+}

@@ -699,6 +699,26 @@
       "codes": [
         "wishes.ethics"
       ]
+    },
+    {
+      "fg_id": "04-Fausto",
+      "line_id": 437,
+      "text": "So I'm going to come in now.",
+      "codes": []
+    },
+    {
+      "fg_id": "04-Fausto",
+      "line_id": 438,
+      "text": "You're just going to get three dots.",
+      "codes": []
+    },
+    {
+      "fg_id": "04-Fausto",
+      "line_id": 510,
+      "text": "the general sense of the group is that we are welcoming the use of AI",
+      "codes": [
+        "meta.agreement"
+      ]
     }
   ],
   "s3_warmup_reaction": [
