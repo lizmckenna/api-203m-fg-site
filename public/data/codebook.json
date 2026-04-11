@@ -1,0 +1,204 @@
+{
+  "version": "0.1.0",
+  "codes": [
+    {
+      "id": "use.academic",
+      "parent": "use",
+      "definition": "Using AI for coursework: writing, editing, research, debugging code, summarizing readings.",
+      "inclusion": "Any mention of AI applied to a class assignment, paper, problem set, or exam prep.",
+      "exclusion": "Professional work done outside of coursework (belongs under use.professional).",
+      "example": "I used it to write the conclusion of a policy memo."
+    },
+    {
+      "id": "use.professional",
+      "parent": "use",
+      "definition": "Using AI for job search, internships, professional emails, work product outside class.",
+      "inclusion": "Job-search help, interview prep, work-email drafting, internship tasks.",
+      "exclusion": "",
+      "example": "I fed it my resume and asked for a list of top organizations in each sector."
+    },
+    {
+      "id": "use.personal",
+      "parent": "use",
+      "definition": "Using AI for everyday life outside school or work.",
+      "inclusion": "Recipes, travel, personal writing, conversation practice, etc.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "use.meta",
+      "parent": "use",
+      "definition": "Talking about the practice of using AI in general, not a specific instance.",
+      "inclusion": "Reflections on habits, frequency, types of tasks.",
+      "exclusion": "A specific concrete example (use that code instead).",
+      "example": "I use it pretty much every research assignment I ever do."
+    },
+    {
+      "id": "anxiety.learning_loss",
+      "parent": "anxiety",
+      "definition": "Fear that AI use weakens one's own thinking, writing, or skill development.",
+      "inclusion": "Phrases like atrophy, cheating on myself, losing the skill, not actually learning.",
+      "exclusion": "Concerns about institutional rules (that's anxiety.integrity).",
+      "example": ""
+    },
+    {
+      "id": "anxiety.integrity",
+      "parent": "anxiety",
+      "definition": "Concerns about academic honesty, disclosure, plagiarism, ghostwriting boundaries.",
+      "inclusion": "What counts as cheating; what you're allowed to say you wrote.",
+      "exclusion": "Personal skill loss (anxiety.learning_loss).",
+      "example": ""
+    },
+    {
+      "id": "anxiety.displacement",
+      "parent": "anxiety",
+      "definition": "Worry that AI will make one's future role or profession obsolete or devalued.",
+      "inclusion": "Job loss, commoditization of skills, labor market concerns.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "anxiety.dependency",
+      "parent": "anxiety",
+      "definition": "Concern about over-reliance \u2014 can't work without it anymore.",
+      "inclusion": "Loss of agency, reflexive use, cannot think without the tool.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "anxiety.authenticity",
+      "parent": "anxiety",
+      "definition": "Worry about loss of one's own voice, style, originality.",
+      "inclusion": "Mentions of sounding generic, losing voice, AI-ified prose.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "risk.overuse",
+      "parent": "risk",
+      "definition": "Argues that using AI too heavily is the more real personal cost.",
+      "inclusion": "Voting for concern one, or making its case.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "risk.underuse",
+      "parent": "risk",
+      "definition": "Argues that NOT using AI (well or enough) is the more real cost \u2014 falling behind peers.",
+      "inclusion": "Voting for concern two, or making its case.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "risk.ambivalent",
+      "parent": "risk",
+      "definition": "Explicitly refuses to choose or says both are equally real.",
+      "inclusion": "Explicit ambivalence, 'I vote for both'.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "readiness.confident",
+      "parent": "readiness",
+      "definition": "Says they feel ready to use AI competently on day one of their next role.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "readiness.uncertain",
+      "parent": "readiness",
+      "definition": "Expresses doubt about being ready \u2014 specific gaps named or vague unease.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "readiness.curricular_gap",
+      "parent": "readiness",
+      "definition": "Names something HKS did not teach that the speaker now wishes it had.",
+      "inclusion": "Specific unmet instructional needs.",
+      "exclusion": "General wishes for the future (wishes.*).",
+      "example": ""
+    },
+    {
+      "id": "readiness.tool_specific",
+      "parent": "readiness",
+      "definition": "Names a specific tool, workflow, or skill expected at work.",
+      "inclusion": "ChatGPT, Claude, Copilot, Deep Research, NotebookLM, etc., in a work context.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "wishes.training",
+      "parent": "wishes",
+      "definition": "Formal instruction \u2014 classes, workshops, structured curriculum.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "wishes.frameworks",
+      "parent": "wishes",
+      "definition": "Conceptual or decision-making frameworks for when/how to use AI.",
+      "inclusion": "How to think about it; rubrics; heuristics.",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "wishes.hands_on",
+      "parent": "wishes",
+      "definition": "Practice, labs, applied exercises with the tools themselves.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "wishes.ethics",
+      "parent": "wishes",
+      "definition": "Ethical/normative guidance \u2014 disclosure norms, responsible use, policy implications.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "wishes.sector_specific",
+      "parent": "wishes",
+      "definition": "AI training tailored to government, policy, nonprofit, or specific sectors students enter.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "meta.disagreement",
+      "parent": "meta",
+      "definition": "Participants explicitly disagree with each other.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "meta.agreement",
+      "parent": "meta",
+      "definition": "Strong agreement or piling-on of similar views.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    },
+    {
+      "id": "meta.surprise",
+      "parent": "meta",
+      "definition": "A participant expresses surprise at what someone else said.",
+      "inclusion": "",
+      "exclusion": "",
+      "example": ""
+    }
+  ],
+  "evolution_log": [
+    {
+      "version": "0.1.0",
+      "date": "2026-04-11",
+      "note": "Initial a-priori codebook derived from protocol sections."
+    }
+  ]
+}

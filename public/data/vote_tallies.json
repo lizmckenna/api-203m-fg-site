@@ -1,0 +1,8 @@
+{
+  "two_sided_risk": {
+    "overuse": null,
+    "underuse": null,
+    "note": "Hand-enter from notes/flip-chart photos into data/derived/vote_tallies.json."
+  },
+  "pair_share_dots": []
+}

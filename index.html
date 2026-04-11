@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How HKS Students Are Navigating AI — API-203M</title>
+  <meta name="description" content="A qualitative analysis of an in-class focus group on how HKS students are navigating AI. Interactive, reactable, honest about its methods.">
+
+  <!-- Fonts: Archivo (display) + Inter (body) + Fraunces (pull quotes). Archivo/Inter = clean Bauhaus; Fraunces = editorial quotes. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-course">API-203M</span>
+    <span class="brand-term">SPRING 2026</span>
+  </div>
+  <nav class="site-nav">
+    <a href="#method">method</a>
+    <a href="#three-codes">three codes</a>
+    <a href="#where-claude-broke">disagreements</a>
+    <a href="#ai-slop">ai slop</a>
+    <a href="#themes">themes</a>
+    <a href="#votes">votes</a>
+    <a href="#comments">comments</a>
+  </nav>
+  <div class="auth-slot" id="auth-slot">
+    <button id="signin-btn" class="btn btn-ghost">sign in</button>
+  </div>
+</header>
+
+<!-- ================================================================
+     HERO
+================================================================ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-meta">A teaching artifact, not a report</div>
+    <h1>How HKS Students<br>Are Navigating AI</h1>
+    <p class="hero-lede">
+      Eight in-class focus groups. Six protocol sections. Three coding
+      methods applied to the same words. This site shows the analysis and
+      lets you react to it as you read.
+    </p>
+    <div class="hero-fg-count">
+      <span id="fg-count">—</span> focus groups ingested ·
+      <span id="segment-count">—</span> coded utterances ·
+      last build <span id="build-time">—</span>
+    </div>
+  </div>
+  <a class="hero-scroll" href="#positionality">↓ read</a>
+</section>
+
+<!-- ================================================================
+     MEMO — clipped at the top, expandable in a dialog
+================================================================ -->
+<section id="memo-clip" class="section section-memo-clip">
+  <div class="memo-card">
+    <div class="memo-header">
+      <div class="memo-label">a note from your instructor</div>
+      <button class="btn btn-ghost" id="memo-open">read in full →</button>
+    </div>
+    <div id="memo-preview" class="memo-preview">loading memo…</div>
+  </div>
+</section>
+
+<dialog id="memo-dialog" class="memo-dialog">
+  <div class="memo-dialog-inner">
+    <button type="button" class="memo-close" id="memo-close" aria-label="close">×</button>
+    <article id="memo-full" class="memo-full prose-memo">loading…</article>
+  </div>
+</dialog>
+
+<!-- ================================================================
+     POSITIONALITY
+================================================================ -->
+<section id="positionality" class="section section-positionality">
+  <div class="section-label">01 / positionality</div>
+  <h2>The instructor wrote the protocol, taught the class, and is now analyzing the data.</h2>
+  <div class="pull-quote">
+    No cleanup pass on the transcript can recover what was never said out loud.
+  </div>
+  <div id="positionality-body" class="prose">
+    <!-- Loaded from /positionality.md at runtime -->
+  </div>
+  <div class="reaction-bar" data-target-type="section" data-target-id="positionality"></div>
+</section>
+
+<!-- ================================================================
+     METHOD — tradeoffs table
+================================================================ -->
+<section id="method" class="section section-method">
+  <div class="section-label">02 / method</div>
+  <h2>Four ways to code this data. Each breaks differently.</h2>
+  <p class="section-lede">
+    Every method the site uses has a specific failure mode. Click a row to see
+    the example the site returns when it fails that way.
+  </p>
+  <table class="tradeoffs">
+    <thead>
+      <tr><th>method</th><th>what it's good at</th><th>how it breaks</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>deductive framework</td>
+        <td>fast, comparable across FGs</td>
+        <td><strong>blind to what you didn't ask</strong></td>
+      </tr>
+      <tr>
+        <td>inductive / in-vivo</td>
+        <td>preserves voice, surfaces surprise</td>
+        <td><strong>doesn't scale, not reproducible across coders</strong></td>
+      </tr>
+      <tr>
+        <td>LLM-deductive</td>
+        <td>fast, consistent</td>
+        <td><strong>homogenizes, loses affect, invents plausible codes</strong></td>
+      </tr>
+      <tr>
+        <td>embeddings / topic models</td>
+        <td>"objective"-looking</td>
+        <td><strong>recovers structure you already knew</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="footnote">
+    Triangulating across methods is expensive but the only defensible approach
+    for a public artifact. Everything below is that triangulation.
+  </p>
+</section>
+
+<!-- ================================================================
+     SAME QUOTE, THREE CODES
+================================================================ -->
+<section id="three-codes" class="section section-three-codes">
+  <div class="section-label">03 / same quote, three codes</div>
+  <h2>What the coders saw.</h2>
+  <p class="section-lede">
+    The same utterance, coded three ways: by the instructor (deductively), by
+    Claude (same codebook), and (for one section) inductively by hand. Click a
+    row to see the codebook definitions.
+  </p>
+  <div id="three-codes-table" class="three-codes-table">
+    <!-- Populated from coded_segments.jsonl at runtime -->
+    <div class="empty">no coded segments yet — set <code>ANTHROPIC_API_KEY</code> and run <code>make recode</code>.</div>
+  </div>
+</section>
+
+<!-- ================================================================
+     WHERE CLAUDE BROKE
+================================================================ -->
+<section id="where-claude-broke" class="section section-disagreements">
+  <div class="section-label">04 / where Claude broke</div>
+  <h2>Disagreements between me and the model.</h2>
+  <p class="section-lede">
+    These are the utterances where my codes and Claude's codes diverged. Not
+    mistakes — provocations. Read them and decide which reading you buy.
+  </p>
+  <div id="disagreements-list" class="disagreements-list">
+    <div class="empty">no disagreements recorded yet.</div>
+  </div>
+</section>
+
+<!-- ================================================================
+     AI SLOP DEMO
+================================================================ -->
+<section id="ai-slop" class="section section-ai-slop">
+  <div class="section-label">05 / ai slop</div>
+  <h2>What happens when you let the model do everything.</h2>
+  <p class="section-lede">
+    On the left: the rigorous deductive output. On the right: what you get
+    when you ask the model "what are the main themes in this transcript?"
+    with no codebook, no protocol, no constraints. This is the single most
+    pedagogically valuable artifact on this site.
+  </p>
+  <div class="slop-compare">
+    <div class="slop-col slop-col-rigorous">
+      <h3>rigorous</h3>
+      <div id="slop-rigorous" class="slop-body"><div class="empty">run stage 02 first</div></div>
+    </div>
+    <div class="slop-col slop-col-slop">
+      <h3>slop</h3>
+      <div id="slop-slop" class="slop-body"><div class="empty">pre-generated cache will load here</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     THEMES (from inductive demo + deductive aggregate)
+================================================================ -->
+<section id="themes" class="section section-themes">
+  <div class="section-label">06 / themes</div>
+  <h2>What the students said.</h2>
+  <p class="section-lede">
+    Aggregated across focus groups. Each theme shows its code definition,
+    how many utterances landed there, and up to five example quotes. Hover
+    a quote to see which focus group it came from.
+  </p>
+  <div id="themes-list" class="themes-list">
+    <div class="empty">no themes computed yet.</div>
+  </div>
+</section>
+
+<!-- ================================================================
+     DOT VOTES
+================================================================ -->
+<section id="votes" class="section section-votes">
+  <div class="section-label">07 / votes</div>
+  <h2>What the rooms voted for.</h2>
+  <p class="section-lede">
+    Two-sided risk split and pair-share dot totals, hand-entered from notes
+    and flip-chart photos.
+  </p>
+  <div id="votes-body" class="votes-body">
+    <div class="empty">no vote tallies entered yet.</div>
+  </div>
+</section>
+
+<!-- ================================================================
+     COMMENTS
+================================================================ -->
+<section id="comments" class="section section-comments">
+  <div class="section-label">08 / say something back</div>
+  <h2>What do you think?</h2>
+  <p class="section-lede">
+    Sign in with your Harvard email. Everything you post is attributed to your
+    role and program — not your name, unless you opt in.
+  </p>
+  <div id="site-comments" class="comments-root" data-target-type="section" data-target-id="site-wide"></div>
+</section>
+
+<!-- ================================================================
+     WHO'S READING
+================================================================ -->
+<aside id="readership" class="readership-panel" aria-hidden="false">
+  <div class="readership-label">who's reading</div>
+  <div id="readership-mix" class="readership-mix">—</div>
+</aside>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>Built for API-203M, Spring 2026. <a href="https://github.com">source</a>.</div>
+    <div class="footer-note">
+      Participant names pseudonymized. Quote consent obtained at recording.
+    </div>
+  </div>
+</footer>
+
+<!-- Auth modal -->
+<dialog id="auth-dialog" class="auth-dialog">
+  <form id="auth-form" method="dialog">
+    <h3>sign in with your Harvard email</h3>
+    <p class="dialog-lede">
+      We send a one-time link. No password. Your email is not shown to anyone.
+    </p>
+    <label>
+      <span>email</span>
+      <input type="email" name="email" required placeholder="you@hks.harvard.edu">
+    </label>
+    <div class="dialog-actions">
+      <button type="button" value="cancel" onclick="document.getElementById('auth-dialog').close()">cancel</button>
+      <button type="submit" class="btn-primary">send link</button>
+    </div>
+    <p id="auth-error" class="auth-error"></p>
+  </form>
+</dialog>
+
+<!-- Profile setup modal -->
+<dialog id="profile-dialog" class="auth-dialog">
+  <form id="profile-form" method="dialog">
+    <h3>one quick thing</h3>
+    <p class="dialog-lede">
+      So we can show you the readership mix without showing your name.
+    </p>
+    <label>
+      <span>role</span>
+      <select name="role" required>
+        <option value="">—</option>
+        <option value="student">student</option>
+        <option value="staff">staff</option>
+        <option value="faculty">faculty</option>
+        <option value="other">other</option>
+      </select>
+    </label>
+    <label>
+      <span>program <small>(students only)</small></span>
+      <input type="text" name="program" placeholder="MPP / MPA / MPA-ID / PhD / other">
+    </label>
+    <label>
+      <span>grad year <small>(students only)</small></span>
+      <input type="number" name="grad_year" min="2024" max="2035">
+    </label>
+    <label>
+      <span>display name <small>(optional — leave blank to stay anonymous)</small></span>
+      <input type="text" name="display_name" maxlength="40" placeholder="">
+    </label>
+    <div class="dialog-actions">
+      <button type="submit" class="btn-primary">save</button>
+    </div>
+  </form>
+</dialog>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
