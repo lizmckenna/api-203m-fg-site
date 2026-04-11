@@ -1,1 +1,2796 @@
-{"three_codes": [], "themes": {}, "ai_slop_rigorous": [], "top_codes": [], "unused": []}
+{
+  "three_codes": [
+    {
+      "id": "767ba5c602",
+      "fg_id": "02-Chyung",
+      "section_id": "s6_pair_share",
+      "line_range": [
+        632,
+        649
+      ],
+      "raw_text": "I feel like we should have, like, a class or something in, like, the first week in orientation and how to use AI effectively because right now it's like a free-for-all. Everybody does whatever they want. They copy C, copy, control C, control B, their assays on chat, GPT, and, like, people don't know what they are doing and the school, what they are trying to do is limit limiting the use of AI and each professor has a different policy on AI usage. I feel like there should be a single policy for all courses and we should be taught on how to use AI properly for those, for a grad school, for a grad school.",
+      "cleaned_text": "I feel like we should have ... a class or something in ... the first week in orientation and how to use AI effectively because right now it's like a free-for-all. Everybody does whatever they want. They copy C, copy, control C, control B, their assays on chat, GPT, and ... people don't know what they are doing and the school, what they are trying to do is limit limiting the use of AI and each professor has a different policy on AI usage. I feel like there should be a single policy for all courses and we should be taught on how to use AI properly for ... a grad school.",
+      "memorable_phrase": "it's like a free-for-all",
+      "topics": [
+        "policy inconsistency",
+        "orientation",
+        "training need",
+        "standardization"
+      ],
+      "_codes": [
+        "wishes.training",
+        "wishes.frameworks",
+        "use.meta",
+        "use.academic",
+        "readiness.tool_specific",
+        "readiness.uncertain",
+        "anxiety.integrity"
+      ],
+      "claimed_by": "three_codes"
+    },
+    {
+      "id": "c0038182d7",
+      "fg_id": "10-Sanchez",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        98,
+        107
+      ],
+      "raw_text": "I used to worry more about like the losing skills part but my partner he is doing a gap year right now and he spends eight hours a day using fluid to build different things um because it helps him all kinds of projects and I think like seeing that has made me realize that that is something I would not be able to do right now and I feel like that might also be like of course our situation is a little bit special because he is doing a gap year but I think that there's also a gender gap emerging and how we're using AI and I think if you just use it to outsource your learning then it's a problem for you but if you use it to enhance your skills like for instance your coding abilities and then it can really help you succeed and I fear that if like if AI takes over a lot of jobs in the labor market then everyone who is not capable of using it in that way might be at risk of using their job at least if they have like desk jobs um so I've started to become more worried",
+      "cleaned_text": "I used to worry more about the losing skills part but my partner he is doing a gap year right now and he spends eight hours a day using fluid to build different things... and seeing that has made me realize that that is something I would not be able to do right now... I think there's also a gender gap emerging and how we're using AI and I think if you just use it to outsource your learning then it's a problem for you but if you use it to enhance your skills like for instance your coding abilities then it can really help you succeed and I fear that if AI takes over a lot of jobs in the labor market then everyone who is not capable of using it in that way might be at risk of using their job at least if they have desk jobs... so I've started to become more worried...",
+      "memorable_phrase": "a gender gap emerging",
+      "topics": [
+        "skill building",
+        "gender gap",
+        "labor market",
+        "competitiveness"
+      ],
+      "_codes": [
+        "anxiety.learning_loss",
+        "readiness.tool_specific",
+        "readiness.uncertain",
+        "risk.overuse",
+        "risk.underuse",
+        "anxiety.displacement"
+      ],
+      "claimed_by": "three_codes"
+    },
+    {
+      "id": "7772b2bc29",
+      "fg_id": "08-Mardia",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        110,
+        113
+      ],
+      "raw_text": "I think yes, I think after like using AI for I don't know, two or three years, I think the point is like not using it correctly, but it's knowing when to use it and when to like have in human interventions. Like for example, if I'm writing something that's clearly meant to be personal, I think yes, I can use AI to have a draft, but I think it's so important that people who read it don't think that it's excellent. It's like flawless, but they can feel that it was actually written by human. I work in in diplomacy and I think that's like really important that there are some flaws than just having like a flawless, grammatically perfect essay.",
+      "cleaned_text": "I think after using AI for I don't know, two or three years, I think the point is like not using it correctly, but it's knowing when to use it and when to have human interventions. Like for example, if I'm writing something that's clearly meant to be personal, I think yes, I can use AI to have a draft, but I think it's so important that people who read it don't think that it's excellent. It's like flawless, but they can feel that it was actually written by human. I work in diplomacy and I think that's really important that there are some flaws than just having like a flawless, grammatically perfect essay.",
+      "memorable_phrase": "some flaws than just having like a flawless",
+      "topics": [
+        "diplomacy",
+        "human touch",
+        "authenticity",
+        "intentional imperfection"
+      ],
+      "_codes": [
+        "readiness.confident",
+        "use.meta",
+        "anxiety.authenticity",
+        "use.professional",
+        "readiness.tool_specific"
+      ],
+      "claimed_by": "three_codes"
+    },
+    {
+      "id": "bad8554dc3",
+      "fg_id": "01-Cheng",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        50,
+        53
+      ],
+      "raw_text": "I use it a lot for research. It's basically as like an extended Google search, or like a much more in-depth Google search. So I was writing an op-ed for a class recently. And so I use it just to find a bunch of research sources for.",
+      "cleaned_text": "I use it a lot for research. It's basically like an extended Google search, or like a much more in-depth Google search. So I was writing an op-ed for a class recently and so I use it just to find a bunch of research sources.",
+      "memorable_phrase": "extended Google search",
+      "topics": [
+        "research",
+        "information gathering",
+        "academic use"
+      ],
+      "_codes": [
+        "use.academic",
+        "use.meta"
+      ],
+      "claimed_by": "three_codes"
+    },
+    {
+      "id": "7df5c2eb06",
+      "fg_id": "04-Fausto",
+      "section_id": "s3_warmup_reaction",
+      "line_range": [
+        45,
+        48
+      ],
+      "raw_text": "when you said you don't use it, my brain went, oh she must be so smart. No. And oh she must be so efficient and effective if you're able to exist in this world without relying on it. And I don't know if that elicits about how we think about it.",
+      "cleaned_text": "When you said you don't use it, my brain went, oh she must be so smart ... And oh she must be so efficient and effective if you're able to exist in this world without relying on it. And I don't know if that elicits about how we think about it.",
+      "memorable_phrase": "exist in this world without relying on it",
+      "topics": [
+        "non-use",
+        "assumptions",
+        "dependency",
+        "perceptions"
+      ],
+      "_codes": [
+        "risk.underuse"
+      ],
+      "claimed_by": "three_codes"
+    }
+  ],
+  "themes": {
+    "use.academic": {
+      "visible": [
+        {
+          "id": "c565f9ec67",
+          "fg_id": "10-Sanchez",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            75,
+            88
+          ],
+          "raw_text": "This is something I've been struggling with a lot like when I first came to HKS um I'd really never used AI before um just like when I was in college it wasn't a thing when I was in the workforce it wasn't a thing maybe I'd use it to come up with like punchy titles for like pitches for in my past comms job um but that was really and then like the busier I've gotten at school the more readings and the more helpful I found it um and I always feel like guilty when I use it like wow I should really be figuring out how to rework the sentence myself versus like put my own thought in um and have it put it back in a way if I'm like I don't like how I said this fix it oh that is what I wanted to say um but that is something that like really upsets me too because I'm like I love writing I think writing is such a good way to learn um and I'm always like doing the thoughts and concepts myself it's just sometimes like the cleaning up that it's so helpful it'll be like it'll spark another thought for me where it's like oh yeah now I know what I want to say because I saw it written a different way um but then yeah I just also just struggle with wanting to feel like I'm learning and like not using a crutch to accomplish stuff and contrasting that with being so busy and overwhelmed at school",
+          "cleaned_text": "When I first came to HKS I'd really never used AI before... and then the busier I've gotten at school the more readings and the more helpful I found it... and I always feel guilty when I use it like wow I should really be figuring out how to rework the sentence myself versus put my own thought in... that really upsets me too because I love writing I think writing is such a good way to learn... and I'm always doing the thoughts and concepts myself it's just sometimes the cleaning up that it's so helpful it'll spark another thought for me where it's like oh yeah now I know what I want to say because I saw it written a different way... but then I just also struggle with wanting to feel like I'm learning and not using a crutch to accomplish stuff and contrasting that with being so busy and overwhelmed at school...",
+          "memorable_phrase": "I always feel guilty when I use it",
+          "topics": [
+            "guilt",
+            "writing identity",
+            "workload pressure",
+            "learning authenticity"
+          ],
+          "_codes": [
+            "use.meta",
+            "use.professional",
+            "use.academic",
+            "anxiety.learning_loss",
+            "anxiety.dependency"
+          ],
+          "claimed_by": "themes:use.academic"
+        },
+        {
+          "id": "7b5ad26218",
+          "fg_id": "01-Cheng",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            125,
+            134
+          ],
+          "raw_text": "I was in law school last year, which is pedagogically different than a master in public policy, but I had a principle that was like I'm not going to use AI for really anything, even for like studying or my own research because I was concerned about what to do with my brain or kind of a lot of the type one concerns. And then I felt though, by the end, my understanding was actually really bad because I was just trying to do it myself and try to go through all these like really dense resources. And a lot of my friends who used AI, I only learned after the fact and after my grades came out that like they used it ethically and well. And I was like, okay, now going into my master in public policy, I'm going to use it a lot more liberally and effectively.",
+          "cleaned_text": "I was in law school last year ... I had a principle that was like I'm not going to use AI for really anything, even for studying or my own research because I was concerned about what to do with my brain ... And then I felt though, by the end, my understanding was actually really bad because I was just trying to do it myself and try to go through all these really dense resources. And a lot of my friends who used AI, I only learned after the fact and after my grades came out that they used it ethically and well. And I was like, okay, now going into my master in public policy, I'm going to use it a lot more liberally and effectively.",
+          "memorable_phrase": "my understanding was actually really bad",
+          "topics": [
+            "learning effectiveness",
+            "peer comparison",
+            "ethical use",
+            "strategy shift"
+          ],
+          "_codes": [
+            "anxiety.learning_loss",
+            "use.academic",
+            "risk.underuse",
+            "anxiety.integrity"
+          ],
+          "claimed_by": "themes:use.academic"
+        }
+      ],
+      "more": [
+        {
+          "id": "5f4c3acccb",
+          "fg_id": "06-Giles",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            147,
+            151
+          ],
+          "raw_text": "I feel like even like currently I almost feel like at a disadvantage. I also didn't use it all in college and I literally didn't use it at all until I got here. I'm like saw other people using it to like be more efficient or like to anticipate questions like on presentations or so many things that I didn't even think of that. And I think maybe I could be like better at my academics if I did use it more. And like leaving here I think I feel already a little bit behind in terms of like using it and like in my future career I think if I don't start using it now more, I'm not going to learn how to use it in all these ways that could be helpful.",
+          "cleaned_text": "I feel like even ... currently I almost feel like at a disadvantage. I also didn't use it all in college and I literally didn't use it at all until I got here. I ... saw other people using it to ... be more efficient or ... to anticipate questions like on presentations or so many things that I didn't even think of that. And I think maybe I could be ... better at my academics if I did use it more. And ... leaving here I think I feel already a little bit behind in terms of ... using it and ... in my future career I think if I don't start using it now more, I'm not going to learn how to use it in all these ways that could be helpful.",
+          "memorable_phrase": "already a little bit behind",
+          "topics": [
+            "professional readiness",
+            "peer comparison",
+            "efficiency",
+            "future career"
+          ],
+          "_codes": [
+            "risk.underuse",
+            "use.meta",
+            "use.academic",
+            "readiness.uncertain"
+          ],
+          "claimed_by": "themes:use.academic"
+        },
+        {
+          "id": "d43d35b0f3",
+          "fg_id": "05-Ge",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            177,
+            183
+          ],
+          "raw_text": "I voted on this one on a personal reason particularly because one of my goals here, like, doing a master's degree, not in my native language, is to, like, guarantee that, like, how you evolve in that sense and, like, write academic papers in English and that kind of stuff. And, of course, chatchapity has helped me a lot to be, like, as productive as someone who is, like, a negative English speaker. Because I think that's what's demanded. Like, that's the rule, you know, like, here in HKS. But I'm scared that I won't evolve a skill that I think I was supposed to. Or that my English would be, like, English slash chatchapity accent, you know.",
+          "cleaned_text": "I voted on this one on a personal reason particularly because one of my goals here ... doing a master's degree, not in my native language, is to ... guarantee that ... how you evolve in that sense and ... write academic papers in English and that kind of stuff. And, of course, chatchapity has helped me a lot to be ... as productive as someone who is ... a negative English speaker. Because I think that's what's demanded. ... that's the rule ... here in HKS. But I'm scared that I won't evolve a skill that I think I was supposed to. Or that my English would be ... English slash chatchapity accent.",
+          "memorable_phrase": "English slash chatchapity accent",
+          "topics": [
+            "language learning",
+            "non-native speakers",
+            "skill development",
+            "equity"
+          ],
+          "_codes": [
+            "risk.overuse",
+            "use.academic",
+            "readiness.tool_specific",
+            "anxiety.learning_loss",
+            "anxiety.authenticity"
+          ],
+          "claimed_by": "themes:use.academic"
+        },
+        {
+          "id": "1ff5b02ef8",
+          "fg_id": "08-Mardia",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            98,
+            102
+          ],
+          "raw_text": "I think I often found at the beginning of the year, I was doing the like 300 pages of reading across like all the classes. And I was like, wow, I'm really drowning. I'm not getting out of the experience, the other things that I wanted. And then I kept hearing people being like, oh, if you just put it in AI, it'll read you a podcast of like them talking about XYZ. And it's like, am I really thinking my sitting down reading for multiple hours trying to like force myself to concentrate is more effective for my understanding than it is to do like a different version.",
+          "cleaned_text": "I think I often found at the beginning of the year, I was doing the like 300 pages of reading across like all the classes. And I was like, wow, I'm really drowning. I'm not getting out of the experience, the other things that I wanted. And then I kept hearing people being like, oh, if you just put it in AI, it'll read you a podcast of like them talking about XYZ. And it's like, am I really thinking my sitting down reading for multiple hours trying to force myself to concentrate is more effective for my understanding than it is to do like a different version.",
+          "memorable_phrase": "I'm really drowning",
+          "topics": [
+            "reading overload",
+            "alternative formats",
+            "effectiveness",
+            "podcasts"
+          ],
+          "_codes": [
+            "use.academic",
+            "anxiety.learning_loss",
+            "use.meta",
+            "risk.underuse"
+          ],
+          "claimed_by": "themes:use.academic"
+        }
+      ]
+    },
+    "use.professional": {
+      "visible": [
+        {
+          "id": "9619f98a5e",
+          "fg_id": "05-Ge",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            238,
+            244
+          ],
+          "raw_text": "I was a staffer for a state legislator in Jersey, and we were one of the few offices that were, like, actively using AI in a lot of our content creation, and whether it was, like, something as simple as, like, drafting up questions for a legislative hearing or, like, helping fix up a press release. Like, because offices are so small, it's, like, three staff members, we were using AI and we were able to work on way more issues, and output much more, I would argue, like, really good work, compared to offices where, like, they had three staffers, and they were, like, all 40, 50, and 60, and, like, we're not using it, and they were, like, one press release every, you know, like, two days, three days, and we could do, like, five to six, and, like, a very short time span.",
+          "cleaned_text": "I was a staffer for a state legislator in Jersey, and we were one of the few offices that were ... actively using AI in a lot of our content creation, and whether it was ... something as simple as ... drafting up questions for a legislative hearing or ... helping fix up a press release. ... because offices are so small, it's ... three staff members, we were using AI and we were able to work on way more issues, and output much more ... really good work, compared to offices where ... they had three staffers, and they were ... all 40, 50, and 60, and ... we're not using it, and they were ... one press release every ... two days, three days, and we could do ... five to six ... in a very short time span.",
+          "memorable_phrase": "work on way more issues",
+          "topics": [
+            "professional use",
+            "productivity gains",
+            "legislative work",
+            "generational divide"
+          ],
+          "_codes": [
+            "risk.underuse",
+            "use.professional",
+            "readiness.tool_specific"
+          ],
+          "claimed_by": "themes:use.professional"
+        },
+        {
+          "id": "2d885cd8af",
+          "fg_id": "04-Fausto",
+          "section_id": "s5_professional_readiness",
+          "line_range": [
+            540,
+            552
+          ],
+          "raw_text": "I was just talking with a mentor of mine. And I was like, I'm in national security space and tech defense. And I was like, well, how do I become an expert in AI? And she turned to me and she was like, do you remember what China was everything? Everyone was talking about, and now you need leaders that are actually doing everything else that it's not just China. She said, I think a similar thing is going to happen with AI. Not everyone has to be an expert in AI, and not everything has to be about AI. And I think schools like GGS and universities risk over committing to AI and everything they do, and I think a law can be lost in that.",
+          "cleaned_text": "I was just talking with a mentor of mine. And I was like, I'm in national security space and tech defense. And I was like, well, how do I become an expert in AI? And she turned to me and she was like, do you remember what China was everything? Everyone was talking about, and now you need leaders that are actually doing everything else that it's not just China. She said, I think a similar thing is going to happen with AI. Not everyone has to be an expert in AI, and not everything has to be about AI. And I think schools like GGS and universities risk over committing to AI and everything they do, and I think a law can be lost in that.",
+          "memorable_phrase": "not everything has to be about AI",
+          "topics": [
+            "hype cycles",
+            "specialization",
+            "institutional priorities",
+            "mentor advice"
+          ],
+          "_codes": [
+            "use.professional",
+            "readiness.uncertain",
+            "use.meta"
+          ],
+          "claimed_by": "themes:use.professional"
+        }
+      ],
+      "more": [
+        {
+          "id": "2fde14d3b0",
+          "fg_id": "06-Giles",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            212,
+            222
+          ],
+          "raw_text": "I agree there are also ethical concerns around like what information you can be sharing with. Like a public or a private, probably owned like LLM and the information you're putting in there. Some offices have policies now around AI use. And I think that there's just always like a line you kind of have to tell with what's acceptable and what's not. But at the same time, it's such a fast-paced environment where AI can really enhance your efficiency and your ability to like get things done. And I know this summer, I'm going to have to be pretty efficient. And it's like going to be like a fast-paced team. So I just don't feel like I think it's always you know, it's never like set in stone like what's acceptable in a specific office and what's not. And kind of have to like figure that out as you're there.",
+          "cleaned_text": "There are ... ethical concerns around ... what information you can be sharing with ... a public or a private, probably owned ... LLM and the information you're putting in there. Some offices have policies now around AI use. And I think that there's just always ... a line you kind of have to tell with what's acceptable and what's not. But at the same time, it's such a fast-paced environment where AI can really enhance your efficiency and your ability to ... get things done ... it's never ... set in stone like what's acceptable in a specific office and what's not. And kind of have to ... figure that out as you're there.",
+          "memorable_phrase": "never set in stone",
+          "topics": [
+            "ethics",
+            "workplace uncertainty",
+            "data privacy",
+            "efficiency"
+          ],
+          "_codes": [
+            "anxiety.integrity",
+            "wishes.ethics",
+            "readiness.tool_specific",
+            "use.professional",
+            "readiness.uncertain"
+          ],
+          "claimed_by": "themes:use.professional"
+        },
+        {
+          "id": "2688ccf2c9",
+          "fg_id": "01-Cheng",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            151,
+            160
+          ],
+          "raw_text": "I used to work in a job where it was like everything was so specific that it just wouldn't produce any usable item. Like I'd be like, tell me about this New York State law and it produced gibberish. So it just like, like I couldn't even use it. But now that I'm doing so much more general policy in school, I'm like, tell me about child poverty. It's like actually pretty good. But then that gives me the anxiety of like, well, if I was doing specific things in other areas, like am I, like is the shortcut in a more broad sense, like just like nonsense to someone who actually does this kind of policy.",
+          "cleaned_text": "I used to work in a job where everything was so specific that it just wouldn't produce any usable item. Like I'd be like, tell me about this New York State law and it produced gibberish ... But now that I'm doing so much more general policy in school, I'm like, tell me about child poverty. It's like actually pretty good. But then that gives me the anxiety of like, well, if I was doing specific things in other areas, like is the shortcut in a more broad sense just like nonsense to someone who actually does this kind of policy.",
+          "memorable_phrase": "it produced gibberish",
+          "topics": [
+            "context-dependence",
+            "specificity",
+            "reliability concerns",
+            "domain expertise"
+          ],
+          "_codes": [
+            "use.professional",
+            "use.academic",
+            "anxiety.learning_loss"
+          ],
+          "claimed_by": "themes:use.professional"
+        },
+        {
+          "id": "adae08f777",
+          "fg_id": "03-Davis",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            357,
+            376
+          ],
+          "raw_text": "I am a financial regulator in South Korea, so I have to deal with very large number of data from banks and security firms, and every financial institution, but it is very crucial for using AI, because those kind of data and information has a kind of credential information. They give us that information, because we are a public sector, and they are required to submit those information by road, that's why they give us. So, it is highly permitted and by road to unload those kind of data into private LLM, for example, in South Korea, in Germany and all other things, but my company tries to make our own AI system, because it is very efficient to analyze these huge data by clicking one section.",
+          "cleaned_text": "I am a financial regulator in South Korea, so I have to deal with very large number of data from banks and security firms ... but it is very crucial for using AI, because those kind of data and information has a kind of credential information ... it is highly permitted and by road to unload those kind of data into private LLM ... but my company tries to make our own AI system, because it is very efficient to analyze these huge data by clicking one section.",
+          "memorable_phrase": "make our own AI system",
+          "topics": [
+            "data privacy",
+            "financial regulation",
+            "proprietary systems",
+            "efficiency"
+          ],
+          "_codes": [
+            "use.professional",
+            "anxiety.integrity",
+            "readiness.tool_specific"
+          ],
+          "claimed_by": "themes:use.professional"
+        }
+      ]
+    },
+    "use.meta": {
+      "visible": [
+        {
+          "id": "05bded3dcc",
+          "fg_id": "10-Sanchez",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            137,
+            145
+          ],
+          "raw_text": "I think it's very in a lot of courses you are allowed to use AI for like light editing and I think it's unclear what that means like when it is no longer light editing yeah I think I feel like there's really no like I know we have like AI guidelines about things but they're not really like guidelines as to what you're saying like what is that line and I think like it's a weird transition period where like AI is growing so fast and like academia is trying to grow with it but not really or not in a way that makes sense so a lot of the times you can feel like well maybe you're falling behind like other classmates that are using AI maybe you're not using it to the same like people that they are or vice versa that maybe you feel like they're using like too much like everyone feels like they're behind at some point or they're losing something out but like no matter what you do",
+          "cleaned_text": "In a lot of courses you are allowed to use AI for like light editing and I think it's unclear what that means like when it is no longer light editing... I know we have AI guidelines about things but they're not really guidelines as to what you're saying like what is that line and I think it's a weird transition period where AI is growing so fast and academia is trying to grow with it but not really or not in a way that makes sense so a lot of the times you can feel like well maybe you're falling behind like other classmates that are using AI maybe you're not using it to the same like people that they are or vice versa that maybe you feel like they're using too much... everyone feels like they're behind at some point or they're losing something out but no matter what you do...",
+          "memorable_phrase": "unclear what that means",
+          "topics": [
+            "unclear guidelines",
+            "light editing",
+            "transition period",
+            "comparative uncertainty"
+          ],
+          "_codes": [
+            "use.academic",
+            "anxiety.integrity",
+            "use.meta",
+            "risk.underuse",
+            "risk.overuse"
+          ],
+          "claimed_by": "themes:use.meta"
+        },
+        {
+          "id": "eed577426c",
+          "fg_id": "03-Davis",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            155,
+            168
+          ],
+          "raw_text": "I think I'm an extreme case, which is why I wanted to participate. But like I have never used tragedy or quad and I've only used like the school like once, whatever they make us do in like one classes. And I think like it comes from it. I was very easy for me because it clearly I'm kind of skeptical of it. I think for me, I know eventually I will have to figure out how I want to use it. But for me, like this academic experience, I'm like I can in a risk-free environment kind of push my limits. And so I know that in my career, I will have to figure out and I am probably pulling behind in some ways and I am behind my classmates and I know that.",
+          "cleaned_text": "I think I'm an extreme case, which is why I wanted to participate. But like I have never used tragedy or quad and I've only used like the school like once, whatever they make us do in like one classes ... I know eventually I will have to figure out how I want to use it. But for me, like this academic experience, I'm like I can in a risk-free environment kind of push my limits. And so I know that in my career, I will have to figure out and I am probably pulling behind in some ways and I am behind my classmates and I know that.",
+          "memorable_phrase": "risk-free environment kind of push my limits",
+          "topics": [
+            "non-use",
+            "skepticism",
+            "academic freedom",
+            "career preparation"
+          ],
+          "_codes": [
+            "use.meta",
+            "risk.overuse",
+            "risk.underuse",
+            "readiness.uncertain"
+          ],
+          "claimed_by": "themes:use.meta"
+        }
+      ],
+      "more": [
+        {
+          "id": "999679058c",
+          "fg_id": "01-Cheng",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            182,
+            196
+          ],
+          "raw_text": "I find that AI is really good at some things and really, really bad at other things. I mean, where my interests lie and are more so where AI is very bad. So like what Kathy was talking about coding, AI is fantastic at anything quantitative because math is math. It literally has its own set of rules. But LLMs are just predictive models or literally just statistical models. At this point, there's no like truly like, it's called generative AI right now. Like there's the next level where it's like truly thinking for itself. And so my focus at Kennedy School has been in international relations, which is by definition great areas, you know. And I found that trying to get it to see great areas, it's horrible at that because it's trained to go to like the most common, like the most statistically probable answer. And so I've just found that it just gives me the most generic, like boring, not like really thinking, just like a compiling of the most commonly cited, you know, scholars in a field.",
+          "cleaned_text": "I find that AI is really good at some things and really, really bad at other things ... My focus at Kennedy School has been in international relations, which is by definition great areas ... And I found that trying to get it to see great areas, it's horrible at that because it's trained to go to the most common, like the most statistically probable answer. And so I've just found that it just gives me the most generic, like boring, not really thinking, just like a compiling of the most commonly cited scholars in a field.",
+          "memorable_phrase": "the most generic, like boring",
+          "topics": [
+            "field-specific limitations",
+            "qualitative vs quantitative",
+            "gray areas",
+            "critical assessment"
+          ],
+          "_codes": [
+            "use.meta",
+            "use.academic",
+            "anxiety.authenticity"
+          ],
+          "claimed_by": "themes:use.meta"
+        },
+        {
+          "id": "79d14470ae",
+          "fg_id": "02-Chyung",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            246,
+            261
+          ],
+          "raw_text": "I don't use it for writing as much because I still think that like my writing is personal to me and I have my own style and I really value that. And I also value my own thinking, but it still helps to have some sort of back and forth with it. Like I started using it for a few things and I found it to be quite useful. And like, again, with the time and other factors, yeah, I have been using it more. But I mean, I do get scared that like, oh my God, I don't want to lose the sort of like unique parts of my own writing and of my own thinking.",
+          "cleaned_text": "I don't use it for writing as much because I still think that ... my writing is personal to me and I have my own style and I really value that. And I also value my own thinking, but it still helps to have some sort of back and forth with it ... I started using it for a few things and I found it to be quite useful ... with the time and other factors ... I have been using it more. But ... I do get scared that ... I don't want to lose the sort of ... unique parts of my own writing and of my own thinking.",
+          "memorable_phrase": "lose the unique parts of my own writing",
+          "topics": [
+            "writing style",
+            "personal voice",
+            "ambivalence",
+            "increasing use"
+          ],
+          "_codes": [
+            "anxiety.authenticity",
+            "anxiety.learning_loss",
+            "use.meta"
+          ],
+          "claimed_by": "themes:use.meta"
+        },
+        {
+          "id": "87a7dde8e4",
+          "fg_id": "08-Mardia",
+          "section_id": "s5_professional_readiness",
+          "line_range": [
+            123,
+            124
+          ],
+          "raw_text": "I was in undergrad when AI was being rolled out and so I feel like I came into this program more literate in how to use AI effectively given the fact that I had experience with it in a different educational setting and understood how to leverage it in different ways in order to maximize the outputs and what I was looking for. And as a result, I feel really comfortable navigating AI and I understand how to approach different prompts in order to actually get the information that's helpful for me.",
+          "cleaned_text": "I was in undergrad when AI was being rolled out and so I feel like I came into this program more literate in how to use AI effectively given the fact that I had experience with it in a different educational setting and understood how to leverage it in different ways in order to maximize the outputs and what I was looking for. And as a result, I feel really comfortable navigating AI and I understand how to approach different prompts in order to actually get the information that's helpful for me.",
+          "memorable_phrase": "more literate in how to use AI effectively",
+          "topics": [
+            "preparation",
+            "undergraduate experience",
+            "prompting skills",
+            "confidence"
+          ],
+          "_codes": [
+            "readiness.confident",
+            "use.meta"
+          ],
+          "claimed_by": "themes:use.meta"
+        }
+      ]
+    },
+    "anxiety.learning_loss": {
+      "visible": [
+        {
+          "id": "471fe90e8a",
+          "fg_id": "06-Giles",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            92,
+            98
+          ],
+          "raw_text": "I voted for the first concern. Maybe part of the reason is because I'm an international student and I wanted to kind of improve my English by reading or like practicing writing and so on. But using AI is really kind of convenient and it helps me a lot. But at the same time, I feel like I kind of can't improve my skills to just my own writing skills or like my English skills and so on. So I think I need to kind of have some balance between like my own improving my own skill or like using AI effectively to kind of shorten some time more work and like the cost of work.",
+          "cleaned_text": "I voted for the first concern. Maybe part of the reason is because I'm an international student and I wanted to kind of improve my English by reading or like practicing writing and so on. But using AI is really kind of convenient and it helps me a lot. But at the same time, I feel like I kind of can't improve my skills ... my own writing skills or like my English skills and so on. So I think I need to kind of have some balance between ... improving my own skill or like using AI effectively to kind of shorten some time more work and like the cost of work.",
+          "memorable_phrase": "can't improve my skills",
+          "topics": [
+            "language learning",
+            "skill development",
+            "international student",
+            "balance"
+          ],
+          "_codes": [
+            "risk.overuse",
+            "anxiety.learning_loss"
+          ],
+          "claimed_by": "themes:anxiety.learning_loss"
+        },
+        {
+          "id": "f96c18cfe8",
+          "fg_id": "10-Sanchez",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            125,
+            131
+          ],
+          "raw_text": "since there are no days when we don't use AI and I'm taking some writing course where I have to refrain myself not using since it's a writing course and otherwise I wouldn't learn anything but we are so habitual to give everything to AI so it's gonna be very hard in the coming days that if there are some courses in which we learn really something on our own then we have to make our brain habitual not using it for some stuff and in some cases that we just but I'm struggling I'm not using it for writing course because that's the one of the major thing I wanted to learn here",
+          "cleaned_text": "There are no days when we don't use AI and I'm taking some writing course where I have to refrain myself not using since it's a writing course and otherwise I wouldn't learn anything but we are so habitual to give everything to AI so it's gonna be very hard in the coming days that if there are some courses in which we learn really something on our own then we have to make our brain habitual not using it for some stuff... but I'm struggling I'm not using it for writing course because that's the one of the major thing I wanted to learn here...",
+          "memorable_phrase": "so habitual to give everything to AI",
+          "topics": [
+            "habit formation",
+            "self-restraint",
+            "learning goals",
+            "intentional non-use"
+          ],
+          "_codes": [
+            "use.meta",
+            "use.academic",
+            "anxiety.learning_loss",
+            "anxiety.dependency"
+          ],
+          "claimed_by": "themes:anxiety.learning_loss"
+        }
+      ],
+      "more": [
+        {
+          "id": "192cb0365c",
+          "fg_id": "05-Ge",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            163,
+            169
+          ],
+          "raw_text": "I think there's already some research that is proving that it's blocking some of your neural pathways. I use AI to help you structure and outline to help you write something. And that you can upload a lot of the early size of the critical thinking to the model. Then that's really going to empower you to, like, be able to have a original part in the future. And I am worried about that because I think we can escape it because we probably all finished undergrad before AI really came into the brain. But I'm looking at, like, people in undergrad now and it's dramatic. It's actually scary a little bit.",
+          "cleaned_text": "I think there's already some research that is proving that it's blocking some of your neural pathways. ... you can upload a lot of the early size of the critical thinking to the model. Then that's really going to empower you to ... be able to have a original part in the future. And I am worried about that because I think we can escape it because we probably all finished undergrad before AI really came into the brain. But I'm looking at ... people in undergrad now and it's dramatic. It's actually scary a little bit.",
+          "memorable_phrase": "blocking some of your neural pathways",
+          "topics": [
+            "cognitive impact",
+            "critical thinking",
+            "undergrad students",
+            "neuroscience"
+          ],
+          "_codes": [
+            "anxiety.learning_loss",
+            "risk.overuse"
+          ],
+          "claimed_by": "themes:anxiety.learning_loss"
+        },
+        {
+          "id": "1ab2bb3dd3",
+          "fg_id": "03-Davis",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            259,
+            269
+          ],
+          "raw_text": "I'm taking this class at MIT on entrepreneurship, and it's, like, team-based. We can quickly slide deliverables. And first couple of weeks, my team, we're, like, we're producing them using AI, basically. And they look, like, really fancy. The language looks great, but then once you start actually thinking about it, it's very shallow. And then, at some point, we stopped. We switched to, like, just wide-boarding, everything first. We spent, like, a lot longer on it, like, two or three hours. But the quality of the output was so much better. And, like, there was so much more of, like, actually, our own kind of thinking and experience.",
+          "cleaned_text": "I'm taking this class at MIT on entrepreneurship, and it's, like, team-based ... first couple of weeks, my team, we're, like, we're producing them using AI, basically. And they look, like, really fancy. The language looks great, but then once you start actually thinking about it, it's very shallow. And then, at some point, we stopped. We switched to, like, just wide-boarding, everything first. We spent, like, a lot longer on it, like, two or three hours. But the quality of the output was so much better.",
+          "memorable_phrase": "looks great, but ... it's very shallow",
+          "topics": [
+            "quality vs speed",
+            "surface-level work",
+            "depth of thought",
+            "team learning"
+          ],
+          "_codes": [
+            "use.academic",
+            "anxiety.authenticity",
+            "anxiety.learning_loss"
+          ],
+          "claimed_by": "themes:anxiety.learning_loss"
+        },
+        {
+          "id": "8ded07c321",
+          "fg_id": "02-Chyung",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            303,
+            313
+          ],
+          "raw_text": "One of my concerns is that I feel like my patience has dropped a lot because I know I can rely on AI. Like you just give it a few points and then it could come up a full thing for you. But you need to, but at the same time, I feel like to learn how to use it, to consciously improve the skill of AI is very important because people can tell that this comes from AI. So how to distinguish it and to make it your own thing is another thing that I also actually concern that I'm not learning at the moment.",
+          "cleaned_text": "One of my concerns is that I feel like my patience has dropped a lot because I know I can rely on AI. Like you just give it a few points and then it could come up a full thing for you ... at the same time, I feel like to learn how to use it, to consciously improve the skill of AI is very important because people can tell that this comes from AI. So how to distinguish it and to make it your own thing is another thing that I ... concern that I'm not learning at the moment.",
+          "memorable_phrase": "my patience has dropped a lot",
+          "topics": [
+            "patience",
+            "skill development",
+            "detectability",
+            "authenticity"
+          ],
+          "_codes": [
+            "anxiety.dependency",
+            "risk.underuse",
+            "anxiety.authenticity",
+            "anxiety.learning_loss"
+          ],
+          "claimed_by": "themes:anxiety.learning_loss"
+        }
+      ]
+    },
+    "risk.underuse": {
+      "visible": [
+        {
+          "id": "db90881c9f",
+          "fg_id": "01-Cheng",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            161,
+            174
+          ],
+          "raw_text": "I think something that I've learned while using AI is because I've used it like for, I don't know, for the past like two years, like I probably use AI a lot more, but I try to maintain like an ethical nature about it. But I do use it a lot. There are some people that I know that use no AI at all. And the thing is, like when you start to use AI, it's kind of like building a relationship with a person. They start to record all of your thoughts, all of your feelings, all of the opinions that you have about things. And it's, once you craft that relationship with like artificial intelligence, the thinking that it does for you gets a lot better. And so I fear that if I don't create a relationship with AI, other people will create a relationship with AI that allows them to do things much faster, much better, much more synthesized than if I don't.",
+          "cleaned_text": "When you start to use AI, it's kind of like building a relationship with a person. They start to record all of your thoughts, all of your feelings, all of the opinions that you have about things. And once you craft that relationship with artificial intelligence, the thinking that it does for you gets a lot better. And so I fear that if I don't create a relationship with AI, other people will create a relationship with AI that allows them to do things much faster, much better, much more synthesized than if I don't.",
+          "memorable_phrase": "building a relationship with a person",
+          "topics": [
+            "personalization",
+            "competitive anxiety",
+            "tool mastery",
+            "relationship metaphor"
+          ],
+          "_codes": [
+            "use.meta",
+            "anxiety.integrity",
+            "risk.underuse"
+          ],
+          "claimed_by": "themes:risk.underuse"
+        },
+        {
+          "id": "433d9ff7b1",
+          "fg_id": "04-Fausto",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            113,
+            122
+          ],
+          "raw_text": "I suppose the mental model that I use for why it's probably not using it. I think about folks that couldn't never learn how to use the internet. Right? And I'm not saying... But I think that there would just be an increasing expectation through productivity and output that you can do all these things at the speed. And if you can't keep up, why can't you keep up? Are you sending like... You know, mail when you should just be sending emails.",
+          "cleaned_text": "I suppose the mental model that I use for why it's probably not using it. I think about folks that couldn't never learn how to use the internet ... I think that there would just be an increasing expectation through productivity and output that you can do all these things at the speed. And if you can't keep up, why can't you keep up? Are you sending ... mail when you should just be sending emails.",
+          "memorable_phrase": "sending mail when you should be sending emails",
+          "topics": [
+            "technological shift",
+            "productivity expectations",
+            "analogies",
+            "workplace pressure"
+          ],
+          "_codes": [
+            "risk.underuse",
+            "anxiety.displacement",
+            "use.meta"
+          ],
+          "claimed_by": "themes:risk.underuse"
+        }
+      ],
+      "more": [
+        {
+          "id": "57f79c3609",
+          "fg_id": "02-Chyung",
+          "section_id": "s3_warmup_reaction",
+          "line_range": [
+            168,
+            175
+          ],
+          "raw_text": "I think the biggest thing is because so many people are using it now, how quickly people are getting assignments done. Like I take a lot longer to do my homework and like I don't look at chat-generated summaries of readings so like the amount of time I spend doing readings isn't longer. So I'd say the pressure comes from time, not so much.",
+          "cleaned_text": "I think the biggest thing is because so many people are using it now, how quickly people are getting assignments done. Like I take a lot longer to do my homework and ... I don't look at chat-generated summaries of readings so ... the amount of time I spend doing readings isn't longer. So I'd say the pressure comes from time, not so much.",
+          "memorable_phrase": "how quickly people are getting assignments done",
+          "topics": [
+            "time pressure",
+            "comparative disadvantage",
+            "reading summaries",
+            "workload"
+          ],
+          "_codes": [
+            "use.meta",
+            "risk.underuse",
+            "use.academic"
+          ],
+          "claimed_by": "themes:risk.underuse"
+        },
+        {
+          "id": "19c5bf1b7a",
+          "fg_id": "05-Ge",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            223,
+            226
+          ],
+          "raw_text": "I think it's, like, everyone I'm competing with is, like, using this tool, like, hand over fist, and is, like, out, would be outpacing my, like, hard work. And it's, like, how do you combine the both to, then, like, get ahead and, like, go to compete in a new marketplace?",
+          "cleaned_text": "I think it's ... everyone I'm competing with is ... using this tool ... hand over fist, and is ... out, would be outpacing my ... hard work. And it's ... how do you combine the both to ... get ahead and ... go to compete in a new marketplace?",
+          "memorable_phrase": "outpacing my hard work",
+          "topics": [
+            "competition",
+            "productivity pressure",
+            "hard work"
+          ],
+          "_codes": [
+            "risk.underuse",
+            "use.meta"
+          ],
+          "claimed_by": "themes:risk.underuse"
+        },
+        {
+          "id": "302ede8cf5",
+          "fg_id": "04-Fausto",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            95,
+            100
+          ],
+          "raw_text": "I think the reason that I chose for this app is I think the first one is extremely true but I think more people fall into that category almost. So it's sort of if we think about the workplace and the future, I think so many people are going to be in that position that I don't think it's as big a differentiator, whereas I think the second one not having the ability to use could be a huge negative factor.",
+          "cleaned_text": "I think the reason that I chose for this app is I think the first one is extremely true but I think more people fall into that category almost. So ... if we think about the workplace and the future, I think so many people are going to be in that position that I don't think it's as big a differentiator, whereas I think the second one not having the ability to use could be a huge negative factor.",
+          "memorable_phrase": "not as big a differentiator",
+          "topics": [
+            "workplace",
+            "competitive advantage",
+            "future skills",
+            "overuse vs non-use"
+          ],
+          "_codes": [
+            "risk.overuse",
+            "risk.underuse",
+            "risk.ambivalent"
+          ],
+          "claimed_by": "themes:risk.underuse"
+        }
+      ]
+    },
+    "wishes.training": {
+      "visible": [
+        {
+          "id": "6ebfb14fe2",
+          "fg_id": "10-Sanchez",
+          "section_id": "s6_pair_share",
+          "line_range": [
+            297,
+            313
+          ],
+          "raw_text": "I think that the school should also do more to incentivize us to use AI, but to do it, like, in specific courses or for specific assignments, and then maybe also try to bridge the knowledge gap between us and the professors, because I feel like they sometimes don't know or understand what AI could do, and for instance, we had a class where you could choose whether you wanted to use AI for an assignment or not, but if you used it, you had to write a memo on how you used it, and I think that was a really good way to do an assignment.",
+          "cleaned_text": "I think that the school should also do more to incentivize us to use AI but to do it in specific courses or for specific assignments and then maybe also try to bridge the knowledge gap between us and the professors because I feel like they sometimes don't know or understand what AI could do and for instance we had a class where you could choose whether you wanted to use AI for an assignment or not but if you used it you had to write a memo on how you used it and I think that was a really good way to do an assignment.",
+          "memorable_phrase": "bridge the knowledge gap between us and the professors",
+          "topics": [
+            "faculty knowledge",
+            "transparency requirement",
+            "intentional use",
+            "pedagogical design"
+          ],
+          "_codes": [
+            "meta.disagreement",
+            "wishes.training",
+            "wishes.frameworks"
+          ],
+          "claimed_by": "themes:wishes.training"
+        },
+        {
+          "id": "aed3c5d54b",
+          "fg_id": "06-Giles",
+          "section_id": "s6_pair_share",
+          "line_range": [
+            486,
+            494
+          ],
+          "raw_text": "We first talked about AI is a tool we don't necessarily need a whole class for the whole semester, but you're like just information sessions or like this information about how to use AI. So that's one point I guess we talked about. And I think like we also talked about the real world example. real life examples. For example, if we can kind of have information about how alumni are using AI and someone that would be very helpful, we can kind of use that knowledge when we actually work.",
+          "cleaned_text": "We first talked about AI is a tool we don't necessarily need a whole class for the whole semester, but ... just information sessions or ... information about how to use AI ... And ... we also talked about the real world example. real life examples. For example, if we can kind of have information about how alumni are using AI ... that would be very helpful, we can kind of use that knowledge when we actually work.",
+          "memorable_phrase": "how alumni are using AI",
+          "topics": [
+            "alumni examples",
+            "workshops",
+            "practical learning",
+            "professional preparation"
+          ],
+          "_codes": [
+            "wishes.training",
+            "wishes.sector_specific"
+          ],
+          "claimed_by": "themes:wishes.training"
+        }
+      ],
+      "more": [
+        {
+          "id": "883efb83c4",
+          "fg_id": "02-Chyung",
+          "section_id": "s5_professional_readiness",
+          "line_range": [
+            379,
+            385
+          ],
+          "raw_text": "And it's just honestly from that class, that's why I use it a lot because they taught me how to use it well. And so once I know that, it's so hard to go back and put the genie back in the bottle. And I was like, what if we didn't take that class? It's to some extent, because now I use it way more.",
+          "cleaned_text": "And it's just honestly from that class, that's why I use it a lot because they taught me how to use it well. And so once I know that, it's so hard to go back and put the genie back in the bottle. And I was like, what if we didn't take that class? ... because now I use it way more.",
+          "memorable_phrase": "put the genie back in the bottle",
+          "topics": [
+            "irreversibility",
+            "skill acquisition",
+            "increased usage",
+            "ambivalence"
+          ],
+          "_codes": [
+            "use.academic",
+            "wishes.training",
+            "anxiety.dependency",
+            "use.meta"
+          ],
+          "claimed_by": "themes:wishes.training"
+        },
+        {
+          "id": "663afe377a",
+          "fg_id": "02-Chyung",
+          "section_id": "s6_pair_share",
+          "line_range": [
+            528,
+            534
+          ],
+          "raw_text": "I genuinely don't think HKS should teach us about how to use AI. I think they should train teachers how to use it best. I think the slippery slope to engage it in classrooms, I don't think it's a good idea. Genuinely.",
+          "cleaned_text": "I genuinely don't think HKS should teach us about how to use AI. I think they should train teachers how to use it best. I think the slippery slope to engage it in classrooms, I don't think it's a good idea. Genuinely.",
+          "memorable_phrase": "the slippery slope to engage it in classrooms",
+          "topics": [
+            "faculty training",
+            "classroom integration",
+            "resistance",
+            "pedagogical concern"
+          ],
+          "_codes": [
+            "wishes.training"
+          ],
+          "claimed_by": "themes:wishes.training"
+        }
+      ]
+    },
+    "readiness.tool_specific": {
+      "visible": [
+        {
+          "id": "3ead3ba0d7",
+          "fg_id": "06-Giles",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            194,
+            206
+          ],
+          "raw_text": "As far as I know, I heard about like two years ago, I heard that Japanese ladies were following the theories. Developed on their own version of AI for internal usage. Because in the field of like security or diplomacy, there's so many secrets. Their own version of AI should not have a connection to the external internet. So in our case too, I'm going to be referring to the theories of the Republic of Korea. We developed our own version of AI. Maybe they bought it from like Google or something. If I go back to Korea one year later, I feel like yeah, maybe I can legally use AI. Yeah, the Chechi PD or any kind of outside sources are not allowed, but I can still be using the internal version of AI.",
+          "cleaned_text": "I heard that Japanese ladies were following the theories. Developed on their own version of AI for internal usage. Because in the field of ... security or diplomacy, there's so many secrets. Their own version of AI should not have a connection to the external internet. So in our case too, I'm going to be referring to the theories of the Republic of Korea. We developed our own version of AI ... If I go back to Korea one year later ... yeah, maybe I can legally use AI. Yeah, the Chechi PD or any kind of outside sources are not allowed, but I can still be using the internal version of AI.",
+          "memorable_phrase": "internal version of AI",
+          "topics": [
+            "government work",
+            "security",
+            "diplomacy",
+            "restricted AI"
+          ],
+          "_codes": [
+            "readiness.tool_specific",
+            "wishes.ethics",
+            "readiness.uncertain"
+          ],
+          "claimed_by": "themes:readiness.tool_specific"
+        },
+        {
+          "id": "1de12495e3",
+          "fg_id": "08-Mardia",
+          "section_id": "s6_pair_share",
+          "line_range": [
+            244,
+            256
+          ],
+          "raw_text": "I feel like most of all, I know don't use the Harvard student account, really, because of like, concerns for, I mean, like, are they? I mean, what is Harvard doing with our data? I certainly don't trust institutions. I don't trust any, but I don't really want them to have my data or like, I think it automatically doesn't create. I actually think it might have some more privacy than the non-Harvard version, but I'm not 100% sure about that. And that would be great. But I have no way of guaranteeing that. And I certainly don't trust Harvard to like do that on their own. I don't know how much Harvard can see. I don't need Harvard to see everything I'm putting into chat, but yeah.",
+          "cleaned_text": "I feel like most of all, I know don't use the Harvard student account, really, because of concerns for ... what is Harvard doing with our data? I certainly don't trust institutions. I don't trust any, but I don't really want them to have my data ... I actually think it might have some more privacy than the non-Harvard version, but I'm not 100% sure about that. And that would be great. But I have no way of guaranteeing that. And I certainly don't trust Harvard to do that on their own. I don't know how much Harvard can see. I don't need Harvard to see everything I'm putting into chat.",
+          "memorable_phrase": "what is Harvard doing with our data",
+          "topics": [
+            "privacy",
+            "institutional trust",
+            "data security",
+            "transparency"
+          ],
+          "_codes": [
+            "readiness.tool_specific"
+          ],
+          "claimed_by": "themes:readiness.tool_specific"
+        }
+      ],
+      "more": [
+        {
+          "id": "699bf59f7d",
+          "fg_id": "04-Fausto",
+          "section_id": "s2_warmup_goaround",
+          "line_range": [
+            10,
+            13
+          ],
+          "raw_text": "during ethics we were trying to understand the difference between consequentialism and the ontological approaches. So what I do is on chat to be the pro, you can get it to talk to you. And so I was like, hey, this is what I understand so far, can you please critique where there are gaps in my answers. And so I would go back and forth with it until I had a full understanding.",
+          "cleaned_text": "During ethics we were trying to understand the difference between consequentialism and the ontological approaches. So what I do is on chat to be the pro, you can get it to talk to you. And so I was like, hey, this is what I understand so far, can you please critique where there are gaps in my answers. And so I would go back and forth with it until I had a full understanding.",
+          "memorable_phrase": "go back and forth with it",
+          "topics": [
+            "learning",
+            "ethics",
+            "dialogue",
+            "understanding"
+          ],
+          "_codes": [
+            "use.academic",
+            "readiness.tool_specific"
+          ],
+          "claimed_by": "themes:readiness.tool_specific"
+        },
+        {
+          "id": "c01db817b4",
+          "fg_id": "02-Chyung",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            274,
+            279
+          ],
+          "raw_text": "I feel like in a way that kind of comforts me when we talk about like the job security aspect of it, but I think the second part is that like, even though that's true, I feel like even in job interviews now I'm being asked like, oh, what's your AI fluency? And like how have you used it recently in a productive way?",
+          "cleaned_text": "I feel like in a way that kind of comforts me when we talk about ... the job security aspect of it, but ... the second part is that ... even though that's true ... even in job interviews now I'm being asked ... oh, what's your AI fluency? And ... how have you used it recently in a productive way?",
+          "memorable_phrase": "what's your AI fluency?",
+          "topics": [
+            "job market",
+            "expectations",
+            "professional requirements",
+            "interviews"
+          ],
+          "_codes": [
+            "anxiety.displacement",
+            "readiness.tool_specific"
+          ],
+          "claimed_by": "themes:readiness.tool_specific"
+        },
+        {
+          "id": "693ad85978",
+          "fg_id": "01-Cheng",
+          "section_id": "s5_professional_readiness",
+          "line_range": [
+            232,
+            235
+          ],
+          "raw_text": "I think like, I think I'll be able to use it. Not all chat bots are created equal and not all chat bots should be used for the exact same things. I would never use the Westlaw chat bot to do my HKS work and I never would use chat GBT to do legal work for the reasons I mentioned.",
+          "cleaned_text": "Not all chat bots are created equal and not all chat bots should be used for the exact same things. I would never use the Westlaw chat bot to do my HKS work and I never would use chat GBT to do legal work for the reasons I mentioned.",
+          "memorable_phrase": "not all chat bots are created equal",
+          "topics": [
+            "tool differentiation",
+            "context-appropriate use",
+            "professional boundaries"
+          ],
+          "_codes": [
+            "readiness.confident",
+            "readiness.tool_specific"
+          ],
+          "claimed_by": "themes:readiness.tool_specific"
+        }
+      ]
+    },
+    "anxiety.integrity": {
+      "visible": [
+        {
+          "id": "664cff8e5c",
+          "fg_id": "10-Sanchez",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            108,
+            114
+          ],
+          "raw_text": "I don't know if other people feel this way too but there's some like anxiety surrounding it in the sense that like oh if I used AI for this and someone else didn't like are they better than me are they doing school better how can they manage their time and like get all this done without AI when like I'm drowning in work and almost all hours of the day and sometimes need to use it to help me not like do the work but like summarize a reading or clean up the sentence as I mentioned before um then you hear like someone else like no I don't really use AI for that or no I haven't and then you're like well what am I doing wrong so I think that's another interesting aspect of just like being at a very like competitive and like hard time",
+          "cleaned_text": "I don't know if other people feel this way too but there's some anxiety surrounding it in the sense that oh if I used AI for this and someone else didn't are they better than me are they doing school better how can they manage their time and get all this done without AI when I'm drowning in work and almost all hours of the day and sometimes need to use it to help me not do the work but summarize a reading or clean up the sentence... then you hear someone else like no I don't really use AI for that or no I haven't and then you're like well what am I doing wrong so I think that's another interesting aspect of just being at a very competitive and hard time...",
+          "memorable_phrase": "are they better than me",
+          "topics": [
+            "comparison anxiety",
+            "peer judgment",
+            "workload",
+            "competitive environment"
+          ],
+          "_codes": [
+            "anxiety.integrity",
+            "anxiety.dependency",
+            "use.academic",
+            "meta.disagreement"
+          ],
+          "claimed_by": "themes:anxiety.integrity"
+        },
+        {
+          "id": "01c43e4a85",
+          "fg_id": "01-Cheng",
+          "section_id": "s5_professional_readiness",
+          "line_range": [
+            246,
+            253
+          ],
+          "raw_text": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle. But then, you know, without like actual rules drawn out for the employees, I think this is a big concern because I do deal with like proprietary data, you know, confidential data like market data itself. And then also I think there's a lot of ethical questions as well when it comes to like consumer data, and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days. And it feels like sometimes I have to come up with my own judgment and then also picking between different models, which one is maybe has more, which one has more ethics built in. And I just feel like, yeah, a little confusing right now.",
+          "cleaned_text": "I'm really concerned that there is no framework and this is such a big challenge that everyone's trying to tackle. But without actual rules drawn out for the employees, I think this is a big concern because I do deal with proprietary data, confidential data like market data itself. And I think there's a lot of ethical questions as well when it comes to consumer data ... I'm just overall very concerned about the lack of guidance ... It feels like sometimes I have to come up with my own judgment and then also picking between different models, which one has more ethics built in. And I just feel like, yeah, a little confusing right now.",
+          "memorable_phrase": "I have to come up with my own judgment",
+          "topics": [
+            "lack of guidance",
+            "data privacy",
+            "ethical uncertainty",
+            "institutional gaps"
+          ],
+          "_codes": [
+            "readiness.curricular_gap",
+            "wishes.frameworks",
+            "anxiety.integrity",
+            "wishes.ethics",
+            "readiness.uncertain"
+          ],
+          "claimed_by": "themes:anxiety.integrity"
+        }
+      ],
+      "more": [
+        {
+          "id": "e2c3139999",
+          "fg_id": "02-Chyung",
+          "section_id": "s4_two_sided_risk",
+          "line_range": [
+            326,
+            338
+          ],
+          "raw_text": "And one thing I've heard very interesting is that because throughout the past two semester, I was like, without AI, how am I going to survive in the Kennedy School? And I've heard people say, a generation who use AI, after I don't know, 20, 21, like their diploma, like master or something, is not the real ones because they have AI. But the ones before that is like the real, they put the efforts into it. So I was like, they inflate, I'm not sure it's inflation of it, but like, how do people view us about our study here? It's also another level that I would concern about.",
+          "cleaned_text": "And one thing I've heard very interesting is that ... throughout the past two semester, I was like, without AI, how am I going to survive in the Kennedy School? And I've heard people say, a generation who use AI, after I don't know, 20, 21, like their diploma ... is not the real ones because they have AI. But the ones before that is like the real, they put the efforts into it. So ... how do people view us about our study here? It's also another level that I would concern about.",
+          "memorable_phrase": "is not the real ones because they have AI",
+          "topics": [
+            "degree value",
+            "credential inflation",
+            "generational divide",
+            "legitimacy"
+          ],
+          "_codes": [
+            "anxiety.dependency",
+            "anxiety.integrity"
+          ],
+          "claimed_by": "themes:anxiety.integrity"
+        },
+        {
+          "id": "f38059ee99",
+          "fg_id": "05-Ge",
+          "section_id": "s2_warmup_goaround",
+          "line_range": [
+            121,
+            126
+          ],
+          "raw_text": "There's like a lot of HKS professors using as a scare tactic to say like if you use it we're going to we're going to be able to find out. But like I've inputted original writing into GPT zero and had it say that it was AI and I've also put in AI assisted writing or just purely generated AI and it's also said that it was not. So I think like the current tools we have to like detect AI is quite poor.",
+          "cleaned_text": "There's ... a lot of HKS professors using as a scare tactic to say ... if you use it we're going to ... be able to find out. But ... I've inputted original writing into GPT zero and had it say that it was AI and I've also put in AI assisted writing or just purely generated AI and it's also said that it was not. So I think ... the current tools we have to ... detect AI is quite poor.",
+          "memorable_phrase": "the current tools we have to detect AI is quite poor",
+          "topics": [
+            "detection tools",
+            "GPT zero",
+            "scare tactics",
+            "false positives"
+          ],
+          "_codes": [
+            "anxiety.integrity"
+          ],
+          "claimed_by": "themes:anxiety.integrity"
+        },
+        {
+          "id": "f89b8b8f13",
+          "fg_id": "06-Giles",
+          "section_id": "s6_pair_share",
+          "line_range": [
+            432,
+            435
+          ],
+          "raw_text": "I think there's a lot of classes have rigid AI policies that are almost never enforced so we see a lot of people continuing to use AI or even sometimes get falsely accused of using AI because it's so commonplace and there's a lack of enforcement.",
+          "cleaned_text": "A lot of classes have rigid AI policies that are almost never enforced so we see a lot of people continuing to use AI or even sometimes get falsely accused of using AI because it's so commonplace and there's a lack of enforcement.",
+          "memorable_phrase": "falsely accused of using AI",
+          "topics": [
+            "policy enforcement",
+            "academic integrity",
+            "commonplace use",
+            "false accusations"
+          ],
+          "_codes": [
+            "anxiety.integrity"
+          ],
+          "claimed_by": "themes:anxiety.integrity"
+        }
+      ]
+    },
+    "wishes.frameworks": {
+      "visible": [
+        {
+          "id": "06fff0c9bd",
+          "fg_id": "10-Sanchez",
+          "section_id": "s6_pair_share",
+          "line_range": [
+            247,
+            273
+          ],
+          "raw_text": "I was talking about how I kind of want the school to push back on us and frame classes in a way where we aren't actually allowed to use AI. Like, using AI wouldn't make sense in an assignment. Um, so maybe more like uh, in-class quizzes where, like, you can't use AI or um, I don't like, for the being cold called in a lot of classes, like, you can't really get away with not doing the readings. So some similar mechanism or control in place where the classes structure so that we can't rely on AI. So I don't think that would prepare us, I think your question was to prepare us for a job in AI, but it's almost the opposite of uh, forcing us to learn without it.",
+          "cleaned_text": "I kind of want the school to push back on us and frame classes in a way where we aren't actually allowed to use AI... using AI wouldn't make sense in an assignment... maybe more like in-class quizzes where you can't use AI or being cold called in a lot of classes like you can't really get away with not doing the readings. So some similar mechanism or control in place where the classes structure so that we can't rely on AI. So I don't think that would prepare us for a job in AI but it's almost the opposite... forcing us to learn without it.",
+          "memorable_phrase": "forcing us to learn without it",
+          "topics": [
+            "structural constraints",
+            "AI prohibition",
+            "authentic learning",
+            "institutional responsibility"
+          ],
+          "_codes": [
+            "wishes.frameworks",
+            "readiness.uncertain"
+          ],
+          "claimed_by": "themes:wishes.frameworks"
+        }
+      ],
+      "more": []
+    },
+    "use.personal": {
+      "visible": [
+        {
+          "id": "34b73acba6",
+          "fg_id": "10-Sanchez",
+          "section_id": "s3_warmup_reaction",
+          "line_range": [
+            58,
+            63
+          ],
+          "raw_text": "I can think of one example about decisions that actually when I was in Spring Break I was with my friend and we were in a car accident and she was like she was a driver and she was sitting on the street and using Chachi BT to tell her what to do so I personally think I'm not a kind of person that would like in this kind of situations would rely on a judge agency to do like all these kind of stuff I would I guess more rely on maybe search engines like or their like official website I would think those are a little bit more reliable to what chat does.",
+          "cleaned_text": "When I was in Spring Break I was with my friend and we were in a car accident and she was like she was a driver and she was sitting on the street and using Chachi BT to tell her what to do so I personally think I'm not a kind of person that would like in this kind of situations would rely on a judge agency to do like all these kind of stuff I would I guess more rely on maybe search engines or their like official website I would think those are a little bit more reliable to what chat does.",
+          "memorable_phrase": "sitting on the street using Chachi BT",
+          "topics": [
+            "emergency decisions",
+            "trust boundaries",
+            "reliability concerns",
+            "critical moments"
+          ],
+          "_codes": [
+            "use.personal"
+          ],
+          "claimed_by": "themes:use.personal"
+        },
+        {
+          "id": "b07ff3fbe2",
+          "fg_id": "01-Cheng",
+          "section_id": "s5_professional_readiness",
+          "line_range": [
+            279,
+            283
+          ],
+          "raw_text": "My fiance is a lawyer and one of my close friends was asking her for legal advice. And she gave him legal advice and he just completely disregarded it because ChatGPT told him something different. He was like, you're talking to a barred attorney right now for free money. But ChatGPT tells you something different. So you're just going to listen to ChatGPT and you probably ended up with like legal fees for pursuing this ridiculous thing.",
+          "cleaned_text": "My fiance is a lawyer and one of my close friends was asking her for legal advice. And she gave him legal advice and he just completely disregarded it because ChatGPT told him something different ... You're talking to a barred attorney right now for free ... But ChatGPT tells you something different. So you're just going to listen to ChatGPT and you probably ended up with legal fees for pursuing this ridiculous thing.",
+          "memorable_phrase": "disregarded it because ChatGPT told him something different",
+          "topics": [
+            "over-reliance",
+            "expertise devaluation",
+            "judgment",
+            "real-world consequences"
+          ],
+          "_codes": [
+            "use.personal",
+            "anxiety.dependency"
+          ],
+          "claimed_by": "themes:use.personal"
+        }
+      ],
+      "more": [
+        {
+          "id": "83c9fe9868",
+          "fg_id": "08-Mardia",
+          "section_id": "s2_warmup_goaround",
+          "line_range": [
+            39,
+            45
+          ],
+          "raw_text": "I used it the last night. It's also a request from my mom. So, she sent me a 40 page slides or in Chinese and said, help me translate it into English because I'm going to report to the global team. Which is not going to happen. So, I just used one AI to translate it into English. And then I used another AI to cross check if that translation is properly done.",
+          "cleaned_text": "I used it the last night. It's also a request from my mom. So, she sent me a 40 page slides or in Chinese and said, help me translate it into English because I'm going to report to the global team. Which is not going to happen. So, I just used one AI to translate it into English. And then I used another AI to cross check if that translation is properly done.",
+          "memorable_phrase": "another AI to cross check",
+          "topics": [
+            "translation",
+            "verification",
+            "family requests",
+            "multiple AI tools"
+          ],
+          "_codes": [
+            "use.personal"
+          ],
+          "claimed_by": "themes:use.personal"
+        },
+        {
+          "id": "d81247c862",
+          "fg_id": "05-Ge",
+          "section_id": "s2_warmup_goaround",
+          "line_range": [
+            70,
+            74
+          ],
+          "raw_text": "There was one time me and my boyfriend were discussing like, hallowing costs here my career. And we were trying to test chat GPT's like racial bias and we took a picture of him and checked if like chat GPT was going to like do like something racialized and it kind of works.",
+          "cleaned_text": "There was one time me and my boyfriend were ... trying to test chat GPT's ... racial bias and we took a picture of him and checked if ... chat GPT was going to ... do ... something racialized and it kind of works.",
+          "memorable_phrase": "test chat GPT's racial bias",
+          "topics": [
+            "bias testing",
+            "personal experimentation",
+            "racial bias"
+          ],
+          "_codes": [
+            "use.personal"
+          ],
+          "claimed_by": "themes:use.personal"
+        },
+        {
+          "id": "c49230ec38",
+          "fg_id": "03-Davis",
+          "section_id": "s2_warmup_goaround",
+          "line_range": [
+            75,
+            77
+          ],
+          "raw_text": "I use AI almost every day to translate English in Korean language. Because it is way better, better way to understand the script and the reading material into Korean language.",
+          "cleaned_text": "I use AI almost every day to translate English in Korean language. Because it is way better ... to understand the script and the reading material into Korean language.",
+          "memorable_phrase": "translate English in Korean language",
+          "topics": [
+            "translation",
+            "language barriers",
+            "daily use",
+            "comprehension"
+          ],
+          "_codes": [
+            "use.personal",
+            "use.academic"
+          ],
+          "claimed_by": "themes:use.personal"
+        }
+      ]
+    }
+  },
+  "ai_slop_rigorous": [
+    {
+      "id": "7b986d096f",
+      "fg_id": "02-Chyung",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        357,
+        371
+      ],
+      "raw_text": "I thought I took a class called Implications of AI, and I'm really excited about it because like I'm very skeptical. I think like our role, especially in government, is to regulate and continue to be skeptical. And what the class was, was how to use it. That's what it was. I did not really, I mean, we have like kind of debates that were almost like set up, in my opinion, to almost like not really get at the nuance. Like, is it gonna be a job apocalypse or not? And it's like, there's like a bias already. Like I think it's just frustrating when like the professors who taught it are of course going to be almost like tech enthusiasts.",
+      "cleaned_text": "I thought I took a class called Implications of AI, and I'm really excited about it because ... I'm very skeptical. I think ... our role, especially in government, is to regulate and continue to be skeptical. And what the class was, was how to use it. That's what it was ... we have ... kind of debates that were almost ... set up ... to almost ... not really get at the nuance. Like, is it gonna be a job apocalypse or not? And it's like, there's ... a bias already ... it's just frustrating when ... the professors who taught it are of course going to be almost like tech enthusiasts.",
+      "memorable_phrase": "what the class was, was how to use it",
+      "topics": [
+        "curriculum critique",
+        "skepticism",
+        "tech enthusiasm",
+        "regulation"
+      ],
+      "_codes": [
+        "readiness.curricular_gap"
+      ],
+      "claimed_by": "ai_slop_rigorous"
+    },
+    {
+      "id": "35abbda64d",
+      "fg_id": "08-Mardia",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        126,
+        131
+      ],
+      "raw_text": "I don't, I feel maybe I'm like not the target demographic because I don't feel like I will be confident and prepared because I feel like even here I'm not knowing. Like people just keep, I haven't played around with it as much so people keep telling me like, oh, you can do this or you can do that or like you should be using cod instead of chat. It's way better for XYZ, it's way something safer and ethical and whatever. And I'm like, I don't know, I feel like I have not a single course on it, we have not a single discussion. I know there's been optional things going on with AI but it's not something that like peaks my interest so I've been much more in my own realm and not maybe has dove into that so I don't think I will be prepared. At least like coming out of this program, like certainly won't give me any skill in it.",
+      "cleaned_text": "I don't feel like I will be confident and prepared because I feel like even here I'm not knowing. Like people just keep, I haven't played around with it as much so people keep telling me like, oh, you can do this or you can do that or like you should be using cod instead of chat. It's way better for XYZ, it's way something safer and ethical and whatever. And I'm like, I don't know, I feel like I have not a single course on it, we have not a single discussion ... I don't think I will be prepared. At least coming out of this program, like certainly won't give me any skill in it.",
+      "memorable_phrase": "certainly won't give me any skill in it",
+      "topics": [
+        "unpreparedness",
+        "lack of instruction",
+        "peer learning",
+        "program gaps"
+      ],
+      "_codes": [
+        "readiness.uncertain",
+        "readiness.tool_specific",
+        "wishes.hands_on",
+        "readiness.curricular_gap"
+      ],
+      "claimed_by": "ai_slop_rigorous"
+    },
+    {
+      "id": "bb10244941",
+      "fg_id": "05-Ge",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        202,
+        209
+      ],
+      "raw_text": "Like, as the last point to add on to that, like, getting very meta, and, like, kind of, a weight point, honestly, of this focus group. But I've got to myself, like, when am I going to reflect on my life? Am I going to have time to reflect on my life, like, before I die? Right, like, that's very, like, heavy. But I just, I have no mental space for it, if I'm on the toilet, I'm on social media. I'm going, before bed, I'm on social media, when I wake up, because I'm, like, also, get my news from there, you know? And, like, obviously, that's a me thing, but then with AI, it's like, one of my, one of my, there's, like, everyone's trying to penetrate your attention. Like, that's the biggest resource, and it's, like, there's no space for me anymore.",
+      "cleaned_text": "Like ... getting very meta ... But I've got to myself, like, when am I going to reflect on my life? Am I going to have time to reflect on my life ... before I die? ... that's very ... heavy. But I just, I have no mental space for it, if I'm on the toilet, I'm on social media ... before bed, I'm on social media, when I wake up, because I'm ... also, get my news from there ... And ... obviously, that's a me thing, but then with AI, it's like ... everyone's trying to penetrate your attention. Like, that's the biggest resource, and it's ... there's no space for me anymore.",
+      "memorable_phrase": "when am I going to reflect on my life",
+      "topics": [
+        "reflection",
+        "attention economy",
+        "existential dread",
+        "mental space"
+      ],
+      "_codes": [],
+      "claimed_by": "ai_slop_rigorous"
+    },
+    {
+      "id": "a423250d60",
+      "fg_id": "04-Fausto",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        272,
+        284
+      ],
+      "raw_text": "I'm going back to the management consultancy firm I was at before being here. And I think it's interesting, because they talk a lot about how AI is used to it, and I know for a fact that a lot of it is true, because they love to sell that we use it a lot, but I think there's such a very specific standards on how things have done that, that, like, there isn't nowhere that you would ever get away from using a slide made by AI, because things meet. There's a very specific way to do it, which you can say whether that's good or bad, but that's how it's done.",
+      "cleaned_text": "I'm going back to the management consultancy firm I was at before being here. And I think it's interesting, because they talk a lot about how AI is used to it, and I know for a fact that a lot of it is true, because they love to sell that we use it a lot, but I think there's such a very specific standards on how things have done that ... there isn't nowhere that you would ever get away from using a slide made by AI, because things meet. There's a very specific way to do it, which you can say whether that's good or bad, but that's how it's done.",
+      "memorable_phrase": "they love to sell that we use it a lot",
+      "topics": [
+        "consulting",
+        "professional standards",
+        "marketing vs reality",
+        "quality control"
+      ],
+      "_codes": [
+        "use.professional"
+      ],
+      "claimed_by": "ai_slop_rigorous"
+    },
+    {
+      "id": "6ed2e50340",
+      "fg_id": "03-Davis",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        107,
+        117
+      ],
+      "raw_text": "I find sometimes though that it becomes at least for me a negative reinforcement like I'm confident in my writing abilities but then I'll start saying that one word. Do you agree with that one word? I don't know, maybe this other word could be better in a way that I think before I would have felt confident and just saying, this is the right thing and I know it's the right thing. So I find from like a more of a perfectionist tendency of a lot of reinforcement that I didn't use to ask. I didn't ask humans for it but now I have this device that I can kind of let the mind spend with.",
+      "cleaned_text": "I find sometimes though that it becomes at least for me a negative reinforcement ... I'm confident in my writing abilities but then I'll start saying that one word. Do you agree with that one word? I don't know, maybe this other word could be better in a way that I think before I would have felt confident and just saying, this is the right thing and I know it's the right thing. So I find from like a more of a perfectionist tendency ... I didn't ask humans for it but now I have this device that I can kind of let the mind spend with.",
+      "memorable_phrase": "negative reinforcement",
+      "topics": [
+        "self-doubt",
+        "perfectionism",
+        "writing confidence",
+        "mental effects"
+      ],
+      "_codes": [
+        "anxiety.dependency"
+      ],
+      "claimed_by": "ai_slop_rigorous"
+    }
+  ],
+  "top_codes": [
+    "use.academic",
+    "use.professional",
+    "use.meta",
+    "anxiety.learning_loss",
+    "risk.underuse",
+    "wishes.training",
+    "readiness.tool_specific",
+    "anxiety.integrity",
+    "wishes.frameworks",
+    "use.personal"
+  ],
+  "unused": [
+    {
+      "id": "f8c1f6abd7",
+      "fg_id": "01-Cheng",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        68,
+        73
+      ],
+      "raw_text": "I use it very much like Andrew and P-02. Pretty much every research assignment that I ever do, I feel like it's a much better way of, I don't know, condensing down a Google search into what I really want. I also use it to edit pretty much everything that I write. I put it through there and make sure that it's okay.",
+      "cleaned_text": "Pretty much every research assignment that I ever do, I feel like it's a much better way of condensing down a Google search into what I really want. I also use it to edit pretty much everything that I write. I put it through there and make sure that it's okay.",
+      "memorable_phrase": "edit pretty much everything that I write",
+      "topics": [
+        "research",
+        "editing",
+        "writing support",
+        "comprehensive use"
+      ],
+      "_codes": [
+        "use.academic",
+        "use.meta"
+      ]
+    },
+    {
+      "id": "3caa461499",
+      "fg_id": "01-Cheng",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        214,
+        218
+      ],
+      "raw_text": "I think from the outside looking in, I mean if you're in like the pits of hell of subreddit or like law subreddits or reddits or just in general, people are always saying like if you can't use AI properly, like you're going to be at the bottom of the barrel. Like you need to know how to use this before you get here. So I think there's really a big pressure to know how to use it well and make AI work for you.",
+      "cleaned_text": "If you're in like the pits of hell of subreddit or like law subreddits or reddits or just in general, people are always saying like if you can't use AI properly, you're going to be at the bottom of the barrel. Like you need to know how to use this before you get here. So I think there's really a big pressure to know how to use it well and make AI work for you.",
+      "memorable_phrase": "bottom of the barrel",
+      "topics": [
+        "professional pressure",
+        "competency expectations",
+        "career readiness",
+        "peer discourse"
+      ],
+      "_codes": [
+        "risk.underuse"
+      ]
+    },
+    {
+      "id": "1664c6bc07",
+      "fg_id": "01-Cheng",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        257,
+        263
+      ],
+      "raw_text": "I just like think that's the most realistic thing because like what I need is an offer to think for me, which is like saving time. And like I used to work in an environment where like, I'm just like remembering back to this time where I got a date wrong and then I got like extremely called out for it. And that was something like I had output in. And so I need to be able to like maybe this is like paranoid of me, like defend every sentence I put in a memo or like recommendation. I can't just spit out like what feels like paragraphs. I just write paragraphs here for the sake of paragraphs. And so I don't trust AI to do that for me. And so I don't trust it. I wouldn't ask it to do that.",
+      "cleaned_text": "I used to work in an environment where I got a date wrong and then I got extremely called out for it. And that was something I had output in. And so I need to be able to defend every sentence I put in a memo or recommendation. I can't just spit out what feels like paragraphs ... And so I don't trust AI to do that for me.",
+      "memorable_phrase": "defend every sentence",
+      "topics": [
+        "accountability",
+        "trust issues",
+        "professional standards",
+        "error consequences"
+      ],
+      "_codes": [
+        "use.professional",
+        "anxiety.integrity",
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "b77a3eaf0a",
+      "fg_id": "01-Cheng",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        265,
+        269
+      ],
+      "raw_text": "I've had terrible experiences with people at like, I asked someone who like I would say, I used to say I pretty regularly, I used to chat with you about everything, about every single little thing. But like I encountered people at HKS who like literally just put in a prompt into AI, spit it out, put it onto the assignment. And like they don't even know what it says. So it's like you don't even know. I don't know. I guess I've had experiences where people like they don't even know what they're writing because something else wrote it.",
+      "cleaned_text": "I encountered people at HKS who literally just put in a prompt into AI, spit it out, put it onto the assignment. And they don't even know what it says ... I've had experiences where people don't even know what they're writing because something else wrote it.",
+      "memorable_phrase": "they don't even know what they're writing",
+      "topics": [
+        "academic integrity",
+        "peer behavior",
+        "comprehension loss",
+        "misuse"
+      ],
+      "_codes": [
+        "use.meta",
+        "use.academic",
+        "anxiety.integrity",
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "9e9a87b5a0",
+      "fg_id": "01-Cheng",
+      "section_id": "s6_pair_share",
+      "line_range": [
+        311,
+        315
+      ],
+      "raw_text": "I think one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills. I don't know at all about like developing. Like for instance, they suck at teaching us how to do AI competency. They're like, oh, you're going to need AI competency for your job. And they don't tell us how to develop it, which requires developing a level of technical rather than just giving us like drawn policies or whatever.",
+      "cleaned_text": "HKS isn't great at ... the very direct professional skills ... For instance, they suck at teaching us how to do AI competency. They're like, oh, you're going to need AI competency for your job. And they don't tell us how to develop it, which requires developing a level of technical rather than just giving us drawn policies or whatever.",
+      "memorable_phrase": "they suck at teaching us how to do AI competency",
+      "topics": [
+        "curriculum gaps",
+        "skill development",
+        "institutional critique",
+        "professional preparation"
+      ],
+      "_codes": [
+        "readiness.curricular_gap",
+        "wishes.hands_on"
+      ]
+    },
+    {
+      "id": "aaa62d6d14",
+      "fg_id": "01-Cheng",
+      "section_id": "s6_pair_share",
+      "line_range": [
+        379,
+        383
+      ],
+      "raw_text": "I experience a lot of anxiety in the gray areas. Where I'm like, am I near the line? I don't know what I mentioned. If I put a reading in and I'm like, I don't really know what to do with this. I'm dancing and I'm tired.",
+      "cleaned_text": "I experience a lot of anxiety in the gray areas. Where I'm like, am I near the line? I don't know ... If I put a reading in and I'm like, I don't really know what to do with this.",
+      "memorable_phrase": "anxiety in the gray areas",
+      "topics": [
+        "uncertainty",
+        "boundaries",
+        "policy clarity",
+        "student stress"
+      ],
+      "_codes": [
+        "anxiety.integrity",
+        "use.academic"
+      ]
+    },
+    {
+      "id": "b5b7dcb402",
+      "fg_id": "01-Cheng",
+      "section_id": "s6_pair_share",
+      "line_range": [
+        452,
+        454
+      ],
+      "raw_text": "Compared to like if I was working for two years versus like spending two years here, I feel like I actually come out of HKS being less competent on using AI because of the environment, the culture here.",
+      "cleaned_text": "Compared to if I was working for two years versus spending two years here, I feel like I actually come out of HKS being less competent on using AI because of the environment, the culture here.",
+      "memorable_phrase": "less competent on using AI",
+      "topics": [
+        "institutional culture",
+        "skill regression",
+        "workplace comparison",
+        "lost opportunity"
+      ],
+      "_codes": [
+        "readiness.uncertain",
+        "readiness.curricular_gap",
+        "risk.underuse"
+      ]
+    },
+    {
+      "id": "bcfd6a6dfb",
+      "fg_id": "02-Chyung",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        54,
+        65
+      ],
+      "raw_text": "Recently, I've been using AI a lot for internship applications. Because I feel like there are a few specific words that the job posting is looking for. I don't know, sometimes it's like experience writing a report. And then for the other jobs, like experience writing a memo, which is kind of the same thing. So like to tweak and use the right language that the job posting is what they are looking for, I use AI for that.",
+      "cleaned_text": "Recently, I've been using AI a lot for internship applications. Because I feel like there are a few specific words that the job posting is looking for ... sometimes it's like experience writing a report. And then for the other jobs, like experience writing a memo, which is kind of the same thing. So ... to tweak and use the right language that the job posting is what they are looking for, I use AI for that.",
+      "memorable_phrase": "tweak and use the right language",
+      "topics": [
+        "job applications",
+        "cover letters",
+        "strategic use",
+        "keyword optimization"
+      ],
+      "_codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "id": "28424f4c7b",
+      "fg_id": "02-Chyung",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        66,
+        71
+      ],
+      "raw_text": "I try my hardest to not use AI. I've used it on one assignment so far, and that was to adjust the transcript, just to like fix spacing, because I didn't want to go through and adjust it all by hand.",
+      "cleaned_text": "I try my hardest to not use AI. I've used it on one assignment so far, and that was to adjust the transcript ... to fix spacing, because I didn't want to go through and adjust it all by hand.",
+      "memorable_phrase": "I try my hardest to not use AI",
+      "topics": [
+        "resistance",
+        "minimal use",
+        "formatting",
+        "intentional avoidance"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "66620cf8bc",
+      "fg_id": "02-Chyung",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        87,
+        102
+      ],
+      "raw_text": "I think what I've been using AI for is honestly like bouncing off ideas and like discussing if like, you know, my approach is sort of heading in the right direction, and if it makes sense but doesn't make sense. So like, for example, even like my ethics presentation yesterday, I had like a bunch of ideas and I just like wanted to make sure they were clear and like just made sense to an audience and also made sense to me. So it was just like, I would use it to sort of come back and forth with like the actual video or whatever AI to see if my thinking was clear and made sense.",
+      "cleaned_text": "I think what I've been using AI for is honestly ... bouncing off ideas and ... discussing if my approach is sort of heading in the right direction, and if it makes sense ... for example, even like my ethics presentation yesterday, I had ... a bunch of ideas and I just ... wanted to make sure they were clear and ... made sense to an audience and also made sense to me. So ... I would use it to sort of come back and forth with ... AI to see if my thinking was clear and made sense.",
+      "memorable_phrase": "bouncing off ideas",
+      "topics": [
+        "feedback",
+        "clarity check",
+        "thinking partner",
+        "iterative process"
+      ],
+      "_codes": [
+        "use.meta",
+        "use.academic"
+      ]
+    },
+    {
+      "id": "16efc911f3",
+      "fg_id": "02-Chyung",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        104,
+        112
+      ],
+      "raw_text": "Yeah, it's been most helpful for when I've like kind of already created something and then getting feedback on it. So yeah, similarly for our ethics op-ed, I kind of wrote a draft and then asked it to like point out kind of any flaws and then in like preparing for our class presentation of it, asked it to like maybe front me for some, you know, points of contention.",
+      "cleaned_text": "Yeah, it's been most helpful for when I've ... already created something and then getting feedback on it. So ... for our ethics op-ed, I ... wrote a draft and then asked it to ... point out ... any flaws and then in ... preparing for our class presentation of it, asked it to ... front me for some ... points of contention.",
+      "memorable_phrase": "front me for some points of contention",
+      "topics": [
+        "feedback",
+        "critique",
+        "presentation prep",
+        "post-draft use"
+      ],
+      "_codes": [
+        "use.meta",
+        "use.academic"
+      ]
+    },
+    {
+      "id": "a3a8d4b5af",
+      "fg_id": "02-Chyung",
+      "section_id": "s3_warmup_reaction",
+      "line_range": [
+        141,
+        150
+      ],
+      "raw_text": "Yeah, so that it really starts from like why I'm here and it's not so much like the programs I'm here for but the Air Force is sending me here to like expand my thinking and so I'm trying to figure out and so I'm trying to be very conscious about not outsourcing thinking and so it's not really the material that I care what I'm learning about but the thought process and that's why I've avoided using AI.",
+      "cleaned_text": "Yeah, so that ... really starts from ... why I'm here ... the Air Force is sending me here to ... expand my thinking and so I'm trying to be very conscious about not outsourcing thinking and so it's not really the material that I care what I'm learning about but the thought process and that's why I've avoided using AI.",
+      "memorable_phrase": "not outsourcing thinking",
+      "topics": [
+        "learning goals",
+        "intentional avoidance",
+        "cognitive development",
+        "military context"
+      ],
+      "_codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "8a5463316e",
+      "fg_id": "02-Chyung",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        262,
+        273
+      ],
+      "raw_text": "I feel very similarly like today this morning when I was using AI, I was like, you're so dumb. You did not lift up this thing that I told you to lift up. And like when I was reading the summary that it gave me, I noticed so many things that it should have recognized as a trend and didn't. So like, I think by using it more and more, and like, of course, I feel like a lot of it was like ChatGPT now, a lot of people are moving towards clock, for example. Like the truth is they're not necessarily that intelligent at the end of the day.",
+      "cleaned_text": "I feel very similarly ... today this morning when I was using AI, I was like, you're so dumb. You did not lift up this thing that I told you to lift up. And ... when I was reading the summary that it gave me, I noticed so many things that it should have recognized as a trend and didn't ... by using it more and more ... the truth is they're not necessarily that intelligent at the end of the day.",
+      "memorable_phrase": "you're so dumb",
+      "topics": [
+        "limitations",
+        "critical awareness",
+        "quality control",
+        "disappointment"
+      ],
+      "_codes": [
+        "meta.agreement",
+        "use.meta"
+      ]
+    },
+    {
+      "id": "83c29205a0",
+      "fg_id": "03-Davis",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        86,
+        88
+      ],
+      "raw_text": "I have been using AI primarily to define my key performance indicators and to project what I can expect from team members specifically in relation to the conference that we are organizing.",
+      "cleaned_text": "I have been using AI primarily to define my key performance indicators and to project what I can expect from team members specifically in relation to the conference that we are organizing.",
+      "memorable_phrase": "define my key performance indicators",
+      "topics": [
+        "project management",
+        "KPIs",
+        "team planning",
+        "conferences"
+      ],
+      "_codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "id": "a44b574358",
+      "fg_id": "03-Davis",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        96,
+        99
+      ],
+      "raw_text": "I use AI to sort of pressure test ideas and concepts that I'm working on so if I'm working on a rough draft of a paper often before I submit I'll run it through a plot or something and just say, are there any logical gaps for major pieces?",
+      "cleaned_text": "I use AI to sort of pressure test ideas and concepts that I'm working on so if I'm working on a rough draft of a paper often before I submit I'll run it through a plot or something and just say, are there any logical gaps for major pieces?",
+      "memorable_phrase": "pressure test ideas and concepts",
+      "topics": [
+        "academic writing",
+        "logical reasoning",
+        "draft review",
+        "quality check"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "43bd0ffc9e",
+      "fg_id": "03-Davis",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        120,
+        124
+      ],
+      "raw_text": "I upload my assignment assignment and at the same time I upload the professor rubric at the same time and check AI to review my assignment and there is something I miss in terms of rubric than I implement. I add some other thing to make it perfect. To meet the kind of expectation.",
+      "cleaned_text": "I upload my assignment ... and at the same time I upload the professor rubric at the same time and check AI to review my assignment and there is something I miss in terms of rubric than I implement. I add some other thing to make it perfect. To meet the kind of expectation.",
+      "memorable_phrase": "upload the professor rubric",
+      "topics": [
+        "grading rubrics",
+        "assignment optimization",
+        "academic standards",
+        "strategic use"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "656416add3",
+      "fg_id": "03-Davis",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        194,
+        198
+      ],
+      "raw_text": "I feel like it's become a very evident side. Like the people that use it every day. For classes, like, it's becoming harder for them to work in the pattern.",
+      "cleaned_text": "I feel like it's become a very evident side. Like the people that use it every day. For classes, like, it's becoming harder for them to work in the pattern.",
+      "memorable_phrase": "harder for them to work in the pattern",
+      "topics": [
+        "cognitive effects",
+        "dependency",
+        "classroom observation",
+        "thinking skills"
+      ],
+      "_codes": [
+        "use.meta",
+        "use.academic",
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "5556ad7bbf",
+      "fg_id": "03-Davis",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        221,
+        231
+      ],
+      "raw_text": "I think to me, it's not really clear how much benefit I would have in the ultimate. I think right now it's just a big bet. And we really don't know what the utility is going to be. And I think the second thing, which is that I'm worried about, which is why I'm really skeptic, especially about idea generation. It's just that we might reach this point in which answers are so similar. And that there's no real creativity. And, you know, and people will just like default to AI. And it will actually to the completion of creativity.",
+      "cleaned_text": "I think to me, it's not really clear how much benefit I would have in the ultimate. I think right now it's just a big bet. And we really don't know what the utility is going to be ... I'm worried about ... we might reach this point in which answers are so similar. And that there's no real creativity ... people will just like default to AI. And it will actually to the completion of creativity.",
+      "memorable_phrase": "just a big bet",
+      "topics": [
+        "uncertainty",
+        "creativity loss",
+        "homogenization",
+        "skepticism"
+      ],
+      "_codes": [
+        "use.meta",
+        "anxiety.authenticity",
+        "anxiety.dependency",
+        "risk.overuse"
+      ]
+    },
+    {
+      "id": "cc5f82a711",
+      "fg_id": "03-Davis",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        234,
+        239
+      ],
+      "raw_text": "I always think about my, my mom. Like, she doesn't really know how to use, like, a spreadsheet. And it has, like, really hurt her in just based, like, even just how to, like, filter. Like, I've seen her, like, do something that eight hours that really should take 15 minutes.",
+      "cleaned_text": "I always think about my mom. Like, she doesn't really know how to use, like, a spreadsheet. And it has, like, really hurt her ... I've seen her, like, do something that eight hours that really should take 15 minutes.",
+      "memorable_phrase": "eight hours that really should take 15 minutes",
+      "topics": [
+        "generational gap",
+        "efficiency",
+        "basic skills",
+        "professional handicap"
+      ],
+      "_codes": []
+    },
+    {
+      "id": "86dfae508a",
+      "fg_id": "03-Davis",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        250,
+        255
+      ],
+      "raw_text": "I do fear a lot, especially in sort of under-resourced areas, schools, this is going to be what's pushed. And then those people who don't have access, like, we do, are just going to be without any critical thinking skills, and even more of a gap for economic mobility. So I think it's actually a really divide society in that way.",
+      "cleaned_text": "I do fear a lot, especially in sort of under-resourced areas, schools, this is going to be what's pushed. And then those people who don't have access, like, we do, are just going to be without any critical thinking skills, and even more of a gap for economic mobility. So I think it's actually a really divide society in that way.",
+      "memorable_phrase": "without any critical thinking skills",
+      "topics": [
+        "equity",
+        "educational inequality",
+        "economic mobility",
+        "societal divide"
+      ],
+      "_codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "2fe2da99c5",
+      "fg_id": "03-Davis",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        276,
+        287
+      ],
+      "raw_text": "In South Korea, a student, especially elementary school students, and middle school students, all other students are not allowed to use calculator in mathematics class. But in America, many people use calculator, right? It is, I think, in the future, AI becomes kind of a calculator in the end. But I have my daughter, and I recommend her not to use calculator, but calculate by your brain. It is very helpful to learn something, learn mathematics, scheme, and mathematics structures. So, in terms of academic fields, AI is definitely not useful to learning and structuring our knowledge.",
+      "cleaned_text": "In South Korea ... students are not allowed to use calculator in mathematics class. But in America, many people use calculator, right? ... I think, in the future, AI becomes kind of a calculator in the end. But I have my daughter, and I recommend her not to use calculator, but calculate by your brain. It is very helpful to learn something, learn mathematics ... So, in terms of academic fields, AI is definitely not useful to learning and structuring our knowledge.",
+      "memorable_phrase": "AI becomes kind of a calculator",
+      "topics": [
+        "learning fundamentals",
+        "cognitive development",
+        "comparative education",
+        "parenting"
+      ],
+      "_codes": [
+        "use.meta",
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "9fd5761e32",
+      "fg_id": "03-Davis",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        540,
+        546
+      ],
+      "raw_text": "I've been doing research into data centers. Righting a paper now on land use and utilities. There's a data center being constructed right out ahead of New Orleans right now. That will use twice as much energy as the entire city of New Orleans does every day. And so, it has huge ramifications for sustainability, which seems that odds with what we do with climate.",
+      "cleaned_text": "I've been doing research into data centers ... There's a data center being constructed right out ahead of New Orleans right now. That will use twice as much energy as the entire city of New Orleans does every day. And so, it has huge ramifications for sustainability, which seems that odds with what we do with climate.",
+      "memorable_phrase": "twice as much energy as the entire city",
+      "topics": [
+        "environmental impact",
+        "sustainability",
+        "energy consumption",
+        "data centers"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "9f0dfea270",
+      "fg_id": "04-Fausto",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        25,
+        27
+      ],
+      "raw_text": "I have a class about congress and they have to write sections for bills and events and things. And I can't read legal text because my brain is born and gauged. So I wrote in bullet points what I wanted to say and I was like, hurt this into a legal text draft.",
+      "cleaned_text": "I have a class about congress and they have to write sections for bills and events and things. And I can't read legal text because my brain is born and gauged. So I wrote in bullet points what I wanted to say and I was like, hurt this into a legal text draft.",
+      "memorable_phrase": "my brain is born and gauged",
+      "topics": [
+        "legal writing",
+        "accessibility",
+        "translation",
+        "coursework"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "6a39b657b8",
+      "fg_id": "04-Fausto",
+      "section_id": "s3_warmup_reaction",
+      "line_range": [
+        38,
+        44
+      ],
+      "raw_text": "To me, I think it's more, because that's kind of what it's good at. It's looking patterns of the way the text has been written previously. And like I gave it the context so it didn't need to like think of anything. It was just basically take this thing. It was written in very informal writing and turned it into the writing style of something else. And it's got so many examples. So it's quite easy to do that.",
+      "cleaned_text": "To me ... that's kind of what it's good at. It's looking patterns of the way the text has been written previously. And ... I gave it the context so it didn't need to ... think of anything. It was just basically take this thing ... written in very informal writing and turned it into the writing style of something else. And it's got so many examples. So it's quite easy to do that.",
+      "memorable_phrase": "it didn't need to think of anything",
+      "topics": [
+        "pattern matching",
+        "style transfer",
+        "context",
+        "capabilities"
+      ],
+      "_codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "id": "c415040f9c",
+      "fg_id": "04-Fausto",
+      "section_id": "s3_warmup_reaction",
+      "line_range": [
+        51,
+        60
+      ],
+      "raw_text": "I'm not smart enough to use it. I never really learned how. And it was like 2023 or whenever people started really using it or when it came out. I like never really learned how to use it. And at this point, I feel weird about it. Talking to it. I'm like a super technologically inept person. I take all my notes by hand and everything. And so I guess it's like, I mean I also have my own more old level personally with it. But it's kind of also a user error type of thing.",
+      "cleaned_text": "I'm not smart enough to use it. I never really learned how ... I ... never really learned how to use it. And at this point, I feel weird about it. Talking to it. I'm like a super technologically inept person. I take all my notes by hand and everything ... it's kind of also a user error type of thing.",
+      "memorable_phrase": "I feel weird about it. Talking to it.",
+      "topics": [
+        "non-use",
+        "learning barriers",
+        "discomfort",
+        "self-perception"
+      ],
+      "_codes": [
+        "readiness.uncertain"
+      ]
+    },
+    {
+      "id": "09b0a33b4c",
+      "fg_id": "04-Fausto",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        104,
+        110
+      ],
+      "raw_text": "Sometimes I feel like I use it for things that I should use my brain for. Yeah. I'm actually using it to code, using it to create a website or an app that solves a problem I have. I'm just using it to like... I'm writing this email, help me as a think of a subject line because my brain's not working right now. Yeah. Which I think is bad for me.",
+      "cleaned_text": "Sometimes I feel like I use it for things that I should use my brain for ... I'm actually using it to code, using it to create a website or an app that solves a problem I have. I'm just using it to ... I'm writing this email, help me as a think of a subject line because my brain's not working right now ... Which I think is bad for me.",
+      "memorable_phrase": "things that I should use my brain for",
+      "topics": [
+        "cognitive offloading",
+        "appropriate use",
+        "self-awareness",
+        "concerns"
+      ],
+      "_codes": [
+        "anxiety.learning_loss",
+        "anxiety.dependency",
+        "use.academic",
+        "use.professional"
+      ]
+    },
+    {
+      "id": "8c79a78251",
+      "fg_id": "04-Fausto",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        129,
+        135
+      ],
+      "raw_text": "if I am doing a reading for homework and it's 700 pages, and I decide to use chat to PT, but still get the gist of the reading and get the knowledge of the reading, I don't think there's anything lost, versus if I'm using it to do my homework for me and write my essay for me, there is something lost. So I think the first one is dependent on how you're using it.",
+      "cleaned_text": "If I am doing a reading for homework and it's 700 pages, and I decide to use chat to PT, but still get the gist of the reading and get the knowledge of the reading, I don't think there's anything lost, versus if I'm using it to do my homework for me and write my essay for me, there is something lost. So I think the first one is dependent on how you're using it.",
+      "memorable_phrase": "dependent on how you're using it",
+      "topics": [
+        "context-dependent",
+        "learning outcomes",
+        "nuance",
+        "appropriate use"
+      ],
+      "_codes": [
+        "use.academic",
+        "anxiety.learning_loss",
+        "risk.overuse"
+      ]
+    },
+    {
+      "id": "071c2ac518",
+      "fg_id": "04-Fausto",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        161,
+        167
+      ],
+      "raw_text": "I was having a conversation with the friend, and I said something about how, there was an AI that showed you how much water, this question of yours will use, how much would, like, charge you for your use go down? Like, would we all just use it, like, a couple of times a month, then for us more crazy.",
+      "cleaned_text": "I was having a conversation with the friend, and I said something about how, there was an AI that showed you how much water, this question of yours will use, how much would ... charge you for your use go down? Like, would we all just use it ... a couple of times a month, then for us more crazy.",
+      "memorable_phrase": "how much water this question will use",
+      "topics": [
+        "environmental impact",
+        "transparency",
+        "behavior change",
+        "awareness"
+      ],
+      "_codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "id": "ac5e1bcbf1",
+      "fg_id": "04-Fausto",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        203,
+        213
+      ],
+      "raw_text": "I can't use AI in my draw this summer because it's government, and it's secretly clear. And as far as I know, the government has not yet at that level instituted an AI policy. So I think it is going to be sort of a challenge because I am getting used to using it. I'm not saying I'm dependent. Like, I can write a memo, but I'm kind of scared of the extra time it's going to take me. I think I've gotten way more efficient in doing my job with the AI.",
+      "cleaned_text": "I can't use AI in my draw this summer because it's government, and it's secretly clear. And as far as I know, the government has not yet at that level instituted an AI policy. So I think it is going to be sort of a challenge because I am getting used to using it. I'm not saying I'm dependent. Like, I can write a memo, but I'm kind of scared of the extra time it's going to take me. I think I've gotten way more efficient in doing my job with the AI.",
+      "memorable_phrase": "scared of the extra time it's going to take me",
+      "topics": [
+        "government restrictions",
+        "efficiency",
+        "adaptation",
+        "professional anxiety"
+      ],
+      "_codes": [
+        "use.professional",
+        "anxiety.dependency",
+        "use.meta"
+      ]
+    },
+    {
+      "id": "9b4b94900a",
+      "fg_id": "04-Fausto",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        219,
+        225
+      ],
+      "raw_text": "I think I could, but I'm not going to. Okay, sameal. Also, government role. And it's my first foray into government. I've been allowed to fight because, like, all my career is private sector, and I don't want to use it.",
+      "cleaned_text": "I think I could, but I'm not going to ... Also, government role. And it's my first foray into government. I've been allowed to fight because ... all my career is private sector, and I don't want to use it.",
+      "memorable_phrase": "I could, but I'm not going to",
+      "topics": [
+        "government work",
+        "choice",
+        "ethics",
+        "sector differences"
+      ],
+      "_codes": [
+        "readiness.confident",
+        "use.professional"
+      ]
+    },
+    {
+      "id": "60361a2e10",
+      "fg_id": "04-Fausto",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        232,
+        235
+      ],
+      "raw_text": "I would feel dishonest using, or, like, giving it data, or even if it's anecdotal or qualitative. Like, I just don't feel like I want to do that.",
+      "cleaned_text": "I would feel dishonest using, or ... giving it data, or even if it's anecdotal or qualitative. Like, I just don't feel like I want to do that.",
+      "memorable_phrase": "I would feel dishonest",
+      "topics": [
+        "ethics",
+        "data sensitivity",
+        "personal values",
+        "government work"
+      ],
+      "_codes": []
+    },
+    {
+      "id": "6409cfab81",
+      "fg_id": "05-Ge",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        61,
+        64
+      ],
+      "raw_text": "I think the last time I used it was for the believe that I was trying to do the converter board that had this red team one of my articles that I was writing to be a counterargument to stuff so that I could take a bit of interest.",
+      "cleaned_text": "I think the last time I used it was ... I was trying to ... red team one of my articles that I was writing to be a counterargument to stuff so that I could take a bit of interest.",
+      "memorable_phrase": "red team one of my articles",
+      "topics": [
+        "academic use",
+        "critical thinking",
+        "counterarguments"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "8652aab607",
+      "fg_id": "05-Ge",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        82,
+        85
+      ],
+      "raw_text": "I wonder if there's something we're like afraid to talk about on this group like if we use it to help directly with homework or essays or things like that seems like we're talking about really cool but whatever we don't have to go into that right now I'm just addressing that.",
+      "cleaned_text": "I wonder if there's something we're ... afraid to talk about on this group like if we use it to help directly with homework or essays or things like that ... we're talking about really cool but whatever ... I'm just addressing that.",
+      "memorable_phrase": "afraid to talk about",
+      "topics": [
+        "academic integrity",
+        "honesty",
+        "homework use"
+      ],
+      "_codes": [
+        "meta.surprise",
+        "use.academic"
+      ]
+    },
+    {
+      "id": "a0c8b9dbc4",
+      "fg_id": "05-Ge",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        90,
+        100
+      ],
+      "raw_text": "I'm using for homework for a class who is a congress class or do any simulation of congress and we're supposed to write laws and none of us have enough time to like do the actual research and so we're all having chat GPT read it but then none of us knows if chat GPT is right. So we're all like offering or we're all like oh is this actually should we actually amend the fast act? I don't know. I saw a chat GPT. Oh and then somebody's like actually I read the bill and like we can't do that. Oh shit. We were operating off of chat GPT.",
+      "cleaned_text": "I'm using for homework for a class ... congress class ... simulation of congress and we're supposed to write laws and none of us have enough time to ... do the actual research and so we're all having chat GPT read it but then none of us knows if chat GPT is right. So we're all like ... oh is this actually should we actually amend the fast act? I don't know. I saw a chat GPT. Oh and then somebody's like actually I read the bill and ... we can't do that. Oh shit. We were operating off of chat GPT.",
+      "memorable_phrase": "none of us knows if chat GPT is right",
+      "topics": [
+        "accuracy concerns",
+        "homework use",
+        "legislative simulation",
+        "reliability"
+      ],
+      "_codes": [
+        "use.academic",
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "7a93c91f1d",
+      "fg_id": "05-Ge",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        110,
+        112
+      ],
+      "raw_text": "I know so many people who have written full papers like not even touching like the paper like multi-page papers who do like great on them like professors like we know when you're using a gel you don't.",
+      "cleaned_text": "I know so many people who have written full papers ... not even touching ... the paper like multi-page papers who do ... great on them like professors like we know when you're using a gel you don't.",
+      "memorable_phrase": "professors like we know when you're using a gel you don't",
+      "topics": [
+        "detection myths",
+        "full AI papers",
+        "professors"
+      ],
+      "_codes": [
+        "use.academic",
+        "anxiety.integrity"
+      ]
+    },
+    {
+      "id": "bc1f8bf64e",
+      "fg_id": "05-Ge",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        117,
+        118
+      ],
+      "raw_text": "Like in the beginning I used HKS is like the thing that you put in chat GPT as AI and now I just like just submit it.",
+      "cleaned_text": "Like in the beginning I used HKS is like the thing that you put in chat GPT as AI and now I just ... just submit it.",
+      "memorable_phrase": "now I just just submit it",
+      "topics": [
+        "academic integrity",
+        "evolving use",
+        "submission practices"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "f88498ec6c",
+      "fg_id": "05-Ge",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        127,
+        132
+      ],
+      "raw_text": "I definitely use it on assignments. I'll be like I use it honestly I think at this point if I'm like writing out a draft of something like it's kind of like all like brain dumb stream of conscious like my thoughts and my own original ideas but then use whatever a cloud chat whatever to like help formulate it into some sentences and then I will go back and edit it and it's kind of like an iterative process.",
+      "cleaned_text": "I definitely use it on assignments. ... I use it honestly I think at this point if I'm ... writing out a draft of something ... it's kind of ... all ... brain dumb stream of conscious like my thoughts and my own original ideas but then use whatever a cloud chat whatever to ... help formulate it into some sentences and then I will go back and edit it and it's kind of like an iterative process.",
+      "memorable_phrase": "brain dumb stream of conscious",
+      "topics": [
+        "iterative process",
+        "assignment use",
+        "drafting workflow"
+      ],
+      "_codes": [
+        "use.academic",
+        "use.meta"
+      ]
+    },
+    {
+      "id": "2e7ce3576f",
+      "fg_id": "05-Ge",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        193,
+        196
+      ],
+      "raw_text": "I think between, like, AI, and also, like, social media and internet, and, like, to podcast, and the music, I think we're, like, trying to outsource our internal world, like, completely. And I think AI is, like, the last frontier. Like, it's not just our time, and the things we're constantly listening to, and watching, it's now literally our thinking that we're meant to do. We, like, decide we want to opt out of that.",
+      "cleaned_text": "I think between ... AI, and also ... social media and internet, and ... to podcast, and the music, I think we're ... trying to outsource our internal world ... completely. And I think AI is ... the last frontier. ... it's not just our time, and the things we're constantly listening to, and watching, it's now literally our thinking that we're meant to do.",
+      "memorable_phrase": "outsource our internal world",
+      "topics": [
+        "existential concerns",
+        "attention economy",
+        "cognitive outsourcing",
+        "internal world"
+      ],
+      "_codes": [
+        "anxiety.dependency",
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "edc6baed4b",
+      "fg_id": "05-Ge",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        254,
+        260
+      ],
+      "raw_text": "I do think, like, that was a little bit of a trade-off, where, like, when you're, kind of, outputting so much, and everything is centered around your productivity, you maybe lose the process of, like, gaining the knowledge and internalizing yourself.",
+      "cleaned_text": "I do think ... that was a little bit of a trade-off, where ... when you're ... outputting so much, and everything is centered around your productivity, you maybe lose the process of ... gaining the knowledge and internalizing yourself.",
+      "memorable_phrase": "lose the process of gaining the knowledge",
+      "topics": [
+        "productivity trade-offs",
+        "knowledge internalization",
+        "depth vs breadth"
+      ],
+      "_codes": [
+        "anxiety.learning_loss",
+        "use.professional"
+      ]
+    },
+    {
+      "id": "446c6d734d",
+      "fg_id": "05-Ge",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        265,
+        266
+      ],
+      "raw_text": "I don't think it has anything to do with, like, anything that HKS has taught me, frankly. Like, I think it's purely myself and my peers teaching each other, but I do feel like that.",
+      "cleaned_text": "I don't think it has anything to do with ... anything that HKS has taught me, frankly. ... I think it's purely myself and my peers teaching each other, but I do feel like that.",
+      "memorable_phrase": "purely myself and my peers teaching each other",
+      "topics": [
+        "peer learning",
+        "institutional gaps",
+        "self-teaching"
+      ],
+      "_codes": [
+        "readiness.curricular_gap",
+        "readiness.confident"
+      ]
+    },
+    {
+      "id": "10db11de66",
+      "fg_id": "06-Giles",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        102,
+        117
+      ],
+      "raw_text": "I came to Harvard. I realized that I developed AI using capability a lot. A lot more from AI. I think that's the problem. I use like multiple AI's. AI's from Google or Anthropy. Change the opinion and everything. I use about four to five AI's. Sometimes I think like AI severely decreased my ability to assess something. Sometimes. So I'm trying not to use too much AI. So these days I drift everything on my own. And I just ask the editing of everything. Yeah. Just make it sound naturally for native speakers.",
+      "cleaned_text": "I came to Harvard. I realized that I developed AI using capability a lot ... I use like multiple AI's. AI's from Google or Anthropy ... I use about four to five AI's. Sometimes I think like AI severely decreased my ability to assess something ... So I'm trying not to use too much AI. So these days I drift everything on my own. And I just ask the editing of everything ... Just make it sound naturally for native speakers.",
+      "memorable_phrase": "severely decreased my ability to assess something",
+      "topics": [
+        "critical thinking",
+        "self-awareness",
+        "multiple tools",
+        "adaptation"
+      ],
+      "_codes": [
+        "use.meta",
+        "readiness.tool_specific",
+        "anxiety.learning_loss",
+        "anxiety.dependency",
+        "use.academic"
+      ]
+    },
+    {
+      "id": "c571b69361",
+      "fg_id": "06-Giles",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        125,
+        128
+      ],
+      "raw_text": "I also think like I've been thinking a lot about how I didn't use AI in college at all. And feeling like inferior to my college self in the way that I have started to rely on it for so many assignments. So I think like looking back, like that kind of like retrospective looking back at like what I was able to do on my own. Makes me more like existential stress for my brain as I become more and more reliant on it.",
+      "cleaned_text": "I've been thinking a lot about how I didn't use AI in college at all. And feeling like inferior to my college self in the way that I have started to rely on it for so many assignments. So ... that kind of retrospective looking back at ... what I was able to do on my own makes me more like existential stress for my brain as I become more and more reliant on it.",
+      "memorable_phrase": "inferior to my college self",
+      "topics": [
+        "nostalgia",
+        "dependency",
+        "self-comparison",
+        "existential concern"
+      ],
+      "_codes": [
+        "use.meta",
+        "anxiety.dependency",
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "id": "8ac42e8308",
+      "fg_id": "06-Giles",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        35,
+        39
+      ],
+      "raw_text": "I recently used AI to summarize the required reading for this class. And I found out that the Chechi PD gave me wrong information from the outside sources. So I asked my friends and they gave me, they recommend the notebook LLM. Yeah, that's in Google's AI, which using only the text materials, not rely on outside sources. So I'm using it.",
+      "cleaned_text": "I recently used AI to summarize the required reading for this class. And I found out that the Chechi PD gave me wrong information from the outside sources. So I asked my friends and they ... recommend the notebook LLM ... that's in Google's AI, which using only the text materials, not rely on outside sources. So I'm using it.",
+      "memorable_phrase": "gave me wrong information",
+      "topics": [
+        "accuracy concerns",
+        "tool switching",
+        "peer learning",
+        "reading"
+      ],
+      "_codes": [
+        "use.academic",
+        "readiness.tool_specific"
+      ]
+    },
+    {
+      "id": "e38487d2cf",
+      "fg_id": "06-Giles",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        186,
+        192
+      ],
+      "raw_text": "I'm not so much confident right now for using AI when I start working. Because I hope to learn more about how to use them efficiently. More efficiently than I am using them now. And also I guess like there would be some ethical questions or concerns that I have to pay attention to when using the AI for your job or like making policies and so on. So I guess I need to learn that about that more. And then I would be very kind of confident when using AI in my job.",
+      "cleaned_text": "I'm not so much confident right now for using AI when I start working. Because I hope to learn more about how to use them efficiently. More efficiently than I am using them now. And also ... there would be some ethical questions or concerns that I have to pay attention to when using the AI for your job or like making policies and so on. So I guess I need to learn ... about that more. And then I would be ... confident when using AI in my job.",
+      "memorable_phrase": "some ethical questions or concerns",
+      "topics": [
+        "professional readiness",
+        "ethics",
+        "confidence",
+        "efficiency"
+      ],
+      "_codes": [
+        "readiness.uncertain",
+        "wishes.ethics",
+        "use.professional"
+      ]
+    },
+    {
+      "id": "543aab13c5",
+      "fg_id": "06-Giles",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        230,
+        236
+      ],
+      "raw_text": "I know previously to coming to HKS, I was on a grant writing team. And we started using AI sort of in the last year. That I was there and we were able to like double trouble our output because people weren't taking as much time to write each grant because a lot of the grants asked for similar things. So you can just plug in what you had and said reword it to include this specific aspect with this specific aspect. And we really were a lot more of an efficient team.",
+      "cleaned_text": "I know previously to coming to HKS, I was on a grant writing team. And we started using AI sort of in the last year ... and we were able to ... double trouble our output because people weren't taking as much time to write each grant because a lot of the grants asked for similar things. So you can just plug in what you had and said reword it to include this specific aspect ... And we really were a lot more of an efficient team.",
+      "memorable_phrase": "double trouble our output",
+      "topics": [
+        "efficiency gains",
+        "grant writing",
+        "workplace experience",
+        "productivity"
+      ],
+      "_codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "id": "e440ffedfe",
+      "fg_id": "06-Giles",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        43,
+        43
+      ],
+      "raw_text": "I used it to understand what's going on in e-colon by screenshotting the slides and saying, explain this to me like I'm invisible.",
+      "cleaned_text": "I used it to understand what's going on in e-colon by screenshotting the slides and saying, explain this to me like I'm invisible.",
+      "memorable_phrase": "explain this to me like I'm invisible",
+      "topics": [
+        "learning support",
+        "coursework",
+        "accessibility",
+        "understanding"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "71afa9351a",
+      "fg_id": "06-Giles",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        47,
+        48
+      ],
+      "raw_text": "I did my FX presentation last week and I used it to just like, I uploaded my slides and I was just like just think of any possible question that I can be asking. This presentation, that did a really good job.",
+      "cleaned_text": "I did my FX presentation last week and I used it to ... I uploaded my slides and I was just like just think of any possible question that I can be asking. This presentation, that did a really good job.",
+      "memorable_phrase": "think of any possible question",
+      "topics": [
+        "presentation prep",
+        "anticipation",
+        "coursework",
+        "effectiveness"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "ccf0067d14",
+      "fg_id": "06-Giles",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        225,
+        227
+      ],
+      "raw_text": "I feel like scared sometimes to use it with like school related stuff because like conspons seem really high, but then we're also encouraged to use it sometimes. So it's kind of like this great area right now.",
+      "cleaned_text": "I feel like scared sometimes to use it with ... school related stuff because ... conspons seem really high, but then we're also encouraged to use it sometimes. So it's kind of like this great area right now.",
+      "memorable_phrase": "this great area right now",
+      "topics": [
+        "uncertainty",
+        "policy confusion",
+        "academic integrity",
+        "fear"
+      ],
+      "_codes": [
+        "anxiety.integrity",
+        "use.academic"
+      ]
+    },
+    {
+      "id": "91be3209e9",
+      "fg_id": "06-Giles",
+      "section_id": "s6_pair_share",
+      "line_range": [
+        444,
+        447
+      ],
+      "raw_text": "I agree. I think that's kind of what I would say to that. Or also like just some bringing in some knowledge about like ways AI is being used in public offices or in private sector in like real spaces that we might be working in in the future what their policies are so that we can like work off of those in terms of how we're using it here.",
+      "cleaned_text": "Bringing in some knowledge about ... ways AI is being used in public offices or in private sector in ... real spaces that we might be working in in the future what their policies are so that we can ... work off of those in terms of how we're using it here.",
+      "memorable_phrase": "real spaces that we might be working in",
+      "topics": [
+        "workplace policies",
+        "real-world examples",
+        "preparation",
+        "public sector"
+      ],
+      "_codes": [
+        "wishes.sector_specific",
+        "readiness.tool_specific"
+      ]
+    },
+    {
+      "id": "31a22fa243",
+      "fg_id": "08-Mardia",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        28,
+        30
+      ],
+      "raw_text": "I used it the other night because I had a lot of really random ingredients that I needed to use up and I asked it for a recipe and it gave me like a stew that was pretty good.",
+      "cleaned_text": "I used it the other night because I had a lot of really random ingredients that I needed to use up and I asked it for a recipe and it gave me like a stew that was pretty good.",
+      "memorable_phrase": "really random ingredients",
+      "topics": [
+        "everyday use",
+        "cooking",
+        "practical applications"
+      ],
+      "_codes": [
+        "use.personal"
+      ]
+    },
+    {
+      "id": "2c9a8004fd",
+      "fg_id": "08-Mardia",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        32,
+        38
+      ],
+      "raw_text": "I used it this morning. I had a meeting on short notice for my Congress class simulation and the meeting was with the White House liaison. And I uploaded the two bills that we passed out of our fake committee and asked it to give me concise talking points to use for the meeting with the White House liaison. And it was not that helpful.",
+      "cleaned_text": "I used it this morning. I had a meeting on short notice for my Congress class simulation and the meeting was with the White House liaison. And I uploaded the two bills that we passed out of our fake committee and asked it to give me concise talking points to use for the meeting with the White House liaison. And it was not that helpful.",
+      "memorable_phrase": "it was not that helpful",
+      "topics": [
+        "academic use",
+        "limitations",
+        "Congress simulation",
+        "talking points"
+      ],
+      "_codes": [
+        "use.academic",
+        "use.professional"
+      ]
+    },
+    {
+      "id": "c20e8bbe70",
+      "fg_id": "08-Mardia",
+      "section_id": "s3_warmup_reaction",
+      "line_range": [
+        55,
+        62
+      ],
+      "raw_text": "I think I was a little surprised that no one said school assignments. And I think judging, even if people aren't using them to rate the whole assignment, it's like, I think most people, maybe for my limited perception of who I've heard experiences, are using it in ways to generate ideas for different assignments. Or like, oh, I use it for citations often. And I'm like, here's my sources, can you put them to MLA format? Because that's not my job.",
+      "cleaned_text": "I think I was a little surprised that no one said school assignments ... I think most people, maybe for my limited perception of who I've heard experiences, are using it in ways to generate ideas for different assignments. Or like, oh, I use it for citations often. And I'm like, here's my sources, can you put them to MLA format? Because that's not my job.",
+      "memorable_phrase": "that's not my job",
+      "topics": [
+        "academic use",
+        "citations",
+        "assignments",
+        "expectations"
+      ],
+      "_codes": [
+        "meta.surprise",
+        "use.academic"
+      ]
+    },
+    {
+      "id": "e772bffe8a",
+      "fg_id": "08-Mardia",
+      "section_id": "s3_warmup_reaction",
+      "line_range": [
+        70,
+        73
+      ],
+      "raw_text": "I definitely use it for academic purposes as well. I think I understand the readings that are assigned a lot more than I would have had I not had the AI tools. I'm able to try to understand at least, you know, economic concepts. It really helps me to try to learn something at a much deeper level than I would have otherwise.",
+      "cleaned_text": "I definitely use it for academic purposes as well. I think I understand the readings that are assigned a lot more than I would have had I not had the AI tools. I'm able to try to understand ... economic concepts. It really helps me to try to learn something at a much deeper level than I would have otherwise.",
+      "memorable_phrase": "much deeper level than I would have otherwise",
+      "topics": [
+        "learning",
+        "academic use",
+        "comprehension",
+        "economics"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "0ae7a7e8a2",
+      "fg_id": "08-Mardia",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        92,
+        93
+      ],
+      "raw_text": "I feel like trying to maintain the places where you do want to do your own like deep learning and not take shortcuts is where you have to try to like push against the current. And so that's why it's more of a concern to me.",
+      "cleaned_text": "I feel like trying to maintain the places where you do want to do your own like deep learning and not take shortcuts is where you have to try to push against the current. And so that's why it's more of a concern to me.",
+      "memorable_phrase": "push against the current",
+      "topics": [
+        "learning integrity",
+        "shortcuts",
+        "concerns",
+        "deliberate practice"
+      ],
+      "_codes": [
+        "anxiety.learning_loss",
+        "risk.overuse"
+      ]
+    },
+    {
+      "id": "f18a8ddba7",
+      "fg_id": "08-Mardia",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        117,
+        117
+      ],
+      "raw_text": "I think part of many of the jobs that I have had and will have will require human connection and I think by using AI to free up my time I will be able to really connect with a network with many more people than I have in the past rather than just being bogged down by the long list of things that I would need to accomplish.",
+      "cleaned_text": "I think part of many of the jobs that I have had and will have will require human connection and I think by using AI to free up my time I will be able to really connect with a network with many more people than I have in the past rather than just being bogged down by the long list of things that I would need to accomplish.",
+      "memorable_phrase": "free up my time",
+      "topics": [
+        "human connection",
+        "time management",
+        "networking",
+        "professional priorities"
+      ],
+      "_codes": [
+        "readiness.confident",
+        "use.professional"
+      ]
+    },
+    {
+      "id": "ac6f9a4cf4",
+      "fg_id": "08-Mardia",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        119,
+        121
+      ],
+      "raw_text": "I'm not sure if this was an intended part of the question, but one thing that came to mind for me is like I don't know if the workplace I walk into would want me to like pull up AI. For example, like I'm a fellow in the Senate this summer and like I don't know if on my first day and before I look at my computer and I'm like pulling up chat with you if that would be respected. So I definitely like would not feel confident doing that or like comfortable doing that at least at the beginning in a new role.",
+      "cleaned_text": "One thing that came to mind for me is like I don't know if the workplace I walk into would want me to pull up AI. For example, like I'm a fellow in the Senate this summer and like I don't know if on my first day ... I'm pulling up chat with you if that would be respected. So I definitely would not feel confident doing that or comfortable doing that at least at the beginning in a new role.",
+      "memorable_phrase": "I don't know if that would be respected",
+      "topics": [
+        "workplace norms",
+        "Senate fellowship",
+        "uncertainty",
+        "professional context"
+      ],
+      "_codes": [
+        "readiness.uncertain",
+        "use.professional"
+      ]
+    },
+    {
+      "id": "9215726eec",
+      "fg_id": "08-Mardia",
+      "section_id": "s5_professional_readiness",
+      "line_range": [
+        136,
+        140
+      ],
+      "raw_text": "Maybe like a relevant anecdote is yesterday I was in a network analysis workshop, which was mostly for researchers. But one of the one person there had never used R before and was so excited because he had taught himself how to use R using Claude in two days. And it was interesting to me because I chose not to take the R section and instead took Excel. And that made me feel sort of indicated because I was like oh maybe I can just like teach myself R in two days using Claude or maybe I can't. I don't know but it seemed like the person next to me had done it so that was interesting.",
+      "cleaned_text": "Yesterday I was in a network analysis workshop, which was mostly for researchers. But one person there had never used R before and was so excited because he had taught himself how to use R using Claude in two days. And it was interesting to me because I chose not to take the R section and instead took Excel. And that made me feel sort of indicated because I was like oh maybe I can just teach myself R in two days using Claude or maybe I can't. I don't know but it seemed like the person next to me had done it so that was interesting.",
+      "memorable_phrase": "taught himself how to use R using Claude in two days",
+      "topics": [
+        "learning R",
+        "self-teaching",
+        "Claude",
+        "course choices"
+      ],
+      "_codes": [
+        "readiness.tool_specific",
+        "readiness.uncertain"
+      ]
+    },
+    {
+      "id": "4400fe7f35",
+      "fg_id": "08-Mardia",
+      "section_id": "s6_pair_share",
+      "line_range": [
+        228,
+        232
+      ],
+      "raw_text": "I just think that I and many other people use chatchubit because Harvard gives us the more advanced version, and you can upload things, but I don't want to be using chatchubit and I want to have some influence on what student account the university gets.",
+      "cleaned_text": "I just think that I and many other people use chatchubit because Harvard gives us the more advanced version, and you can upload things, but I don't want to be using chatchubit and I want to have some influence on what student account the university gets.",
+      "memorable_phrase": "I don't want to be using chatchubit",
+      "topics": [
+        "institutional choice",
+        "tool preferences",
+        "student agency",
+        "ChatGPT"
+      ],
+      "_codes": [
+        "use.meta",
+        "readiness.tool_specific"
+      ]
+    },
+    {
+      "id": "36541e4468",
+      "fg_id": "10-Sanchez",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        12,
+        15
+      ],
+      "raw_text": "I can think of one example that I use AI sometimes to check my understanding of the reading or of a certain kind of instruction that I received. So just to like I kind of like treat it as my friend to see if my understanding of the thing maybe like professor mentioned or in like the instructions is aligning with what I understand.",
+      "cleaned_text": "I use AI sometimes to check my understanding of the reading or of a certain kind of instruction that I received... I kind of treat it as my friend to see if my understanding of the thing maybe like professor mentioned or in the instructions is aligning with what I understand.",
+      "memorable_phrase": "treat it as my friend",
+      "topics": [
+        "understanding check",
+        "learning companion",
+        "reading comprehension",
+        "instruction clarification"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "42efa84d1d",
+      "fg_id": "10-Sanchez",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        29,
+        33
+      ],
+      "raw_text": "I use it so often it's my extended self. I use it for day-to-day decisions as well but recently I used it to cause I wanted to meet like 500 people in two years and I've been trying to get some some narrowed information from AI that who are the people whom I can meet so I recently used it for that got an excel sheet of people of my interest across the Boston and Greater Boston and then extended to that coast as well yeah so I use it very often.",
+      "cleaned_text": "I use it so often it's my extended self. I use it for day-to-day decisions as well but recently I used it to cause I wanted to meet like 500 people in two years and I've been trying to get some narrowed information from AI that who are the people whom I can meet so I recently used it for that got an excel sheet of people of my interest across the Boston and Greater Boston.",
+      "memorable_phrase": "it's my extended self",
+      "topics": [
+        "daily decisions",
+        "networking",
+        "personal goals",
+        "deep integration"
+      ],
+      "_codes": [
+        "use.meta",
+        "use.personal"
+      ]
+    },
+    {
+      "id": "f66d0201a2",
+      "fg_id": "10-Sanchez",
+      "section_id": "s2_warmup_goaround",
+      "line_range": [
+        34,
+        38
+      ],
+      "raw_text": "I use it a lot in my econ class where the notes are very they're like an econ specific vernacular and like really dense and don't explain a lot so I'll hold the notes into AI when I'm doing the problem set and being like is this question on the problem set in the notes anywhere or have it break down sometimes like complex economic concepts and just stuff that like I as a non-econ person can understand.",
+      "cleaned_text": "I use it a lot in my econ class where the notes are very they're like an econ specific vernacular and like really dense and don't explain a lot so I'll hold the notes into AI when I'm doing the problem set and being like is this question on the problem set in the notes anywhere or have it break down sometimes like complex economic concepts and just stuff that like I as a non-econ person can understand.",
+      "memorable_phrase": "stuff that I as a non-econ person can understand",
+      "topics": [
+        "translation",
+        "technical concepts",
+        "accessibility",
+        "non-native domain"
+      ],
+      "_codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "id": "ed838d8dab",
+      "fg_id": "10-Sanchez",
+      "section_id": "s3_warmup_reaction",
+      "line_range": [
+        64,
+        66
+      ],
+      "raw_text": "I think I'm also like increasingly relying on it when I'm googling things not because I actually want to but because you always get like a summary of the results in the beginning and I think I'm starting to become more lazy and then always like check the links for just reading",
+      "cleaned_text": "I think I'm also like increasingly relying on it when I'm googling things not because I actually want to but because you always get like a summary of the results in the beginning and I think I'm starting to become more lazy and then always like check the links for just reading.",
+      "memorable_phrase": "not because I actually want to",
+      "topics": [
+        "passive adoption",
+        "laziness concern",
+        "search behavior",
+        "unintended reliance"
+      ],
+      "_codes": [
+        "use.meta",
+        "anxiety.dependency"
+      ]
+    },
+    {
+      "id": "7c2430565e",
+      "fg_id": "10-Sanchez",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        115,
+        120
+      ],
+      "raw_text": "I feel like I almost I have the opposite anxiety where I'm like where's the fine line of turning in something that like the sentences like maybe I had some help editing it through AI like like where's the line of like me being allowed to do that and then me like getting expelled for plagiarism like not like I don't abuse AI in that way but I feel like especially coming here I'm like oh my gosh I got to Harvard I did it what if I get expelled because I used AI in the wrong way and so I almost have anxiety from that",
+      "cleaned_text": "I have the opposite anxiety where I'm like where's the fine line of turning in something that the sentences maybe I had some help editing it through AI... where's the line of me being allowed to do that and then me getting expelled for plagiarism... I feel like especially coming here I'm like oh my gosh I got to Harvard I did it what if I get expelled because I used AI in the wrong way and so I almost have anxiety from that...",
+      "memorable_phrase": "what if I get expelled",
+      "topics": [
+        "plagiarism fear",
+        "unclear boundaries",
+        "imposter syndrome",
+        "academic integrity"
+      ],
+      "_codes": [
+        "anxiety.integrity"
+      ]
+    },
+    {
+      "id": "a1e8d8a466",
+      "fg_id": "10-Sanchez",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        121,
+        124
+      ],
+      "raw_text": "I think the other piece is like some of the assignments we got for this class I felt very proud of because I didn't use AI at all like for the like the interview you're not really using AI or for observation you're not using AI and so it felt good I felt a lot more proud of things I've turned in where I haven't touched at all anyone else felt that anxiety of like oh no did I use too much AI am I gonna get in trouble you know",
+      "cleaned_text": "Some of the assignments we got for this class I felt very proud of because I didn't use AI at all like for the interview you're not really using AI or for observation you're not using AI and so it felt good I felt a lot more proud of things I've turned in where I haven't touched at all...",
+      "memorable_phrase": "I felt very proud of",
+      "topics": [
+        "pride in unassisted work",
+        "authentic accomplishment",
+        "AI-free assignments",
+        "self-reliance"
+      ],
+      "_codes": [
+        "use.academic",
+        "anxiety.authenticity",
+        "anxiety.integrity"
+      ]
+    },
+    {
+      "id": "9ecb7d29f0",
+      "fg_id": "10-Sanchez",
+      "section_id": "s4_two_sided_risk",
+      "line_range": [
+        132,
+        136
+      ],
+      "raw_text": "I feel like when I sometimes talk to AI and sometimes I feel like their perspective is kind of because you have your own experience you lived your own life before so like what you say and what the theory is I think sometimes they are like tend to be way shallower so I think you still have to stick to your own thinking and your own perspective into approaching to a lot of the assignments and other things in the projects",
+      "cleaned_text": "When I sometimes talk to AI sometimes I feel like their perspective is kind of... because you have your own experience you lived your own life before so what you say and what the theory is I think sometimes they are tend to be way shallower so I think you still have to stick to your own thinking and your own perspective into approaching to a lot of the assignments and other things in the projects...",
+      "memorable_phrase": "tend to be way shallower",
+      "topics": [
+        "lived experience",
+        "perspective depth",
+        "AI limitations",
+        "personal voice"
+      ],
+      "_codes": [
+        "use.academic",
+        "anxiety.authenticity"
+      ]
+    }
+  ]
+}
