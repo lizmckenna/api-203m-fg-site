@@ -1,16 +1,13 @@
 {
-  "build": "2026-04-11T16:28:32.185642+00:00",
+  "build": "2026-04-11T16:39:00.351678+00:00",
   "fg_ids": [
     "01-Cheng",
     "02-Chyung",
-    "03-Davis",
-    "04-Fausto",
-    "05-Ge",
-    "06-Giles",
-    "08-Mardia",
-    "10-Sanchez"
+    "03-Davis"
   ],
-  "fg_count": 8,
-  "coded_segment_count": 0,
-  "coders_present": []
+  "fg_count": 3,
+  "coded_segment_count": 1306,
+  "coders_present": [
+    "llm-claude"
+  ]
 }

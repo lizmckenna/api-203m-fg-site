@@ -1,1 +1,856 @@
-{}
+{
+  "s2_warmup_goaround": [
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 46,
+      "text": "I had it to write the conclusion of a policy memo",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 47,
+      "text": "my roommate used it to prep for a job interview",
+      "codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 50,
+      "text": "I use it a lot for research",
+      "codes": [
+        "use.academic",
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 51,
+      "text": "It's basically as like an extended Google search, or like a much more in-depth Google search",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 52,
+      "text": "I was writing an op-ed for a class recently",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 53,
+      "text": "I use it just to find a bunch of research sources",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 55,
+      "text": "I used it to compile internships",
+      "codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 56,
+      "text": "This was actually the first time I did it. I was very pleasantly surprised.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 57,
+      "text": "I just fed it my resume, and I was like, this is where I want to be. Can you give me a list of top five organizations in each sector?",
+      "codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 61,
+      "text": "it's very helpful to use AI to debug",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 62,
+      "text": "Sometimes it would take hours if I don't use AI",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 63,
+      "text": "I think that's how I usually use AI",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 64,
+      "text": "I use it very much like P-02, like an extended Google search",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 65,
+      "text": "I also use it to read over very bad drafts of emails that I'm sending out to people who I want to impress",
+      "codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 68,
+      "text": "I use it very much like Andrew and P-02",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 69,
+      "text": "Pretty much every research assignment that I ever do",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 72,
+      "text": "I also use it to edit pretty much everything that I write",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 74,
+      "text": "Yeah, because I don't have like grammar layer or anything like that",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 76,
+      "text": "P-01, did you have anything to add?",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 78,
+      "text": "Well, I use ChatGPT a lot",
+      "codes": [
+        "use.meta"
+      ]
+    }
+  ],
+  "s4_two_sided_risk": [
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 84,
+      "text": "and ask you to vote on which one feels more real to you right now in regards to AI",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 87,
+      "text": "for your learning, your writing, your ability to think independently",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 89,
+      "text": "that leaves you less efficient or less prepared than peers and future colleagues",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 90,
+      "text": "who are more fluent with these tools",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 91,
+      "text": "So which of these feels more present for you personally right now?",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 93,
+      "text": "that you should be worried about",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 94,
+      "text": "Can you explain a little bit about it?",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 95,
+      "text": "I'm a little confused by the way",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 97,
+      "text": "Okay, so I don't have extreme detail, but I can share that",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 99,
+      "text": "Are you more concerned about it?",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 102,
+      "text": "It's like AI makes you dumber",
+      "codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 107,
+      "text": "It makes you forget how to write well",
+      "codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 110,
+      "text": "Like I fear that AI is making me less creative a lot",
+      "codes": [
+        "anxiety.learning_loss",
+        "anxiety.authenticity"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 112,
+      "text": "What if I can't really pick which one is more dominant?",
+      "codes": [
+        "risk.ambivalent"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 113,
+      "text": "I feel like I have both concerns almost like 50-50",
+      "codes": [
+        "risk.ambivalent"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 115,
+      "text": "Do you guys all feel that way?",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 120,
+      "text": "And what would you two say?",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 126,
+      "text": "I had a principle that was like I'm not going to use AI for really anything, even for like studying or my own research because I was concerned about what to do with my brain",
+      "codes": [
+        "anxiety.learning_loss",
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 127,
+      "text": "I was concerned about what to do with my brain or kind of a lot of the type one concerns",
+      "codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 129,
+      "text": "by the end, my understanding was actually really bad because I was just trying to do it myself and try to go through all these like really dense resources",
+      "codes": [
+        "risk.underuse",
+        "use.academic"
+      ]
+    }
+  ],
+  "s5_professional_readiness": [
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 209,
+      "text": "Think about the job, fellowship, or program you're heading into after HKS.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 215,
+      "text": "people are always saying like if you can't use AI properly, like you're going to be at the bottom of the barrel.",
+      "codes": [
+        "risk.underuse"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 216,
+      "text": "Like you need to know how to use this before you get here.",
+      "codes": [
+        "risk.underuse"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 218,
+      "text": "there's really a big pressure to know how to use it well and make AI work for you.",
+      "codes": [
+        "risk.underuse"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 219,
+      "text": "that's why I've honestly like continued to learn about artificial intelligence and be intentional about building a relationship with them.",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 226,
+      "text": "I wasn't allowed to use AI or put anything into AI except for Westlaw, which is a legal research database that has its own internal AI",
+      "codes": [
+        "use.professional",
+        "readiness.tool_specific"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 227,
+      "text": "you can use it not to put client data into, but you can use it to research cases.",
+      "codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 228,
+      "text": "using it as that Google extender, but within the context of, hey, find me a case that does this.",
+      "codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 230,
+      "text": "instead of reading like eight cases and hitting control F, your savings like 90% of the time because it just, here's the case and you still have to use your human brain to see it.",
+      "codes": [
+        "use.professional"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 232,
+      "text": "I think I'll be able to use it.",
+      "codes": [
+        "readiness.confident"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 233,
+      "text": "Not all chat bots are created equal and not all chat bots should be used for the exact same things.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 235,
+      "text": "I never would use chat GBT to do legal work for the reasons I mentioned.",
+      "codes": [
+        "readiness.tool_specific"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 240,
+      "text": "I would ask them first, like what's your AI policy? And like nobody actually has answers for me",
+      "codes": [
+        "readiness.curricular_gap",
+        "wishes.frameworks"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 242,
+      "text": "the legal track like actually provides you with more framework and like their own like code of ethics or like just how they could leverage AI",
+      "codes": [
+        "wishes.frameworks"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 246,
+      "text": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle",
+      "codes": [
+        "readiness.curricular_gap",
+        "wishes.frameworks"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 247,
+      "text": "without like actual rules drawn out for the employees, I think this is a big concern because I do deal with like proprietary data",
+      "codes": [
+        "anxiety.integrity",
+        "wishes.frameworks"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 249,
+      "text": "there's a lot of ethical questions as well when it comes to like consumer data",
+      "codes": [
+        "wishes.ethics"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 250,
+      "text": "I'm just overall very concerned about the lack of guidance on these days",
+      "codes": [
+        "readiness.uncertain",
+        "readiness.curricular_gap"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 251,
+      "text": "it feels like sometimes I have to come up with my own judgment and then also picking between different models",
+      "codes": [
+        "readiness.uncertain"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 253,
+      "text": "I just feel like, yeah, a little confusing right now",
+      "codes": [
+        "readiness.uncertain"
+      ]
+    }
+  ],
+  "s6_pair_share": [
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 311,
+      "text": "one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills",
+      "codes": [
+        "readiness.curricular_gap"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 313,
+      "text": "they suck at teaching us how to do AI competency",
+      "codes": [
+        "readiness.curricular_gap"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 314,
+      "text": "they're like, oh, you're going to need AI competency for your job",
+      "codes": [
+        "readiness.curricular_gap"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 316,
+      "text": "Well, I actually feel like we're not very...",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 317,
+      "text": "I don't feel like we're accountable to a lot of people.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 318,
+      "text": "We are in an academic sense.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 320,
+      "text": "And like that's always true.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 323,
+      "text": "I know someone's going to ask me that.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 324,
+      "text": "I know someone's going to ask me that.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 328,
+      "text": "Like the stages of the job.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 333,
+      "text": "Because I feel like people who are in government don't actually have standards.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 335,
+      "text": "Like if we're not using this, we're just going to fall behind.",
+      "codes": [
+        "risk.underuse"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 337,
+      "text": "Yeah, I was just wondering.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 343,
+      "text": "We're more like in the middle about this because we have a stat GPT and like other tools and we interact with AI.",
+      "codes": [
+        "use.academic",
+        "readiness.tool_specific"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 344,
+      "text": "We have a conversation with them.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 346,
+      "text": "All the other classes are kind of totally fair.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 347,
+      "text": "But I feel like such a crone.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 348,
+      "text": "I feel confident about my education here.",
+      "codes": [
+        "readiness.confident"
+      ]
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 351,
+      "text": "Are you sure this is real?",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 354,
+      "text": "I would probably like to take more AI classes.",
+      "codes": [
+        "wishes.training"
+      ]
+    }
+  ],
+  "s7_dot_voting_close": [
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 512,
+      "text": "but which of these things matter most to you.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 516,
+      "text": "I was going to say I'm going to do all of them.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 518,
+      "text": "It doesn't matter what color.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 521,
+      "text": "Not the color of the dots.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 522,
+      "text": "But like yeah, you got three votes.",
+      "codes": []
+    },
+    {
+      "fg_id": "01-Cheng",
+      "line_id": 523,
+      "text": "I feel like whenever we ask people about AI exactions, we're like, oh, it's going to",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 680,
+      "text": "so the dots that I handed out",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 681,
+      "text": "I'm going to ask you all to",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 683,
+      "text": "head to the flip to these",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 684,
+      "text": "beautiful notes and place up to",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 685,
+      "text": "three dots next to the items that matter",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 686,
+      "text": "most to you. And you can, if you feel",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 687,
+      "text": "really strongly about one thing, you can put multiple",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 688,
+      "text": "in one or you can spread them out",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 690,
+      "text": "The color does not matter.",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 692,
+      "text": "we only have three sheets so just",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 705,
+      "text": "ethically",
+      "codes": [
+        "wishes.ethics"
+      ]
+    }
+  ],
+  "s3_warmup_reaction": [
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 135,
+      "text": "now so many people use AI",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 136,
+      "text": "in a variety of ways",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 137,
+      "text": "whether it's like academically or personal",
+      "codes": [
+        "use.meta",
+        "use.academic",
+        "use.personal"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 138,
+      "text": "so I was just surprised to hear that",
+      "codes": [
+        "meta.surprise"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 139,
+      "text": "like you actively try not to use it",
+      "codes": [
+        "meta.surprise"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 146,
+      "text": "I'm trying to be very conscious about not outsourcing thinking",
+      "codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 147,
+      "text": "not outsourcing thinking",
+      "codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 148,
+      "text": "it's not really the material that I care what I'm learning about but the thought process",
+      "codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 150,
+      "text": "that's why I've avoided using AI",
+      "codes": [
+        "anxiety.learning_loss"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 161,
+      "text": "so many people are using it now",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 162,
+      "text": "in our space, I guess, have you ever felt pressure",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 163,
+      "text": "to sort of use it or like, yeah,",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 164,
+      "text": "has that like almost persuaded you to use it",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 165,
+      "text": "for like an assignment",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 166,
+      "text": "take a step back because it's not true to what you wanna do?",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 167,
+      "text": "I wouldn't say like social pressure.",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 168,
+      "text": "I think the biggest thing is because",
+      "codes": []
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 169,
+      "text": "so many people are using it now,",
+      "codes": [
+        "use.meta"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 171,
+      "text": "Like I take a lot longer to do my homework",
+      "codes": [
+        "use.academic"
+      ]
+    },
+    {
+      "fg_id": "02-Chyung",
+      "line_id": 172,
+      "text": "I don't look at chat-generated summaries",
+      "codes": [
+        "use.academic"
+      ]
+    }
+  ]
+}

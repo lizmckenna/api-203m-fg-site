@@ -108,9 +108,9 @@ function mdToHTML(md) {
   flush();
 
   if (footnoteOrder.length) {
-    out.push('<div class="footnotes-list"><h3 class="footnotes-head">notes</h3><ol>');
+    out.push('<div class="footnotes-list"><hr class="footnotes-rule"><ol>');
     footnoteOrder.forEach((k) => {
-      out.push(`<li id="fn-${k}">${inline(footnotes[k])} <a href="#fnref-${k}" class="fn-back">↩</a></li>`);
+      out.push(`<li id="fn-${k}">${inline(footnotes[k])} <a href="#fnref-${k}" class="fn-back" aria-label="back to reference">↩</a></li>`);
     });
     out.push("</ol></div>");
   }
@@ -140,8 +140,61 @@ async function renderMemo() {
   const res = await fetch("public/memo.md");
   if (!res.ok) return;
   const md = await res.text();
-  const el = document.getElementById("memo-body");
-  if (el) el.innerHTML = mdToHTML(md);
+
+  // Split: everything up through (and including) the SECOND body paragraph
+  // after the first "##" heading goes into the intro. Everything else goes
+  // into the collapsible "rest" block. Footnote bodies always live in the
+  // rest block so they render together with the text that references them.
+  const { intro, rest } = splitMemo(md);
+
+  const introEl = document.getElementById("memo-intro");
+  const restEl  = document.getElementById("memo-rest");
+  if (introEl) introEl.innerHTML = mdToHTML(intro);
+  if (restEl)  restEl.innerHTML  = mdToHTML(rest);
+}
+
+// Walk the memo markdown line-by-line. Keep: the H1, the first H2, and the
+// first 2 body paragraphs under it (pull-quote paragraphs count). The rest
+// becomes the collapsed body.
+function splitMemo(md) {
+  const lines = md.split("\n");
+  const intro = [];
+  const rest = [];
+  let phase = "pre";   // pre = before first H2, first_h2 = collecting intro paras, rest
+  let paraCount = 0;
+  let inPara = false;
+
+  for (const raw of lines) {
+    if (phase === "pre") {
+      intro.push(raw);
+      if (raw.startsWith("## ")) {
+        phase = "first_h2";
+      }
+      continue;
+    }
+    if (phase === "first_h2") {
+      // Blank line → paragraph boundary
+      if (raw === "") {
+        if (inPara) {
+          paraCount++;
+          inPara = false;
+          if (paraCount >= 2) {
+            intro.push(raw);
+            phase = "rest";
+            continue;
+          }
+        }
+        intro.push(raw);
+        continue;
+      }
+      // Paragraph content
+      intro.push(raw);
+      inPara = true;
+      continue;
+    }
+    rest.push(raw);
+  }
+  return { intro: intro.join("\n"), rest: rest.join("\n") };
 }
 
 async function renderMeta() {
@@ -760,12 +813,7 @@ async function loadSiteComments() {
 // =====================================================================
 
 async function loadReadershipMix() {
-  if (!supabase) return;
-  const { data } = await supabase.from("v_readership_mix").select("*");
-  const el = document.getElementById("readership-mix");
-  if (!data || !data.length) { el.textContent = "—"; return; }
-  const lines = data.slice(0, 6).map((r) => `${r.n} ${r.program || r.role}`);
-  el.innerHTML = lines.join("<br>");
+  // Panel removed — left as a no-op so callers don't break.
 }
 
 // =====================================================================
