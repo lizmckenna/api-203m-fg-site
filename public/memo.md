@@ -34,6 +34,8 @@
 
 >> You do not actually know your data well when you leave the analytical work to an LLM.
 
+**A note on the funny typos you'll see in the quotes.** I deliberately left in the Whisper auto-transcription errors rather than cleaning them up: "chat GBT" for ChatGPT, "chatchubit" for ChatGPT (there are many variations of this one), "cod code" for chat code, and so on. I kept them because they're a reminder of why close reading matters even (or especially) when you're using AI to process qualitative data. If I had blindly run these transcripts through an LLM with no review, the model might have silently "corrected" the errors into something plausible but wrong, and I would never have noticed. The typos are the tell: they prove that whatever summary or theme list you're looking at comes from text that a human actually read.
+
 **To that end, the section of this site titled "Where Claude broke" surfaces the disagreements between human and LLM coding.** Those disagreements are not bugs in the analysis, they are (hopefully) the most methodologically interesting part of this exercise. They are designed to illustrate what gets lost when speed and scale substitute for interpretation, or, to paraphrase my PhD advisor, a completely basic and foundational scholarly practice, which is the good old-fashioned, close reading of a text.
 
 — Liz McKenna, Spring 2026

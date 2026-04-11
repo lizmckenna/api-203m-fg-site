@@ -159,48 +159,23 @@ async function renderMemo() {
   if (restEl)  restEl.innerHTML  = mdToHTML(rest);
 }
 
-// Walk the memo markdown line-by-line. Keep: the H1, the first H2, and the
-// first 2 body paragraphs under it (pull-quote paragraphs count). The rest
-// becomes the collapsed body.
+// Split the memo so the intro cuts off MID-SENTENCE in the 2nd paragraph.
+// Specifically, we cut after the phrase "we do not yet know the right" —
+// leaving the reader hanging, which makes "read the rest" irresistible.
+// Everything after that point goes into the collapsible block.
 function splitMemo(md) {
-  const lines = md.split("\n");
-  const intro = [];
-  const rest = [];
-  let phase = "pre";   // pre = before first H2, first_h2 = collecting intro paras, rest
-  let paraCount = 0;
-  let inPara = false;
-
-  for (const raw of lines) {
-    if (phase === "pre") {
-      intro.push(raw);
-      if (raw.startsWith("## ")) {
-        phase = "first_h2";
-      }
-      continue;
-    }
-    if (phase === "first_h2") {
-      // Blank line → paragraph boundary
-      if (raw === "") {
-        if (inPara) {
-          paraCount++;
-          inPara = false;
-          if (paraCount >= 2) {
-            intro.push(raw);
-            phase = "rest";
-            continue;
-          }
-        }
-        intro.push(raw);
-        continue;
-      }
-      // Paragraph content
-      intro.push(raw);
-      inPara = true;
-      continue;
-    }
-    rest.push(raw);
+  const CUT_MARKER = "we do not yet know the right";
+  const idx = md.indexOf(CUT_MARKER);
+  if (idx === -1) {
+    // Fallback to paragraph-based split if the marker moved
+    const paras = md.split("\n\n");
+    return { intro: paras.slice(0, 3).join("\n\n"), rest: paras.slice(3).join("\n\n") };
   }
-  return { intro: intro.join("\n"), rest: rest.join("\n") };
+  // Extend to include the word immediately after the marker
+  const cut = idx + CUT_MARKER.length;
+  const intro = md.slice(0, cut) + "...";
+  const rest = "..." + md.slice(cut);
+  return { intro, rest };
 }
 
 async function renderMeta() {
@@ -225,12 +200,14 @@ async function renderPositionality() {
 }
 
 async function renderThreeCodes() {
-  const data = await loadJSON("public/data/three_codes_picks.json");
+  // Three-codes now pulls from quote_allocation.json (the bank) not from
+  // raw coded_segments. Each pick is a clean, verified, deduped quote.
+  const alloc = await loadJSON("public/data/quote_allocation.json");
   const rowsEl = document.getElementById("three-codes-rows");
   if (!rowsEl) return;
-  const picks = data?.picks || [];
+  const picks = alloc?.three_codes || [];
   if (!picks.length) {
-    rowsEl.innerHTML = `<div class="empty">no picks yet — run <code>make stage07 stage08</code>.</div>`;
+    rowsEl.innerHTML = `<div class="empty">quote bank not built yet — run <code>make stage09 stage10 stage05</code>.</div>`;
     return;
   }
   rowsEl.innerHTML = "";
@@ -238,13 +215,12 @@ async function renderThreeCodes() {
     const div = document.createElement("div");
     div.className = "three-code-row";
     const sectionLabel = prettySection(pick.section_id);
-    // Deductive codes from stage_02 (aggregated over the turn's constituent lines)
-    const deductive = pick.codes || [];
-    // Inductive codes from stage_08 (Claude, no codebook)
+    const deductive = pick._codes || [];
     const inductive = pick.llm_inductive_codes || [];
+    const cleaned = pick.cleaned_text || pick.raw_text || "";
     div.innerHTML = `
       <div>
-        <div class="utterance">"${escape(pick.text)}"</div>
+        <div class="utterance">${escape(cleaned)}</div>
         <div class="fg-id">from the ${sectionLabel} section</div>
       </div>
       <div class="codes">${codesHTML(deductive, "llm")}</div>
@@ -338,49 +314,66 @@ function contextBlockHTML(context, fallbackText) {
 
 async function renderAiSlop() {
   const d = await loadJSON("public/data/ai_slop.json");
+  const alloc = await loadJSON("public/data/quote_allocation.json");
+  const codebook = await loadJSON("public/data/codebook.json");
   if (!d) return;
   const rig = document.getElementById("slop-rigorous");
   const slp = document.getElementById("slop-slop");
 
-  const rThemes = d.rigorous?.themes || [];
-  if (rThemes.length) {
-    rig.innerHTML = rThemes.map((t) => `
-      <div class="slop-theme">
-        <div class="slop-theme-head">
-          <code>${escape(t.code)}</code>
-          <span class="slop-theme-count">${t.count}×</span>
-        </div>
-        <div class="slop-theme-def">${escape(t.definition || "")}</div>
-        <div class="slop-theme-quotes">
-          ${(t.quotes || []).slice(0, 2).map((q) =>
-            `${contextBlockHTML(q.context, q.quote)}<cite>from the ${prettySection(q.section_id)} section</cite>`
-          ).join("")}
-        </div>
-      </div>
-    `).join("");
-  } else {
-    rig.innerHTML = `<div class="empty">no coded data yet — run <code>make stage02</code></div>`;
-  }
-
+  // --- SLOP side (left) ---
   const sThemes = d.slop?.themes || [];
   if (sThemes.length) {
     slp.innerHTML = sThemes.map((t) => `
       <div class="slop-theme slop-theme-slop">
-        <div class="slop-theme-head"><strong>${escape(t.name || t.theme || "")}</strong></div>
+        <h4 class="slop-theme-name">${escape(t.name || t.theme || "")}</h4>
         <div class="slop-theme-def">${escape(t.description || t.summary || "")}</div>
-        ${t.evidence ? `<blockquote>"${escape(t.evidence)}"</blockquote>` : ""}
+        ${t.evidence ? `<blockquote class="slop-quote">"${escape(t.evidence)}"</blockquote>` : ""}
       </div>
     `).join("");
   } else {
     slp.innerHTML = `<div class="empty">run <code>make stage06</code> to generate</div>`;
   }
 
-  // Tiny caption showing which FG the comparison is drawn from and how the slop was produced
-  const hdr = document.querySelector("#ai-slop .section-lede");
-  if (hdr && d.fg_id) {
-    hdr.insertAdjacentHTML("afterend",
-      `<div class="slop-caption">drawn from <code>${escape(d.fg_id)}</code> · rigorous side from the deductive pass, slop side from a single unconstrained prompt: <em>"tell me what the main themes are"</em></div>`
-    );
+  // --- BETTER side (right) — pulled from allocator, NOT from coded_segments ---
+  // Each rigorous item shows: code id, definition, vivid quote from bank.
+  // This gives visual weight parity with the slop column.
+  const rigorousQuotes = alloc?.ai_slop_rigorous || [];
+  const defs = {};
+  if (codebook && codebook.codes) {
+    for (const c of codebook.codes) defs[c.id] = c;
+  }
+
+  if (rigorousQuotes.length) {
+    rig.innerHTML = rigorousQuotes.map((q) => {
+      // Attach the most relevant code from _codes as the theme anchor
+      const primaryCode = (q._codes && q._codes[0]) || "";
+      const def = defs[primaryCode] || {};
+      return `
+        <div class="slop-theme slop-theme-rigorous">
+          <h4 class="slop-theme-name"><code class="slop-code-id">${escape(primaryCode)}</code></h4>
+          <div class="slop-theme-def">${escape(def.definition || "")}</div>
+          <blockquote class="slop-quote">${escape(q.cleaned_text || "")}</blockquote>
+          <cite class="slop-cite">from the ${prettySection(q.section_id)} section</cite>
+        </div>
+      `;
+    }).join("");
+  } else {
+    // Fallback to the old ai_slop.json shape
+    const rThemes = d.rigorous?.themes || [];
+    if (rThemes.length) {
+      rig.innerHTML = rThemes.map((t) => `
+        <div class="slop-theme slop-theme-rigorous">
+          <h4 class="slop-theme-name"><code class="slop-code-id">${escape(t.code)}</code></h4>
+          <div class="slop-theme-def">${escape(t.definition || "")}</div>
+          ${(t.quotes || []).slice(0, 1).map((q) =>
+            `<blockquote class="slop-quote">${escape(q.quote || "")}</blockquote>
+             <cite class="slop-cite">from the ${prettySection(q.section_id)} section</cite>`
+          ).join("")}
+        </div>
+      `).join("");
+    } else {
+      rig.innerHTML = `<div class="empty">quote bank not built yet — run <code>make stage09 stage10</code></div>`;
+    }
   }
 }
 
@@ -451,29 +444,68 @@ async function renderFieldNotes() {
 }
 
 async function renderThemes() {
-  const themes = await loadJSON("public/data/themes.json");
+  // Themes now render from the quote_allocation.json bank, not from raw
+  // coded_segments, so every quote is cleaned and dedupe-guaranteed.
+  const alloc = await loadJSON("public/data/quote_allocation.json");
   const el = document.getElementById("themes-list");
-  if (!themes || !themes.length) return;
-  el.innerHTML = "";
-  for (const t of themes) {
-    const div = document.createElement("div");
-    div.className = "theme-card";
-    div.innerHTML = `
-      <h3>${escape(t.code)}</h3>
-      <div class="theme-meta">${t.count} utterances across ${t.fg_count} focus group${t.fg_count === 1 ? "" : "s"}</div>
-      <div class="theme-def">${escape(t.definition || "")}</div>
-      <div class="theme-examples"></div>
-    `;
-    const examples = div.querySelector(".theme-examples");
-    for (const ex of t.examples || []) {
-      const e = document.createElement("div");
-      e.className = "theme-example";
-      e.innerHTML = `${contextBlockHTML(ex.context, ex.quote || ex.text)}<cite>from the ${prettySection(ex.section_id)} section</cite>`;
-      examples.appendChild(e);
-      attachReactionBar(e, "quote", `${ex.fg_id}:${ex.line_id}`);
-    }
-    el.appendChild(div);
+  if (!alloc || !alloc.themes || !Object.keys(alloc.themes).length) {
+    // Fallback: show the old themes.json if the bank isn't built yet
+    const themes = await loadJSON("public/data/themes.json");
+    if (!themes || !themes.length) return;
+    el.innerHTML = `<div class="empty">quote bank not built yet — run <code>make stage09 stage10 stage05</code>.</div>`;
+    return;
   }
+
+  // Order themes by the allocator's top_codes ranking
+  const order = alloc.top_codes || Object.keys(alloc.themes);
+  // Use codebook.json for pretty definitions
+  const codebook = await loadJSON("public/data/codebook.json");
+  const defs = {};
+  if (codebook && codebook.codes) {
+    for (const c of codebook.codes) defs[c.id] = c;
+  }
+
+  el.innerHTML = "";
+  for (const code of order) {
+    const group = alloc.themes[code];
+    if (!group) continue;
+    const def = defs[code] || {};
+    const card = document.createElement("div");
+    card.className = "theme-card";
+    card.innerHTML = `
+      <h3>${escape(code)}</h3>
+      <div class="theme-def">${escape(def.definition || "")}</div>
+      <div class="theme-examples"></div>
+      <details class="theme-more">
+        <summary><span class="theme-more-open">show ${(group.more || []).length} more</span><span class="theme-more-close">hide</span></summary>
+        <div class="theme-more-list"></div>
+      </details>
+    `;
+    const examples = card.querySelector(".theme-examples");
+    for (const q of group.visible || []) {
+      examples.appendChild(renderBankQuote(q));
+    }
+    const moreList = card.querySelector(".theme-more-list");
+    for (const q of group.more || []) {
+      moreList.appendChild(renderBankQuote(q));
+    }
+    if (!(group.more || []).length) {
+      card.querySelector(".theme-more").remove();
+    }
+    el.appendChild(card);
+  }
+}
+
+function renderBankQuote(q) {
+  const e = document.createElement("div");
+  e.className = "theme-example";
+  const cleaned = q.cleaned_text || q.raw_text || "";
+  e.innerHTML = `
+    <blockquote class="bank-quote">${escape(cleaned)}</blockquote>
+    <cite>from the ${prettySection(q.section_id)} section</cite>
+  `;
+  attachReactionBar(e, "quote", q.id);
+  return e;
 }
 
 async function renderVotes() {
