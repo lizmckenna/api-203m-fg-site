@@ -36,14 +36,20 @@ const REACTION_EMOJIS = [
 // Data loading
 // =====================================================================
 
+// Cache-buster: every page load fetches fresh public/data/* from GitHub Pages
+// so stale CDN copies don't stick after a republish. Using one stable value
+// per load (not Date.now() per call) means the browser can still cache within
+// a single session.
+const CACHE_BUST = `?v=${Date.now()}`;
+
 async function loadJSON(path) {
-  const res = await fetch(path);
+  const res = await fetch(path + CACHE_BUST);
   if (!res.ok) return null;
   return res.json();
 }
 
 async function loadJSONL(path) {
-  const res = await fetch(path);
+  const res = await fetch(path + CACHE_BUST);
   if (!res.ok) return [];
   const text = await res.text();
   return text
@@ -137,7 +143,7 @@ function mdToHTML(md) {
 }
 
 async function renderMemo() {
-  const res = await fetch("public/memo.md");
+  const res = await fetch("public/memo.md" + CACHE_BUST);
   if (!res.ok) return;
   const md = await res.text();
 
@@ -207,7 +213,7 @@ async function renderMeta() {
 }
 
 async function renderPositionality() {
-  const res = await fetch("public/positionality.md");
+  const res = await fetch("public/positionality.md" + CACHE_BUST);
   const el = document.getElementById("positionality-body");
   if (!el) return;
   if (!res.ok) {
