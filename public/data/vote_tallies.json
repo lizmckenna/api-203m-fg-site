@@ -1,8 +1,78 @@
 {
   "two_sided_risk": {
-    "overuse": null,
-    "underuse": null,
-    "note": "Hand-enter from notes/flip-chart photos into data/derived/vote_tallies.json."
+    "overuse": 0,
+    "underuse": 0,
+    "ambivalent": 0,
+    "by_fg": {
+      "01-Cheng": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "02-Chyung": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "03-Davis": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "04-Fausto": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "05-Ge": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "06-Giles": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "08-Mardia": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "10-Sanchez": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": ""
+      },
+      "11-Workman": {
+        "overuse": null,
+        "underuse": null,
+        "ambivalent": null,
+        "note": "notes only, no transcript"
+      }
+    },
+    "fg_votes_recorded": 0
   },
-  "pair_share_dots": []
+  "pair_share_dots": {
+    "items_aggregated": [],
+    "by_fg": {
+      "01-Cheng": [],
+      "02-Chyung": [],
+      "03-Davis": [],
+      "04-Fausto": [],
+      "05-Ge": [],
+      "06-Giles": [],
+      "08-Mardia": [],
+      "10-Sanchez": [],
+      "11-Workman": []
+    }
+  }
 }

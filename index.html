@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>How HKS Students Are Navigating AI — API-203M</title>
-  <meta name="description" content="A qualitative analysis of an in-class focus group on how HKS students are navigating AI. Interactive, reactable, honest about its methods.">
+  <title>How HKS Students Are Navigating AI: API-203M Focus Groups (Spring 2026)</title>
+  <meta name="description" content="A qualitative analysis of an in-class focus group on how HKS students are navigating AI.">
 
   <!-- Fonts: Archivo (display) + Inter (body) + Fraunces (pull quotes). Archivo/Inter = clean Bauhaus; Fraunces = editorial quotes. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,9 @@
     <span class="brand-term">SPRING 2026</span>
   </div>
   <nav class="site-nav">
-    <a href="#method">method</a>
+    <a href="#memo">letter</a>
+    <a href="#methods-intro">methods</a>
+    <a href="#method">tradeoffs</a>
     <a href="#three-codes">three codes</a>
     <a href="#where-claude-broke">disagreements</a>
     <a href="#ai-slop">ai slop</a>
@@ -40,12 +42,13 @@
 ================================================================ -->
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-meta">A teaching artifact, not a report</div>
+    <div class="hero-meta">What we found, and how we found it</div>
     <h1>How HKS Students<br>Are Navigating AI</h1>
     <p class="hero-lede">
-      Eight in-class focus groups. Six protocol sections. Three coding
-      methods applied to the same words. This site shows the analysis and
-      lets you react to it as you read.
+      This site presents the analysis of eleven in-class focus groups on
+      how HKS students are navigating AI, and uses that analysis to
+      demonstrate what different qualitative coding methods can and cannot
+      do.
     </p>
     <div class="hero-fg-count">
       <span id="fg-count">—</span> focus groups ingested ·
@@ -57,38 +60,63 @@
 </section>
 
 <!-- ================================================================
-     MEMO — clipped at the top, expandable in a dialog
+     MEMO — inline full-length letter from the instructor
 ================================================================ -->
-<section id="memo-clip" class="section section-memo-clip">
-  <div class="memo-card">
-    <div class="memo-header">
-      <div class="memo-label">a note from your instructor</div>
-      <button class="btn btn-ghost" id="memo-open">read in full →</button>
-    </div>
-    <div id="memo-preview" class="memo-preview">loading memo…</div>
-  </div>
+<section id="memo" class="section section-memo">
+  <div class="memo-label">a letter from Prof. McKenna</div>
+  <article id="memo-body" class="prose-memo">loading memo…</article>
 </section>
 
-<dialog id="memo-dialog" class="memo-dialog">
-  <div class="memo-dialog-inner">
-    <button type="button" class="memo-close" id="memo-close" aria-label="close">×</button>
-    <article id="memo-full" class="memo-full prose-memo">loading…</article>
-  </div>
-</dialog>
-
 <!-- ================================================================
-     POSITIONALITY
+     METHODS — protocol link + brief positionality note
 ================================================================ -->
-<section id="positionality" class="section section-positionality">
-  <div class="section-label">01 / positionality</div>
-  <h2>The instructor wrote the protocol, taught the class, and is now analyzing the data.</h2>
-  <div class="pull-quote">
-    No cleanup pass on the transcript can recover what was never said out loud.
+<section id="methods-intro" class="section section-methods-intro">
+  <div class="section-label">01 / methods</div>
+  <h2>How this analysis was conducted.</h2>
+  <div class="methods-grid">
+    <div class="methods-item">
+      <div class="methods-item-label">protocol</div>
+      <div class="methods-item-body">
+        A 30-minute in-class focus group run by student moderators. Seven
+        sections: opening, go-around, group reaction, two-sided risk vote,
+        professional readiness discussion, pair-share, dot voting.
+        <div class="methods-item-link">
+          <a href="https://docs.google.com/document/d/1_a1uI516qPLVTdj72inWbIG3smbttK0RwyHR7NrbR1w/edit" target="_blank" rel="noopener">read the full protocol →</a>
+        </div>
+      </div>
+    </div>
+    <div class="methods-item">
+      <div class="methods-item-label">data</div>
+      <div class="methods-item-body">
+        Eleven in-class focus groups, audio-recorded and transcribed
+        (Whisper), paired with hand-written field notes from the designated
+        note-taker in each room. Participant names pseudonymized.
+      </div>
+    </div>
+    <div class="methods-item">
+      <div class="methods-item-label">coding</div>
+      <div class="methods-item-body">
+        A 20-code a-priori deductive framework applied twice (once by the
+        instructor, once by Claude) with disagreements surfaced rather than
+        reconciled. One protocol section was also coded inductively by
+        hand as a demonstration.
+      </div>
+    </div>
+    <div class="methods-item">
+      <div class="methods-item-label">positionality</div>
+      <div class="methods-item-body">
+        The instructor wrote the protocol, taught the students in the room,
+        and is now analyzing what they said — that shapes what gets seen.
+        <div class="methods-item-link">
+          <a href="#positionality-full">read the positionality statement →</a>
+        </div>
+      </div>
+    </div>
   </div>
-  <div id="positionality-body" class="prose">
-    <!-- Loaded from /positionality.md at runtime -->
-  </div>
-  <div class="reaction-bar" data-target-type="section" data-target-id="positionality"></div>
+  <details id="positionality-full" class="positionality-details">
+    <summary>positionality statement — click to expand</summary>
+    <div id="positionality-body" class="prose"></div>
+  </details>
 </section>
 
 <!-- ================================================================
@@ -96,10 +124,9 @@
 ================================================================ -->
 <section id="method" class="section section-method">
   <div class="section-label">02 / method</div>
-  <h2>Four ways to code this data. Each breaks differently.</h2>
+  <h2>There are at least four ways to code the data, and each approach yields slightly different findings.</h2>
   <p class="section-lede">
-    Every method the site uses has a specific failure mode. Click a row to see
-    the example the site returns when it fails that way.
+    Every method the site uses has a specific shortcoming. Click a row to see the example the site returns when it fails that way.
   </p>
   <table class="tradeoffs">
     <thead>
@@ -129,8 +156,9 @@
     </tbody>
   </table>
   <p class="footnote">
-    Triangulating across methods is expensive but the only defensible approach
-    for a public artifact. Everything below is that triangulation.
+    Triangulating across methods is expensive but is sometimes the only
+    defensible approach for a public artifact, peer-reviewed research, or
+    high-stakes real-world analysis.
   </p>
 </section>
 
@@ -141,9 +169,9 @@
   <div class="section-label">03 / same quote, three codes</div>
   <h2>What the coders saw.</h2>
   <p class="section-lede">
-    The same utterance, coded three ways: by the instructor (deductively), by
-    Claude (same codebook), and (for one section) inductively by hand. Click a
-    row to see the codebook definitions.
+    The same utterance, coded three ways: by Prof. McKenna (deductively), by
+    Claude (same codebook), and (for one section) inductively by hand. Click
+    a row to see the codebook definitions.
   </p>
   <div id="three-codes-table" class="three-codes-table">
     <!-- Populated from coded_segments.jsonl at runtime -->
@@ -158,8 +186,7 @@
   <div class="section-label">04 / where Claude broke</div>
   <h2>Disagreements between me and the model.</h2>
   <p class="section-lede">
-    These are the utterances where my codes and Claude's codes diverged. Not
-    mistakes — provocations. Read them and decide which reading you buy.
+    These are the utterances where my codes and Claude's codes diverged.
   </p>
   <div id="disagreements-list" class="disagreements-list">
     <div class="empty">no disagreements recorded yet.</div>
@@ -175,8 +202,7 @@
   <p class="section-lede">
     On the left: the rigorous deductive output. On the right: what you get
     when you ask the model "what are the main themes in this transcript?"
-    with no codebook, no protocol, no constraints. This is the single most
-    pedagogically valuable artifact on this site.
+    with no codebook, no protocol, and no other constraints.
   </p>
   <div class="slop-compare">
     <div class="slop-col slop-col-rigorous">
@@ -249,8 +275,8 @@
   <div class="section-label">08 / say something back</div>
   <h2>What do you think?</h2>
   <p class="section-lede">
-    Sign in with your Harvard email. Everything you post is attributed to your
-    role and program — not your name, unless you opt in.
+    Sign in with your Harvard email. Everything you post is attributed to
+    your role and program, if applicable (not your name, unless you opt in).
   </p>
   <div id="site-comments" class="comments-root" data-target-type="section" data-target-id="site-wide"></div>
 </section>
@@ -265,9 +291,9 @@
 
 <footer class="site-footer">
   <div class="footer-inner">
-    <div>Built for API-203M, Spring 2026. <a href="https://github.com">source</a>.</div>
+    <div>API-203M, Spring 2026. <a href="https://github.com/lizmckenna/api-203m-fg-site">source</a>.</div>
     <div class="footer-note">
-      Participant names pseudonymized. Quote consent obtained at recording.
+      Participant names pseudonymized. Quote consent obtained prior to recording.
     </div>
   </div>
 </footer>
@@ -277,7 +303,7 @@
   <form id="auth-form" method="dialog">
     <h3>sign in with your Harvard email</h3>
     <p class="dialog-lede">
-      We send a one-time link. No password. Your email is not shown to anyone.
+      We send a one-time magic link; your email is not shown to anyone.
     </p>
     <label>
       <span>email</span>

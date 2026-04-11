@@ -223,113 +223,160 @@ strong { font-weight: 600; }
 }
 
 /* =====================================================================
-   Memo clip + full dialog
+   Memo (inline letter from the instructor)
    ===================================================================== */
-.section-memo-clip { padding-top: 2.5rem; padding-bottom: 2.5rem; }
-.memo-card {
-  background: var(--paper-soft);
-  border: 1px solid var(--ink);
-  padding: 1.75rem 2rem;
-  position: relative;
-  box-shadow: 6px 6px 0 var(--ink);
-  max-width: var(--col-w);
-}
-.memo-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-}
+.section-memo { padding-top: 4rem; padding-bottom: 4rem; }
 .memo-label {
   font-family: var(--font-display);
   font-size: var(--fs-label);
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent);
+  margin-bottom: 1.5rem;
 }
-.memo-preview {
-  font-family: var(--font-quote);
-  font-style: italic;
-  font-size: 1.1rem;
-  line-height: 1.55;
-  color: var(--ink);
-  position: relative;
-  max-height: 11em;
-  overflow: hidden;
-  -webkit-mask-image: linear-gradient(to bottom, #000 75%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 75%, transparent 100%);
-}
-.memo-preview p { margin: 0 0 0.8rem 0; }
-
-.memo-dialog {
-  border: 1px solid var(--ink);
-  padding: 0;
-  max-width: 48rem;
-  width: calc(100vw - 2rem);
-  max-height: calc(100vh - 4rem);
-  background: var(--paper);
-  box-shadow: 10px 10px 0 var(--ink);
-}
-.memo-dialog::backdrop {
-  background: rgba(10, 10, 10, 0.7);
-  backdrop-filter: blur(6px);
-}
-.memo-dialog-inner {
-  max-height: calc(100vh - 4rem);
-  overflow-y: auto;
-  padding: 3rem clamp(1.5rem, 4vw, 3rem);
-  position: relative;
-}
-.memo-close {
-  position: sticky;
-  top: 0;
-  float: right;
-  font-size: 1.8rem;
-  line-height: 1;
-  width: 2.5rem;
-  height: 2.5rem;
-  background: var(--paper);
-  border: 1px solid var(--rule-strong);
-  cursor: pointer;
-  margin-left: auto;
-  display: block;
-  z-index: 2;
-}
-.memo-close:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 .prose-memo {
-  max-width: 38rem;
-  font-size: var(--fs-body);
-  line-height: 1.65;
+  max-width: 40rem;
+  font-size: 1.08rem;
+  line-height: 1.7;
   font-family: var(--font-body);
+  color: var(--ink);
 }
 .prose-memo h1 {
   font-family: var(--font-display);
   font-weight: 900;
-  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-size: clamp(2rem, 4vw, 3.2rem);
   line-height: 1.05;
-  margin: 0 0 1.5rem 0;
-  letter-spacing: -0.01em;
+  margin: 0 0 2rem 0;
+  letter-spacing: -0.015em;
+  max-width: 16ch;
 }
 .prose-memo h2 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(1.15rem, 1.8vw, 1.4rem);
-  margin: 2rem 0 0.75rem 0;
+  font-size: clamp(1.3rem, 2vw, 1.6rem);
+  margin: 2.5rem 0 1rem 0;
   letter-spacing: -0.005em;
+  max-width: 28ch;
 }
-.prose-memo p { margin: 0 0 1rem 0; }
+.prose-memo p { margin: 0 0 1.25rem 0; }
+.prose-memo strong { font-weight: 600; color: var(--ink); }
 .prose-memo em { font-family: var(--font-quote); font-style: italic; }
-.prose-memo hr { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
-.prose-memo .footnotes {
-  font-size: 0.85rem;
-  color: var(--mute);
-  border-top: 1px solid var(--rule);
-  padding-top: 1rem;
-  margin-top: 2rem;
+.prose-memo a {
+  color: var(--ink);
+  border-bottom: 1px solid var(--accent);
 }
+.prose-memo a:hover { color: var(--accent); }
+.prose-memo hr { border: none; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+.prose-memo .pull-quote-memo {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  line-height: 1.3;
+  color: var(--ink);
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 2rem -1rem 2rem -1rem;
+  max-width: 34ch;
+  font-weight: 400;
+}
+
+.prose-memo .fn-ref {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 1;
+}
+.prose-memo .fn-ref a {
+  border: none;
+  color: var(--accent);
+  padding: 0 0.15rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.prose-memo .fn-ref a:hover { text-decoration: underline; }
+.prose-memo .footnotes-list {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+  color: var(--mute);
+}
+.prose-memo .footnotes-head {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.75rem 0;
+}
+.prose-memo .footnotes-list ol { padding-left: 1.5rem; margin: 0; }
+.prose-memo .footnotes-list li { margin-bottom: 0.75rem; line-height: 1.55; }
+.prose-memo .footnotes-list .fn-back {
+  border: none;
+  color: var(--mute);
+  font-size: 0.85em;
+  margin-left: 0.3rem;
+}
+.prose-memo .footnotes-list .fn-back:hover { color: var(--accent); }
+
+/* =====================================================================
+   Methods intro section — protocol link + brief positionality pointer
+   ===================================================================== */
+.section-methods-intro h2 { max-width: 22ch; }
+.methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.methods-item {
+  padding-top: 1rem;
+  border-top: 2px solid var(--ink);
+}
+.methods-item-label {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.methods-item-body { font-size: 0.95rem; line-height: 1.55; color: var(--ink-soft); }
+.methods-item-link { margin-top: 0.75rem; font-size: 0.88rem; }
+.methods-item-link a { border-bottom: 1px solid var(--accent); color: var(--ink); font-weight: 500; }
+.methods-item-link a:hover { color: var(--accent); }
+
+.positionality-details {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem;
+}
+.positionality-details summary {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+  cursor: pointer;
+  list-style: none;
+  padding: 0.5rem 0;
+}
+.positionality-details summary::-webkit-details-marker { display: none; }
+.positionality-details summary::after { content: " ↓"; color: var(--mute); }
+.positionality-details[open] summary::after { content: " ↑"; }
+.positionality-details summary:hover { color: var(--ink); }
+.positionality-details .prose {
+  margin-top: 1rem;
+  max-width: 45rem;
+  font-size: 0.97rem;
+  color: var(--ink-soft);
+}
+.positionality-details .prose p { margin: 0 0 1rem 0; }
+.positionality-details .prose strong { color: var(--ink); }
 
 /* =====================================================================
    Positionality
@@ -436,6 +483,45 @@ strong { font-weight: 600; }
   font-style: italic;
   font-size: 1.05rem;
 }
+
+/* =====================================================================
+   Context-window quote block — used for themes, disagreements, slop rigorous
+   ===================================================================== */
+.ctx-quote {
+  display: block;
+  margin: 0 0 1rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--rule-strong);
+  background: var(--paper-soft);
+  font-family: var(--font-quote);
+  font-size: 0.98rem;
+  line-height: 1.55;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.ctx-line {
+  display: block;
+  margin: 0.15rem 0;
+}
+.ctx-speaker {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--mute);
+  width: 2.3rem;
+  margin-right: 0.4rem;
+  vertical-align: 0.15em;
+}
+.ctx-before, .ctx-after { color: var(--mute); }
+.ctx-center {
+  color: var(--ink);
+  font-weight: 500;
+  background: linear-gradient(transparent 60%, #fff4b8 60%);
+  padding: 0 0.1rem;
+}
 .disagreement .diff-row { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; font-size: 0.9rem; padding: 0.25rem 0; }
 .disagreement .diff-label { font-weight: 600; color: var(--mute); letter-spacing: 0.05em; text-transform: uppercase; font-size: 0.7rem; }
 
@@ -511,9 +597,16 @@ strong { font-weight: 600; }
   margin: 0;
   font-family: var(--font-quote);
   font-style: italic;
-  font-size: 1.05rem;
-  line-height: 1.4;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: #d4d4d4;
+}
+.field-standout blockquote mark {
+  background: transparent;
   color: var(--paper);
+  font-weight: 500;
+  border-bottom: 1.5px solid #ff6b7a;
+  padding-bottom: 1px;
 }
 .field-standout .meta {
   font-size: 0.72rem;
@@ -573,7 +666,7 @@ strong { font-weight: 600; }
   line-height: 1;
 }
 details[open] .field-fg-summary::after { content: "–"; }
-.field-fg-summary .fg-name { color: #ff6b7a; }
+.field-fg-summary .fg-name { color: #d4d4d4; letter-spacing: 0.06em; }
 .field-fg-summary .fg-meta { color: #888; font-weight: 400; font-size: 0.78rem; text-transform: none; letter-spacing: 0.03em; }
 
 .field-affect-bar {
@@ -639,18 +732,75 @@ details[open] .field-fg-summary::after { content: "–"; }
 /* =====================================================================
    Votes
    ===================================================================== */
-.votes-body { display: grid; gap: 2rem; }
+.votes-body { display: grid; gap: 1.5rem; }
+.vote-head { font-family: var(--font-display); font-size: var(--fs-h3); margin: 0 0 0.3rem 0; letter-spacing: -0.005em; }
+.vote-subhead { font-family: var(--font-display); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mute); margin: 2rem 0 0.75rem 0; }
+.vote-caption { font-size: var(--fs-small); color: var(--mute); margin: 0 0 1rem 0; }
+
 .vote-bar {
   display: grid;
-  grid-template-columns: 12rem 1fr auto;
+  grid-template-columns: minmax(8rem, 18rem) 1fr auto;
   gap: 1rem;
   align-items: center;
   font-size: var(--fs-small);
 }
 .vote-bar .label { font-weight: 500; }
-.vote-bar .bar { height: 12px; background: var(--rule); position: relative; }
-.vote-bar .bar-fill { position: absolute; inset: 0 auto 0 0; background: var(--accent); }
-.vote-bar .count { font-variant-numeric: tabular-nums; color: var(--mute); min-width: 3ch; text-align: right; }
+.vote-bar .bar { height: 14px; background: var(--rule); position: relative; }
+.vote-bar .bar-fill { position: absolute; inset: 0 auto 0 0; background: var(--ink); transition: width 600ms ease; }
+.vote-bar .count { font-variant-numeric: tabular-nums; color: var(--mute); min-width: 3ch; text-align: right; font-weight: 600; }
+
+/* Two-sided risk split */
+.vote-split { display: grid; gap: 0.5rem; }
+.split-bar {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  background: var(--rule);
+  border: 1px solid var(--ink);
+  overflow: hidden;
+}
+.split-seg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.85rem;
+  color: var(--paper);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  min-width: 0;
+  overflow: hidden;
+  transition: width 700ms ease;
+}
+.seg-overuse    { background: var(--ink); }
+.seg-ambivalent { background: var(--mute); }
+.seg-underuse   { background: var(--accent); }
+.split-seg .split-label { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.split-seg .split-count { font-variant-numeric: tabular-nums; font-weight: 700; margin-left: 0.5rem; }
+.split-legend {
+  display: grid;
+  gap: 0.3rem;
+  font-size: var(--fs-small);
+  color: var(--mute);
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--rule);
+}
+.split-legend strong { color: var(--ink); }
+
+/* Per-FG small bars */
+.vote-per-fg { margin-top: 2rem; }
+.vote-fg-row {
+  display: grid;
+  grid-template-columns: 10rem 1fr 3ch;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.25rem 0;
+  font-size: var(--fs-small);
+}
+.vote-fg-row .split-bar { height: 18px; border: 1px solid var(--rule-strong); }
+.vote-fg-row .split-bar .split-seg { padding: 0; }
+.vote-fg-label { font-weight: 500; color: var(--ink); }
+.vote-fg-total { font-variant-numeric: tabular-nums; color: var(--mute); font-weight: 600; text-align: right; }
 
 /* =====================================================================
    Reaction bars + comments

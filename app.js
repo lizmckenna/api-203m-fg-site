@@ -56,23 +56,37 @@ async function loadJSONL(path) {
 // Section renderers
 // =====================================================================
 
-// Minimal markdown → HTML. Handles: # / ## / ###, **bold**, *italic*,
-// [footnote refs], paragraph breaks, horizontal rules. Not a full markdown
-// parser — just enough for this memo.
+// Markdown → HTML. Handles:
+//   # / ## / ### headings
+//   **bold**, *italic*
+//   [link](url)
+//   >> pull quote (whole paragraph)
+//   [^1] footnote reference → jumps to footnote body
+//   [^1]: footnote body
+//   --- horizontal rule
+// The leading-sentence-bolding of paragraphs is done via **...** in the source,
+// not auto-detected, so the author controls which sentences pop.
 function mdToHTML(md) {
   const lines = md.split("\n");
   const out = [];
   const footnotes = {};
   const footnoteOrder = [];
+
   let para = [];
   const flush = () => {
-    if (para.length) {
-      out.push(`<p>${para.join(" ")}</p>`);
-      para = [];
+    if (!para.length) return;
+    const joined = para.join(" ");
+    // Detect pull-quote paragraph marker
+    if (joined.startsWith(">> ")) {
+      out.push(`<blockquote class="pull-quote-memo">${inline(joined.slice(3))}</blockquote>`);
+    } else {
+      out.push(`<p>${inline(joined)}</p>`);
     }
+    para = [];
   };
+
   for (let raw of lines) {
-    // Footnote definition: [^1]: body
+    // Footnote body (must come before generic [^...] detection)
     const fnDef = raw.match(/^\[\^(\w+)\]:\s*(.*)$/);
     if (fnDef) {
       flush();
@@ -80,67 +94,54 @@ function mdToHTML(md) {
       footnoteOrder.push(fnDef[1]);
       continue;
     }
+    // Continuation of a footnote body (indented or running paragraph after a [^n]:)
+    if (footnoteOrder.length && para.length === 0 && out.length && raw && !raw.startsWith("#") && !raw.startsWith("---") && !raw.startsWith(">>")) {
+      // Skip — we don't support multi-line footnote bodies; authors should keep them on one line.
+    }
     if (raw === "") { flush(); continue; }
     if (raw === "---") { flush(); out.push("<hr>"); continue; }
     if (raw.startsWith("### ")) { flush(); out.push(`<h3>${inline(raw.slice(4))}</h3>`); continue; }
     if (raw.startsWith("## "))  { flush(); out.push(`<h2>${inline(raw.slice(3))}</h2>`); continue; }
     if (raw.startsWith("# "))   { flush(); out.push(`<h1>${inline(raw.slice(2))}</h1>`); continue; }
-    para.push(inline(raw));
+    para.push(raw);
   }
   flush();
+
   if (footnoteOrder.length) {
-    out.push('<div class="footnotes"><strong>Footnotes</strong>');
-    footnoteOrder.forEach((k, i) => {
-      out.push(`<p id="fn-${k}"><sup>${i + 1}</sup> ${inline(footnotes[k])}</p>`);
+    out.push('<div class="footnotes-list"><h3 class="footnotes-head">notes</h3><ol>');
+    footnoteOrder.forEach((k) => {
+      out.push(`<li id="fn-${k}">${inline(footnotes[k])} <a href="#fnref-${k}" class="fn-back">↩</a></li>`);
     });
-    out.push("</div>");
+    out.push("</ol></div>");
   }
+
   return out.join("\n");
 
+  // Inline formatting. Order matters: links BEFORE italics (to avoid `*link*` clashes).
   function inline(s) {
-    return escape(s)
-      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/(^|\s)\*([^*]+)\*(?=\s|$|[.,!?;:])/g, '$1<em>$2</em>')
-      .replace(/\[\^(\w+)\]/g, '<sup><a href="#fn-$1">$1</a></sup>');
+    let x = escape(s);
+    // Bold
+    x = x.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    // Links [text](url)
+    x = x.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, text, url) =>
+      `<a href="${url}" target="_blank" rel="noopener">${text}</a>`
+    );
+    // Italic — use asterisks only when flanked by non-word chars
+    x = x.replace(/(^|[\s(])\*([^*\s][^*]*?)\*(?=[\s).,!?;:]|$)/g, '$1<em>$2</em>');
+    // Footnote references [^n] → superscript link
+    x = x.replace(/\[\^(\w+)\]/g, (_, k) =>
+      `<sup class="fn-ref"><a id="fnref-${k}" href="#fn-${k}">${k}</a></sup>`
+    );
+    return x;
   }
-}
-
-// Extract a short preview (first 2-3 paragraphs of body, skipping headings).
-function previewFromMD(md, maxChars = 520) {
-  const paras = md
-    .split("\n\n")
-    .map((p) => p.trim())
-    .filter((p) => p && !p.startsWith("#") && !p.startsWith("---") && !p.startsWith("["));
-  let out = "";
-  for (const p of paras) {
-    if (out.length + p.length > maxChars) {
-      out += (out ? " " : "") + p.slice(0, maxChars - out.length).replace(/\s\S*$/, "") + "…";
-      break;
-    }
-    out += (out ? "\n\n" : "") + p;
-  }
-  return out
-    .split("\n\n")
-    .map((p) => `<p>${escape(p).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/(^|\s)\*([^*]+)\*/g, '$1<em>$2</em>')}</p>`)
-    .join("");
 }
 
 async function renderMemo() {
   const res = await fetch("public/memo.md");
   if (!res.ok) return;
   const md = await res.text();
-  document.getElementById("memo-preview").innerHTML = previewFromMD(md, 520);
-  document.getElementById("memo-full").innerHTML = mdToHTML(md);
-  document.getElementById("memo-open").addEventListener("click", () =>
-    document.getElementById("memo-dialog").showModal()
-  );
-  document.getElementById("memo-close").addEventListener("click", () =>
-    document.getElementById("memo-dialog").close()
-  );
-  document.getElementById("memo-dialog").addEventListener("click", (e) => {
-    // Click on backdrop closes
-    if (e.target.tagName === "DIALOG") e.target.close();
-  });
+  const el = document.getElementById("memo-body");
+  if (el) el.innerHTML = mdToHTML(md);
 }
 
 async function renderMeta() {
@@ -153,21 +154,15 @@ async function renderMeta() {
 }
 
 async function renderPositionality() {
-  // Serve positionality.md from the repo root via a simple copy: the Makefile
-  // should copy it into public/ on build. For now, try public/positionality.md
-  // first, then fall back to a shim.
   const res = await fetch("public/positionality.md");
   const el = document.getElementById("positionality-body");
+  if (!el) return;
   if (!res.ok) {
     el.innerHTML = "<p>Positionality statement not yet built into <code>public/</code>. Run <code>make publish</code>.</p>";
     return;
   }
   const md = await res.text();
-  // Minimal markdown: paragraph breaks + bold
-  el.innerHTML = md
-    .split(/\n\n+/)
-    .map((p) => `<p>${p.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\n/g, " ")}</p>`)
-    .join("\n");
+  el.innerHTML = mdToHTML(md);
 }
 
 async function renderThreeCodes() {
@@ -222,7 +217,7 @@ async function renderDisagreements() {
     const div = document.createElement("div");
     div.className = "disagreement";
     div.innerHTML = `
-      <blockquote>"${escape(r.text)}"</blockquote>
+      ${contextBlockHTML(r.context, r.text)}
       <div class="diff-row"><span class="diff-label">LM</span>    <span>${r.lm_codes.join(", ") || "—"}</span></div>
       <div class="diff-row"><span class="diff-label">Claude</span> <span>${r.llm_codes.join(", ") || "—"}</span></div>
       <div class="diff-row"><span class="diff-label">only LM</span><span>${r.only_lm.join(", ") || "—"}</span></div>
@@ -231,6 +226,25 @@ async function renderDisagreements() {
     el.appendChild(div);
     attachReactionBar(div, "disagreement", `${r.fg_id}:${r.line_id}`);
   }
+}
+
+/**
+ * Render a context window around a coded utterance as a long block quote.
+ * The center line (the actual coded utterance) is highlighted; surrounding
+ * lines appear as context. Speakers (MOD / STU) are shown as prefix labels.
+ */
+function contextBlockHTML(context, fallbackText) {
+  if (!context || !context.center) {
+    return `<blockquote class="ctx-quote"><span class="ctx-center">${escape(fallbackText || "")}</span></blockquote>`;
+  }
+  const renderLine = (line, cls) => {
+    const speaker = line.speaker === "MOD" ? "MOD" : "STU";
+    return `<span class="ctx-line ${cls}"><span class="ctx-speaker">${speaker}</span> ${escape(line.text)}</span>`;
+  };
+  const before = (context.before || []).map((l) => renderLine(l, "ctx-before")).join("");
+  const center = renderLine(context.center, "ctx-center");
+  const after  = (context.after  || []).map((l) => renderLine(l, "ctx-after")).join("");
+  return `<blockquote class="ctx-quote">${before}${center}${after}</blockquote>`;
 }
 
 async function renderAiSlop() {
@@ -250,7 +264,7 @@ async function renderAiSlop() {
         <div class="slop-theme-def">${escape(t.definition || "")}</div>
         <div class="slop-theme-quotes">
           ${(t.quotes || []).slice(0, 2).map((q) =>
-            `<blockquote>"${escape(q.quote)}"<cite>line ${q.line_id} · ${escape(q.section_id || "")}</cite></blockquote>`
+            `${contextBlockHTML(q.context, q.quote)}<cite>line ${q.line_id} · ${escape(q.section_id || "")}</cite>`
           ).join("")}
         </div>
       </div>
@@ -285,31 +299,44 @@ async function renderFieldNotes() {
   const d = await loadJSON("public/data/field_observations.json");
   if (!d || !d.by_fg || Object.keys(d.by_fg).length === 0) return;
 
+  // Helper: find the full observation paragraph that contains a standout sentence.
+  function fullParagraphFor(standout) {
+    const fg = d.by_fg[standout.fg_id];
+    if (!fg) return standout.sentence;
+    const obs = (fg.observations || []).find((o) => o.index === standout.index);
+    return obs ? obs.text : standout.sentence;
+  }
+
   // --- global standouts grid ---
+  // Per Liz: no source FG attribution, no reaction bars, use long paragraph
+  // context around each standout so the excerpt reads.
   const standoutsEl = document.getElementById("field-standouts");
   standoutsEl.innerHTML = "";
-  (d.global_standouts || []).forEach((s, i) => {
+  (d.global_standouts || []).forEach((s) => {
+    const para = fullParagraphFor(s);
+    const highlighted = highlightSentence(para, s.sentence);
     const card = document.createElement("div");
     card.className = "field-standout";
     card.innerHTML = `
-      <blockquote>"${escape(s.sentence)}"</blockquote>
+      <blockquote>${highlighted}</blockquote>
       <div class="meta">
         <span class="affect-pill affect-pill-${s.affect}">${s.affect}</span>
-        <span>${escape(s.fg_id)}</span>
       </div>
     `;
     standoutsEl.appendChild(card);
-    attachReactionBar(card, "field_standout", `${s.fg_id}:${s.index}:${i}`);
   });
   if (!standoutsEl.children.length) {
     standoutsEl.innerHTML = `<div class="empty">no field standouts extracted yet.</div>`;
   }
 
-  // --- per-FG expandable cards ---
+  // --- Anonymized per-FG expandable cards ---
+  // Source FG id is redacted (labeled "focus group A", "focus group B", ...)
+  // so viewers cannot identify which room the notes came from.
   const byFgEl = document.getElementById("field-by-fg");
   byFgEl.innerHTML = "";
   const fgIds = Object.keys(d.by_fg).sort();
-  for (const fgId of fgIds) {
+  const letters = "ABCDEFGHIJK".split("");
+  fgIds.forEach((fgId, idx) => {
     const a = d.by_fg[fgId];
     const card = document.createElement("details");
     card.className = "field-fg-card";
@@ -331,7 +358,7 @@ async function renderFieldNotes() {
 
     const summary = `
       <summary class="field-fg-summary">
-        <span class="fg-name">${escape(fgId)}</span>
+        <span class="fg-name">focus group ${letters[idx] || idx + 1}</span>
         <span class="fg-meta">${a.observation_count} observations &nbsp; ${topCats}</span>
       </summary>
     `;
@@ -339,14 +366,25 @@ async function renderFieldNotes() {
 
     const obsItems = (a.observations || []).map((o) => `
       <div class="field-obs affect-${o.affect}">
-        <div>"${escape(o.text)}"</div>
+        <div>${escape(o.text)}</div>
         <div class="obs-tags">${(o.categories || []).join(" · ")}</div>
       </div>
     `).join("");
 
     card.innerHTML = `${summary}${stripHTML}<div class="field-obs-list">${obsItems}</div>`;
     byFgEl.appendChild(card);
-  }
+  });
+}
+
+function highlightSentence(paragraph, sentence) {
+  const safePara = escape(paragraph);
+  if (!sentence) return safePara;
+  const safeSentence = escape(sentence);
+  const idx = safePara.indexOf(safeSentence);
+  if (idx === -1) return safePara;
+  return safePara.slice(0, idx) +
+    `<mark>${safeSentence}</mark>` +
+    safePara.slice(idx + safeSentence.length);
 }
 
 function affectColor(mood) {
@@ -379,7 +417,7 @@ async function renderThemes() {
     for (const ex of t.examples || []) {
       const e = document.createElement("div");
       e.className = "theme-example";
-      e.innerHTML = `"${escape(ex.quote || ex.text)}"<cite>${ex.fg_id} · ${ex.section_id}</cite>`;
+      e.innerHTML = `${contextBlockHTML(ex.context, ex.quote || ex.text)}<cite>${ex.fg_id} · ${ex.section_id}</cite>`;
       examples.appendChild(e);
       attachReactionBar(e, "quote", `${ex.fg_id}:${ex.line_id}`);
     }
@@ -390,26 +428,103 @@ async function renderThemes() {
 async function renderVotes() {
   const votes = await loadJSON("public/data/vote_tallies.json");
   const el = document.getElementById("votes-body");
-  if (!votes || !votes.two_sided_risk || votes.two_sided_risk.overuse === null) return;
+  if (!votes) return;
+
+  const two = votes.two_sided_risk || {};
+  const total = (two.overuse || 0) + (two.underuse || 0) + (two.ambivalent || 0);
+  const agg = (votes.pair_share_dots && votes.pair_share_dots.items_aggregated) || [];
+
+  if (total === 0 && agg.length === 0) {
+    el.innerHTML = `<div class="empty">vote tallies not entered yet.<br>edit <code>data/derived/vote_tallies.json</code> and run <code>make publish</code>.</div>`;
+    return;
+  }
 
   el.innerHTML = "";
-  const r = votes.two_sided_risk;
-  const total = (r.overuse || 0) + (r.underuse || 0);
-  el.innerHTML = `
-    <h3 style="font-family:var(--font-display);font-size:var(--fs-h3);margin:0 0 .5rem 0;">two-sided risk vote</h3>
-    <div class="vote-bar"><span class="label">concern 1: overuse</span><div class="bar"><div class="bar-fill" style="width:${(r.overuse/total*100).toFixed(0)}%"></div></div><span class="count">${r.overuse}</span></div>
-    <div class="vote-bar"><span class="label">concern 2: underuse</span><div class="bar"><div class="bar-fill" style="width:${(r.underuse/total*100).toFixed(0)}%"></div></div><span class="count">${r.underuse}</span></div>
-  `;
-  if (votes.pair_share_dots && votes.pair_share_dots.length) {
+
+  // --- Two-sided risk: split chart ---
+  if (total > 0) {
+    const overPct = Math.round((two.overuse || 0) / total * 100);
+    const underPct = Math.round((two.underuse || 0) / total * 100);
+    const ambPct = 100 - overPct - underPct;
+    const fgCount = two.fg_votes_recorded || 0;
+
+    const split = document.createElement("div");
+    split.className = "vote-split";
+    split.innerHTML = `
+      <h3 class="vote-head">concern 1 vs concern 2</h3>
+      <p class="vote-caption">aggregated across ${fgCount} focus group${fgCount === 1 ? "" : "s"} · ${total} votes total</p>
+      <div class="split-bar">
+        <div class="split-seg seg-overuse"   style="width:${overPct}%"  title="concern 1: overuse (${two.overuse})">
+          <span class="split-label">overuse</span>
+          <span class="split-count">${two.overuse || 0}</span>
+        </div>
+        <div class="split-seg seg-ambivalent" style="width:${ambPct}%"  title="ambivalent (${two.ambivalent})">
+          ${ambPct > 4 ? `<span class="split-label">ambivalent</span><span class="split-count">${two.ambivalent || 0}</span>` : ""}
+        </div>
+        <div class="split-seg seg-underuse"  style="width:${underPct}%" title="concern 2: underuse (${two.underuse})">
+          <span class="split-label">underuse</span>
+          <span class="split-count">${two.underuse || 0}</span>
+        </div>
+      </div>
+      <div class="split-legend">
+        <div><strong>concern 1:</strong> using AI too heavily is a cost to learning, writing, independent thinking</div>
+        <div><strong>concern 2:</strong> not using AI well/enough leaves you less prepared than peers</div>
+      </div>
+    `;
+    el.appendChild(split);
+
+    // Per-FG breakdown: small stacked horizontal bars
+    if (two.by_fg && Object.keys(two.by_fg).length) {
+      const fgWrap = document.createElement("div");
+      fgWrap.className = "vote-per-fg";
+      fgWrap.innerHTML = `<h4 class="vote-subhead">by focus group</h4>`;
+      const entries = Object.entries(two.by_fg)
+        .filter(([_, row]) => (row.overuse || row.underuse || row.ambivalent))
+        .sort();
+      if (entries.length) {
+        for (const [fgId, row] of entries) {
+          const t = (row.overuse || 0) + (row.underuse || 0) + (row.ambivalent || 0);
+          const letter = "ABCDEFGHIJK"[Object.keys(two.by_fg).sort().indexOf(fgId)] || "?";
+          const row_html = `
+            <div class="vote-fg-row">
+              <span class="vote-fg-label">focus group ${letter}</span>
+              <div class="split-bar">
+                <div class="split-seg seg-overuse" style="width:${(row.overuse || 0) / t * 100}%"></div>
+                <div class="split-seg seg-ambivalent" style="width:${(row.ambivalent || 0) / t * 100}%"></div>
+                <div class="split-seg seg-underuse" style="width:${(row.underuse || 0) / t * 100}%"></div>
+              </div>
+              <span class="vote-fg-total">${t}</span>
+            </div>
+          `;
+          fgWrap.insertAdjacentHTML("beforeend", row_html);
+        }
+        el.appendChild(fgWrap);
+      }
+    }
+  }
+
+  // --- Pair-share dots aggregate chart ---
+  if (agg.length) {
     const h = document.createElement("h3");
-    h.style.cssText = "font-family:var(--font-display);font-size:var(--fs-h3);margin:1rem 0 .5rem 0;";
-    h.textContent = "pair-share top votes";
+    h.className = "vote-head";
+    h.style.marginTop = "2.5rem";
+    h.textContent = "what HKS should provide (pair-share dot votes)";
     el.appendChild(h);
-    const max = Math.max(...votes.pair_share_dots.map(d => d.count));
-    for (const d of votes.pair_share_dots.sort((a,b) => b.count - a.count)) {
+    const caption = document.createElement("p");
+    caption.className = "vote-caption";
+    caption.textContent = `aggregated across focus groups · top items by total dots`;
+    el.appendChild(caption);
+
+    const max = Math.max(...agg.map((d) => d.count));
+    for (const d of agg) {
       const row = document.createElement("div");
       row.className = "vote-bar";
-      row.innerHTML = `<span class="label">${escape(d.item)}</span><div class="bar"><div class="bar-fill" style="width:${(d.count/max*100).toFixed(0)}%"></div></div><span class="count">${d.count}</span>`;
+      const pct = (d.count / max) * 100;
+      row.innerHTML = `
+        <span class="label">${escape(d.item)}</span>
+        <div class="bar"><div class="bar-fill" style="width:${pct}%"></div></div>
+        <span class="count">${d.count}</span>
+      `;
       el.appendChild(row);
     }
   }
