@@ -233,6 +233,54 @@ async function renderDisagreements() {
   }
 }
 
+async function renderAiSlop() {
+  const d = await loadJSON("public/data/ai_slop.json");
+  if (!d) return;
+  const rig = document.getElementById("slop-rigorous");
+  const slp = document.getElementById("slop-slop");
+
+  const rThemes = d.rigorous?.themes || [];
+  if (rThemes.length) {
+    rig.innerHTML = rThemes.map((t) => `
+      <div class="slop-theme">
+        <div class="slop-theme-head">
+          <code>${escape(t.code)}</code>
+          <span class="slop-theme-count">${t.count}×</span>
+        </div>
+        <div class="slop-theme-def">${escape(t.definition || "")}</div>
+        <div class="slop-theme-quotes">
+          ${(t.quotes || []).slice(0, 2).map((q) =>
+            `<blockquote>"${escape(q.quote)}"<cite>line ${q.line_id} · ${escape(q.section_id || "")}</cite></blockquote>`
+          ).join("")}
+        </div>
+      </div>
+    `).join("");
+  } else {
+    rig.innerHTML = `<div class="empty">no coded data yet — run <code>make stage02</code></div>`;
+  }
+
+  const sThemes = d.slop?.themes || [];
+  if (sThemes.length) {
+    slp.innerHTML = sThemes.map((t) => `
+      <div class="slop-theme slop-theme-slop">
+        <div class="slop-theme-head"><strong>${escape(t.name || t.theme || "")}</strong></div>
+        <div class="slop-theme-def">${escape(t.description || t.summary || "")}</div>
+        ${t.evidence ? `<blockquote>"${escape(t.evidence)}"</blockquote>` : ""}
+      </div>
+    `).join("");
+  } else {
+    slp.innerHTML = `<div class="empty">run <code>make stage06</code> to generate</div>`;
+  }
+
+  // Tiny caption showing which FG the comparison is drawn from and how the slop was produced
+  const hdr = document.querySelector("#ai-slop .section-lede");
+  if (hdr && d.fg_id) {
+    hdr.insertAdjacentHTML("afterend",
+      `<div class="slop-caption">drawn from <code>${escape(d.fg_id)}</code> · rigorous side from the deductive pass, slop side from a single unconstrained prompt: <em>"tell me what the main themes are"</em></div>`
+    );
+  }
+}
+
 async function renderFieldNotes() {
   const d = await loadJSON("public/data/field_observations.json");
   if (!d || !d.by_fg || Object.keys(d.by_fg).length === 0) return;
@@ -628,6 +676,7 @@ function escape(s) {
   await renderPositionality();
   await renderThreeCodes();
   await renderDisagreements();
+  await renderAiSlop();
   await renderFieldNotes();
   await renderThemes();
   await renderVotes();
