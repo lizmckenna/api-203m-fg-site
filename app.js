@@ -622,9 +622,10 @@ async function initAuth() {
   const signinBtn = document.getElementById("signin-btn");
 
   if (!supabase) {
-    signinBtn.disabled = true;
-    signinBtn.textContent = "reactions disabled";
-    signinBtn.title = "Supabase not configured — see frontend/supabase/README.md";
+    // Hide the sign-in button entirely until a backend is configured — a
+    // disabled button invites confused clicking. Comments section carries
+    // the full explanation.
+    slot.innerHTML = "";
     return;
   }
 
@@ -795,7 +796,48 @@ function subscribeToRealtime() {
 // =====================================================================
 
 async function initComments() {
+  const stateEl = document.getElementById("comments-state");
   const root = document.getElementById("site-comments");
+
+  // CASE 1: Supabase not yet configured — comment form is disabled and we
+  // say exactly what's going on + where comments will be posted once it's
+  // live, so a reader isn't confused about whether their text is being saved.
+  if (!supabase) {
+    stateEl.innerHTML = `
+      <div class="comments-disabled-card">
+        <div class="comments-disabled-label">comments are not yet live</div>
+        <p>
+          This section will accept reactions and short written responses from
+          anyone with a Harvard email. Until the backend is connected, nothing
+          typed here gets saved anywhere — the form is hidden on purpose so no
+          one assumes their comment was posted.
+        </p>
+        <p class="comments-plan">
+          <strong>When it goes live:</strong> sign-in uses a one-time email link
+          (no password), and your comment is attributed to your role (student /
+          staff / faculty) and program if applicable — not your name, unless
+          you opt in. Everything you post is <strong>visible to everyone else
+          signed in with a Harvard email</strong>. It is not a private message.
+          It is not anonymous to Prof. McKenna.
+        </p>
+      </div>
+    `;
+    root.hidden = true;
+    return;
+  }
+
+  // CASE 2: Supabase IS configured — render the real form with the same
+  // privacy notice so readers know where their comment goes.
+  stateEl.innerHTML = `
+    <div class="comments-notice">
+      <strong>Where your comment goes:</strong> everything you post is
+      visible to everyone else signed in with a Harvard email. Your
+      role and program are shown next to your comment; your name is
+      not shown unless you opted in on your profile. This is not a
+      private message, and it is not anonymous to Prof. McKenna.
+    </div>
+  `;
+  root.hidden = false;
   root.innerHTML = `
     <form class="comment-form" id="comment-form">
       <textarea name="body" placeholder="say something back..." required></textarea>
@@ -805,7 +847,6 @@ async function initComments() {
   `;
   document.getElementById("comment-form").addEventListener("submit", async (e) => {
     e.preventDefault();
-    if (!supabase) { alert("supabase not configured"); return; }
     const { data: { session } } = await supabase.auth.getSession();
     if (!session) { document.getElementById("auth-dialog").showModal(); return; }
     const body = e.target.body.value.trim();
