@@ -1,0 +1,3232 @@
+{
+  "by_fg": {
+    "01-Cheng": {
+      "fg_id": "01-Cheng",
+      "observation_count": 36,
+      "affect_timeline": [
+        [
+          0,
+          "neutral"
+        ],
+        [
+          1,
+          "tense"
+        ],
+        [
+          2,
+          "neutral"
+        ],
+        [
+          3,
+          "relaxed"
+        ],
+        [
+          4,
+          "embodied"
+        ],
+        [
+          5,
+          "mixed"
+        ],
+        [
+          6,
+          "neutral"
+        ],
+        [
+          7,
+          "embodied"
+        ],
+        [
+          8,
+          "relaxed"
+        ],
+        [
+          9,
+          "embodied"
+        ],
+        [
+          10,
+          "engaged"
+        ],
+        [
+          11,
+          "embodied"
+        ],
+        [
+          14,
+          "relaxed"
+        ],
+        [
+          15,
+          "embodied"
+        ],
+        [
+          16,
+          "engaged"
+        ],
+        [
+          17,
+          "embodied"
+        ],
+        [
+          18,
+          "engaged"
+        ],
+        [
+          19,
+          "embodied"
+        ],
+        [
+          20,
+          "disengaged"
+        ],
+        [
+          21,
+          "engaged"
+        ],
+        [
+          22,
+          "neutral"
+        ],
+        [
+          23,
+          "tense"
+        ],
+        [
+          24,
+          "embodied"
+        ],
+        [
+          25,
+          "tense"
+        ],
+        [
+          26,
+          "embodied"
+        ],
+        [
+          27,
+          "tense"
+        ],
+        [
+          28,
+          "engaged"
+        ],
+        [
+          29,
+          "tense"
+        ],
+        [
+          30,
+          "relaxed"
+        ],
+        [
+          31,
+          "neutral"
+        ],
+        [
+          32,
+          "mixed"
+        ],
+        [
+          33,
+          "relaxed"
+        ],
+        [
+          34,
+          "tense"
+        ],
+        [
+          35,
+          "neutral"
+        ]
+      ],
+      "top_categories": {
+        "body_language": 19,
+        "moderator_action": 10,
+        "relaxation_markers": 8,
+        "engagement": 8,
+        "recognition_echo": 5,
+        "disengagement": 5,
+        "power_asymmetry": 5,
+        "silence_or_pause": 4,
+        "tension": 4
+      },
+      "observations": [
+        {
+          "index": 0,
+          "text": "People started to move around. P-07 (Moderator) moved toward the circle. The group slowly gathered. The Scriber arrived with supplies.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-07"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 1,
+          "text": "P-03, P-04, and the Scriber are interacting. Other people are comparatively silent. P-02 joined the conversation. People started to gather in a circle.",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [
+            "P-02",
+            "P-03",
+            "P-04"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 2,
+          "text": "P-04, P-06, and P-03 continue interacting. We used a laptop to place the microphone. The computer was contributed by P-04. We are ready once everyone has sat down in a circle.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-03",
+            "P-04",
+            "P-06"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 3,
+          "text": "P-07 (Moderator) introduced the instructions. P-04 started to eat a snack. P-07 (Moderator) ate some candy. P-06 is rolling a water bottle in her hand, showing nervousness. Everyone is leaning inward with their body language, perhaps showing a defensive posture.",
+          "categories": [
+            "body_language",
+            "moderator_action",
+            "relaxation_markers",
+            "tension"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [
+            "P-04",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": 2.59
+        },
+        {
+          "index": 4,
+          "text": "P-07 (Moderator) crossed her legs. All gaze is on P-07. P-02 started the conversation, crossing his legs. P-04 is the second one talking, using hand gestures. P-06 started, and P-07 moved toward the crowd with her chair.",
+          "categories": [
+            "body_language",
+            "moderator_action"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02",
+            "P-04",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": -1.2
+        },
+        {
+          "index": 5,
+          "text": "P-03 made no movement; he referenced P-02, noting a similar experience. P-05 referenced both P-03 and P-02 in her experience. P-07 added P-01 to the group discussion. P-07 is eating her own candy bar. The atmosphere is chilling. P-03 stayed very defensive at all times with P-07, especially with her crossing in front of him.",
+          "categories": [
+            "body_language",
+            "recognition_echo",
+            "relaxation_markers",
+            "tension"
+          ],
+          "affect": "mixed",
+          "named_p_codes": [
+            "P-01",
+            "P-02",
+            "P-03",
+            "P-05",
+            "P-07"
+          ],
+          "vividness": 4.28
+        },
+        {
+          "index": 6,
+          "text": "It is already the second question. P-02 asked for further clarification on the question. P-07 affirmed the attitude of seeking clarification. P-06 and P-05 joined the discussion. P-04 and P-03 joined the vote after others had already voted.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-02",
+            "P-03",
+            "P-04",
+            "P-05",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": -1.3
+        },
+        {
+          "index": 7,
+          "text": "P-03 started the first lengthy conversation and explained his experience at law school. All gaze was on P-07; P-03 started to relax. P-07 crossed her legs. P-03 put his hand over his head and neck, showing stress. P-06 posed a question to P-03. P-03 put his hand over his nose and mouth, showing signs of thinking. No direct eye interaction between the two.",
+          "categories": [
+            "body_language",
+            "relaxation_markers",
+            "tension"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-03",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": -0.89
+        },
+        {
+          "index": 8,
+          "text": "P-05 keeps eating her snack. P-06 started to look around. P-04 talked again, using a lot of hand gestures and showing confidence. P-06 looked around as some were disengaged. P-05 started to talk, using hand gestures as well as touching her necklace, showing confidence and a willingness to communicate.",
+          "categories": [
+            "body_language",
+            "disengagement",
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [
+            "P-04",
+            "P-05",
+            "P-06"
+          ],
+          "vividness": -0.61
+        },
+        {
+          "index": 9,
+          "text": "Everyone\u2019s body orientation is rolling toward here. As of this moment, only P-05 and P-02 have their legs crossed.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02",
+            "P-05"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 10,
+          "text": "When speaking on \u201ccritical thinking,\u201d the group nodded their heads.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 11,
+          "text": "P-02 kept his legs crossed and also used hand gestures. The group kept nodding during P-02\u2019s experience.",
+          "categories": [
+            "body_language",
+            "engagement"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 12,
+          "text": "When speaking on abstract ideas, P-02 tends to use hand gestures.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 13,
+          "text": "P-02 is trying to keep his gaze focused in front of him as well as on the Moderator, and sometimes toward the entire group.",
+          "categories": [
+            "body_language",
+            "moderator_action"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 14,
+          "text": "P-05 started eating candy again. P-02 picked up a water bottle but didn\u2019t drink and put it back down. P-05 stated her experience applying to law school, referring to P-03 as he was a law student. P-05 looked at P-03 after her conversation concluded.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [
+            "P-02",
+            "P-03",
+            "P-05"
+          ],
+          "vividness": -1.34
+        },
+        {
+          "index": 15,
+          "text": "P-03 picked up the conversation after P-05 and continued the dialogue on AI usage in the legal field. When speaking of concrete examples in the legal field, P-03 finally used hand gestures, showing a sign of conveying a message with strong desire. P-03 ran out of breath concluding his sentence.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-03",
+            "P-05"
+          ],
+          "vividness": -0.57
+        },
+        {
+          "index": 16,
+          "text": "P-06 started talking; there is seemingly a consensus around the group to go in a reverse circle pattern to continue the conversation. All gaze is on P-06, except for P-05 who is engaged with her phone. P-05 then looked at the Moderator.",
+          "categories": [
+            "body_language",
+            "disengagement",
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [
+            "P-05",
+            "P-06"
+          ],
+          "vividness": -1.28
+        },
+        {
+          "index": 17,
+          "text": "P-07, P-05, and P-02 kept their legs crossed. P-04 and P-03 kept their arms crossed over their bodies, showing defense. Continuing with the reverse circle, P-04 joined the conversation. She used the same body gestures with an abundance of hand gestures. When P-04 is speaking, she tends to look at the group or directly to the front.",
+          "categories": [
+            "body_language",
+            "tension"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02",
+            "P-03",
+            "P-04",
+            "P-05",
+            "P-07"
+          ],
+          "vividness": 0.23
+        },
+        {
+          "index": 18,
+          "text": "P-07 interrupted and said that people are nodding. P-05 picked up after P-07 prompted her. P-04 continued to say \"yeah,\" agreeing with P-05. P-02 then added more to P-05\u2019s conversation. The conversation went back to the main topic, bouncing between P-02 and P-04. P-06 is laughing and looking at P-02\u2019s speech.",
+          "categories": [
+            "engagement",
+            "moderator_action",
+            "power_asymmetry",
+            "recognition_echo"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [
+            "P-02",
+            "P-04",
+            "P-05",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": -1.65
+        },
+        {
+          "index": 19,
+          "text": "P-03 joined the conversation and attributed points to people, showing active listening and using hand gestures. He is still running out of breath and his speaking speed is very high. P-02 interrupted the conversation, showing signs of disagreement and agreement. P-02 put his leg down. P-02 is trying to insert his opinion into P-03\u2019s speech the entire time.",
+          "categories": [
+            "body_language",
+            "engagement",
+            "moderator_action",
+            "power_asymmetry"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02",
+            "P-03"
+          ],
+          "vividness": -0.89
+        },
+        {
+          "index": 20,
+          "text": "The interaction exercise started. Everyone turned toward their assigned partner. P-03, P-05, and P-06 are in one group. P-04 and P-02 are in another group. P-07 is on her phone and looking at the script.",
+          "categories": [
+            "disengagement",
+            "moderator_action"
+          ],
+          "affect": "disengaged",
+          "named_p_codes": [
+            "P-02",
+            "P-03",
+            "P-04",
+            "P-05",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": -0.11
+        },
+        {
+          "index": 21,
+          "text": "P-02 is the first one talking in his group. P-05 is the first one talking in hers. When speaking with P-02, P-04\u2019s speaking speed increased. P-05, in her small group, used more hand gestures and showed signs of emotion. P-06 picked up after P-05; I noticed she is also using many hand gestures just like P-05.",
+          "categories": [
+            "body_language",
+            "recognition_echo"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [
+            "P-02",
+            "P-04",
+            "P-05",
+            "P-06"
+          ],
+          "vividness": -1.65
+        },
+        {
+          "index": 22,
+          "text": "In comparison, the two-person group has more natural back-and-forth, whereas the three-person group is more about taking turns.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 23,
+          "text": "The two-person group had points of silence; they were trying to find things to talk about.",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 4.0
+        },
+        {
+          "index": 24,
+          "text": "P-02 crossed his legs again. The three-person group conversation was dominated by P-05 and P-06.",
+          "categories": [
+            "body_language",
+            "power_asymmetry"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-02",
+            "P-05",
+            "P-06"
+          ],
+          "vividness": 1.0
+        },
+        {
+          "index": 25,
+          "text": "When P-03 joined the conversation, he leaned toward P-05 and entirely ignored the presence of P-06.",
+          "categories": [
+            "body_language",
+            "engagement",
+            "power_asymmetry"
+          ],
+          "affect": "tense",
+          "named_p_codes": [
+            "P-03",
+            "P-05",
+            "P-06"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 26,
+          "text": "P-03 started to talk about the law school experience, drawing on a similar background with P-05. 99% of the time during P-03\u2019s conversation, he was leaning toward P-05 but not P-06.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [
+            "P-03",
+            "P-05",
+            "P-06"
+          ],
+          "vividness": -0.01
+        },
+        {
+          "index": 27,
+          "text": "P-07 interrupted and joined the conversation. P-06, as the scriber, stood up and went to the whiteboard. P-03 is the one signaling the time constraint. P-03 made a joke to the group. P-03 is cross-talking with the Moderator.",
+          "categories": [
+            "body_language",
+            "moderator_action",
+            "power_asymmetry"
+          ],
+          "affect": "tense",
+          "named_p_codes": [
+            "P-03",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": -1.22
+        },
+        {
+          "index": 28,
+          "text": "P-05 is the first one who started talking about the experience. P-07 is standing, just as P-06 is standing. P-04 and P-07 started to pick up candy bars, showing they are relaxing. P-03 picked up, showing excitement and keeping a very fast pace. P-06 is nodding and laughing along with P-03\u2019s opinion. P-02 is acting like a \"ghost,\" nodding and saying \"yeah\" along with P-03\u2019s speech.",
+          "categories": [
+            "disengagement",
+            "engagement",
+            "recognition_echo",
+            "relaxation_markers"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [
+            "P-02",
+            "P-03",
+            "P-04",
+            "P-05",
+            "P-06",
+            "P-07"
+          ],
+          "vividness": 2.99
+        },
+        {
+          "index": 29,
+          "text": "P-06 joined the conversation, raised her head, and tried to broaden her voice, attempting to speak louder with hand gestures. P-02 picked up the conversation again, referencing their two-group interaction. Since P-04 was referenced by P-02, she joined in to give an opinion. There was a pause after P-04\u2019s speech. P-02 made a point and there was a group reaction. The Scriber joined the conversation.",
+          "categories": [
+            "body_language",
+            "recognition_echo",
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [
+            "P-02",
+            "P-04",
+            "P-06"
+          ],
+          "vividness": -2.1
+        },
+        {
+          "index": 30,
+          "text": "At this stage, the group is very relaxed; there are no actual actions of taking turns, but rather whoever wants to jump into the conversation.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 31,
+          "text": "P-07 assigned the sticker task, and people started to gather around the table.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-07"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 32,
+          "text": "The surroundings are noisy with applauding, which somehow distracted the group.",
+          "categories": [
+            "disengagement",
+            "engagement"
+          ],
+          "affect": "mixed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 33,
+          "text": "No one is keeping the timing in mind. They seem relaxed and don't really care that the time is up.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 34,
+          "text": "There is no reaction from the entire group that time is up. People are still talking.",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 35,
+          "text": "No one has dismissed themselves.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 3.0
+        }
+      ],
+      "standouts": [
+        {
+          "index": 5,
+          "sentence": "The atmosphere is chilling.",
+          "affect": "mixed",
+          "categories": [
+            "body_language",
+            "recognition_echo",
+            "relaxation_markers",
+            "tension"
+          ],
+          "vividness": 4.0
+        },
+        {
+          "index": 23,
+          "sentence": "The two-person group had points of silence; they were trying to find things to talk about.",
+          "affect": "tense",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "vividness": 4.0
+        },
+        {
+          "index": 1,
+          "sentence": "Other people are comparatively silent.",
+          "affect": "tense",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "vividness": 4.0
+        },
+        {
+          "index": 9,
+          "sentence": "Everyone\u2019s body orientation is rolling toward here.",
+          "affect": "embodied",
+          "categories": [
+            "body_language"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 33,
+          "sentence": "No one is keeping the timing in mind.",
+          "affect": "relaxed",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 28,
+          "sentence": "P-02 is acting like a \"ghost,\" nodding and saying \"yeah\" along with P-03\u2019s speech.",
+          "affect": "engaged",
+          "categories": [
+            "disengagement",
+            "engagement",
+            "recognition_echo",
+            "relaxation_markers"
+          ],
+          "vividness": 6.0
+        },
+        {
+          "index": 3,
+          "sentence": "Everyone is leaning inward with their body language, perhaps showing a defensive posture.",
+          "affect": "relaxed",
+          "categories": [
+            "body_language",
+            "moderator_action",
+            "relaxation_markers",
+            "tension"
+          ],
+          "vividness": 5.0
+        },
+        {
+          "index": 10,
+          "sentence": "When speaking on \u201ccritical thinking,\u201d the group nodded their heads.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        }
+      ]
+    },
+    "02-Chyung": {
+      "fg_id": "02-Chyung",
+      "observation_count": 29,
+      "affect_timeline": [
+        [
+          0,
+          "relaxed"
+        ],
+        [
+          1,
+          "neutral"
+        ],
+        [
+          2,
+          "engaged"
+        ],
+        [
+          3,
+          "neutral"
+        ],
+        [
+          10,
+          "engaged"
+        ],
+        [
+          11,
+          "neutral"
+        ],
+        [
+          18,
+          "engaged"
+        ],
+        [
+          19,
+          "neutral"
+        ],
+        [
+          20,
+          "engaged"
+        ],
+        [
+          21,
+          "neutral"
+        ],
+        [
+          27,
+          "engaged"
+        ],
+        [
+          28,
+          "neutral"
+        ]
+      ],
+      "top_categories": {
+        "engagement": 4,
+        "relaxation_markers": 1,
+        "moderator_action": 1,
+        "recognition_echo": 1
+      },
+      "observations": [
+        {
+          "index": 0,
+          "text": "Some adjustments to setting up, everyone has snacks and water",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 1,
+          "text": "The one person who said they don\u2019t use AI looked down more, particularly after answering",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 2,
+          "text": "Someone said \u201cSurprised you don\u2019t use AI\u201d (person laughed sheepishly)",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 3,
+          "text": "Someone else jokes, \u201cWhat does that say about us?\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 4,
+          "text": "\u201cEven for non-academic stuff?\u201d Someone else asks",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 5,
+          "text": "Someone else acknowledges \u201cwe all existed without it before. Now we\u2019re like what do you mean you don\u2019t use it?\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 6,
+          "text": "Lots of agreement on the first concern",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 7,
+          "text": "Participants mostly looking at each other while responding",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 8,
+          "text": "\u201cBecoming less patient\u201d point: lots of agreement, noises of affirmation",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 9,
+          "text": "Group got more interactive as the session went on: \u201cI definitely feel that\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 10,
+          "text": "\u201cTook a class called how to use AI\u201d and expressed frustration: surprised looks (raised eyebrows, nodding)",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 11,
+          "text": "\u201cit\u2019s so hard to put the genie back in the bottle\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 12,
+          "text": "One-on-one groups were lively; split up by gender",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 13,
+          "text": "Moderator went around to check in on groups",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 14,
+          "text": "One group more question and answer; some were more sharing flows",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 15,
+          "text": "\u201cI was just bitching\u201d: \u201cLeisure vs. work econ problem\u201d; one participant\u2019s description of small group",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 16,
+          "text": "\u201cWe can talk more later\u201d: one small group wanted to continue",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 17,
+          "text": "Some apologeticness about disagreement / bringing up points that might be controversial",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 18,
+          "text": "\u201cI think it\u2019s a bad idea to use it in the classroom, I\u2019m sorry\u201d; sheepish look, laugh",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 19,
+          "text": "\u201cI think I agree! K-12 you shouldn\u2019t use\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 20,
+          "text": "\u201cI completely disagree, we don\u2019t have to get into it\u201d (laughs) \u201cNo disagree with me!\u201d In the US that makes sense; but in developing countries",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 21,
+          "text": "Engagement went down somewhat throughout in scribe section",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 22,
+          "text": "\u201cThank you for scribing so beautifully\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 23,
+          "text": "People generally receptive to disagreement; everyone recognized the harms, even if they were supportive",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 24,
+          "text": "Dot placing was done person by person, so was obvious where people were placing their dots (could impact answers)",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 25,
+          "text": "Side convo:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 26,
+          "text": "\u201cAgree with you on developing countries\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 27,
+          "text": "\u201cYeah I agree on high school\u201d",
+          "categories": [
+            "recognition_echo"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 28,
+          "text": "Students continued to talk about the focus group after the session officially ended.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        }
+      ],
+      "standouts": [
+        {
+          "index": 0,
+          "sentence": "Some adjustments to setting up, everyone has snacks and water",
+          "affect": "relaxed",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 2,
+          "sentence": "Someone said \u201cSurprised you don\u2019t use AI\u201d (person laughed sheepishly)",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 10,
+          "sentence": "\u201cTook a class called how to use AI\u201d and expressed frustration: surprised looks (raised eyebrows, nodding)",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 18,
+          "sentence": "\u201cI think it\u2019s a bad idea to use it in the classroom, I\u2019m sorry\u201d; sheepish look, laugh",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 20,
+          "sentence": "\u201cI completely disagree, we don\u2019t have to get into it\u201d (laughs) \u201cNo disagree with me!\u201d In the US that makes sense; but in developing countries",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 27,
+          "sentence": "\u201cYeah I agree on high school\u201d",
+          "affect": "engaged",
+          "categories": [
+            "recognition_echo"
+          ],
+          "vividness": -1.0
+        }
+      ]
+    },
+    "05-Ge": {
+      "fg_id": "05-Ge",
+      "observation_count": 52,
+      "affect_timeline": [
+        [
+          0,
+          "neutral"
+        ],
+        [
+          1,
+          "relaxed"
+        ],
+        [
+          2,
+          "neutral"
+        ],
+        [
+          8,
+          "engaged"
+        ],
+        [
+          10,
+          "neutral"
+        ],
+        [
+          14,
+          "engaged"
+        ],
+        [
+          15,
+          "neutral"
+        ],
+        [
+          22,
+          "engaged"
+        ],
+        [
+          23,
+          "neutral"
+        ],
+        [
+          24,
+          "engaged"
+        ],
+        [
+          26,
+          "neutral"
+        ],
+        [
+          30,
+          "engaged"
+        ],
+        [
+          32,
+          "neutral"
+        ]
+      ],
+      "top_categories": {
+        "engagement": 8,
+        "relaxation_markers": 1
+      },
+      "observations": [
+        {
+          "index": 0,
+          "text": "Focus Group 5 Notes",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 1,
+          "text": "There were six participants. I focused on the notetaking role and did not speak or vote. Only half of the participants grabbed snacks/water. All participants were paying attention to each others\u2019 examples and arguments throughout the discussion, there was a high degree of interaction between participants, with multiple statements being built off of prior discussions.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": -0.94
+        },
+        {
+          "index": 2,
+          "text": "Concrete Example Go-Around: Recent AI use cases",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 3,
+          "text": "Summer internship: identify positions",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 4,
+          "text": "Identify counterarguments for an article",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 5,
+          "text": "Volunteer tutoring work: provide a background of Common App and application essays",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 6,
+          "text": "Use of AI for classes or papers",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 7,
+          "text": "The \u201celephant in the room\u201d \u2013 some people use this, but this is deemed a more controversial use.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 8,
+          "text": "Discussing this use of AI helped break the ice. A few other participants answer \u201cI do\u201d; people nod in agreement",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 9,
+          "text": "One participant noted the phenomenon where some people write full papers using AI then do great on them; use of AI in some cases was not directly identified by the professor (people laugh)",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.04
+        },
+        {
+          "index": 10,
+          "text": "Group Reaction: What surprised people",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 11,
+          "text": "There was a discussion around whether the tools for detecting use of AI in assignments were good enough.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 12,
+          "text": "One participants mentioned that these tools were quite poor / less capable at identifying AI use.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 13,
+          "text": "There was also mention of the use of AI in an iterative process.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 14,
+          "text": "Here, people were paying attention (some participants seemed to concur; overall it seemed that there were less enthusiastic concurrences / fewer people nodding along)",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 15,
+          "text": "Show of Hands",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 16,
+          "text": "A few participants asked clarifying questions regarding the two concerns. Noise level around the room was a bit of a problem here. After the clarifying questions were answered it seemed that the participants understood the two concerns.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.28
+        },
+        {
+          "index": 17,
+          "text": "Concern One: 4 votes",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 18,
+          "text": "Concern Two: 2 votes",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 19,
+          "text": "There were no attempts at trying to vote for both concerns; it seemed the participants were set on the one they had voted for. No obvious hesitation from any participant",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 20,
+          "text": "Those who voted for concern one:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 21,
+          "text": "How AI use blocks neural pathways and impede ability to form original thoughts",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 22,
+          "text": "People concur / nod",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 23,
+          "text": "Mention of how we\u2019re lucky because we all finished undergrad before AI really came out",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 24,
+          "text": "People concur / nod / laugh",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 25,
+          "text": "In the use of case of using AI to help write papers in English (the participant was not a native speaker of English), one participant mentioned the risk of developing an \u201cEnglish/ChatGPT accent\u201d; people laugh.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.14
+        },
+        {
+          "index": 26,
+          "text": "There were concerns about kids who have access to AI (people concur)",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 27,
+          "text": "Mention of more philosophical aspects \u2013 use of AI reducing satisfaction in life? Hinting at broad implications outside of professional uses of AI. Mention of existential dread",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 28,
+          "text": "Those who voted for concern two:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 29,
+          "text": "Risk of competition (against people who use AI); better to think about a way to combine AI and human mind",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 30,
+          "text": "One participant gives an example of how middle school students who use AI can write really good. People laugh",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 31,
+          "text": "One participants gives an example of AI use in the work of a state legislature. Staffer for state legislator actively using AI for content creation, drafting questions, fixing press release. Thus able to be more productive and output a lot of work. Other participants seemed to be in deep thought / nodded",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.62
+        },
+        {
+          "index": 32,
+          "text": "Here, discussion was running longer a bit than the allotted time. People had a lot of examples and had a lot to say. People had lots of thoughts on the various trade-offs in choosing to use or not use AI.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.12
+        },
+        {
+          "index": 33,
+          "text": "Gaps in learning to use AI",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 34,
+          "text": "How to use AI is learned by oneself; there was nothing HKS had taught regarding this",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 35,
+          "text": "One participants mentioned that her current use of AI was \u201climited\u201d \u2013 like drafting emails. It is a powerful tool with more powerful uses. People just don\u2019t know what the top use cases for AI is.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.07
+        },
+        {
+          "index": 36,
+          "text": "How to use AI to boost one\u2019s own work quality as opposed to AI replacing human labor",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 37,
+          "text": "Here, there was a slight pivot back to the earlier discussion regarding concerns with using / not using AI. How AI could distort incentive structure for learning, leading to concerns about younger people who are still learning. Towards the latter part, the discussion tended to go off topic a bit and going back to / continuing the discussion on the previous question.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.94
+        },
+        {
+          "index": 38,
+          "text": "Pair Share: What AI skills HKS should provide",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 39,
+          "text": "The group took a while to find a good pen for the activity. In the end we didn\u2019t use a marker and just used a regular pen.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 40,
+          "text": "List of AI skills",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 41,
+          "text": "Touch-grass method of giving tools directly to students / teaching how-to-use directly?",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 42,
+          "text": "Clearer class policy on AI use",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 43,
+          "text": "Use cases that people are not aware of",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 44,
+          "text": "How we can code and build website with AI",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 45,
+          "text": "How to be creative with AI; how to create counterarguments with AI",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 46,
+          "text": "Uses for particular sectors. Example: in education, improve literacy",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 47,
+          "text": "Need to be parsimonious on how to use AI",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 48,
+          "text": "Ethics of AI: maybe a philosophy class on the use of AI to think about the ethics of AI, whether it is a moral negative or good. Good to include in the ethics core class",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 49,
+          "text": "Use of AI to do course readings?",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 50,
+          "text": "All participants were actively contributing in this activity.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 51,
+          "text": "In the end there was a discussion on how AI could shift expectations on productivity \u2013 people now expected to become more productive. Risk of a snowball effect of AI creating more expectations on student productivity.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.18
+        }
+      ],
+      "standouts": [
+        {
+          "index": 8,
+          "sentence": "Discussing this use of AI helped break the ice.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 14,
+          "sentence": "Here, people were paying attention (some participants seemed to concur; overall it seemed that there were less enthusiastic concurrences / fewer people nodding along)",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 30,
+          "sentence": "One participant gives an example of how middle school students who use AI can write really good.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 9,
+          "sentence": "One participant noted the phenomenon where some people write full papers using AI then do great on them; use of AI in some cases was not directly identified by the professor (people laugh)",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": -0.04
+        },
+        {
+          "index": 25,
+          "sentence": "In the use of case of using AI to help write papers in English (the participant was not a native speaker of English), one participant mentioned the risk of developing an \u201cEnglish/ChatGPT accent\u201d; people laugh.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": -0.14
+        },
+        {
+          "index": 31,
+          "sentence": "One participants gives an example of AI use in the work of a state legislature.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 1,
+          "sentence": "I focused on the notetaking role and did not speak or vote.",
+          "affect": "relaxed",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 24,
+          "sentence": "People concur / nod / laugh",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": -1.0
+        }
+      ]
+    },
+    "06-Giles": {
+      "fg_id": "06-Giles",
+      "observation_count": 61,
+      "affect_timeline": [
+        [
+          0,
+          "neutral"
+        ],
+        [
+          2,
+          "relaxed"
+        ],
+        [
+          3,
+          "mixed"
+        ],
+        [
+          4,
+          "embodied"
+        ],
+        [
+          5,
+          "tense"
+        ],
+        [
+          6,
+          "mixed"
+        ],
+        [
+          7,
+          "engaged"
+        ],
+        [
+          8,
+          "mixed"
+        ],
+        [
+          9,
+          "engaged"
+        ],
+        [
+          10,
+          "embodied"
+        ],
+        [
+          11,
+          "engaged"
+        ],
+        [
+          12,
+          "tense"
+        ],
+        [
+          13,
+          "engaged"
+        ],
+        [
+          14,
+          "tense"
+        ],
+        [
+          15,
+          "neutral"
+        ],
+        [
+          18,
+          "engaged"
+        ],
+        [
+          20,
+          "relaxed"
+        ],
+        [
+          21,
+          "neutral"
+        ],
+        [
+          23,
+          "embodied"
+        ],
+        [
+          24,
+          "neutral"
+        ],
+        [
+          25,
+          "relaxed"
+        ],
+        [
+          26,
+          "neutral"
+        ],
+        [
+          28,
+          "tense"
+        ],
+        [
+          29,
+          "engaged"
+        ],
+        [
+          30,
+          "neutral"
+        ],
+        [
+          39,
+          "engaged"
+        ],
+        [
+          40,
+          "relaxed"
+        ],
+        [
+          41,
+          "engaged"
+        ],
+        [
+          43,
+          "relaxed"
+        ],
+        [
+          44,
+          "neutral"
+        ],
+        [
+          46,
+          "engaged"
+        ],
+        [
+          47,
+          "neutral"
+        ],
+        [
+          49,
+          "disengaged"
+        ],
+        [
+          50,
+          "neutral"
+        ],
+        [
+          51,
+          "engaged"
+        ],
+        [
+          52,
+          "tense"
+        ],
+        [
+          53,
+          "neutral"
+        ],
+        [
+          55,
+          "embodied"
+        ],
+        [
+          56,
+          "neutral"
+        ],
+        [
+          58,
+          "engaged"
+        ],
+        [
+          59,
+          "neutral"
+        ]
+      ],
+      "top_categories": {
+        "moderator_action": 19,
+        "engagement": 15,
+        "body_language": 7,
+        "relaxation_markers": 6,
+        "silence_or_pause": 4,
+        "disengagement": 2,
+        "recognition_echo": 2,
+        "tension": 1,
+        "power_asymmetry": 1
+      },
+      "observations": [
+        {
+          "index": 0,
+          "text": "Everyone is getting organized and participants are trying to figure out what chair to sit in. The room is loud; the music is loud; other groups are talking loudly. It is hard to hear each other at first.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 0.89
+        },
+        {
+          "index": 1,
+          "text": "Participants speak with moderator about what the best arrangement would be. We settle on two levels, in a somewhat circle formation, everyone more or less across from someone else. The moderator is one over from the midpoint of the circle.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 0.71
+        },
+        {
+          "index": 2,
+          "text": "There is a polite excitement around snacks- people are focused on the food. The scribe passes out the snacks, participants pass them around, asking one another if they would like the snack",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": -0.04
+        },
+        {
+          "index": 3,
+          "text": "There is some laughter around the snacks, and comments on the snacks",
+          "categories": [
+            "engagement",
+            "relaxation_markers"
+          ],
+          "affect": "mixed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 4,
+          "text": "The moderator begins the session. She speaks quietly, particularly with the background noise, so people lean in to hear. The music shuts off. It is a little easier to hear now.",
+          "categories": [
+            "body_language",
+            "moderator_action"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 5,
+          "text": "There is a pause after the moderator asks the first question. The person to the moderator\u2019s direct left goes first in answering.",
+          "categories": [
+            "moderator_action",
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 6,
+          "text": "There is slightly nervous laughter",
+          "categories": [
+            "engagement",
+            "tension"
+          ],
+          "affect": "mixed",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 7,
+          "text": "Participants nod as the moderator speak",
+          "categories": [
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 8,
+          "text": "Participants are looking around, lots of affirmative nods as other participants speak",
+          "categories": [
+            "disengagement",
+            "engagement"
+          ],
+          "affect": "mixed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 9,
+          "text": "One participant laughs after speaking",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 10,
+          "text": "One participant leans back in their chair, arms in lap",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 11,
+          "text": "There is more polite affirmative nodding",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 12,
+          "text": "Everyone looks attentively at whoever is speaking. No one has interrupted or interjected.",
+          "categories": [
+            "moderator_action",
+            "power_asymmetry"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 4.0
+        },
+        {
+          "index": 13,
+          "text": "The moderator prompts participants to go around to answer the answer, moving clockwise in the circle. Each person speaks. Participants each give their independent response, not building on others.",
+          "categories": [
+            "moderator_action",
+            "recognition_echo"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.08
+        },
+        {
+          "index": 14,
+          "text": "The moderator probes with the question about hearing anything surprising. It is very quiet when moderator is speaking. There is some silence. Someone begins to respond. People continue to nod. There is silence in between answers. Not many people respond to this question.",
+          "categories": [
+            "engagement",
+            "moderator_action",
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 1.54
+        },
+        {
+          "index": 15,
+          "text": "Moderator moves along to part 3.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 16,
+          "text": "Concern #1- 4 votes",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 17,
+          "text": "Concern #2-  2 votes",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 18,
+          "text": "There is not a strong reaction from the votes. The moderator prompts each group to share why they voted that way. Participants still nod at each others\u2019 answers, even for those they did not vote for. No one interjects with disagreement. The conversation jumps around to each person.",
+          "categories": [
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 0.49
+        },
+        {
+          "index": 19,
+          "text": "There is affirmative nodding as a participant talks about being an international student and how she uses AI. She gesticulates with her hands, looking at moderator specifically at she talks",
+          "categories": [
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.04
+        },
+        {
+          "index": 20,
+          "text": "Another participant is very much focused on speaker as she speaks, looking intently. A different participant looks down at her snack wrapper, fidgeting with it.",
+          "categories": [
+            "body_language",
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 21,
+          "text": "Now all the participants look at the speaker as she speaks. The speaker looks mainly at the moderator still.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 22,
+          "text": "Moderator affirms what participant said, responding/summarizing.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 23,
+          "text": "One participant crosses her arms and sighs.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 24,
+          "text": "People get more enthusiastic. when one participant starts talking about how they had never used it before getting to HKS. This is the first time someone interjects to say \u201cya!\u201d.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 25,
+          "text": "One participant continues to plays with the snack wrapper, fiddling. Another holds the wrapped snacks in her lap.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 26,
+          "text": "Another participant looks around as he addresses other people\u2019s concerns and responds directly to their issues raises. Everyone leans in to listen to him.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 27,
+          "text": "He finishes speaking and leans in in the circle.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 28,
+          "text": "The moderator asks the next question, part 4, professional readiness. There is silence. Participants look at one another after a question is asked.",
+          "categories": [
+            "moderator_action",
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 4.0
+        },
+        {
+          "index": 29,
+          "text": "Everyone simultaneously responds. People laugh as they definitively say yes or no in response to part 4- especially those who say no about feeling confident.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 30,
+          "text": "Specific skills, tools, situations:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 31,
+          "text": "-Want to take an AI course, someone mentioned using 5 different AI platforms- would like to be familiar with any available AI out there",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 32,
+          "text": "-not confident because want to learn to use it more efficiently",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 33,
+          "text": "-ethical questions and concerns in a job\u2014how to",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 34,
+          "text": "One participant sits up and looks out, thinking as the other participant discusses the ethical implications",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 35,
+          "text": "-policy recommendations and",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 36,
+          "text": "-fast paced offices",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 37,
+          "text": "-need to navigate each office and class setting differently- consequences seem high in certain settings, grey area",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 38,
+          "text": "-grant writing team- double/triple output by using AI",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 39,
+          "text": "As these ideas are generated, participants nod along but do not speak. This is shared popcorn style.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 40,
+          "text": "People have stopped eating the snacks. Most of the eating took place in the first couple minutes.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 41,
+          "text": "Moderator again asks people to contribute. Participants have not jumped in on their own as frequently. It feels like they are waiting to be told to speak.",
+          "categories": [
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 42,
+          "text": "One participant looks to the person they reference when they reference them, otherwise as they speak, they look at the moderator.",
+          "categories": [
+            "moderator_action",
+            "recognition_echo"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 43,
+          "text": "One participant holding the snacks in her lap fidgets with the snacks.",
+          "categories": [
+            "body_language",
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 44,
+          "text": "Moderator moves the group to part 5: pair share and share-out.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 45,
+          "text": "Break for one-on-one conversations. **Note: I participated in the one-on-ones so I was unable to write notes about the other groups**",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 46,
+          "text": "We come back together after the pairs. The circle feels more animated, the volume has risen;",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 47,
+          "text": "the energy is more upbeat after the pair and share",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 48,
+          "text": "Pairs spoke the whole time, the moderator has to get people to stop talking to come back together as a group.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 49,
+          "text": "Now, when the pairs share out, one at a time, they address their other participants. The eye contact has shifted from just looking at the moderator to looking around.",
+          "categories": [
+            "body_language",
+            "disengagement",
+            "moderator_action"
+          ],
+          "affect": "disengaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 50,
+          "text": "The scribe moves back and forth, closer to the group to hear, and then to the paper to write.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 51,
+          "text": "People verbally affirm and nod now, rather than just nodding.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 52,
+          "text": "It is quiet at the scribe writes what she hears.",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 53,
+          "text": "In another pair, one motions for his partner to go first sharing.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 54,
+          "text": "There\u2019s an overall sense of polite agreement at this point.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 55,
+          "text": "Participants at the edges lean in to listen as the final group shares out.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 56,
+          "text": "A participant takes the stickers before the moderator gives the explicit instructions of how to use them to vote. The moderator then explains.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 57,
+          "text": "One participant adds to the chart",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 58,
+          "text": "The stickers elicit some laughs. People talk about the colors of the stickers.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 59,
+          "text": "The participants look at the stickers, pointing to the chart and looking at where others voted",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 60,
+          "text": "People stay standing around the chart after they put the stickers on, looking at it even as the session comes to a close.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        }
+      ],
+      "standouts": [
+        {
+          "index": 12,
+          "sentence": "Everyone looks attentively at whoever is speaking.",
+          "affect": "tense",
+          "categories": [
+            "moderator_action",
+            "power_asymmetry"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 28,
+          "sentence": "The moderator asks the next question, part 4, professional readiness.",
+          "affect": "tense",
+          "categories": [
+            "moderator_action",
+            "silence_or_pause"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 6,
+          "sentence": "There is slightly nervous laughter",
+          "affect": "mixed",
+          "categories": [
+            "engagement",
+            "tension"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 29,
+          "sentence": "Everyone simultaneously responds.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 3,
+          "sentence": "There is some laughter around the snacks, and comments on the snacks",
+          "affect": "mixed",
+          "categories": [
+            "engagement",
+            "relaxation_markers"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 4,
+          "sentence": "The moderator begins the session.",
+          "affect": "embodied",
+          "categories": [
+            "body_language",
+            "moderator_action"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 5,
+          "sentence": "There is a pause after the moderator asks the first question.",
+          "affect": "tense",
+          "categories": [
+            "moderator_action",
+            "silence_or_pause"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 7,
+          "sentence": "Participants nod as the moderator speak",
+          "affect": "engaged",
+          "categories": [
+            "engagement",
+            "moderator_action"
+          ],
+          "vividness": 2.0
+        }
+      ]
+    },
+    "08-Mardia": {
+      "fg_id": "08-Mardia",
+      "observation_count": 11,
+      "affect_timeline": [
+        [
+          0,
+          "embodied"
+        ],
+        [
+          1,
+          "neutral"
+        ],
+        [
+          2,
+          "embodied"
+        ],
+        [
+          3,
+          "engaged"
+        ],
+        [
+          4,
+          "mixed"
+        ],
+        [
+          5,
+          "engaged"
+        ],
+        [
+          7,
+          "neutral"
+        ],
+        [
+          9,
+          "disengaged"
+        ]
+      ],
+      "top_categories": {
+        "engagement": 5,
+        "moderator_action": 5,
+        "disengagement": 4,
+        "body_language": 2
+      },
+      "observations": [
+        {
+          "index": 0,
+          "text": "Opening question - the first participant says something that got a laugh from everyone, before this 2 out of 6 participants had crossed arms - not any longer. Right from the start, people are using the phone as a mic and passing it around because of the room size.",
+          "categories": [
+            "body_language",
+            "disengagement",
+            "engagement"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 0.58
+        },
+        {
+          "index": 1,
+          "text": "When the moderator asks what surprised people about each others\u2019 answers, one of the participants says that they are surprised that no one mentioned using AI for assignments or readings - that opens the door for another participant to smile and talk about their friend using it to save time.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 0.44
+        },
+        {
+          "index": 2,
+          "text": "Voting results: Concern 1 - 4 people Concern 2 - 2 people Throughout the discussion so far there\u2019s a lot of fidgeting, looking over at other groups. People at various points have wanted to share more comments - they ask the moderator if we have time, but we don\u2019t. The moderator moves the discussion along.",
+          "categories": [
+            "body_language",
+            "moderator_action"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": -0.63
+        },
+        {
+          "index": 3,
+          "text": "Skills flagged - discernment, knowing where your skills are getting negatively impacted and which situations require \u2018a human touch\u2019 (a lot of nodding for the latter part).",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 4,
+          "text": "Situation - 2 participants (with a lot of others nodding throughout) talk about AI freeing up time by creating tools and using that time to do other more productive things. At this point, the moderator brings in one of the participants who was very disengaged until then.",
+          "categories": [
+            "disengagement",
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "mixed",
+          "named_p_codes": [],
+          "vividness": -0.46
+        },
+        {
+          "index": 5,
+          "text": "One participant flags that AI safety / ethics is a minefield and she doesn\u2019t have the technical knowhow - and neither does Harvard teach you sufficiently enough about this - to differentiate between claude/chatGPT. This gets all participants nodding.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.35
+        },
+        {
+          "index": 6,
+          "text": "One participant speaks about how they heard someone use AI to learn R and how that makes them feel better about taking the excel version of stats - this gets some laughs.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 7,
+          "text": "Pair share - in 2 out of 3 groups only one person speaks the whole time.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 8,
+          "text": "Because of how the group is sitting - across 3 rows (3 participants at the back row, 3 in the middle, and the moderator and I in the front), people are having to speak up/look around and when they don\u2019t do that, 1-2 participants are unable to hear what the speaker is saying and zone out.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.54
+        },
+        {
+          "index": 9,
+          "text": "One participant is disengaged entirely from the flipchart activity - they\u2019re looking over to the other groups.",
+          "categories": [
+            "disengagement"
+          ],
+          "affect": "disengaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 10,
+          "text": "Towards the very end, one participant uses the phone as a mic to speak (as she jokes later) to the Dean - this mirrors a pattern that the moderator flagged in class as well, where participants were almost talking to the listener of this audio rather than to each other.",
+          "categories": [
+            "disengagement",
+            "moderator_action"
+          ],
+          "affect": "disengaged",
+          "named_p_codes": [],
+          "vividness": -0.45
+        }
+      ],
+      "standouts": [
+        {
+          "index": 3,
+          "sentence": "Skills flagged - discernment, knowing where your skills are getting negatively impacted and which situations require \u2018a human touch\u2019 (a lot of nodding for the latter part).",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 6,
+          "sentence": "One participant speaks about how they heard someone use AI to learn R and how that makes them feel better about taking the excel version of stats - this gets some laughs.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 9,
+          "sentence": "One participant is disengaged entirely from the flipchart activity - they\u2019re looking over to the other groups.",
+          "affect": "disengaged",
+          "categories": [
+            "disengagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 0,
+          "sentence": "Opening question - the first participant says something that got a laugh from everyone, before this 2 out of 6 participants had crossed arms - not any longer.",
+          "affect": "embodied",
+          "categories": [
+            "body_language",
+            "disengagement",
+            "engagement"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 5,
+          "sentence": "This gets all participants nodding.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 4,
+          "sentence": "Situation - 2 participants (with a lot of others nodding throughout) talk about AI freeing up time by creating tools and using that time to do other more productive things.",
+          "affect": "mixed",
+          "categories": [
+            "disengagement",
+            "engagement",
+            "moderator_action"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 2,
+          "sentence": "Voting results: Concern 1 - 4 people Concern 2 - 2 people Throughout the discussion so far there\u2019s a lot of fidgeting, looking over at other groups.",
+          "affect": "embodied",
+          "categories": [
+            "body_language",
+            "moderator_action"
+          ],
+          "vividness": 2.0
+        }
+      ]
+    },
+    "10-Sanchez": {
+      "fg_id": "10-Sanchez",
+      "observation_count": 9,
+      "affect_timeline": [
+        [
+          0,
+          "neutral"
+        ],
+        [
+          1,
+          "engaged"
+        ],
+        [
+          3,
+          "neutral"
+        ],
+        [
+          4,
+          "engaged"
+        ],
+        [
+          5,
+          "disengaged"
+        ],
+        [
+          6,
+          "neutral"
+        ],
+        [
+          8,
+          "engaged"
+        ]
+      ],
+      "top_categories": {
+        "engagement": 4,
+        "body_language": 3,
+        "moderator_action": 3,
+        "disengagement": 2
+      },
+      "observations": [
+        {
+          "index": 0,
+          "text": "*I wasn\u2019t going to be a part of the discussion at first, but with the first question, going around the table, people looked at me expectantly to answer it, so I decided participating would be more natural than not.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.17
+        },
+        {
+          "index": 1,
+          "text": "Part 2: Warm-Up \u25cf One of the participants motions to someone else to start \u25cf People are answering the first question, going around the circle \u25cf People start laughing when someone mentions that they often use AI \u25cf People are intrigued by how others use AI, saying things like \"that's smart\" and \"good ideas.\"",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.64
+        },
+        {
+          "index": 2,
+          "text": "\u25cf A lot of head nods and \"mmhmm\" \u25cf The moderator asks if anyone has a response to what was just talked about in the circle.",
+          "categories": [
+            "body_language",
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 3,
+          "text": "Someone speaks up and mentions they have never used AI for a decision before, in direct response to a question that was asked before, and there are a lot of smiles in agreement.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 4,
+          "text": "\u25cf The person who stated they use AI for decisions clarifies they use it for small decisions, making other people feel inclined to say they also use it for decision-making, and people feel more comfortable saying how they actually use AI \u25cf A lot of looking around for support in answers and head nods Part 3: Honest Self-Assessment \u25cf 3 voted for concern 1 and 3 voted for concern 2, an even split \u25cf She quickly raises her hand, looking up and laughing about her viewpoint \u25cf A lot of head nods, very thoughtful \u25cf A lot of examples are being shared, and people are jumping in to share without being prompted \u25cf Someone shares their worries about how they use AI in the wrong way, and everyone around the table nods a lot \u25cf Professor McKenna walks up when the moderator asks if anyone feels the same way about using too much AI and getting in trouble \u25cf People are referencing what others said before, feeling more comfortable with each other Part 4: Professional Readiness \u25cf People are not quick to answer this question.",
+          "categories": [
+            "body_language",
+            "disengagement",
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -3.17
+        },
+        {
+          "index": 5,
+          "text": "People are looking around for others to answer.",
+          "categories": [
+            "disengagement"
+          ],
+          "affect": "disengaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 6,
+          "text": "\u25cf A person asks the moderator what the question was again for clarification. Their mouth opens, then closes, unsure of how to answer.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 7,
+          "text": "Part 5: Pair Share and Share-Out",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 8,
+          "text": "\u25cf A person in the group asks someone to share their thoughts, and they say they find it interesting \u25cf People are talking more openly and are excited about their ideas, building off each other's ideas \u25cf A couple of people in the group are physically pointing to people and talking to them about the ideas they mentioned before \u25cf A lot of head nodding \u25cf Everyone is nodding their heads, seeming to agree with the consensus on the flipchart with both options that have the most",
+          "categories": [
+            "body_language",
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": -0.47
+        }
+      ],
+      "standouts": [
+        {
+          "index": 2,
+          "sentence": "\u25cf A lot of head nods and \"mmhmm\" \u25cf The moderator asks if anyone has a response to what was just talked about in the circle.",
+          "affect": "engaged",
+          "categories": [
+            "body_language",
+            "engagement",
+            "moderator_action"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 5,
+          "sentence": "People are looking around for others to answer.",
+          "affect": "disengaged",
+          "categories": [
+            "disengagement"
+          ],
+          "vividness": 2.0
+        }
+      ]
+    }
+  },
+  "global_standouts": [
+    {
+      "index": 28,
+      "sentence": "P-02 is acting like a \"ghost,\" nodding and saying \"yeah\" along with P-03\u2019s speech.",
+      "affect": "engaged",
+      "categories": [
+        "disengagement",
+        "engagement",
+        "recognition_echo",
+        "relaxation_markers"
+      ],
+      "vividness": 6.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 3,
+      "sentence": "Everyone is leaning inward with their body language, perhaps showing a defensive posture.",
+      "affect": "relaxed",
+      "categories": [
+        "body_language",
+        "moderator_action",
+        "relaxation_markers",
+        "tension"
+      ],
+      "vividness": 5.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 5,
+      "sentence": "The atmosphere is chilling.",
+      "affect": "mixed",
+      "categories": [
+        "body_language",
+        "recognition_echo",
+        "relaxation_markers",
+        "tension"
+      ],
+      "vividness": 4.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 23,
+      "sentence": "The two-person group had points of silence; they were trying to find things to talk about.",
+      "affect": "tense",
+      "categories": [
+        "silence_or_pause"
+      ],
+      "vividness": 4.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 1,
+      "sentence": "Other people are comparatively silent.",
+      "affect": "tense",
+      "categories": [
+        "silence_or_pause"
+      ],
+      "vividness": 4.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 9,
+      "sentence": "Everyone\u2019s body orientation is rolling toward here.",
+      "affect": "embodied",
+      "categories": [
+        "body_language"
+      ],
+      "vividness": 3.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 33,
+      "sentence": "No one is keeping the timing in mind.",
+      "affect": "relaxed",
+      "categories": [
+        "relaxation_markers"
+      ],
+      "vividness": 3.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 0,
+      "sentence": "Some adjustments to setting up, everyone has snacks and water",
+      "affect": "relaxed",
+      "categories": [
+        "relaxation_markers"
+      ],
+      "vividness": 3.0,
+      "fg_id": "02-Chyung"
+    },
+    {
+      "index": 12,
+      "sentence": "Everyone looks attentively at whoever is speaking.",
+      "affect": "tense",
+      "categories": [
+        "moderator_action",
+        "power_asymmetry"
+      ],
+      "vividness": 3.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 6,
+      "sentence": "There is slightly nervous laughter",
+      "affect": "mixed",
+      "categories": [
+        "engagement",
+        "tension"
+      ],
+      "vividness": 3.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 29,
+      "sentence": "Everyone simultaneously responds.",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 3.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 0,
+      "sentence": "Opening question - the first participant says something that got a laugh from everyone, before this 2 out of 6 participants had crossed arms - not any longer.",
+      "affect": "embodied",
+      "categories": [
+        "body_language",
+        "disengagement",
+        "engagement"
+      ],
+      "vividness": 3.0,
+      "fg_id": "08-Mardia"
+    },
+    {
+      "index": 10,
+      "sentence": "When speaking on \u201ccritical thinking,\u201d the group nodded their heads.",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "01-Cheng"
+    },
+    {
+      "index": 2,
+      "sentence": "Someone said \u201cSurprised you don\u2019t use AI\u201d (person laughed sheepishly)",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "02-Chyung"
+    },
+    {
+      "index": 10,
+      "sentence": "\u201cTook a class called how to use AI\u201d and expressed frustration: surprised looks (raised eyebrows, nodding)",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "02-Chyung"
+    },
+    {
+      "index": 18,
+      "sentence": "\u201cI think it\u2019s a bad idea to use it in the classroom, I\u2019m sorry\u201d; sheepish look, laugh",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "02-Chyung"
+    },
+    {
+      "index": 20,
+      "sentence": "\u201cI completely disagree, we don\u2019t have to get into it\u201d (laughs) \u201cNo disagree with me!\u201d In the US that makes sense; but in developing countries",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "02-Chyung"
+    },
+    {
+      "index": 8,
+      "sentence": "Discussing this use of AI helped break the ice.",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "05-Ge"
+    },
+    {
+      "index": 14,
+      "sentence": "Here, people were paying attention (some participants seemed to concur; overall it seemed that there were less enthusiastic concurrences / fewer people nodding along)",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "05-Ge"
+    },
+    {
+      "index": 30,
+      "sentence": "One participant gives an example of how middle school students who use AI can write really good.",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "05-Ge"
+    },
+    {
+      "index": 31,
+      "sentence": "One participants gives an example of AI use in the work of a state legislature.",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "05-Ge"
+    },
+    {
+      "index": 1,
+      "sentence": "I focused on the notetaking role and did not speak or vote.",
+      "affect": "relaxed",
+      "categories": [
+        "relaxation_markers"
+      ],
+      "vividness": 2.0,
+      "fg_id": "05-Ge"
+    },
+    {
+      "index": 28,
+      "sentence": "The moderator asks the next question, part 4, professional readiness.",
+      "affect": "tense",
+      "categories": [
+        "moderator_action",
+        "silence_or_pause"
+      ],
+      "vividness": 2.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 3,
+      "sentence": "There is some laughter around the snacks, and comments on the snacks",
+      "affect": "mixed",
+      "categories": [
+        "engagement",
+        "relaxation_markers"
+      ],
+      "vividness": 2.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 4,
+      "sentence": "The moderator begins the session.",
+      "affect": "embodied",
+      "categories": [
+        "body_language",
+        "moderator_action"
+      ],
+      "vividness": 2.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 5,
+      "sentence": "There is a pause after the moderator asks the first question.",
+      "affect": "tense",
+      "categories": [
+        "moderator_action",
+        "silence_or_pause"
+      ],
+      "vividness": 2.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 7,
+      "sentence": "Participants nod as the moderator speak",
+      "affect": "engaged",
+      "categories": [
+        "engagement",
+        "moderator_action"
+      ],
+      "vividness": 2.0,
+      "fg_id": "06-Giles"
+    },
+    {
+      "index": 3,
+      "sentence": "Skills flagged - discernment, knowing where your skills are getting negatively impacted and which situations require \u2018a human touch\u2019 (a lot of nodding for the latter part).",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "08-Mardia"
+    },
+    {
+      "index": 6,
+      "sentence": "One participant speaks about how they heard someone use AI to learn R and how that makes them feel better about taking the excel version of stats - this gets some laughs.",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "08-Mardia"
+    },
+    {
+      "index": 9,
+      "sentence": "One participant is disengaged entirely from the flipchart activity - they\u2019re looking over to the other groups.",
+      "affect": "disengaged",
+      "categories": [
+        "disengagement"
+      ],
+      "vividness": 2.0,
+      "fg_id": "08-Mardia"
+    }
+  ]
+}

@@ -233,6 +233,86 @@ async function renderDisagreements() {
   }
 }
 
+async function renderFieldNotes() {
+  const d = await loadJSON("public/data/field_observations.json");
+  if (!d || !d.by_fg || Object.keys(d.by_fg).length === 0) return;
+
+  // --- global standouts grid ---
+  const standoutsEl = document.getElementById("field-standouts");
+  standoutsEl.innerHTML = "";
+  (d.global_standouts || []).forEach((s, i) => {
+    const card = document.createElement("div");
+    card.className = "field-standout";
+    card.innerHTML = `
+      <blockquote>"${escape(s.sentence)}"</blockquote>
+      <div class="meta">
+        <span class="affect-pill affect-pill-${s.affect}">${s.affect}</span>
+        <span>${escape(s.fg_id)}</span>
+      </div>
+    `;
+    standoutsEl.appendChild(card);
+    attachReactionBar(card, "field_standout", `${s.fg_id}:${s.index}:${i}`);
+  });
+  if (!standoutsEl.children.length) {
+    standoutsEl.innerHTML = `<div class="empty">no field standouts extracted yet.</div>`;
+  }
+
+  // --- per-FG expandable cards ---
+  const byFgEl = document.getElementById("field-by-fg");
+  byFgEl.innerHTML = "";
+  const fgIds = Object.keys(d.by_fg).sort();
+  for (const fgId of fgIds) {
+    const a = d.by_fg[fgId];
+    const card = document.createElement("details");
+    card.className = "field-fg-card";
+
+    // Build an affect strip from the timeline — one segment per observation
+    const timeline = a.affect_timeline || [];
+    const affectByIndex = new Array(a.observation_count).fill("neutral");
+    for (let i = 0; i < timeline.length; i++) {
+      const [start, mood] = timeline[i];
+      const end = i + 1 < timeline.length ? timeline[i + 1][0] : a.observation_count;
+      for (let j = start; j < end; j++) affectByIndex[j] = mood;
+    }
+    const affectStrip = affectByIndex
+      .map((m) => `<div class="field-affect-seg" style="background:${affectColor(m)}"></div>`)
+      .join("");
+
+    const topCats = Object.entries(a.top_categories || {}).slice(0, 3)
+      .map(([k, v]) => `${k.replace(/_/g, " ")}:${v}`).join("  ·  ");
+
+    const summary = `
+      <summary class="field-fg-summary">
+        <span class="fg-name">${escape(fgId)}</span>
+        <span class="fg-meta">${a.observation_count} observations &nbsp; ${topCats}</span>
+      </summary>
+    `;
+    const stripHTML = `<div class="field-affect-bar">${affectStrip}</div>`;
+
+    const obsItems = (a.observations || []).map((o) => `
+      <div class="field-obs affect-${o.affect}">
+        <div>"${escape(o.text)}"</div>
+        <div class="obs-tags">${(o.categories || []).join(" · ")}</div>
+      </div>
+    `).join("");
+
+    card.innerHTML = `${summary}${stripHTML}<div class="field-obs-list">${obsItems}</div>`;
+    byFgEl.appendChild(card);
+  }
+}
+
+function affectColor(mood) {
+  return {
+    tense: "#ff8975",
+    engaged: "#6ddb94",
+    relaxed: "#7fb6ff",
+    disengaged: "#c79cff",
+    embodied: "#ffe066",
+    mixed: "#888",
+    neutral: "#2a2a2a",
+  }[mood] || "#2a2a2a";
+}
+
 async function renderThemes() {
   const themes = await loadJSON("public/data/themes.json");
   const el = document.getElementById("themes-list");
@@ -548,6 +628,7 @@ function escape(s) {
   await renderPositionality();
   await renderThreeCodes();
   await renderDisagreements();
+  await renderFieldNotes();
   await renderThemes();
   await renderVotes();
   initStaticReactionBars();
