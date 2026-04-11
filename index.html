@@ -132,19 +132,24 @@
     </thead>
     <tbody>
       <tr>
-        <td>deductive framework</td>
+        <td>human deductive</td>
         <td>fast, comparable across FGs</td>
         <td><strong>blind to what you didn't ask</strong></td>
       </tr>
       <tr>
-        <td>inductive / in-vivo</td>
+        <td>human inductive / in-vivo</td>
         <td>preserves voice, surfaces surprise</td>
         <td><strong>doesn't scale, not reproducible across coders</strong></td>
       </tr>
       <tr>
-        <td>LLM-deductive</td>
-        <td>fast, consistent</td>
+        <td>LLM deductive</td>
+        <td>fast and consistent when given a real codebook</td>
         <td><strong>homogenizes, loses affect, invents plausible codes</strong></td>
+      </tr>
+      <tr>
+        <td>LLM inductive</td>
+        <td>generates themes from scratch in seconds</td>
+        <td><strong>laundering interpretation as procedure: generic themes, no codebook trail, no in-vivo preservation</strong></td>
       </tr>
       <tr>
         <td>embeddings / topic models</td>
@@ -198,10 +203,11 @@
   <div class="section-label">05 / ai slop</div>
   <h2>What happens when you let the model do everything.</h2>
   <p class="section-lede">
-    On the left: what you get when you ask the model "what are the main
-    themes in this transcript?" with no codebook, no protocol, and no
-    other constraints. On the right: the rigorous deductive output from
-    the same transcript.
+    On the left: an example of unconstrained LLM-inductive coding — asking
+    the model "what are the main themes in this transcript?" with no
+    codebook, no protocol, and no other constraints. On the right: the
+    rigorous LLM-deductive output from the same transcript, using the
+    a-priori codebook.
   </p>
   <div class="slop-compare">
     <div class="slop-col slop-col-slop">
