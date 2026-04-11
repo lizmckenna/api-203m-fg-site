@@ -177,8 +177,24 @@
     a row to see the codebook definitions.
   </p>
   <div id="three-codes-table" class="three-codes-table">
-    <!-- Populated from coded_segments.jsonl at runtime -->
-    <div class="empty">no coded segments yet — set <code>ANTHROPIC_API_KEY</code> and run <code>make recode</code>.</div>
+    <div class="three-codes-header">
+      <div class="tch-quote">the quote</div>
+      <div class="tch-col tch-col-ded">
+        <div class="tch-col-title">LLM deductive</div>
+        <div class="tch-col-sub">Claude applying the a-priori codebook</div>
+      </div>
+      <div class="tch-col tch-col-ind">
+        <div class="tch-col-title">LLM inductive</div>
+        <div class="tch-col-sub">Claude generating in-vivo codes from scratch</div>
+      </div>
+      <div class="tch-col tch-col-hand">
+        <div class="tch-col-title">human in-vivo</div>
+        <div class="tch-col-sub">pending — see positionality statement</div>
+      </div>
+    </div>
+    <div id="three-codes-rows" class="three-codes-rows">
+      <div class="empty">no picks yet — run <code>make stage07 stage08</code>.</div>
+    </div>
   </div>
 </section>
 

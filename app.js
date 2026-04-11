@@ -225,75 +225,33 @@ async function renderPositionality() {
 }
 
 async function renderThreeCodes() {
-  const seg = await loadJSONL("public/data/coded_segments.jsonl");
-  const el = document.getElementById("three-codes-table");
-  if (!seg.length) return;
-
-  // Keep only substantive student utterances with actual codes applied —
-  // no moderator script, no one-word fragments, no empty-codes rows.
-  const substantive = seg.filter((s) =>
-    s.speaker === "STU" &&
-    Array.isArray(s.codes) && s.codes.length > 0 &&
-    (s.text || "").length >= 60 &&
-    s.confidence !== "low"
-  );
-
-  // Group by (fg_id, line_id) so each row shows all coders for the same utterance
-  const grouped = new Map();
-  for (const s of substantive) {
-    const key = `${s.fg_id}:${s.line_id}`;
-    if (!grouped.has(key)) grouped.set(key, { fg_id: s.fg_id, line_id: s.line_id, text: s.text, section_id: s.section_id, coders: {} });
-    grouped.get(key).coders[s.coder] = s;
+  const data = await loadJSON("public/data/three_codes_picks.json");
+  const rowsEl = document.getElementById("three-codes-rows");
+  if (!rowsEl) return;
+  const picks = data?.picks || [];
+  if (!picks.length) {
+    rowsEl.innerHTML = `<div class="empty">no picks yet — run <code>make stage07 stage08</code>.</div>`;
+    return;
   }
-
-  // Diversify by code — don't show 25 rows that are all "use.academic".
-  // Round-robin across codes: pick the first one from each code, then the
-  // second, etc. until we have 20.
-  const byCode = new Map();
-  for (const row of grouped.values()) {
-    const llm = row.coders["llm-claude"];
-    if (!llm) continue;
-    for (const code of llm.codes) {
-      if (!byCode.has(code)) byCode.set(code, []);
-      byCode.get(code).push(row);
-    }
-  }
-  const picks = [];
-  const used = new Set();
-  let added = true;
-  while (added && picks.length < 20) {
-    added = false;
-    for (const [code, rows] of byCode) {
-      const row = rows.find((r) => !used.has(`${r.fg_id}:${r.line_id}`));
-      if (row) {
-        used.add(`${row.fg_id}:${row.line_id}`);
-        picks.push(row);
-        added = true;
-        if (picks.length >= 20) break;
-      }
-    }
-  }
-
-  el.innerHTML = "";
-  for (const row of picks) {
+  rowsEl.innerHTML = "";
+  for (const pick of picks) {
     const div = document.createElement("div");
     div.className = "three-code-row";
-    const lm = row.coders["LM"];
-    const llm = row.coders["llm-claude"];
-    const iv = row.coders["invivo"];
-    // Build the utterance text — merge-paragraph-style (no line breaks).
-    // The quote is already one line in the JSON; we render it as one <p>.
-    const sectionLabel = prettySection(row.section_id);
+    const sectionLabel = prettySection(pick.section_id);
+    // Deductive codes from stage_02 (aggregated over the turn's constituent lines)
+    const deductive = pick.codes || [];
+    // Inductive codes from stage_08 (Claude, no codebook)
+    const inductive = pick.llm_inductive_codes || [];
     div.innerHTML = `
       <div>
-        <div class="utterance">"${escape(row.text)}"</div>
-        <div class="fg-id">${sectionLabel}</div>
+        <div class="utterance">"${escape(pick.text)}"</div>
+        <div class="fg-id">from the ${sectionLabel} section</div>
       </div>
-      <div class="codes">${codesHTML(lm?.codes, "lm")}</div>
-      <div class="codes">${codesHTML(llm?.codes, "llm")}</div>
-      <div class="codes">${codesHTML(iv?.codes, "invivo")}</div>
+      <div class="codes">${codesHTML(deductive, "llm")}</div>
+      <div class="codes">${codesHTML(inductive, "invivo")}</div>
+      <div class="codes codes-pending"><span class="code-chip" style="opacity:.4">pending</span></div>
     `;
-    el.appendChild(div);
+    rowsEl.appendChild(div);
   }
 }
 
