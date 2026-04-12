@@ -34,28 +34,14 @@
 
 >> You do not actually know your data well when you leave the analytical work to an LLM.
 
-**A note on the funny typos you'll see in the quotes.** I deliberately left in the Whisper auto-transcription errors rather than cleaning them up: "chat GBT" for ChatGPT, "chatchubit" for ChatGPT (there are many variations of this one), "cod code" for chat code, and so on. I kept them because they're a reminder of why close reading matters even (or especially) when you're using AI to process qualitative data. If I had blindly run these transcripts through an LLM with no review, the model might have silently "corrected" the errors into something plausible but wrong, and I would never have noticed. The typos are the tell: they prove that whatever summary or theme list you're looking at comes from text that a human actually read.
+**A note on the funny typos you'll see in the quotes.** I deliberately left in the Whisper auto-transcription errors rather than cleaning them up: "chat GBT" for ChatGPT, "chatchubit" for ChatGPT (there are many variations of this one), "cod code" for Claude Code, and so on. I kept them because they're a reminder of why close reading matters even (or especially) when you're using AI to process qualitative data.
 
-**To that end, the section of this site titled "Where Claude broke" surfaces the disagreements between human and LLM coding.** Those disagreements are not bugs in the analysis, they are (hopefully) the most methodologically interesting part of this exercise. They are designed to illustrate what gets lost when speed and scale substitute for interpretation, or, to paraphrase my PhD advisor, a completely basic and foundational scholarly practice, which is the good old-fashioned, close reading of a text.
+**To that end, the section of this site titled "Where Claude broke" surfaces the disagreements between human and LLM coding.** Those disagreements are not bugs in the analysis, they are (hopefully) the most methodologically interesting part of this exercise. They are designed to illustrate what gets lost when speed and scale substitute for interpretation, or to supplant, to paraphrase my PhD advisor, a completely basic and foundational scholarly practice, which is the good old-fashioned, close reading of a text.
 
 — Liz McKenna, Spring 2026
 
 ---
 
-[^1]: In our last class session on 4/16, I will synthesize this for you into
-what I'm thinking of as the ABCD framework, the notion that with agentic
-AI, you can be Always Be Collecting Data. AI changes the entire research
-infrastructure. You can record and transcribe in real time, archive with
-consistent naming conventions and structured metadata, convert messy field
-notes into clean markdown files, deploy bots to collect observations across
-a vast array of people and contexts simultaneously, and move from raw data
-to organized, analyzable material in hours rather than weeks, months, or
-years. I believe these affordances will fundamentally change what
-qualitative research is able to do.
+[^1]: In our last class session on 4/16, I will synthesize this for you into what I'm thinking of as the ABCD framework, the notion that with agentic AI, you can be Always Be Collecting Data. AI changes the entire research infrastructure. You can record and transcribe in real time, archive with consistent naming conventions and structured metadata, convert messy field notes into clean markdown files, deploy bots to collect observations across a vast array of people and contexts simultaneously, and move from raw data to organized, analyzable material in hours rather than weeks, months, or years. I believe these affordances will fundamentally change what qualitative research is able to do.
 
-[^2]: A note for you to think about with your PAE next year: Given the time
-and access constraints, there is simply no way you/your team will be
-conducting hundreds of interviews, or even dozens. You will have a
-manageable corpus, so there is no excuse for not doing a close read of the
-transcripts. Trust me: it will make your analysis so much better even if
-you also choose to use LLMs to analyze it.
+[^2]: A note for you to think about with your PAE next year: Given the time and access constraints, there is simply no way you/your team will be conducting hundreds of interviews, or even dozens. You will have a manageable corpus, so there is no excuse for not doing a close read of the transcripts. Trust me: it will make your analysis so much better even if you also choose to use LLMs to analyze it.
