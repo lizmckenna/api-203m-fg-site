@@ -508,6 +508,44 @@ function renderBankQuote(q) {
   return e;
 }
 
+async function renderExchanges() {
+  const data = await loadJSON("public/data/exchanges.json");
+  const el = document.getElementById("exchanges-list");
+  if (!el) return;
+  if (!data || !data.length) return;
+
+  el.innerHTML = "";
+  for (const ex of data) {
+    const card = document.createElement("details");
+    card.className = "exchange-card";
+    card.open = false;
+
+    const sectionLabel = prettySection(ex.section_id);
+    const turnCount = (ex.turns || []).length;
+    const summaryHTML = `
+      <summary class="exchange-summary">
+        <span class="exchange-label">${escape(ex.label)}</span>
+        <span class="exchange-meta">${sectionLabel} · ${turnCount} turns</span>
+      </summary>
+    `;
+
+    const turnsHTML = (ex.turns || []).map((t) => {
+      const speaker = t.speaker || "STU";
+      const speakerClass = speaker === "MOD" ? "ex-speaker-mod" : "ex-speaker-stu";
+      const speakerLabel = speaker === "MOD" ? "MOD" : speaker;
+      return `
+        <div class="exchange-turn ${speakerClass}">
+          <span class="exchange-speaker">${escape(speakerLabel)}</span>
+          <div class="exchange-text">${escape(t.text)}</div>
+        </div>
+      `;
+    }).join("");
+
+    card.innerHTML = `${summaryHTML}<div class="exchange-body">${turnsHTML}</div>`;
+    el.appendChild(card);
+  }
+}
+
 async function renderMoreVoices() {
   const alloc = await loadJSON("public/data/quote_allocation.json");
   const listEl = document.getElementById("more-voices-list");
@@ -982,6 +1020,7 @@ function escape(s) {
   await renderAiSlop();
   await renderFieldNotes();
   await renderThemes();
+  await renderExchanges();
   await renderMoreVoices();
   await renderVotes();
   initStaticReactionBars();

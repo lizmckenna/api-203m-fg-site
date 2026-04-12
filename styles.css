@@ -867,6 +867,76 @@ strong { font-weight: 600; }
 .theme-more-list { display: grid; gap: 1.25rem; margin-top: 1.25rem; }
 
 /* =====================================================================
+   Exchanges — multi-voice moments
+   ===================================================================== */
+.exchanges-list { display: grid; gap: 1.25rem; }
+.exchange-card {
+  border: 1px solid var(--rule);
+  background: var(--paper);
+}
+.exchange-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  list-style: none;
+  gap: 1rem;
+}
+.exchange-summary::-webkit-details-marker { display: none; }
+.exchange-summary::after { content: "+"; font-size: 1.3rem; color: var(--mute); }
+.exchange-card[open] .exchange-summary::after { content: "–"; }
+.exchange-label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+}
+.exchange-meta {
+  font-size: 0.72rem;
+  color: var(--mute);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.exchange-body {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  display: grid;
+  gap: 0;
+}
+.exchange-turn {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: 0.75rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--rule);
+  align-items: start;
+}
+.exchange-turn:first-child { border-top: none; }
+.exchange-speaker {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--mute);
+  padding-top: 0.2rem;
+}
+.ex-speaker-mod .exchange-speaker { color: var(--accent); }
+.exchange-text {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.ex-speaker-mod .exchange-text {
+  font-style: normal;
+  color: var(--mute);
+  font-size: 0.92rem;
+}
+
+/* =====================================================================
    More voices — unused-quote gallery
    ===================================================================== */
 .more-voices-filters {

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "fg07-curriculum-skepticism",
+    "label": "Can a course in AI keep up with AI?",
+    "section_id": "s5_professional_readiness",
+    "turns": [
+      {
+        "text": "But is it the best use of our time in a professional program? Absolutely not. And I feel like there's so much fear... I've talked to people who have no idea how to use AI. And I feel like they've learned we're done with skills here. Like we need to get rid of some courses and change the language.",
+        "line_range": [
+          456,
+          465
+        ]
+      },
+      {
+        "text": "I'm not sure a course in AI honestly would do much. It's evolving so quickly that if we had a course where, no offense, but some older professors were teaching and they were like teaching the first generation of AI and really we're six generations ahead of that. How much is that actually helping anyone? The best way I've learned AI was through my own use, through cases where it's come up and I've needed it.",
+        "line_range": [
+          466,
+          475
+        ]
+      },
+      {
+        "text": "Not an old professor teaching what AI is and what the theory behind it is. A course on how to utilize agentic AI. You all build your own agent. It literally already answers all the easy emails for me, you get the first draft for homework done automatically. And just implementing this and seeing the benefits out of it. And then going into a public entity afterwards and having a mindset that all of this is possible and we might implement it.",
+        "line_range": [
+          476,
+          488
+        ]
+      },
+      {
+        "text": "Yeah, but the curriculum will never keep up with the models.",
+        "line_range": [
+          489,
+          490
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fg01-ai-muscle",
+    "fg_id": "01-Cheng",
+    "line_range": [
+      125,
+      206
+    ],
+    "section_id": "s4_two_sided_risk",
+    "label": "Building an AI relationship vs. keeping your own mind sharp",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "Yeah, so I was in law school last year, which is pedagogically different than a master in public policy, but I had a principle that was like I'm not going to use AI for really anything, even for like studying or my own research because I was concerned about what to do with my brain or kind of a lot of the type one concerns. And then I felt though, by the end, my understanding was actually really bad because I was just trying to do it myself and try to go through all these like really dense resources. And a lot of my friends who used AI, I only learned after the fact and after my grades came out that like they used it ethically and well. And I was like, okay, now going into my master in public policy, I'm going to use it a lot more liberally and effectively. And so that's why I've gravitated towards the second part, the second concern more, which is like, yeah, especially when grades are on a curve, right?"
+      },
+      {
+        "speaker": "MOD",
+        "text": "I'm actually curious, like how do you actually use or how have you seen your peers use AI ethically or effectively in a way that doesn't jeopardize their own independent learning process in law school or here? Like what's your current pedagogy now?"
+      },
+      {
+        "speaker": "A",
+        "text": "Yeah, I think, I think after you've done a reading, if it's a publicly facing reading that's not proprietary material, so caveatting like the HKS cases, which you should never put into a chat GBT search window, saying like, what are the key points of this? Just to make sure like you got the key points of it, but doing it after, I think is a good way of doing it and not having it through the reading for you is important. And so that, it kind of locks in the key things that I thought I understood to make sure I didn't miss anything big. I think, I think I just like didn't, I don't have the AI muscle developed and I can tell that other people use it more than me. Like sometimes bad, but like sometimes in unethical ways, but sometimes in ethical ways and that's where the anxiety comes from because I used to work in a job where it was like everything was so specific that it just wouldn't produce any usable item. Like I'd be like, tell me about this New York State law and it produced gibberish. So it just like, like I couldn't even use it. But now that I'm doing so much more general policy in school, I'm like, tell me about child poverty. It's like actually pretty good. But then that gives me the anxiety of like, well, if I was doing specific things in other areas, like am I, like is the shortcut in a more broad sense, like just like nonsense to someone who actually does this kind of policy."
+      },
+      {
+        "speaker": "B",
+        "text": "I think something that I've learned while using AI is because I've used it like for, I don't know, for the past like two years, like I probably use AI a lot more, but I try to maintain like an ethical nature about it. But I do use it a lot. There are some people that I know that use no AI at all. And the thing is, like when you start to use AI, it's kind of like building a relationship with a person. They start to record all of your thoughts, all of your feelings, all of the opinions that you have about things. And it's, once you craft that relationship with like artificial intelligence, the thinking that it does for you gets a lot better. And so I fear that if I don't create a relationship with AI, other people will create a relationship with AI that allows them to do things much faster, much better, much more synthesized than if I don't."
+      },
+      {
+        "speaker": "MOD",
+        "text": "What are your thoughts on that, P-02? Because I feel like yours was like concerned more around like your own thinking, right?"
+      },
+      {
+        "speaker": "C",
+        "text": "Well, so that's kind of from a different perspective that just seeing a lot of people in like younger generations just rely so much on AI. I literally just replace critical thinking to such an extent that's been mind boggling to me. But also just I find that AI is really good at some things and really, really bad at other things. I mean, where my interests lie and are more so where AI is very bad. So like what Kathy was talking about coding, AI is fantastic at anything quantitative because math is math. It literally has its own set of rules. But LLMs are just predictive models or literally just statistical models. At this point, there's no like truly like, it's called generative AI right now. Like there's the next level where it's like truly thinking for itself. And so my focus at Kennedy School has been in international relations, which is by definition great areas, you know. And I found that trying to get it to see great areas, it's horrible at that because it's trained to go to like the most common, like the most statistically probable answer. And so I've just found that it just gives me the most generic, like boring, not like really thinking, just like a compiling of the most commonly cited, you know, scholars in a field. And so I just like don't like just for my particular interest in the field, I just haven't found it to be super useful in a lot of other sources. For instance, whenever I try to get it to write for me, I'm just like, this is literal garbage that I don't even use a single word from because it's just like the most generic, just like, you know, what's the like highest probability next word that's going to happen? And so that's kind of where I don't feel the need to get super, super good at it because I'm not planning to go into a field at the moment where like it really excels at. If I was going decoding, absolutely. Why would I learn how to code by myself when I can just, you know, get Claude to put things together for me?"
+      }
+    ]
+  },
+  {
+    "id": "fg02-joe-holdout",
+    "fg_id": "02-Chyung",
+    "line_range": [
+      134,
+      193
+    ],
+    "section_id": "s4_two_sided_risk",
+    "label": "Why one student refuses to use AI",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "I'm just gonna say, Joe, I feel like now so many people use AI like in a variety of ways, whether it's like academically or personal, so I was just surprised to hear that like you actively try not to use it. I was just curious like why?"
+      },
+      {
+        "speaker": "B",
+        "text": "Yeah, so that it really starts from like why I'm here and it's not so much like the programs I'm here for but the Air Force is sending me here to like expand my thinking and so I'm trying to figure out and so I'm trying to be very conscious about not outsourcing thinking and so it's not really the material that I care what I'm learning about but the thought process and that's why I've avoided using AI."
+      },
+      {
+        "speaker": "C",
+        "text": "May I ask a question? Yeah. So I'm curious, does the Air Force ask you to limit the use of AI or?"
+      },
+      {
+        "speaker": "B",
+        "text": "No, that's a total self-choice. Well, the Air Force has actually like tried to push people to use AI stuff but yeah, my own personal like probably old-school way of thinking."
+      },
+      {
+        "speaker": "D",
+        "text": "I also have a question. Please only answer if you're comfortable. I think because so many people are using it now in our space, I guess, have you ever felt pressure to sort of use it or like, yeah, has that like almost persuaded you to use it for like an assignment and then you like sort of take a step back because it's not true to what you wanna do?"
+      },
+      {
+        "speaker": "B",
+        "text": "I wouldn't say like social pressure. I think the biggest thing is because so many people are using it now, how quickly people are getting assignments done. Like I take a lot longer to do my homework and like I don't look at chat-generated summaries of readings so like the amount of time I spend doing readings isn't longer. So I'd say the pressure comes from time, not so much."
+      }
+    ]
+  },
+  {
+    "id": "fg03-calculator-debate",
+    "fg_id": "03-Davis",
+    "line_range": [
+      276,
+      301
+    ],
+    "section_id": "s4_two_sided_risk",
+    "label": "Is AI just a calculator?",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "Actually, in South Korea, a student, especially elementary school students, and middle school students, all other students are not allowed to use calculator in mathematics class. But in America, many people use calculator, right? It is, I think, in the future, AI becomes kind of a calculator in the end. But I have my daughter, and I recommend her not to use calculator, but calculate by your brain. It is very helpful to learn something, learn mathematics, scheme, and mathematics structures. So, in terms of academic fields, AI is definitely not useful to learning and structuring our knowledge."
+      },
+      {
+        "speaker": "B",
+        "text": "So, saying you have to just learn to do it yourself before you start using... But I think in the end, in the future, it could be like a calculator. So, everybody should use it in order to be more efficient."
+      },
+      {
+        "speaker": "C",
+        "text": "I do think, for example, it's really great for coding. Like, the role of a simple software engineer will be eliminated because this is exactly what AI is better at doing at. Hopefully, for jobs, whether it's in physics or chemistry, where coding is sort of like it means to an end versus the career that this can help a lot with innovation. And I also think, in many ways, it's allowing people to innovate and maybe didn't have the technical skills prior. So, I think for those things, there will be always an efficiency argument, but I can really agree that in a classroom setting, and I think it has almost no use case."
+      }
+    ]
+  },
+  {
+    "id": "fg05-job-pipeline",
+    "fg_id": "05-Ge",
+    "line_range": [
+      276,
+      306
+    ],
+    "section_id": "s5_professional_readiness",
+    "label": "Who gets fired, who gets promoted?",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "Like, for me, the question you're asking, it really depends. Like, there's a lot of caveats to do. What level of expertise do you already have before you're using AI when you enter the field? Because this is something that will get back to you. Sorry, I forgot your name. You talked about a little bit this, like, the expertise, right? And if you're already an expert and you know about something, you can put AI in a way that will make you feel more productive. But you're kind of canceling out a whole issue, like, all the junior people that are coming into the field in the term. They're not going to be more useful than AI to you. So you're not going to have an incentive to pay someone and train them to do that really hard work here. And you're going to have just a whole side of, like, the industry that's going to disappear and how to get people to the senior levels of that one issue. For me, like, I think I'll be fine being back into it because I have, like, a business of knowledge. But I worry about, like, do yours."
+      },
+      {
+        "speaker": "B",
+        "text": "I'll push back on that because to me, I think it's, like, really depends on, like, how the business looks at it. If it's just, like, a equity standpoint of, like, I can now cut this position and make more money while doing the same level of, like, output. However, I think it's argumentally, especially, like, in Drew's case of, like, I can bring it another person and then they're, like, forced, multiplied by so much more with this tool. And I think that turns one into a question of how they are going to choose to use AI. Like, obviously, Amazon has cut, like, 30,000 jobs. However, I think, I know, like, a friend of mine, when I worked with kids, he said, like, when they dropped to LGBT, the partner came in and said, like, hey, I expect your level of work to be better, faster. And larger on the same time frame now that you have this tool. So I think it's a balance of, like, how you want to incorporate it in training your new workforce and an ethos of the organization as a whole."
+      },
+      {
+        "speaker": "A",
+        "text": "But I think that's an extreme development. Like, if you look at it today, there's a lot of things, or, and I'm talking about the fixing industry, there's a lot of people with, I don't know about, like, Amazon One. They've stopped hiring a lot of interns and, like, research assistants and some of them are sadly composed of figuring out where to be AI. Or, can they, like, maybe some of them will figure out that people will realize it's worth it to just have people even if they're not productive training them. And then to, like, kind of, a fellowship, this generation thing. But I worried that we're going to use, like, a lot of young people that are going to do really best for it to, is then going to apply to any future competitors in this current current work. Because it's, like, very never-ending old companies that have these things."
+      },
+      {
+        "speaker": "B",
+        "text": "I mean, I think, I think we're both perfected through, and I think comes back to, like, why are research assistantships and interns really hired? Like, how much can you really get done in ten weeks? Is it because I've worked with many people in ten weeks? Or is it, like, a job pipeline type? I think that the job pipeline thing, like, my friends at Metta, they've also done layoffs. He's, like, yeah, we just fired a bunch of people. This is going to be a problem for two years. Because some of the higher-ups are going to leave. Who are you going to promote? Yeah. So I think it comes to, like, also job pipeline, I think there's going to be a revenue. You can't just fire everybody. You're going to have to have some pipeline."
+      }
+    ]
+  },
+  {
+    "id": "fg10-guilt-anxiety",
+    "fg_id": "10-Sanchez",
+    "line_range": [
+      75,
+      152
+    ],
+    "section_id": "s4_two_sided_risk",
+    "label": "The guilt of using AI vs. the anxiety of not using enough",
+    "turns": [
+      {
+        "speaker": "MOD",
+        "text": "ones okay um so anyone wants to defend their their vote?"
+      },
+      {
+        "speaker": "A",
+        "text": "This is something I've been struggling with a lot like when I first came to HKS um I'd really never used AI before um just like when I was in college it wasn't a thing when I was in the workforce it wasn't a thing maybe I'd use it to come up with like punchy titles for like pitches for in my past comms job um but that was really and then like the busier I've gotten at school the more readings and the more helpful I found it um and I always feel like guilty when I use it like wow I should really be figuring out how to rework the sentence myself versus like put my own thought in um and have it put it back in a way if I'm like I don't like how I said this fix it oh that is what I wanted to say um but that is something that like really upsets me too because I'm like I love writing I think writing is such a good way to learn um and I'm always like doing the thoughts and concepts myself it's just sometimes like the cleaning up that it's so helpful it'll be like it'll spark another thought for me where it's like oh yeah now I know what I want to say because I saw it written a different way um but then yeah I just also just struggle with wanting to feel like I'm learning and like not using a crutch to accomplish stuff and contrasting that with being so busy and overwhelmed at school"
+      },
+      {
+        "speaker": "B",
+        "text": "I'm doing research with a couple other people with a fellow on intellectual atrophy from AI and it's like a real concern that like your ability to use judgment and especially if you're not doing first passes on things to lose that muscle but I think that like when I thought about how you frame the two options like I think not using AI is more costly than like learning how to use AI in a way that is still conducive to your learning which I think is totally possible and that's kind of like the thesis of the paper which is like there is a way to use AI that still preserves your ability to learn and also focuses on like enduring human skills um as opposed to just ignoring it and losing out because I'm working in like an AI native like not profit right now and like it's really important that we understand how to build and use AI or else we can't compete"
+      },
+      {
+        "speaker": "C",
+        "text": "I used to worry more about like the losing skills part but my partner he is doing a gap year right now and he spends eight hours a day using fluid to build different things um because it helps him all kinds of projects and I think like seeing that has made me realize that that is something I would not be able to do right now and I feel like that might also be like of course our situation is a little bit special because he is doing a gap year but I think that there's also a gender gap emerging and how we're using AI and I think if you just use it to outsource your learning then it's a problem for you but if you use it to enhance your skills like for instance your coding abilities and then it can really help you succeed and I fear that if like if AI takes over a lot of jobs in the labor market then everyone who is not capable of using it in that way might be at risk of using their job at least if they have like desk jobs um so I've started to become more worried"
+      },
+      {
+        "speaker": "A",
+        "text": "I don't know if other people feel this way too but there's some like anxiety surrounding it in the sense that like oh if I used AI for this and someone else didn't like are they better than me are they doing school better how can they manage their time and like get all this done without AI when like I'm drowning in work and almost all hours of the day and sometimes need to use it to help me not like do the work but like summarize a reading or clean up the sentence as I mentioned before um then you hear like someone else like no I don't really use AI for that or no I haven't and then you're like well what am I doing wrong so I think that's another interesting aspect of just like being at a very like competitive and like hard time I feel like I almost I have the opposite anxiety where I'm like where's the fine line of turning in something that like the sentences like maybe I had some help editing it through AI like like where's the line of like me being allowed to do that and then me like getting expelled for plagiarism like not like I don't abuse AI in that way but I feel like especially coming here I'm like oh my gosh I got to Harvard I did it what if I get expelled because I used AI in the wrong way and so I almost have anxiety from that I think the other piece is like some of the assignments we got for this class I felt very proud of because I didn't use AI at all like for the like the interview you're not really using AI or for observation you're not using AI and so it felt good I felt a lot more proud of things I've turned in where I haven't touched at all anyone else felt that anxiety of like oh no did I use too much AI am I gonna get in trouble you know"
+      },
+      {
+        "speaker": "D",
+        "text": "since there are no days when we don't use AI and I'm taking some writing course where I have to refrain myself not using since it's a writing course and otherwise I wouldn't learn anything but we are so habitual to give everything to AI so it's gonna be very hard in the coming days that if there are some courses in which we learn really something on our own then we have to make our brain habitual not using it for some stuff and in some cases that we just but I'm struggling I'm not using it for writing course because that's the one of the major thing I wanted to learn here"
+      }
+    ]
+  }
+]
