@@ -3,8 +3,8 @@
     "code": "use.academic",
     "parent": "use",
     "definition": "Using AI for coursework: writing, editing, research, debugging code, summarizing readings.",
-    "count": 220,
-    "fg_count": 8,
+    "count": 237,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -262,8 +262,8 @@
     "code": "use.professional",
     "parent": "use",
     "definition": "Using AI for job search, internships, professional emails, work product outside class.",
-    "count": 174,
-    "fg_count": 8,
+    "count": 206,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -521,8 +521,8 @@
     "code": "use.meta",
     "parent": "use",
     "definition": "Talking about the practice of using AI in general, not a specific instance.",
-    "count": 152,
-    "fg_count": 8,
+    "count": 175,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -780,8 +780,8 @@
     "code": "anxiety.learning_loss",
     "parent": "anxiety",
     "definition": "Fear that AI use weakens one's own thinking, writing, or skill development.",
-    "count": 108,
-    "fg_count": 8,
+    "count": 130,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -1036,270 +1036,11 @@
     ]
   },
   {
-    "code": "risk.underuse",
-    "parent": "risk",
-    "definition": "Argues that NOT using AI (well or enough) is the more real cost \u2014 falling behind peers.",
-    "count": 84,
-    "fg_count": 8,
-    "examples": [
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 124,
-        "section_id": "s4_two_sided_risk",
-        "text": "In the short term, I'm concerned about concern three a lot.",
-        "quote": "In the short term, I'm concerned about concern three a lot.",
-        "confidence": "med",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 121,
-              "speaker": "STU",
-              "text": "I'm split."
-            },
-            {
-              "line_id": 122,
-              "speaker": "STU",
-              "text": "I'm split too."
-            },
-            {
-              "line_id": 123,
-              "speaker": "MOD",
-              "text": "In the long term, I'm concerned about concern two more."
-            }
-          ],
-          "center": {
-            "line_id": 124,
-            "speaker": "STU",
-            "text": "In the short term, I'm concerned about concern three a lot."
-          },
-          "after": [
-            {
-              "line_id": 125,
-              "speaker": "STU",
-              "text": "Yeah, so I was in law school last year, which is pedagogically different than a master in"
-            },
-            {
-              "line_id": 126,
-              "speaker": "STU",
-              "text": "public policy, but I had a principle that was like I'm not going to use AI for really"
-            },
-            {
-              "line_id": 127,
-              "speaker": "STU",
-              "text": "anything, even for like studying or my own research because I was concerned about what"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 129,
-        "section_id": "s4_two_sided_risk",
-        "text": "And then I felt though, by the end, my understanding was actually really bad because I was just",
-        "quote": "by the end, my understanding was actually really bad because I was just trying to do it myself and try to go through all these like really dense resources",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 126,
-              "speaker": "STU",
-              "text": "public policy, but I had a principle that was like I'm not going to use AI for really"
-            },
-            {
-              "line_id": 127,
-              "speaker": "STU",
-              "text": "anything, even for like studying or my own research because I was concerned about what"
-            },
-            {
-              "line_id": 128,
-              "speaker": "STU",
-              "text": "to do with my brain or kind of a lot of the type one concerns."
-            }
-          ],
-          "center": {
-            "line_id": 129,
-            "speaker": "STU",
-            "text": "And then I felt though, by the end, my understanding was actually really bad because I was just"
-          },
-          "after": [
-            {
-              "line_id": 130,
-              "speaker": "STU",
-              "text": "trying to do it myself and try to go through all these like really dense resources."
-            },
-            {
-              "line_id": 131,
-              "speaker": "STU",
-              "text": "And a lot of my friends who used AI, I only learned after the fact and after my grades"
-            },
-            {
-              "line_id": 132,
-              "speaker": "STU",
-              "text": "came out that like they used it ethically and well."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 132,
-        "section_id": "s4_two_sided_risk",
-        "text": "came out that like they used it ethically and well.",
-        "quote": "okay, now going into my master in public policy, I'm going to use it a lot more liberally and effectively",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 129,
-              "speaker": "STU",
-              "text": "And then I felt though, by the end, my understanding was actually really bad because I was just"
-            },
-            {
-              "line_id": 130,
-              "speaker": "STU",
-              "text": "trying to do it myself and try to go through all these like really dense resources."
-            },
-            {
-              "line_id": 131,
-              "speaker": "STU",
-              "text": "And a lot of my friends who used AI, I only learned after the fact and after my grades"
-            }
-          ],
-          "center": {
-            "line_id": 132,
-            "speaker": "STU",
-            "text": "came out that like they used it ethically and well."
-          },
-          "after": [
-            {
-              "line_id": 133,
-              "speaker": "STU",
-              "text": "And I was like, okay, now going into my master in public policy, I'm going to use it a lot"
-            },
-            {
-              "line_id": 134,
-              "speaker": "STU",
-              "text": "more liberally and effectively."
-            },
-            {
-              "line_id": 135,
-              "speaker": "STU",
-              "text": "And so that's why I've gravitated towards the second part, the second concern more,"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 135,
-        "section_id": "s4_two_sided_risk",
-        "text": "And so that's why I've gravitated towards the second part, the second concern more,",
-        "quote": "I've gravitated towards the second part, the second concern more, which is like, yeah, especially when grades are on a curve, right?",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 132,
-              "speaker": "STU",
-              "text": "came out that like they used it ethically and well."
-            },
-            {
-              "line_id": 133,
-              "speaker": "STU",
-              "text": "And I was like, okay, now going into my master in public policy, I'm going to use it a lot"
-            },
-            {
-              "line_id": 134,
-              "speaker": "STU",
-              "text": "more liberally and effectively."
-            }
-          ],
-          "center": {
-            "line_id": 135,
-            "speaker": "STU",
-            "text": "And so that's why I've gravitated towards the second part, the second concern more,"
-          },
-          "after": [
-            {
-              "line_id": 136,
-              "speaker": "STU",
-              "text": "which is like, yeah, especially when grades are on a curve, right?"
-            },
-            {
-              "line_id": 137,
-              "speaker": "STU",
-              "text": "I'm actually curious, like how do you actually use or how have you seen your peers use AI"
-            },
-            {
-              "line_id": 138,
-              "speaker": "STU",
-              "text": "ethically or effectively in a way that doesn't jeopardize their own independent learning"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 172,
-        "section_id": "s4_two_sided_risk",
-        "text": "And so I fear that if I don't create a relationship with AI, other people will create a relationship",
-        "quote": "I fear that if I don't create a relationship with AI, other people will create a relationship with AI that allows them to do things much faster, much better, much more synthesized",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 169,
-              "speaker": "STU",
-              "text": "that you have about things."
-            },
-            {
-              "line_id": 170,
-              "speaker": "STU",
-              "text": "And it's, once you craft that relationship with like artificial intelligence, the thinking"
-            },
-            {
-              "line_id": 171,
-              "speaker": "STU",
-              "text": "that it does for you gets a lot better."
-            }
-          ],
-          "center": {
-            "line_id": 172,
-            "speaker": "STU",
-            "text": "And so I fear that if I don't create a relationship with AI, other people will create a relationship"
-          },
-          "after": [
-            {
-              "line_id": 173,
-              "speaker": "STU",
-              "text": "with AI that allows them to do things much faster, much better, much more synthesized"
-            },
-            {
-              "line_id": 174,
-              "speaker": "STU",
-              "text": "than if I don't."
-            },
-            {
-              "line_id": 175,
-              "speaker": "STU",
-              "text": "What are your thoughts on that, P-02?"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "code": "wishes.training",
     "parent": "wishes",
     "definition": "Formal instruction \u2014 classes, workshops, structured curriculum.",
-    "count": 81,
-    "fg_count": 8,
+    "count": 105,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -1554,11 +1295,270 @@
     ]
   },
   {
+    "code": "risk.underuse",
+    "parent": "risk",
+    "definition": "Argues that NOT using AI (well or enough) is the more real cost \u2014 falling behind peers.",
+    "count": 96,
+    "fg_count": 9,
+    "examples": [
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 124,
+        "section_id": "s4_two_sided_risk",
+        "text": "In the short term, I'm concerned about concern three a lot.",
+        "quote": "In the short term, I'm concerned about concern three a lot.",
+        "confidence": "med",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 121,
+              "speaker": "STU",
+              "text": "I'm split."
+            },
+            {
+              "line_id": 122,
+              "speaker": "STU",
+              "text": "I'm split too."
+            },
+            {
+              "line_id": 123,
+              "speaker": "MOD",
+              "text": "In the long term, I'm concerned about concern two more."
+            }
+          ],
+          "center": {
+            "line_id": 124,
+            "speaker": "STU",
+            "text": "In the short term, I'm concerned about concern three a lot."
+          },
+          "after": [
+            {
+              "line_id": 125,
+              "speaker": "STU",
+              "text": "Yeah, so I was in law school last year, which is pedagogically different than a master in"
+            },
+            {
+              "line_id": 126,
+              "speaker": "STU",
+              "text": "public policy, but I had a principle that was like I'm not going to use AI for really"
+            },
+            {
+              "line_id": 127,
+              "speaker": "STU",
+              "text": "anything, even for like studying or my own research because I was concerned about what"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 129,
+        "section_id": "s4_two_sided_risk",
+        "text": "And then I felt though, by the end, my understanding was actually really bad because I was just",
+        "quote": "by the end, my understanding was actually really bad because I was just trying to do it myself and try to go through all these like really dense resources",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 126,
+              "speaker": "STU",
+              "text": "public policy, but I had a principle that was like I'm not going to use AI for really"
+            },
+            {
+              "line_id": 127,
+              "speaker": "STU",
+              "text": "anything, even for like studying or my own research because I was concerned about what"
+            },
+            {
+              "line_id": 128,
+              "speaker": "STU",
+              "text": "to do with my brain or kind of a lot of the type one concerns."
+            }
+          ],
+          "center": {
+            "line_id": 129,
+            "speaker": "STU",
+            "text": "And then I felt though, by the end, my understanding was actually really bad because I was just"
+          },
+          "after": [
+            {
+              "line_id": 130,
+              "speaker": "STU",
+              "text": "trying to do it myself and try to go through all these like really dense resources."
+            },
+            {
+              "line_id": 131,
+              "speaker": "STU",
+              "text": "And a lot of my friends who used AI, I only learned after the fact and after my grades"
+            },
+            {
+              "line_id": 132,
+              "speaker": "STU",
+              "text": "came out that like they used it ethically and well."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 132,
+        "section_id": "s4_two_sided_risk",
+        "text": "came out that like they used it ethically and well.",
+        "quote": "okay, now going into my master in public policy, I'm going to use it a lot more liberally and effectively",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 129,
+              "speaker": "STU",
+              "text": "And then I felt though, by the end, my understanding was actually really bad because I was just"
+            },
+            {
+              "line_id": 130,
+              "speaker": "STU",
+              "text": "trying to do it myself and try to go through all these like really dense resources."
+            },
+            {
+              "line_id": 131,
+              "speaker": "STU",
+              "text": "And a lot of my friends who used AI, I only learned after the fact and after my grades"
+            }
+          ],
+          "center": {
+            "line_id": 132,
+            "speaker": "STU",
+            "text": "came out that like they used it ethically and well."
+          },
+          "after": [
+            {
+              "line_id": 133,
+              "speaker": "STU",
+              "text": "And I was like, okay, now going into my master in public policy, I'm going to use it a lot"
+            },
+            {
+              "line_id": 134,
+              "speaker": "STU",
+              "text": "more liberally and effectively."
+            },
+            {
+              "line_id": 135,
+              "speaker": "STU",
+              "text": "And so that's why I've gravitated towards the second part, the second concern more,"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 135,
+        "section_id": "s4_two_sided_risk",
+        "text": "And so that's why I've gravitated towards the second part, the second concern more,",
+        "quote": "I've gravitated towards the second part, the second concern more, which is like, yeah, especially when grades are on a curve, right?",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 132,
+              "speaker": "STU",
+              "text": "came out that like they used it ethically and well."
+            },
+            {
+              "line_id": 133,
+              "speaker": "STU",
+              "text": "And I was like, okay, now going into my master in public policy, I'm going to use it a lot"
+            },
+            {
+              "line_id": 134,
+              "speaker": "STU",
+              "text": "more liberally and effectively."
+            }
+          ],
+          "center": {
+            "line_id": 135,
+            "speaker": "STU",
+            "text": "And so that's why I've gravitated towards the second part, the second concern more,"
+          },
+          "after": [
+            {
+              "line_id": 136,
+              "speaker": "STU",
+              "text": "which is like, yeah, especially when grades are on a curve, right?"
+            },
+            {
+              "line_id": 137,
+              "speaker": "STU",
+              "text": "I'm actually curious, like how do you actually use or how have you seen your peers use AI"
+            },
+            {
+              "line_id": 138,
+              "speaker": "STU",
+              "text": "ethically or effectively in a way that doesn't jeopardize their own independent learning"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 172,
+        "section_id": "s4_two_sided_risk",
+        "text": "And so I fear that if I don't create a relationship with AI, other people will create a relationship",
+        "quote": "I fear that if I don't create a relationship with AI, other people will create a relationship with AI that allows them to do things much faster, much better, much more synthesized",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 169,
+              "speaker": "STU",
+              "text": "that you have about things."
+            },
+            {
+              "line_id": 170,
+              "speaker": "STU",
+              "text": "And it's, once you craft that relationship with like artificial intelligence, the thinking"
+            },
+            {
+              "line_id": 171,
+              "speaker": "STU",
+              "text": "that it does for you gets a lot better."
+            }
+          ],
+          "center": {
+            "line_id": 172,
+            "speaker": "STU",
+            "text": "And so I fear that if I don't create a relationship with AI, other people will create a relationship"
+          },
+          "after": [
+            {
+              "line_id": 173,
+              "speaker": "STU",
+              "text": "with AI that allows them to do things much faster, much better, much more synthesized"
+            },
+            {
+              "line_id": 174,
+              "speaker": "STU",
+              "text": "than if I don't."
+            },
+            {
+              "line_id": 175,
+              "speaker": "STU",
+              "text": "What are your thoughts on that, P-02?"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "code": "readiness.tool_specific",
     "parent": "readiness",
     "definition": "Names a specific tool, workflow, or skill expected at work.",
-    "count": 79,
-    "fg_count": 8,
+    "count": 90,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -1816,8 +1816,8 @@
     "code": "anxiety.integrity",
     "parent": "anxiety",
     "definition": "Concerns about academic honesty, disclosure, plagiarism, ghostwriting boundaries.",
-    "count": 76,
-    "fg_count": 8,
+    "count": 77,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -2072,11 +2072,270 @@
     ]
   },
   {
+    "code": "readiness.curricular_gap",
+    "parent": "readiness",
+    "definition": "Names something HKS did not teach that the speaker now wishes it had.",
+    "count": 76,
+    "fg_count": 9,
+    "examples": [
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 240,
+        "section_id": "s5_professional_readiness",
+        "text": "like we're working for anyone, basically I would ask them first, like what's your AI policy?",
+        "quote": "I would ask them first, like what's your AI policy? And like nobody actually has answers for me",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 237,
+              "speaker": "STU",
+              "text": "I think that's so fascinating because I think I imagine myself to go into like a pretty technical"
+            },
+            {
+              "line_id": 238,
+              "speaker": "STU",
+              "text": "but also a positive driven analysis role and like working like energy markets and policy."
+            },
+            {
+              "line_id": 239,
+              "speaker": "STU",
+              "text": "And I feel like, like even starting like two years ago when I was working for a utility,"
+            }
+          ],
+          "center": {
+            "line_id": 240,
+            "speaker": "STU",
+            "text": "like we're working for anyone, basically I would ask them first, like what's your AI policy?"
+          },
+          "after": [
+            {
+              "line_id": 241,
+              "speaker": "STU",
+              "text": "And like nobody actually has answers for me."
+            },
+            {
+              "line_id": 242,
+              "speaker": "STU",
+              "text": "And I think it's fascinating how like the legal track like actually provides you with more framework"
+            },
+            {
+              "line_id": 243,
+              "speaker": "STU",
+              "text": "and like their own like code of ethics or like just how they could leverage AI."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 246,
+        "section_id": "s5_professional_readiness",
+        "text": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle.",
+        "quote": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 243,
+              "speaker": "STU",
+              "text": "and like their own like code of ethics or like just how they could leverage AI."
+            },
+            {
+              "line_id": 244,
+              "speaker": "STU",
+              "text": "And even they have some cases they have their own like AI model, AI chat that you can use."
+            },
+            {
+              "line_id": 245,
+              "speaker": "STU",
+              "text": "Like in the line of work that I did in the past or going forward, I'm going to do in the future."
+            }
+          ],
+          "center": {
+            "line_id": 246,
+            "speaker": "STU",
+            "text": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle."
+          },
+          "after": [
+            {
+              "line_id": 247,
+              "speaker": "STU",
+              "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
+            },
+            {
+              "line_id": 248,
+              "speaker": "STU",
+              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
+            },
+            {
+              "line_id": 249,
+              "speaker": "STU",
+              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 250,
+        "section_id": "s5_professional_readiness",
+        "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days.",
+        "quote": "I'm just overall very concerned about the lack of guidance on these days",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 247,
+              "speaker": "STU",
+              "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
+            },
+            {
+              "line_id": 248,
+              "speaker": "STU",
+              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
+            },
+            {
+              "line_id": 249,
+              "speaker": "STU",
+              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
+            }
+          ],
+          "center": {
+            "line_id": 250,
+            "speaker": "STU",
+            "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
+          },
+          "after": [
+            {
+              "line_id": 251,
+              "speaker": "STU",
+              "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
+            },
+            {
+              "line_id": 252,
+              "speaker": "STU",
+              "text": "which one is maybe has more, which one has more ethics built in."
+            },
+            {
+              "line_id": 253,
+              "speaker": "STU",
+              "text": "And I just feel like, yeah, a little confusing right now."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 291,
+        "section_id": "s5_professional_readiness",
+        "text": "And I also think to Cathy's point, there is no like guide.",
+        "quote": "there is no like guide",
+        "confidence": "med",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 288,
+              "speaker": "STU",
+              "text": "But like when you're going through 500 page contracts, like you're using AI for literally everything."
+            },
+            {
+              "line_id": 289,
+              "speaker": "STU",
+              "text": "And you have to know how to use it because you're just be slower than everybody else."
+            },
+            {
+              "line_id": 290,
+              "speaker": "STU",
+              "text": "To X-06's point though, like you do have to defend everything you put on a piece of paper, especially when you're submitting academically."
+            }
+          ],
+          "center": {
+            "line_id": 291,
+            "speaker": "STU",
+            "text": "And I also think to Cathy's point, there is no like guide."
+          },
+          "after": [
+            {
+              "line_id": 292,
+              "speaker": "STU",
+              "text": "You know what I just said, which is at the end of the reading, I put the reading and it summarizes it and maybe I skim the reading."
+            },
+            {
+              "line_id": 293,
+              "speaker": "STU",
+              "text": "So it's this weird area where it's like I'm not just having to do all the work, but is that okay?"
+            },
+            {
+              "line_id": 294,
+              "speaker": "STU",
+              "text": "What's HKS's policy on that?"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 311,
+        "section_id": "s6_pair_share",
+        "text": "So I guess just like a more general thought is that I think one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills.",
+        "quote": "one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 308,
+              "speaker": "STU",
+              "text": "Think about tools, formats, practices, frameworks, anything, and be specific in your conversations."
+            },
+            {
+              "line_id": 309,
+              "speaker": "STU",
+              "text": "And then we'll share them out to each other as a group."
+            },
+            {
+              "line_id": 310,
+              "speaker": "STU",
+              "text": "So just take a couple of minutes."
+            }
+          ],
+          "center": {
+            "line_id": 311,
+            "speaker": "STU",
+            "text": "So I guess just like a more general thought is that I think one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills."
+          },
+          "after": [
+            {
+              "line_id": 312,
+              "speaker": "STU",
+              "text": "I don't know at all about like developing."
+            },
+            {
+              "line_id": 313,
+              "speaker": "STU",
+              "text": "Like for instance, they suck at teaching us how to do AI competency."
+            },
+            {
+              "line_id": 314,
+              "speaker": "STU",
+              "text": "They're like, oh, you're going to need AI competency for your job."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "code": "wishes.frameworks",
     "parent": "wishes",
     "definition": "Conceptual or decision-making frameworks for when/how to use AI.",
-    "count": 68,
-    "fg_count": 5,
+    "count": 75,
+    "fg_count": 6,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -2324,6 +2583,265 @@
               "line_id": 387,
               "speaker": "STU",
               "text": "Come in and give us a little bit of information about how neural networks actually work."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "code": "readiness.uncertain",
+    "parent": "readiness",
+    "definition": "Expresses doubt about being ready \u2014 specific gaps named or vague unease.",
+    "count": 69,
+    "fg_count": 9,
+    "examples": [
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 250,
+        "section_id": "s5_professional_readiness",
+        "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days.",
+        "quote": "I'm just overall very concerned about the lack of guidance on these days",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 247,
+              "speaker": "STU",
+              "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
+            },
+            {
+              "line_id": 248,
+              "speaker": "STU",
+              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
+            },
+            {
+              "line_id": 249,
+              "speaker": "STU",
+              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
+            }
+          ],
+          "center": {
+            "line_id": 250,
+            "speaker": "STU",
+            "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
+          },
+          "after": [
+            {
+              "line_id": 251,
+              "speaker": "STU",
+              "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
+            },
+            {
+              "line_id": 252,
+              "speaker": "STU",
+              "text": "which one is maybe has more, which one has more ethics built in."
+            },
+            {
+              "line_id": 253,
+              "speaker": "STU",
+              "text": "And I just feel like, yeah, a little confusing right now."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 251,
+        "section_id": "s5_professional_readiness",
+        "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,",
+        "quote": "it feels like sometimes I have to come up with my own judgment and then also picking between different models",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 248,
+              "speaker": "STU",
+              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
+            },
+            {
+              "line_id": 249,
+              "speaker": "STU",
+              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
+            },
+            {
+              "line_id": 250,
+              "speaker": "STU",
+              "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
+            }
+          ],
+          "center": {
+            "line_id": 251,
+            "speaker": "STU",
+            "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
+          },
+          "after": [
+            {
+              "line_id": 252,
+              "speaker": "STU",
+              "text": "which one is maybe has more, which one has more ethics built in."
+            },
+            {
+              "line_id": 253,
+              "speaker": "STU",
+              "text": "And I just feel like, yeah, a little confusing right now."
+            },
+            {
+              "line_id": 254,
+              "speaker": "STU",
+              "text": "Yeah, I think that I'm probably going back to New York City government."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 253,
+        "section_id": "s5_professional_readiness",
+        "text": "And I just feel like, yeah, a little confusing right now.",
+        "quote": "I just feel like, yeah, a little confusing right now",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 250,
+              "speaker": "STU",
+              "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
+            },
+            {
+              "line_id": 251,
+              "speaker": "STU",
+              "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
+            },
+            {
+              "line_id": 252,
+              "speaker": "STU",
+              "text": "which one is maybe has more, which one has more ethics built in."
+            }
+          ],
+          "center": {
+            "line_id": 253,
+            "speaker": "STU",
+            "text": "And I just feel like, yeah, a little confusing right now."
+          },
+          "after": [
+            {
+              "line_id": 254,
+              "speaker": "STU",
+              "text": "Yeah, I think that I'm probably going back to New York City government."
+            },
+            {
+              "line_id": 255,
+              "speaker": "STU",
+              "text": "And I just like feel like I'll just continue to use AI the same way I'm using it now,"
+            },
+            {
+              "line_id": 256,
+              "speaker": "STU",
+              "text": "which is like very surface level research queries, which like I have anxieties about."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 453,
+        "section_id": "s6_pair_share",
+        "text": "I feel like I actually come out of HKS being less competent on using AI",
+        "quote": "I actually come out of HKS being less competent on using AI",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 450,
+              "speaker": "STU",
+              "text": "So I feel like we shy away from actually exploring and building those skills."
+            },
+            {
+              "line_id": 451,
+              "speaker": "STU",
+              "text": "So skill building and how to use."
+            },
+            {
+              "line_id": 452,
+              "speaker": "STU",
+              "text": "Compared to like if I was working for two years versus like spending two years here,"
+            }
+          ],
+          "center": {
+            "line_id": 453,
+            "speaker": "STU",
+            "text": "I feel like I actually come out of HKS being less competent on using AI"
+          },
+          "after": [
+            {
+              "line_id": 454,
+              "speaker": "STU",
+              "text": "because of the environment, the culture here."
+            },
+            {
+              "line_id": 455,
+              "speaker": "STU",
+              "text": "Yeah, like one just very specific concrete thing X-06 and I talked about"
+            },
+            {
+              "line_id": 456,
+              "speaker": "STU",
+              "text": "is that we're pretty, like we consider ourselves the novices with AI."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 456,
+        "section_id": "s6_pair_share",
+        "text": "is that we're pretty, like we consider ourselves the novices with AI.",
+        "quote": "we consider ourselves the novices with AI",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 453,
+              "speaker": "STU",
+              "text": "I feel like I actually come out of HKS being less competent on using AI"
+            },
+            {
+              "line_id": 454,
+              "speaker": "STU",
+              "text": "because of the environment, the culture here."
+            },
+            {
+              "line_id": 455,
+              "speaker": "STU",
+              "text": "Yeah, like one just very specific concrete thing X-06 and I talked about"
+            }
+          ],
+          "center": {
+            "line_id": 456,
+            "speaker": "STU",
+            "text": "is that we're pretty, like we consider ourselves the novices with AI."
+          },
+          "after": [
+            {
+              "line_id": 457,
+              "speaker": "STU",
+              "text": "And so we struggle getting it to output what we really want."
+            },
+            {
+              "line_id": 458,
+              "speaker": "STU",
+              "text": "And so just like having, you know,"
+            },
+            {
+              "line_id": 459,
+              "speaker": "STU",
+              "text": "an hour seminar by some AI researcher teaching us how to write prompts"
             }
           ]
         }
@@ -2590,529 +3108,11 @@
     ]
   },
   {
-    "code": "readiness.curricular_gap",
-    "parent": "readiness",
-    "definition": "Names something HKS did not teach that the speaker now wishes it had.",
-    "count": 60,
-    "fg_count": 8,
-    "examples": [
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 240,
-        "section_id": "s5_professional_readiness",
-        "text": "like we're working for anyone, basically I would ask them first, like what's your AI policy?",
-        "quote": "I would ask them first, like what's your AI policy? And like nobody actually has answers for me",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 237,
-              "speaker": "STU",
-              "text": "I think that's so fascinating because I think I imagine myself to go into like a pretty technical"
-            },
-            {
-              "line_id": 238,
-              "speaker": "STU",
-              "text": "but also a positive driven analysis role and like working like energy markets and policy."
-            },
-            {
-              "line_id": 239,
-              "speaker": "STU",
-              "text": "And I feel like, like even starting like two years ago when I was working for a utility,"
-            }
-          ],
-          "center": {
-            "line_id": 240,
-            "speaker": "STU",
-            "text": "like we're working for anyone, basically I would ask them first, like what's your AI policy?"
-          },
-          "after": [
-            {
-              "line_id": 241,
-              "speaker": "STU",
-              "text": "And like nobody actually has answers for me."
-            },
-            {
-              "line_id": 242,
-              "speaker": "STU",
-              "text": "And I think it's fascinating how like the legal track like actually provides you with more framework"
-            },
-            {
-              "line_id": 243,
-              "speaker": "STU",
-              "text": "and like their own like code of ethics or like just how they could leverage AI."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 246,
-        "section_id": "s5_professional_readiness",
-        "text": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle.",
-        "quote": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 243,
-              "speaker": "STU",
-              "text": "and like their own like code of ethics or like just how they could leverage AI."
-            },
-            {
-              "line_id": 244,
-              "speaker": "STU",
-              "text": "And even they have some cases they have their own like AI model, AI chat that you can use."
-            },
-            {
-              "line_id": 245,
-              "speaker": "STU",
-              "text": "Like in the line of work that I did in the past or going forward, I'm going to do in the future."
-            }
-          ],
-          "center": {
-            "line_id": 246,
-            "speaker": "STU",
-            "text": "I'm really concerned that there is no framework and this is like such a big challenge that everyone's trying to tackle."
-          },
-          "after": [
-            {
-              "line_id": 247,
-              "speaker": "STU",
-              "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
-            },
-            {
-              "line_id": 248,
-              "speaker": "STU",
-              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
-            },
-            {
-              "line_id": 249,
-              "speaker": "STU",
-              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 250,
-        "section_id": "s5_professional_readiness",
-        "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days.",
-        "quote": "I'm just overall very concerned about the lack of guidance on these days",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 247,
-              "speaker": "STU",
-              "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
-            },
-            {
-              "line_id": 248,
-              "speaker": "STU",
-              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
-            },
-            {
-              "line_id": 249,
-              "speaker": "STU",
-              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
-            }
-          ],
-          "center": {
-            "line_id": 250,
-            "speaker": "STU",
-            "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
-          },
-          "after": [
-            {
-              "line_id": 251,
-              "speaker": "STU",
-              "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
-            },
-            {
-              "line_id": 252,
-              "speaker": "STU",
-              "text": "which one is maybe has more, which one has more ethics built in."
-            },
-            {
-              "line_id": 253,
-              "speaker": "STU",
-              "text": "And I just feel like, yeah, a little confusing right now."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 291,
-        "section_id": "s5_professional_readiness",
-        "text": "And I also think to Cathy's point, there is no like guide.",
-        "quote": "there is no like guide",
-        "confidence": "med",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 288,
-              "speaker": "STU",
-              "text": "But like when you're going through 500 page contracts, like you're using AI for literally everything."
-            },
-            {
-              "line_id": 289,
-              "speaker": "STU",
-              "text": "And you have to know how to use it because you're just be slower than everybody else."
-            },
-            {
-              "line_id": 290,
-              "speaker": "STU",
-              "text": "To X-06's point though, like you do have to defend everything you put on a piece of paper, especially when you're submitting academically."
-            }
-          ],
-          "center": {
-            "line_id": 291,
-            "speaker": "STU",
-            "text": "And I also think to Cathy's point, there is no like guide."
-          },
-          "after": [
-            {
-              "line_id": 292,
-              "speaker": "STU",
-              "text": "You know what I just said, which is at the end of the reading, I put the reading and it summarizes it and maybe I skim the reading."
-            },
-            {
-              "line_id": 293,
-              "speaker": "STU",
-              "text": "So it's this weird area where it's like I'm not just having to do all the work, but is that okay?"
-            },
-            {
-              "line_id": 294,
-              "speaker": "STU",
-              "text": "What's HKS's policy on that?"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 311,
-        "section_id": "s6_pair_share",
-        "text": "So I guess just like a more general thought is that I think one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills.",
-        "quote": "one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 308,
-              "speaker": "STU",
-              "text": "Think about tools, formats, practices, frameworks, anything, and be specific in your conversations."
-            },
-            {
-              "line_id": 309,
-              "speaker": "STU",
-              "text": "And then we'll share them out to each other as a group."
-            },
-            {
-              "line_id": 310,
-              "speaker": "STU",
-              "text": "So just take a couple of minutes."
-            }
-          ],
-          "center": {
-            "line_id": 311,
-            "speaker": "STU",
-            "text": "So I guess just like a more general thought is that I think one thing is HKS isn't great at is at least in the first year it is like the very direct professional skills."
-          },
-          "after": [
-            {
-              "line_id": 312,
-              "speaker": "STU",
-              "text": "I don't know at all about like developing."
-            },
-            {
-              "line_id": 313,
-              "speaker": "STU",
-              "text": "Like for instance, they suck at teaching us how to do AI competency."
-            },
-            {
-              "line_id": 314,
-              "speaker": "STU",
-              "text": "They're like, oh, you're going to need AI competency for your job."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "code": "readiness.uncertain",
-    "parent": "readiness",
-    "definition": "Expresses doubt about being ready \u2014 specific gaps named or vague unease.",
-    "count": 59,
-    "fg_count": 8,
-    "examples": [
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 250,
-        "section_id": "s5_professional_readiness",
-        "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days.",
-        "quote": "I'm just overall very concerned about the lack of guidance on these days",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 247,
-              "speaker": "STU",
-              "text": "But then, you know, without like actual rules drawn out for the employees, I think this is a big concern"
-            },
-            {
-              "line_id": 248,
-              "speaker": "STU",
-              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
-            },
-            {
-              "line_id": 249,
-              "speaker": "STU",
-              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
-            }
-          ],
-          "center": {
-            "line_id": 250,
-            "speaker": "STU",
-            "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
-          },
-          "after": [
-            {
-              "line_id": 251,
-              "speaker": "STU",
-              "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
-            },
-            {
-              "line_id": 252,
-              "speaker": "STU",
-              "text": "which one is maybe has more, which one has more ethics built in."
-            },
-            {
-              "line_id": 253,
-              "speaker": "STU",
-              "text": "And I just feel like, yeah, a little confusing right now."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 251,
-        "section_id": "s5_professional_readiness",
-        "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,",
-        "quote": "it feels like sometimes I have to come up with my own judgment and then also picking between different models",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 248,
-              "speaker": "STU",
-              "text": "because I do deal with like proprietary data, you know, confidential data like market data itself."
-            },
-            {
-              "line_id": 249,
-              "speaker": "STU",
-              "text": "And then also I think there's a lot of ethical questions as well when it comes to like consumer data,"
-            },
-            {
-              "line_id": 250,
-              "speaker": "STU",
-              "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
-            }
-          ],
-          "center": {
-            "line_id": 251,
-            "speaker": "STU",
-            "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
-          },
-          "after": [
-            {
-              "line_id": 252,
-              "speaker": "STU",
-              "text": "which one is maybe has more, which one has more ethics built in."
-            },
-            {
-              "line_id": 253,
-              "speaker": "STU",
-              "text": "And I just feel like, yeah, a little confusing right now."
-            },
-            {
-              "line_id": 254,
-              "speaker": "STU",
-              "text": "Yeah, I think that I'm probably going back to New York City government."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 253,
-        "section_id": "s5_professional_readiness",
-        "text": "And I just feel like, yeah, a little confusing right now.",
-        "quote": "I just feel like, yeah, a little confusing right now",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 250,
-              "speaker": "STU",
-              "text": "and other things. And yeah, I think I'm just overall very concerned about the lack of guidance on these days."
-            },
-            {
-              "line_id": 251,
-              "speaker": "STU",
-              "text": "And it feels like sometimes I have to come up with my own judgment and then also picking between different models,"
-            },
-            {
-              "line_id": 252,
-              "speaker": "STU",
-              "text": "which one is maybe has more, which one has more ethics built in."
-            }
-          ],
-          "center": {
-            "line_id": 253,
-            "speaker": "STU",
-            "text": "And I just feel like, yeah, a little confusing right now."
-          },
-          "after": [
-            {
-              "line_id": 254,
-              "speaker": "STU",
-              "text": "Yeah, I think that I'm probably going back to New York City government."
-            },
-            {
-              "line_id": 255,
-              "speaker": "STU",
-              "text": "And I just like feel like I'll just continue to use AI the same way I'm using it now,"
-            },
-            {
-              "line_id": 256,
-              "speaker": "STU",
-              "text": "which is like very surface level research queries, which like I have anxieties about."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 453,
-        "section_id": "s6_pair_share",
-        "text": "I feel like I actually come out of HKS being less competent on using AI",
-        "quote": "I actually come out of HKS being less competent on using AI",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 450,
-              "speaker": "STU",
-              "text": "So I feel like we shy away from actually exploring and building those skills."
-            },
-            {
-              "line_id": 451,
-              "speaker": "STU",
-              "text": "So skill building and how to use."
-            },
-            {
-              "line_id": 452,
-              "speaker": "STU",
-              "text": "Compared to like if I was working for two years versus like spending two years here,"
-            }
-          ],
-          "center": {
-            "line_id": 453,
-            "speaker": "STU",
-            "text": "I feel like I actually come out of HKS being less competent on using AI"
-          },
-          "after": [
-            {
-              "line_id": 454,
-              "speaker": "STU",
-              "text": "because of the environment, the culture here."
-            },
-            {
-              "line_id": 455,
-              "speaker": "STU",
-              "text": "Yeah, like one just very specific concrete thing X-06 and I talked about"
-            },
-            {
-              "line_id": 456,
-              "speaker": "STU",
-              "text": "is that we're pretty, like we consider ourselves the novices with AI."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 456,
-        "section_id": "s6_pair_share",
-        "text": "is that we're pretty, like we consider ourselves the novices with AI.",
-        "quote": "we consider ourselves the novices with AI",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 453,
-              "speaker": "STU",
-              "text": "I feel like I actually come out of HKS being less competent on using AI"
-            },
-            {
-              "line_id": 454,
-              "speaker": "STU",
-              "text": "because of the environment, the culture here."
-            },
-            {
-              "line_id": 455,
-              "speaker": "STU",
-              "text": "Yeah, like one just very specific concrete thing X-06 and I talked about"
-            }
-          ],
-          "center": {
-            "line_id": 456,
-            "speaker": "STU",
-            "text": "is that we're pretty, like we consider ourselves the novices with AI."
-          },
-          "after": [
-            {
-              "line_id": 457,
-              "speaker": "STU",
-              "text": "And so we struggle getting it to output what we really want."
-            },
-            {
-              "line_id": 458,
-              "speaker": "STU",
-              "text": "And so just like having, you know,"
-            },
-            {
-              "line_id": 459,
-              "speaker": "STU",
-              "text": "an hour seminar by some AI researcher teaching us how to write prompts"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "code": "anxiety.dependency",
     "parent": "anxiety",
     "definition": "Concern about over-reliance \u2014 can't work without it anymore.",
-    "count": 43,
-    "fg_count": 7,
+    "count": 47,
+    "fg_count": 8,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -3370,8 +3370,8 @@
     "code": "wishes.hands_on",
     "parent": "wishes",
     "definition": "Practice, labs, applied exercises with the tools themselves.",
-    "count": 41,
-    "fg_count": 8,
+    "count": 47,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -3626,11 +3626,270 @@
     ]
   },
   {
+    "code": "anxiety.authenticity",
+    "parent": "anxiety",
+    "definition": "Worry about loss of one's own voice, style, originality.",
+    "count": 42,
+    "fg_count": 8,
+    "examples": [
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 110,
+        "section_id": "s4_two_sided_risk",
+        "text": "Like I fear that AI is making me less creative a lot.",
+        "quote": "Like I fear that AI is making me less creative a lot",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 107,
+              "speaker": "STU",
+              "text": "It makes you forget how to write well."
+            },
+            {
+              "line_id": 108,
+              "speaker": "MOD",
+              "text": "And then concern two, it's like I'm falling behind."
+            },
+            {
+              "line_id": 109,
+              "speaker": "STU",
+              "text": "I think I feel that a lot."
+            }
+          ],
+          "center": {
+            "line_id": 110,
+            "speaker": "STU",
+            "text": "Like I fear that AI is making me less creative a lot."
+          },
+          "after": [
+            {
+              "line_id": 111,
+              "speaker": "MOD",
+              "text": "So that would be concern one bucket, but raise your hand so that..."
+            },
+            {
+              "line_id": 112,
+              "speaker": "STU",
+              "text": "What if I can't really pick which one is more dominant?"
+            },
+            {
+              "line_id": 113,
+              "speaker": "STU",
+              "text": "I feel like I have both concerns almost like 50-50."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 194,
+        "section_id": "s4_two_sided_risk",
+        "text": "And so I've just found that it just gives me the most generic, like boring, not like",
+        "quote": "it just gives me the most generic, like boring, not like really thinking, just like a compiling of the most commonly cited, you know, scholars",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 191,
+              "speaker": "STU",
+              "text": "great areas, you know."
+            },
+            {
+              "line_id": 192,
+              "speaker": "STU",
+              "text": "And I found that trying to get it to see great areas, it's horrible at that because it's"
+            },
+            {
+              "line_id": 193,
+              "speaker": "STU",
+              "text": "trained to go to like the most common, like the most statistically probable answer."
+            }
+          ],
+          "center": {
+            "line_id": 194,
+            "speaker": "STU",
+            "text": "And so I've just found that it just gives me the most generic, like boring, not like"
+          },
+          "after": [
+            {
+              "line_id": 195,
+              "speaker": "STU",
+              "text": "really thinking, just like a compiling of the most commonly cited, you know, scholars"
+            },
+            {
+              "line_id": 196,
+              "speaker": "STU",
+              "text": "in a field."
+            },
+            {
+              "line_id": 197,
+              "speaker": "STU",
+              "text": "And so I just like don't like just for my particular interest in the field, I just haven't"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 199,
+        "section_id": "s4_two_sided_risk",
+        "text": "For instance, whenever I try to get it to write for me, I'm just like, this is literal",
+        "quote": "this is literal garbage that I don't even use a single word from because it's just like the most generic",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 196,
+              "speaker": "STU",
+              "text": "in a field."
+            },
+            {
+              "line_id": 197,
+              "speaker": "STU",
+              "text": "And so I just like don't like just for my particular interest in the field, I just haven't"
+            },
+            {
+              "line_id": 198,
+              "speaker": "STU",
+              "text": "found it to be super useful in a lot of other sources."
+            }
+          ],
+          "center": {
+            "line_id": 199,
+            "speaker": "STU",
+            "text": "For instance, whenever I try to get it to write for me, I'm just like, this is literal"
+          },
+          "after": [
+            {
+              "line_id": 200,
+              "speaker": "STU",
+              "text": "garbage that I don't even use a single word from because it's just like the most generic,"
+            },
+            {
+              "line_id": 201,
+              "speaker": "STU",
+              "text": "just like, you know, what's the like highest probability next word that's going to happen?"
+            },
+            {
+              "line_id": 202,
+              "speaker": "STU",
+              "text": "And so that's kind of where I don't feel the need to get super, super good at it because"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 300,
+        "section_id": "s5_professional_readiness",
+        "text": "And sometimes it will flag things even I write in regular English as a human, as AI.",
+        "quote": "sometimes it will flag things even I write in regular English as a human, as AI",
+        "confidence": "med",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 297,
+              "speaker": "STU",
+              "text": "I think we should continue to have that."
+            },
+            {
+              "line_id": 298,
+              "speaker": "STU",
+              "text": "Because on Canvas, we have an AI checker, plagiarism checker."
+            },
+            {
+              "line_id": 299,
+              "speaker": "STU",
+              "text": "And it can tell you whether or not what you generate is AI."
+            }
+          ],
+          "center": {
+            "line_id": 300,
+            "speaker": "STU",
+            "text": "And sometimes it will flag things even I write in regular English as a human, as AI."
+          },
+          "after": [
+            {
+              "line_id": 301,
+              "speaker": "STU",
+              "text": "But I'm like, okay, at least I know now I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly."
+            },
+            {
+              "line_id": 302,
+              "speaker": "STU",
+              "text": "So I use that AI tool to also protect me from the worst versions of AI ideas."
+            },
+            {
+              "line_id": 303,
+              "speaker": "STU",
+              "text": "That's super helpful."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 301,
+        "section_id": "s5_professional_readiness",
+        "text": "But I'm like, okay, at least I know now I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly.",
+        "quote": "I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 298,
+              "speaker": "STU",
+              "text": "Because on Canvas, we have an AI checker, plagiarism checker."
+            },
+            {
+              "line_id": 299,
+              "speaker": "STU",
+              "text": "And it can tell you whether or not what you generate is AI."
+            },
+            {
+              "line_id": 300,
+              "speaker": "STU",
+              "text": "And sometimes it will flag things even I write in regular English as a human, as AI."
+            }
+          ],
+          "center": {
+            "line_id": 301,
+            "speaker": "STU",
+            "text": "But I'm like, okay, at least I know now I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly."
+          },
+          "after": [
+            {
+              "line_id": 302,
+              "speaker": "STU",
+              "text": "So I use that AI tool to also protect me from the worst versions of AI ideas."
+            },
+            {
+              "line_id": 303,
+              "speaker": "STU",
+              "text": "That's super helpful."
+            },
+            {
+              "line_id": 304,
+              "speaker": "STU",
+              "text": "Okay, so now we're going to do a parent share."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "code": "anxiety.displacement",
     "parent": "anxiety",
     "definition": "Worry that AI will make one's future role or profession obsolete or devalued.",
-    "count": 39,
-    "fg_count": 7,
+    "count": 42,
+    "fg_count": 8,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -3888,8 +4147,8 @@
     "code": "wishes.ethics",
     "parent": "wishes",
     "definition": "Ethical/normative guidance \u2014 disclosure norms, responsible use, policy implications.",
-    "count": 37,
-    "fg_count": 8,
+    "count": 40,
+    "fg_count": 9,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -4144,529 +4403,11 @@
     ]
   },
   {
-    "code": "anxiety.authenticity",
-    "parent": "anxiety",
-    "definition": "Worry about loss of one's own voice, style, originality.",
-    "count": 36,
-    "fg_count": 7,
-    "examples": [
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 110,
-        "section_id": "s4_two_sided_risk",
-        "text": "Like I fear that AI is making me less creative a lot.",
-        "quote": "Like I fear that AI is making me less creative a lot",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 107,
-              "speaker": "STU",
-              "text": "It makes you forget how to write well."
-            },
-            {
-              "line_id": 108,
-              "speaker": "MOD",
-              "text": "And then concern two, it's like I'm falling behind."
-            },
-            {
-              "line_id": 109,
-              "speaker": "STU",
-              "text": "I think I feel that a lot."
-            }
-          ],
-          "center": {
-            "line_id": 110,
-            "speaker": "STU",
-            "text": "Like I fear that AI is making me less creative a lot."
-          },
-          "after": [
-            {
-              "line_id": 111,
-              "speaker": "MOD",
-              "text": "So that would be concern one bucket, but raise your hand so that..."
-            },
-            {
-              "line_id": 112,
-              "speaker": "STU",
-              "text": "What if I can't really pick which one is more dominant?"
-            },
-            {
-              "line_id": 113,
-              "speaker": "STU",
-              "text": "I feel like I have both concerns almost like 50-50."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 194,
-        "section_id": "s4_two_sided_risk",
-        "text": "And so I've just found that it just gives me the most generic, like boring, not like",
-        "quote": "it just gives me the most generic, like boring, not like really thinking, just like a compiling of the most commonly cited, you know, scholars",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 191,
-              "speaker": "STU",
-              "text": "great areas, you know."
-            },
-            {
-              "line_id": 192,
-              "speaker": "STU",
-              "text": "And I found that trying to get it to see great areas, it's horrible at that because it's"
-            },
-            {
-              "line_id": 193,
-              "speaker": "STU",
-              "text": "trained to go to like the most common, like the most statistically probable answer."
-            }
-          ],
-          "center": {
-            "line_id": 194,
-            "speaker": "STU",
-            "text": "And so I've just found that it just gives me the most generic, like boring, not like"
-          },
-          "after": [
-            {
-              "line_id": 195,
-              "speaker": "STU",
-              "text": "really thinking, just like a compiling of the most commonly cited, you know, scholars"
-            },
-            {
-              "line_id": 196,
-              "speaker": "STU",
-              "text": "in a field."
-            },
-            {
-              "line_id": 197,
-              "speaker": "STU",
-              "text": "And so I just like don't like just for my particular interest in the field, I just haven't"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 199,
-        "section_id": "s4_two_sided_risk",
-        "text": "For instance, whenever I try to get it to write for me, I'm just like, this is literal",
-        "quote": "this is literal garbage that I don't even use a single word from because it's just like the most generic",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 196,
-              "speaker": "STU",
-              "text": "in a field."
-            },
-            {
-              "line_id": 197,
-              "speaker": "STU",
-              "text": "And so I just like don't like just for my particular interest in the field, I just haven't"
-            },
-            {
-              "line_id": 198,
-              "speaker": "STU",
-              "text": "found it to be super useful in a lot of other sources."
-            }
-          ],
-          "center": {
-            "line_id": 199,
-            "speaker": "STU",
-            "text": "For instance, whenever I try to get it to write for me, I'm just like, this is literal"
-          },
-          "after": [
-            {
-              "line_id": 200,
-              "speaker": "STU",
-              "text": "garbage that I don't even use a single word from because it's just like the most generic,"
-            },
-            {
-              "line_id": 201,
-              "speaker": "STU",
-              "text": "just like, you know, what's the like highest probability next word that's going to happen?"
-            },
-            {
-              "line_id": 202,
-              "speaker": "STU",
-              "text": "And so that's kind of where I don't feel the need to get super, super good at it because"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 300,
-        "section_id": "s5_professional_readiness",
-        "text": "And sometimes it will flag things even I write in regular English as a human, as AI.",
-        "quote": "sometimes it will flag things even I write in regular English as a human, as AI",
-        "confidence": "med",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 297,
-              "speaker": "STU",
-              "text": "I think we should continue to have that."
-            },
-            {
-              "line_id": 298,
-              "speaker": "STU",
-              "text": "Because on Canvas, we have an AI checker, plagiarism checker."
-            },
-            {
-              "line_id": 299,
-              "speaker": "STU",
-              "text": "And it can tell you whether or not what you generate is AI."
-            }
-          ],
-          "center": {
-            "line_id": 300,
-            "speaker": "STU",
-            "text": "And sometimes it will flag things even I write in regular English as a human, as AI."
-          },
-          "after": [
-            {
-              "line_id": 301,
-              "speaker": "STU",
-              "text": "But I'm like, okay, at least I know now I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly."
-            },
-            {
-              "line_id": 302,
-              "speaker": "STU",
-              "text": "So I use that AI tool to also protect me from the worst versions of AI ideas."
-            },
-            {
-              "line_id": 303,
-              "speaker": "STU",
-              "text": "That's super helpful."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 301,
-        "section_id": "s5_professional_readiness",
-        "text": "But I'm like, okay, at least I know now I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly.",
-        "quote": "I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 298,
-              "speaker": "STU",
-              "text": "Because on Canvas, we have an AI checker, plagiarism checker."
-            },
-            {
-              "line_id": 299,
-              "speaker": "STU",
-              "text": "And it can tell you whether or not what you generate is AI."
-            },
-            {
-              "line_id": 300,
-              "speaker": "STU",
-              "text": "And sometimes it will flag things even I write in regular English as a human, as AI."
-            }
-          ],
-          "center": {
-            "line_id": 301,
-            "speaker": "STU",
-            "text": "But I'm like, okay, at least I know now I'm going to rework that to make sure it fully represents not the most generic form of my idea, but my idea more explicitly."
-          },
-          "after": [
-            {
-              "line_id": 302,
-              "speaker": "STU",
-              "text": "So I use that AI tool to also protect me from the worst versions of AI ideas."
-            },
-            {
-              "line_id": 303,
-              "speaker": "STU",
-              "text": "That's super helpful."
-            },
-            {
-              "line_id": 304,
-              "speaker": "STU",
-              "text": "Okay, so now we're going to do a parent share."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "code": "risk.overuse",
-    "parent": "risk",
-    "definition": "Argues that using AI too heavily is the more real personal cost.",
-    "count": 30,
-    "fg_count": 8,
-    "examples": [
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 109,
-        "section_id": "s4_two_sided_risk",
-        "text": "I think I feel that a lot.",
-        "quote": "I think I feel that a lot",
-        "confidence": "med",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 106,
-              "speaker": "STU",
-              "text": "It makes you lazy."
-            },
-            {
-              "line_id": 107,
-              "speaker": "STU",
-              "text": "It makes you forget how to write well."
-            },
-            {
-              "line_id": 108,
-              "speaker": "MOD",
-              "text": "And then concern two, it's like I'm falling behind."
-            }
-          ],
-          "center": {
-            "line_id": 109,
-            "speaker": "STU",
-            "text": "I think I feel that a lot."
-          },
-          "after": [
-            {
-              "line_id": 110,
-              "speaker": "STU",
-              "text": "Like I fear that AI is making me less creative a lot."
-            },
-            {
-              "line_id": 111,
-              "speaker": "MOD",
-              "text": "So that would be concern one bucket, but raise your hand so that..."
-            },
-            {
-              "line_id": 112,
-              "speaker": "STU",
-              "text": "What if I can't really pick which one is more dominant?"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "02-Chyung",
-        "line_id": 282,
-        "section_id": "s4_two_sided_risk",
-        "text": "I can see myself, like if I just trusted it blindly,",
-        "quote": "I can see myself, like if I just trusted it blindly, I'm losing out on so much more from, that comes from my own thinking.",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 279,
-              "speaker": "STU",
-              "text": "And like how have you used it recently in a productive way?"
-            },
-            {
-              "line_id": 280,
-              "speaker": "MOD",
-              "text": "So that's where concern two comes from."
-            },
-            {
-              "line_id": 281,
-              "speaker": "MOD",
-              "text": "But I think concern one is primarily like,"
-            }
-          ],
-          "center": {
-            "line_id": 282,
-            "speaker": "STU",
-            "text": "I can see myself, like if I just trusted it blindly,"
-          },
-          "after": [
-            {
-              "line_id": 283,
-              "speaker": "STU",
-              "text": "I'm losing out on so much more from,"
-            },
-            {
-              "line_id": 284,
-              "speaker": "STU",
-              "text": "that comes from my own thinking."
-            },
-            {
-              "line_id": 285,
-              "speaker": "STU",
-              "text": "So yeah, it kind of relates to your concern, obviously, yeah."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "03-Davis",
-        "line_id": 160,
-        "section_id": "s4_two_sided_risk",
-        "text": "I was very easy for me because it clearly I'm kind of skeptical",
-        "quote": "I'm kind of skeptical",
-        "confidence": "med",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 157,
-              "speaker": "STU",
-              "text": "like the school like once, whatever they make us do in like"
-            },
-            {
-              "line_id": 158,
-              "speaker": "STU",
-              "text": "one classes."
-            },
-            {
-              "line_id": 159,
-              "speaker": "STU",
-              "text": "And I think like it comes from it."
-            }
-          ],
-          "center": {
-            "line_id": 160,
-            "speaker": "STU",
-            "text": "I was very easy for me because it clearly I'm kind of skeptical"
-          },
-          "after": [
-            {
-              "line_id": 161,
-              "speaker": "STU",
-              "text": "of it."
-            },
-            {
-              "line_id": 162,
-              "speaker": "STU",
-              "text": "I think for me, I know eventually I will have to figure out how I want"
-            },
-            {
-              "line_id": 163,
-              "speaker": "STU",
-              "text": "to use it."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "03-Davis",
-        "line_id": 164,
-        "section_id": "s4_two_sided_risk",
-        "text": "But for me, like this academic experience, I'm like I can in a",
-        "quote": "this academic experience, I'm like I can in a risk-free environment kind of push my limits",
-        "confidence": "med",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 161,
-              "speaker": "STU",
-              "text": "of it."
-            },
-            {
-              "line_id": 162,
-              "speaker": "STU",
-              "text": "I think for me, I know eventually I will have to figure out how I want"
-            },
-            {
-              "line_id": 163,
-              "speaker": "STU",
-              "text": "to use it."
-            }
-          ],
-          "center": {
-            "line_id": 164,
-            "speaker": "STU",
-            "text": "But for me, like this academic experience, I'm like I can in a"
-          },
-          "after": [
-            {
-              "line_id": 165,
-              "speaker": "STU",
-              "text": "risk-free environment kind of push my limits."
-            },
-            {
-              "line_id": 166,
-              "speaker": "STU",
-              "text": "And so I know that in my career, I will have to figure out and I am"
-            },
-            {
-              "line_id": 167,
-              "speaker": "STU",
-              "text": "probably pulling behind in some ways and I am behind my classmates"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "03-Davis",
-        "line_id": 171,
-        "section_id": "s4_two_sided_risk",
-        "text": "used from knowing that there are downsides and people are always",
-        "quote": "knowing that there are downsides and people are always telling me that there are downsides to it",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 168,
-              "speaker": "STU",
-              "text": "and I know that."
-            },
-            {
-              "line_id": 169,
-              "speaker": "STU",
-              "text": "But I don't know."
-            },
-            {
-              "line_id": 170,
-              "speaker": "STU",
-              "text": "Like for right now, I feel like it's a habit that I'm kind of"
-            }
-          ],
-          "center": {
-            "line_id": 171,
-            "speaker": "STU",
-            "text": "used from knowing that there are downsides and people are always"
-          },
-          "after": [
-            {
-              "line_id": 172,
-              "speaker": "STU",
-              "text": "telling me that there are downsides to it."
-            },
-            {
-              "line_id": 173,
-              "speaker": "STU",
-              "text": "But I think I want to tailor my professional, like,"
-            },
-            {
-              "line_id": 174,
-              "speaker": "STU",
-              "text": "capabilities in it to be very specific to what I actually"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "code": "meta.agreement",
     "parent": "meta",
     "definition": "Strong agreement or piling-on of similar views.",
-    "count": 30,
-    "fg_count": 7,
+    "count": 35,
+    "fg_count": 8,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -4921,11 +4662,270 @@
     ]
   },
   {
+    "code": "risk.overuse",
+    "parent": "risk",
+    "definition": "Argues that using AI too heavily is the more real personal cost.",
+    "count": 31,
+    "fg_count": 9,
+    "examples": [
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 109,
+        "section_id": "s4_two_sided_risk",
+        "text": "I think I feel that a lot.",
+        "quote": "I think I feel that a lot",
+        "confidence": "med",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 106,
+              "speaker": "STU",
+              "text": "It makes you lazy."
+            },
+            {
+              "line_id": 107,
+              "speaker": "STU",
+              "text": "It makes you forget how to write well."
+            },
+            {
+              "line_id": 108,
+              "speaker": "MOD",
+              "text": "And then concern two, it's like I'm falling behind."
+            }
+          ],
+          "center": {
+            "line_id": 109,
+            "speaker": "STU",
+            "text": "I think I feel that a lot."
+          },
+          "after": [
+            {
+              "line_id": 110,
+              "speaker": "STU",
+              "text": "Like I fear that AI is making me less creative a lot."
+            },
+            {
+              "line_id": 111,
+              "speaker": "MOD",
+              "text": "So that would be concern one bucket, but raise your hand so that..."
+            },
+            {
+              "line_id": 112,
+              "speaker": "STU",
+              "text": "What if I can't really pick which one is more dominant?"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "02-Chyung",
+        "line_id": 282,
+        "section_id": "s4_two_sided_risk",
+        "text": "I can see myself, like if I just trusted it blindly,",
+        "quote": "I can see myself, like if I just trusted it blindly, I'm losing out on so much more from, that comes from my own thinking.",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 279,
+              "speaker": "STU",
+              "text": "And like how have you used it recently in a productive way?"
+            },
+            {
+              "line_id": 280,
+              "speaker": "MOD",
+              "text": "So that's where concern two comes from."
+            },
+            {
+              "line_id": 281,
+              "speaker": "MOD",
+              "text": "But I think concern one is primarily like,"
+            }
+          ],
+          "center": {
+            "line_id": 282,
+            "speaker": "STU",
+            "text": "I can see myself, like if I just trusted it blindly,"
+          },
+          "after": [
+            {
+              "line_id": 283,
+              "speaker": "STU",
+              "text": "I'm losing out on so much more from,"
+            },
+            {
+              "line_id": 284,
+              "speaker": "STU",
+              "text": "that comes from my own thinking."
+            },
+            {
+              "line_id": 285,
+              "speaker": "STU",
+              "text": "So yeah, it kind of relates to your concern, obviously, yeah."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "03-Davis",
+        "line_id": 160,
+        "section_id": "s4_two_sided_risk",
+        "text": "I was very easy for me because it clearly I'm kind of skeptical",
+        "quote": "I'm kind of skeptical",
+        "confidence": "med",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 157,
+              "speaker": "STU",
+              "text": "like the school like once, whatever they make us do in like"
+            },
+            {
+              "line_id": 158,
+              "speaker": "STU",
+              "text": "one classes."
+            },
+            {
+              "line_id": 159,
+              "speaker": "STU",
+              "text": "And I think like it comes from it."
+            }
+          ],
+          "center": {
+            "line_id": 160,
+            "speaker": "STU",
+            "text": "I was very easy for me because it clearly I'm kind of skeptical"
+          },
+          "after": [
+            {
+              "line_id": 161,
+              "speaker": "STU",
+              "text": "of it."
+            },
+            {
+              "line_id": 162,
+              "speaker": "STU",
+              "text": "I think for me, I know eventually I will have to figure out how I want"
+            },
+            {
+              "line_id": 163,
+              "speaker": "STU",
+              "text": "to use it."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "03-Davis",
+        "line_id": 164,
+        "section_id": "s4_two_sided_risk",
+        "text": "But for me, like this academic experience, I'm like I can in a",
+        "quote": "this academic experience, I'm like I can in a risk-free environment kind of push my limits",
+        "confidence": "med",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 161,
+              "speaker": "STU",
+              "text": "of it."
+            },
+            {
+              "line_id": 162,
+              "speaker": "STU",
+              "text": "I think for me, I know eventually I will have to figure out how I want"
+            },
+            {
+              "line_id": 163,
+              "speaker": "STU",
+              "text": "to use it."
+            }
+          ],
+          "center": {
+            "line_id": 164,
+            "speaker": "STU",
+            "text": "But for me, like this academic experience, I'm like I can in a"
+          },
+          "after": [
+            {
+              "line_id": 165,
+              "speaker": "STU",
+              "text": "risk-free environment kind of push my limits."
+            },
+            {
+              "line_id": 166,
+              "speaker": "STU",
+              "text": "And so I know that in my career, I will have to figure out and I am"
+            },
+            {
+              "line_id": 167,
+              "speaker": "STU",
+              "text": "probably pulling behind in some ways and I am behind my classmates"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "03-Davis",
+        "line_id": 171,
+        "section_id": "s4_two_sided_risk",
+        "text": "used from knowing that there are downsides and people are always",
+        "quote": "knowing that there are downsides and people are always telling me that there are downsides to it",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 168,
+              "speaker": "STU",
+              "text": "and I know that."
+            },
+            {
+              "line_id": 169,
+              "speaker": "STU",
+              "text": "But I don't know."
+            },
+            {
+              "line_id": 170,
+              "speaker": "STU",
+              "text": "Like for right now, I feel like it's a habit that I'm kind of"
+            }
+          ],
+          "center": {
+            "line_id": 171,
+            "speaker": "STU",
+            "text": "used from knowing that there are downsides and people are always"
+          },
+          "after": [
+            {
+              "line_id": 172,
+              "speaker": "STU",
+              "text": "telling me that there are downsides to it."
+            },
+            {
+              "line_id": 173,
+              "speaker": "STU",
+              "text": "But I think I want to tailor my professional, like,"
+            },
+            {
+              "line_id": 174,
+              "speaker": "STU",
+              "text": "capabilities in it to be very specific to what I actually"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
     "code": "readiness.confident",
     "parent": "readiness",
     "definition": "Says they feel ready to use AI competently on day one of their next role.",
-    "count": 25,
-    "fg_count": 7,
+    "count": 29,
+    "fg_count": 8,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -5183,8 +5183,8 @@
     "code": "wishes.sector_specific",
     "parent": "wishes",
     "definition": "AI training tailored to government, policy, nonprofit, or specific sectors students enter.",
-    "count": 19,
-    "fg_count": 6,
+    "count": 20,
+    "fg_count": 7,
     "examples": [
       {
         "fg_id": "02-Chyung",
@@ -5442,8 +5442,8 @@
     "code": "meta.surprise",
     "parent": "meta",
     "definition": "A participant expresses surprise at what someone else said.",
-    "count": 12,
-    "fg_count": 6,
+    "count": 14,
+    "fg_count": 7,
     "examples": [
       {
         "fg_id": "01-Cheng",
@@ -5698,270 +5698,11 @@
     ]
   },
   {
-    "code": "risk.ambivalent",
-    "parent": "risk",
-    "definition": "Explicitly refuses to choose or says both are equally real.",
-    "count": 9,
-    "fg_count": 4,
-    "examples": [
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 112,
-        "section_id": "s4_two_sided_risk",
-        "text": "What if I can't really pick which one is more dominant?",
-        "quote": "What if I can't really pick which one is more dominant?",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 109,
-              "speaker": "STU",
-              "text": "I think I feel that a lot."
-            },
-            {
-              "line_id": 110,
-              "speaker": "STU",
-              "text": "Like I fear that AI is making me less creative a lot."
-            },
-            {
-              "line_id": 111,
-              "speaker": "MOD",
-              "text": "So that would be concern one bucket, but raise your hand so that..."
-            }
-          ],
-          "center": {
-            "line_id": 112,
-            "speaker": "STU",
-            "text": "What if I can't really pick which one is more dominant?"
-          },
-          "after": [
-            {
-              "line_id": 113,
-              "speaker": "STU",
-              "text": "I feel like I have both concerns almost like 50-50."
-            },
-            {
-              "line_id": 114,
-              "speaker": "STU",
-              "text": "Okay, that's bad."
-            },
-            {
-              "line_id": 115,
-              "speaker": "STU",
-              "text": "Do you guys all feel that way?"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "01-Cheng",
-        "line_id": 113,
-        "section_id": "s4_two_sided_risk",
-        "text": "I feel like I have both concerns almost like 50-50.",
-        "quote": "I feel like I have both concerns almost like 50-50",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 110,
-              "speaker": "STU",
-              "text": "Like I fear that AI is making me less creative a lot."
-            },
-            {
-              "line_id": 111,
-              "speaker": "MOD",
-              "text": "So that would be concern one bucket, but raise your hand so that..."
-            },
-            {
-              "line_id": 112,
-              "speaker": "STU",
-              "text": "What if I can't really pick which one is more dominant?"
-            }
-          ],
-          "center": {
-            "line_id": 113,
-            "speaker": "STU",
-            "text": "I feel like I have both concerns almost like 50-50."
-          },
-          "after": [
-            {
-              "line_id": 114,
-              "speaker": "STU",
-              "text": "Okay, that's bad."
-            },
-            {
-              "line_id": 115,
-              "speaker": "STU",
-              "text": "Do you guys all feel that way?"
-            },
-            {
-              "line_id": 116,
-              "speaker": "MOD",
-              "text": "No, I'd say concern one."
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "02-Chyung",
-        "line_id": 217,
-        "section_id": "s4_two_sided_risk",
-        "text": "which concern is more pressing for me",
-        "quote": "which concern is more pressing for me and I just feel like it's both",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 214,
-              "speaker": "STU",
-              "text": "No, I'm sorry."
-            },
-            {
-              "line_id": 215,
-              "speaker": "STU",
-              "text": "No, no, no, sorry."
-            },
-            {
-              "line_id": 216,
-              "speaker": "STU",
-              "text": "I was just like, I was trying to think about"
-            }
-          ],
-          "center": {
-            "line_id": 217,
-            "speaker": "STU",
-            "text": "which concern is more pressing for me"
-          },
-          "after": [
-            {
-              "line_id": 218,
-              "speaker": "STU",
-              "text": "and I just feel like it's both."
-            },
-            {
-              "line_id": 219,
-              "speaker": "STU",
-              "text": "Yeah."
-            },
-            {
-              "line_id": 220,
-              "speaker": "STU",
-              "text": "So I'm just like, can I say both?"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "02-Chyung",
-        "line_id": 220,
-        "section_id": "s4_two_sided_risk",
-        "text": "So I'm just like, can I say both?",
-        "quote": "can I say both?",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 217,
-              "speaker": "STU",
-              "text": "which concern is more pressing for me"
-            },
-            {
-              "line_id": 218,
-              "speaker": "STU",
-              "text": "and I just feel like it's both."
-            },
-            {
-              "line_id": 219,
-              "speaker": "STU",
-              "text": "Yeah."
-            }
-          ],
-          "center": {
-            "line_id": 220,
-            "speaker": "STU",
-            "text": "So I'm just like, can I say both?"
-          },
-          "after": [
-            {
-              "line_id": 221,
-              "speaker": "STU",
-              "text": "Yeah."
-            },
-            {
-              "line_id": 222,
-              "speaker": "STU",
-              "text": "Half and half."
-            },
-            {
-              "line_id": 223,
-              "speaker": "STU",
-              "text": "Okay, you know what?"
-            }
-          ]
-        }
-      },
-      {
-        "fg_id": "02-Chyung",
-        "line_id": 301,
-        "section_id": "s4_two_sided_risk",
-        "text": "So yeah, I feel like there is a balance there",
-        "quote": "I feel like there is a balance there",
-        "confidence": "high",
-        "coder": "llm-claude",
-        "context": {
-          "before": [
-            {
-              "line_id": 298,
-              "speaker": "STU",
-              "text": "and I feel like it's an important,"
-            },
-            {
-              "line_id": 299,
-              "speaker": "STU",
-              "text": "it's just also just like writing or like knowing"
-            },
-            {
-              "line_id": 300,
-              "speaker": "STU",
-              "text": "how to read data, it's also a skill that really matters."
-            }
-          ],
-          "center": {
-            "line_id": 301,
-            "speaker": "STU",
-            "text": "So yeah, I feel like there is a balance there"
-          },
-          "after": [
-            {
-              "line_id": 302,
-              "speaker": "STU",
-              "text": "of like using it and how often you use versus not using it."
-            },
-            {
-              "line_id": 303,
-              "speaker": "STU",
-              "text": "One of my concerns is that I feel like my patience"
-            },
-            {
-              "line_id": 304,
-              "speaker": "STU",
-              "text": "has dropped a lot because I know I can rely on AI."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "code": "meta.disagreement",
     "parent": "meta",
     "definition": "Participants explicitly disagree with each other.",
-    "count": 7,
-    "fg_count": 4,
+    "count": 12,
+    "fg_count": 5,
     "examples": [
       {
         "fg_id": "02-Chyung",
@@ -6209,6 +5950,265 @@
               "line_id": 291,
               "speaker": "STU",
               "text": "And I think that turns one into a question of how they are going to choose to use AI."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "code": "risk.ambivalent",
+    "parent": "risk",
+    "definition": "Explicitly refuses to choose or says both are equally real.",
+    "count": 11,
+    "fg_count": 5,
+    "examples": [
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 112,
+        "section_id": "s4_two_sided_risk",
+        "text": "What if I can't really pick which one is more dominant?",
+        "quote": "What if I can't really pick which one is more dominant?",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 109,
+              "speaker": "STU",
+              "text": "I think I feel that a lot."
+            },
+            {
+              "line_id": 110,
+              "speaker": "STU",
+              "text": "Like I fear that AI is making me less creative a lot."
+            },
+            {
+              "line_id": 111,
+              "speaker": "MOD",
+              "text": "So that would be concern one bucket, but raise your hand so that..."
+            }
+          ],
+          "center": {
+            "line_id": 112,
+            "speaker": "STU",
+            "text": "What if I can't really pick which one is more dominant?"
+          },
+          "after": [
+            {
+              "line_id": 113,
+              "speaker": "STU",
+              "text": "I feel like I have both concerns almost like 50-50."
+            },
+            {
+              "line_id": 114,
+              "speaker": "STU",
+              "text": "Okay, that's bad."
+            },
+            {
+              "line_id": 115,
+              "speaker": "STU",
+              "text": "Do you guys all feel that way?"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "01-Cheng",
+        "line_id": 113,
+        "section_id": "s4_two_sided_risk",
+        "text": "I feel like I have both concerns almost like 50-50.",
+        "quote": "I feel like I have both concerns almost like 50-50",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 110,
+              "speaker": "STU",
+              "text": "Like I fear that AI is making me less creative a lot."
+            },
+            {
+              "line_id": 111,
+              "speaker": "MOD",
+              "text": "So that would be concern one bucket, but raise your hand so that..."
+            },
+            {
+              "line_id": 112,
+              "speaker": "STU",
+              "text": "What if I can't really pick which one is more dominant?"
+            }
+          ],
+          "center": {
+            "line_id": 113,
+            "speaker": "STU",
+            "text": "I feel like I have both concerns almost like 50-50."
+          },
+          "after": [
+            {
+              "line_id": 114,
+              "speaker": "STU",
+              "text": "Okay, that's bad."
+            },
+            {
+              "line_id": 115,
+              "speaker": "STU",
+              "text": "Do you guys all feel that way?"
+            },
+            {
+              "line_id": 116,
+              "speaker": "MOD",
+              "text": "No, I'd say concern one."
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "02-Chyung",
+        "line_id": 217,
+        "section_id": "s4_two_sided_risk",
+        "text": "which concern is more pressing for me",
+        "quote": "which concern is more pressing for me and I just feel like it's both",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 214,
+              "speaker": "STU",
+              "text": "No, I'm sorry."
+            },
+            {
+              "line_id": 215,
+              "speaker": "STU",
+              "text": "No, no, no, sorry."
+            },
+            {
+              "line_id": 216,
+              "speaker": "STU",
+              "text": "I was just like, I was trying to think about"
+            }
+          ],
+          "center": {
+            "line_id": 217,
+            "speaker": "STU",
+            "text": "which concern is more pressing for me"
+          },
+          "after": [
+            {
+              "line_id": 218,
+              "speaker": "STU",
+              "text": "and I just feel like it's both."
+            },
+            {
+              "line_id": 219,
+              "speaker": "STU",
+              "text": "Yeah."
+            },
+            {
+              "line_id": 220,
+              "speaker": "STU",
+              "text": "So I'm just like, can I say both?"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "02-Chyung",
+        "line_id": 220,
+        "section_id": "s4_two_sided_risk",
+        "text": "So I'm just like, can I say both?",
+        "quote": "can I say both?",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 217,
+              "speaker": "STU",
+              "text": "which concern is more pressing for me"
+            },
+            {
+              "line_id": 218,
+              "speaker": "STU",
+              "text": "and I just feel like it's both."
+            },
+            {
+              "line_id": 219,
+              "speaker": "STU",
+              "text": "Yeah."
+            }
+          ],
+          "center": {
+            "line_id": 220,
+            "speaker": "STU",
+            "text": "So I'm just like, can I say both?"
+          },
+          "after": [
+            {
+              "line_id": 221,
+              "speaker": "STU",
+              "text": "Yeah."
+            },
+            {
+              "line_id": 222,
+              "speaker": "STU",
+              "text": "Half and half."
+            },
+            {
+              "line_id": 223,
+              "speaker": "STU",
+              "text": "Okay, you know what?"
+            }
+          ]
+        }
+      },
+      {
+        "fg_id": "02-Chyung",
+        "line_id": 301,
+        "section_id": "s4_two_sided_risk",
+        "text": "So yeah, I feel like there is a balance there",
+        "quote": "I feel like there is a balance there",
+        "confidence": "high",
+        "coder": "llm-claude",
+        "context": {
+          "before": [
+            {
+              "line_id": 298,
+              "speaker": "STU",
+              "text": "and I feel like it's an important,"
+            },
+            {
+              "line_id": 299,
+              "speaker": "STU",
+              "text": "it's just also just like writing or like knowing"
+            },
+            {
+              "line_id": 300,
+              "speaker": "STU",
+              "text": "how to read data, it's also a skill that really matters."
+            }
+          ],
+          "center": {
+            "line_id": 301,
+            "speaker": "STU",
+            "text": "So yeah, I feel like there is a balance there"
+          },
+          "after": [
+            {
+              "line_id": 302,
+              "speaker": "STU",
+              "text": "of like using it and how often you use versus not using it."
+            },
+            {
+              "line_id": 303,
+              "speaker": "STU",
+              "text": "One of my concerns is that I feel like my patience"
+            },
+            {
+              "line_id": 304,
+              "speaker": "STU",
+              "text": "has dropped a lot because I know I can rely on AI."
             }
           ]
         }

@@ -2524,6 +2524,1152 @@
         }
       ]
     },
+    "07-KlineCostaChavez": {
+      "fg_id": "07-KlineCostaChavez",
+      "observation_count": 99,
+      "affect_timeline": [
+        [
+          0,
+          "neutral"
+        ],
+        [
+          7,
+          "tense"
+        ],
+        [
+          8,
+          "neutral"
+        ],
+        [
+          13,
+          "mixed"
+        ],
+        [
+          14,
+          "neutral"
+        ],
+        [
+          19,
+          "relaxed"
+        ],
+        [
+          20,
+          "neutral"
+        ],
+        [
+          22,
+          "relaxed"
+        ],
+        [
+          24,
+          "neutral"
+        ],
+        [
+          34,
+          "tense"
+        ],
+        [
+          36,
+          "neutral"
+        ],
+        [
+          40,
+          "engaged"
+        ],
+        [
+          41,
+          "neutral"
+        ],
+        [
+          49,
+          "embodied"
+        ],
+        [
+          50,
+          "engaged"
+        ],
+        [
+          51,
+          "neutral"
+        ],
+        [
+          52,
+          "embodied"
+        ],
+        [
+          53,
+          "neutral"
+        ],
+        [
+          67,
+          "engaged"
+        ],
+        [
+          68,
+          "embodied"
+        ],
+        [
+          69,
+          "engaged"
+        ],
+        [
+          70,
+          "neutral"
+        ],
+        [
+          81,
+          "engaged"
+        ],
+        [
+          82,
+          "neutral"
+        ],
+        [
+          96,
+          "relaxed"
+        ],
+        [
+          97,
+          "neutral"
+        ]
+      ],
+      "top_categories": {
+        "moderator_action": 17,
+        "engagement": 6,
+        "relaxation_markers": 4,
+        "body_language": 3,
+        "tension": 2,
+        "disengagement": 1,
+        "silence_or_pause": 1,
+        "power_asymmetry": 1
+      },
+      "observations": [
+        {
+          "index": 0,
+          "text": "API-203M: In-P-10 Focus Group",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-10"
+          ],
+          "vividness": -1.0
+        },
+        {
+          "index": 1,
+          "text": "How HKS Students P-06 P-24 AI: Use, P-05, and P-28",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-05",
+            "P-06",
+            "P-24",
+            "P-28"
+          ],
+          "vividness": 1.0
+        },
+        {
+          "index": 2,
+          "text": "P-36 2026",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-36"
+          ],
+          "vividness": -1.0
+        },
+        {
+          "index": 3,
+          "text": "P-32",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-32"
+          ],
+          "vividness": -1.0
+        },
+        {
+          "index": 4,
+          "text": "P-39 for the Moderator",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-39"
+          ],
+          "vividness": -1.0
+        },
+        {
+          "index": 5,
+          "text": "The most important thing in this focus group is that participants talk to each other, not just to you. P-45 job is to facilitate conversation, not conduct a group interview. A few principles:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-45"
+          ],
+          "vividness": -0.06
+        },
+        {
+          "index": 6,
+          "text": "After someone shares, invite others to respond to them directly before moving on. Use language like: \"P-15 that resonate with anyone?\" or \"P-20 anyone had a different experience than what X just described?\"",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-15",
+            "P-20"
+          ],
+          "vividness": -0.13
+        },
+        {
+          "index": 7,
+          "text": "When you hear disagreement or tension, name it and slow down: \"It sounds like you two are describing pretty different relationships to this. P-07 you each say a bit more?\u201d",
+          "categories": [
+            "tension"
+          ],
+          "affect": "tense",
+          "named_p_codes": [
+            "P-07"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 8,
+          "text": "P-29 for more detail with open prompts: \"P-07 you say more?\" or \"What did that feel like?\" rather than questions that can be answered yes or no.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-07",
+            "P-29"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 9,
+          "text": "P-34 can be productive",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-34"
+          ],
+          "vividness": -1.0
+        },
+        {
+          "index": 10,
+          "text": "P-03 to hear from every participant at least once, but do not go robotically around the circle for every question.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-03"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 11,
+          "text": "P-08 in with the note-taker to help you keep time.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-08"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 12,
+          "text": "Note-Taker / P-31: P-35 P-22",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-22",
+            "P-31",
+            "P-35"
+          ],
+          "vividness": -2.0
+        },
+        {
+          "index": 13,
+          "text": "P-30 by placing your phone face-down in the center of the table (or your laptop off to the side, if that is the device you are using). After class: upload the audio to the shared P-16 folder and send your written notes to the CAs before end of day. Take notes on the \u201cmetadata\u201d of the focus group: things that the transcript will not pick up (ambivalence, tension, excitement, etc.)",
+          "categories": [
+            "disengagement",
+            "tension"
+          ],
+          "affect": "mixed",
+          "named_p_codes": [
+            "P-16",
+            "P-30"
+          ],
+          "vividness": -1.01
+        },
+        {
+          "index": 14,
+          "text": "PART 1: P-41 and P-33",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-33",
+            "P-41"
+          ],
+          "vividness": -1.0
+        },
+        {
+          "index": 15,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 16,
+          "text": "Good morning, everyone.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 0.0
+        },
+        {
+          "index": 17,
+          "text": "Thank you for being here. P-26 goal today is to hear your candid perspectives on how you are using artificial intelligence, and how you feel about it, both in your academic work at HKS and as you look toward your professional lives.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-26"
+          ],
+          "vividness": -0.26
+        },
+        {
+          "index": 18,
+          "text": "This focus group will last approximately 30 minutes. ____________ (NOTE-TAKER) will take notes and record a voice memo of our conversation. ____________ (SCRIBE) will capture ideas on the flip chart during our activity. P-17 will be anonymized in any report we produce.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-17"
+          ],
+          "vividness": -0.45
+        },
+        {
+          "index": 19,
+          "text": "Before we begin, please help yourself to snacks and make sure you have some dot stickers handy.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 20,
+          "text": "P-04 participants to settle. P-12 the voice memo is recording before continuing.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-04",
+            "P-12"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 21,
+          "text": "1:49",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 22,
+          "text": "Everyone is eating their snacks, unwrapping of wrappers.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 23,
+          "text": "A few people are looking at the moderator, but most people looking off or down at their snacks.",
+          "categories": [
+            "moderator_action",
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 24,
+          "text": "PART 2: Warm-Up",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 25,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 26,
+          "text": "Let's start with a quick go-around. I want each of you to share one specific, concrete example of how you or someone you know has used AI recently.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 27,
+          "text": "It does not have to be academic work, and it does not have to be something you feel great about. The more specific the better.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 28,
+          "text": "P-19 instance: \"I had it rewrite the conclusion of a policy memo\" or \"my roommate used it to prep for a job interview.\"",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-19"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 29,
+          "text": "About 20 seconds each. We will go around the circle.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 30,
+          "text": "1:51",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 31,
+          "text": "One participant points to another to go for his turn.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 32,
+          "text": "A different participant is spinning his pen around, looking off to the side.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 33,
+          "text": "Keep this moving. Do not probe here. The goal is to get everyone talking and to surface a range of actual use cases, including ones people might be ambivalent about.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 34,
+          "text": "Note any examples that seem ripe for follow-up if there\u2019s too much silence in the next question.",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 4.0
+        },
+        {
+          "index": 35,
+          "text": "Do not be afraid to interrupt for anyone taking more than the allotted time; this will set the tone early that you are keeping track of time.",
+          "categories": [
+            "power_asymmetry"
+          ],
+          "affect": "tense",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 36,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 37,
+          "text": "Before we move on: did anything you just heard surprise you?",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 38,
+          "text": "This is an important transition. It turns a series of individual disclosures into shared material the group can react to together. If someone names something specific that surprised them, follow it: \"Say more about that.\" or \"P-15 the person who shared that want to respond?\"\\",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-15"
+          ],
+          "vividness": -0.48
+        },
+        {
+          "index": 39,
+          "text": "Let this run 2 minutes if the energy is there. P-14 it shorter if the group is not engaging.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-14"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 40,
+          "text": "Everyone is looking to speakers now. One participant is nodding fervently as two other participants talk about how to navigate the sycophantic nature of AI.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 41,
+          "text": "PART 3: Honest Self-Assessment",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 42,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 43,
+          "text": "Now I am going to describe two concerns and ask you to vote on which one feels more real to you right now. I\u2019ll read them both and then I\u2019ll ask you to vote.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 44,
+          "text": "Concern one: that using AI too heavily has costs you should worry about, for your learning, your writing, your ability to think independently.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 45,
+          "text": "Concern two: that NOT using AI well, or not using it enough, is also a cost. That it leaves you less efficient or less prepared than peers and future colleagues who are more fluent with these tools.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -0.09
+        },
+        {
+          "index": 46,
+          "text": "Show of hands: which concern feels more present for you personally, right now?",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 47,
+          "text": "Concern 1: 2 hands",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 48,
+          "text": "Concern 2: 5 hands",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 49,
+          "text": "1:57 \u2013 There is a mix of open and closed body language. One participant has their armed crossed but is nodding. Another is leaning forward as someone talks.",
+          "categories": [
+            "body_language",
+            "engagement"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 50,
+          "text": "1:59 \u2013 All participants and the moderator laugh in response to one participant\u2019s comment. P-21 hands are uncrossed and he\u2019s talking with his hands. People laugh again in response and seem very engaged with what he\u2019s saying.",
+          "categories": [
+            "engagement",
+            "moderator_action"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [
+            "P-21"
+          ],
+          "vividness": -0.21
+        },
+        {
+          "index": 51,
+          "text": "2:00 \u2013 When another participant asked one how he reacted to his student using AI to complete a homework assignment, he hesitated and scratched his neck, then pushed forward.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 52,
+          "text": "2:01 \u2013 One participant fidgets with his bottle as everyone turns to him.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 53,
+          "text": "2:02 \u2013 People are smiling and affirming what one participant is saying.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 54,
+          "text": "Note-taker: be sure to record the breakdown of votes in your notes.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 55,
+          "text": "After the vote, note the split out loud: \"Okay, looks like about half and half\" or \"most of you said concern one.\" Then open it up:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 56,
+          "text": "\"Who wants to make the case for their vote?\"",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 57,
+          "text": "If there is a split, try to get someone from each side to speak directly to each other: \"P-44 two voted differently. Do you want to say more about that?\"",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-44"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 58,
+          "text": "This is a good place to let the conversation run if it is going well. The goal is participant-to-participant exchange, not another round of moderator-to-participant answers.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 59,
+          "text": "PART 4: Professional Readiness",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 60,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 61,
+          "text": "Let's shift to your professional lives.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 62,
+          "text": "Think about the job, fellowship, or program you are heading into after HKS. Do you feel like you could walk in on day one and use AI confidently and competently in that context?",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 63,
+          "text": "Give people a moment to think before anyone jumps in. After a few responses, probe for specifics:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 64,
+          "text": "\"What would using AI well actually look like in the kind of role you are (or hope to) go into?\"",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 65,
+          "text": "\"Is there a specific situation where you expect AI to be part of the work, and where you feel uncertain about whether you are ready?\"",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 66,
+          "text": "\"P-15 anyone feel genuinely well-prepared? What got you there?\"",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-15"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 67,
+          "text": "P-23 participants to react to each other: \"P-15 what she just described match your experience?\" or \"P-44 nodded when he said that.\"",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [
+            "P-15",
+            "P-23",
+            "P-44"
+          ],
+          "vividness": 1.0
+        },
+        {
+          "index": 68,
+          "text": "2:03 \u2013 Three participants cross their arms.",
+          "categories": [
+            "body_language"
+          ],
+          "affect": "embodied",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 69,
+          "text": "2:05 \u2013 All participants laugh at someone talking about their post-grad plans.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 70,
+          "text": "2:05 \u2013 One participant raises his eyebrows and seems intrigued at another\u2019s comment.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 71,
+          "text": "2:06 \u2013 P-42 assent to what one participant said.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-42"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 72,
+          "text": "2:07 \u2013 One participant pauses on how to articulate his thought but leans forward and has an expression to signify he does have something to say.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 73,
+          "text": "NOTE-TAKER: P-18 any specific skills, tools, or situations participants name as gaps.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-18"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 74,
+          "text": "PART 5: Pair Share and Share-Out",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 75,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 76,
+          "text": "Now we are going to do a pair share. P-40 to the person next to you.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-40"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 77,
+          "text": "P-19 the next two to three minutes, talk with your partner about this question:",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-19"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 78,
+          "text": "What AI skills, knowledge, or experiences do you wish HKS provided, or provided more of, to prepare you for professional life?",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 79,
+          "text": "Think about tools, formats, practices, frameworks, anything. Be as specific as you can. Come ready to share your best two or three ideas with the group.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 80,
+          "text": "2:12 \u2013 Everyone is engaged in intense conversation when they break into groups. It takes the moderator a few attempts to bring everyone back.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 3.0
+        },
+        {
+          "index": 81,
+          "text": "2:13 \u2013 There is agreement (enthusiastic nodding) from two participants to one\u2019s comments.",
+          "categories": [
+            "engagement"
+          ],
+          "affect": "engaged",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 82,
+          "text": "Give pairs a full 2 to 3 minutes. Let the conversation run. P-09 and listen if you can, and note any ideas worth drawing out in the share-out.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-09"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 83,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 84,
+          "text": "Let's hear what you came up with. I will go around to each pair and ask you to share your top ideas. ____________ (SCRIBE) will write them on the flip chart.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 85,
+          "text": "SCRIBE: P-43 each item clearly, spaced well apart. Use the full sheet. P-13 near-duplicates with a note in parentheses.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-13",
+            "P-43"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 86,
+          "text": "PART 6: Dot Voting",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 87,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 88,
+          "text": "Now we are going to vote. Using the dot stickers in front of you, please go to the flip chart and place up to three dots next to the items that matter most to you.",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 89,
+          "text": "P-44 can spread your dots across multiple items or put several on one. Use them however you like.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-44"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 90,
+          "text": "P-04 2 to 3 minutes for participants to vote. After everyone has finished, briefly note out loud which items received the most dots before closing.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-04"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 91,
+          "text": "Two participants put dots on quickly and then go back on their phones.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 92,
+          "text": "Three participants linger to discuss with each other, asking each other to elaborate on their suggestions before they put their dots on.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": 2.0
+        },
+        {
+          "index": 93,
+          "text": "PART 7: P-11",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-11"
+          ],
+          "vividness": -1.0
+        },
+        {
+          "index": 94,
+          "text": "MODERATOR:",
+          "categories": [
+            "moderator_action"
+          ],
+          "affect": "neutral",
+          "named_p_codes": [],
+          "vividness": -1.0
+        },
+        {
+          "index": 95,
+          "text": "Thank you so much. P-25 we have compiled results across all focus groups, we will make the report available to participants.",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-25"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 96,
+          "text": "P-27 feel free to take snacks with you as you go.",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "affect": "relaxed",
+          "named_p_codes": [
+            "P-27"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 97,
+          "text": "NOTE-TAKER: Stop the voice memo and upload it to the shared P-16 folder ASAP along with your notes. P-27 include your last name and the focus group number in the filename, e.g. \u201cMcKenna-FG-01-audio\u201d and \u201cMcKenna-FG-01-notes\u201d",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-16",
+            "P-27"
+          ],
+          "vividness": -0.22
+        },
+        {
+          "index": 98,
+          "text": "P-38 P-37",
+          "categories": [],
+          "affect": "neutral",
+          "named_p_codes": [
+            "P-37",
+            "P-38"
+          ],
+          "vividness": -1.0
+        }
+      ],
+      "standouts": [
+        {
+          "index": 34,
+          "sentence": "Note any examples that seem ripe for follow-up if there\u2019s too much silence in the next question.",
+          "affect": "tense",
+          "categories": [
+            "silence_or_pause"
+          ],
+          "vividness": 4.0
+        },
+        {
+          "index": 22,
+          "sentence": "Everyone is eating their snacks, unwrapping of wrappers.",
+          "affect": "relaxed",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 40,
+          "sentence": "Everyone is looking to speakers now.",
+          "affect": "engaged",
+          "categories": [
+            "engagement"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 52,
+          "sentence": "2:01 \u2013 One participant fidgets with his bottle as everyone turns to him.",
+          "affect": "embodied",
+          "categories": [
+            "body_language"
+          ],
+          "vividness": 3.0
+        },
+        {
+          "index": 7,
+          "sentence": "When you hear disagreement or tension, name it and slow down: \"It sounds like you two are describing pretty different relationships to this.",
+          "affect": "tense",
+          "categories": [
+            "tension"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 19,
+          "sentence": "Before we begin, please help yourself to snacks and make sure you have some dot stickers handy.",
+          "affect": "relaxed",
+          "categories": [
+            "relaxation_markers"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 23,
+          "sentence": "A few people are looking at the moderator, but most people looking off or down at their snacks.",
+          "affect": "relaxed",
+          "categories": [
+            "moderator_action",
+            "relaxation_markers"
+          ],
+          "vividness": 2.0
+        },
+        {
+          "index": 35,
+          "sentence": "Do not be afraid to interrupt for anyone taking more than the allotted time; this will set the tone early that you are keeping track of time.",
+          "affect": "tense",
+          "categories": [
+            "power_asymmetry"
+          ],
+          "vividness": 2.0
+        }
+      ]
+    },
     "08-Mardia": {
       "fg_id": "08-Mardia",
       "observation_count": 11,
@@ -2970,6 +4116,16 @@
       "fg_id": "01-Cheng"
     },
     {
+      "index": 34,
+      "sentence": "Note any examples that seem ripe for follow-up if there\u2019s too much silence in the next question.",
+      "affect": "tense",
+      "categories": [
+        "silence_or_pause"
+      ],
+      "vividness": 4.0,
+      "fg_id": "07-KlineCostaChavez"
+    },
+    {
       "index": 9,
       "sentence": "Everyone\u2019s body orientation is rolling toward here.",
       "affect": "embodied",
@@ -3030,6 +4186,36 @@
       ],
       "vividness": 3.0,
       "fg_id": "06-Giles"
+    },
+    {
+      "index": 22,
+      "sentence": "Everyone is eating their snacks, unwrapping of wrappers.",
+      "affect": "relaxed",
+      "categories": [
+        "relaxation_markers"
+      ],
+      "vividness": 3.0,
+      "fg_id": "07-KlineCostaChavez"
+    },
+    {
+      "index": 40,
+      "sentence": "Everyone is looking to speakers now.",
+      "affect": "engaged",
+      "categories": [
+        "engagement"
+      ],
+      "vividness": 3.0,
+      "fg_id": "07-KlineCostaChavez"
+    },
+    {
+      "index": 52,
+      "sentence": "2:01 \u2013 One participant fidgets with his bottle as everyone turns to him.",
+      "affect": "embodied",
+      "categories": [
+        "body_language"
+      ],
+      "vividness": 3.0,
+      "fg_id": "07-KlineCostaChavez"
     },
     {
       "index": 0,
@@ -3186,47 +4372,6 @@
       ],
       "vividness": 2.0,
       "fg_id": "06-Giles"
-    },
-    {
-      "index": 7,
-      "sentence": "Participants nod as the moderator speak",
-      "affect": "engaged",
-      "categories": [
-        "engagement",
-        "moderator_action"
-      ],
-      "vividness": 2.0,
-      "fg_id": "06-Giles"
-    },
-    {
-      "index": 3,
-      "sentence": "Skills flagged - discernment, knowing where your skills are getting negatively impacted and which situations require \u2018a human touch\u2019 (a lot of nodding for the latter part).",
-      "affect": "engaged",
-      "categories": [
-        "engagement"
-      ],
-      "vividness": 2.0,
-      "fg_id": "08-Mardia"
-    },
-    {
-      "index": 6,
-      "sentence": "One participant speaks about how they heard someone use AI to learn R and how that makes them feel better about taking the excel version of stats - this gets some laughs.",
-      "affect": "engaged",
-      "categories": [
-        "engagement"
-      ],
-      "vividness": 2.0,
-      "fg_id": "08-Mardia"
-    },
-    {
-      "index": 9,
-      "sentence": "One participant is disengaged entirely from the flipchart activity - they\u2019re looking over to the other groups.",
-      "affect": "disengaged",
-      "categories": [
-        "disengagement"
-      ],
-      "vividness": 2.0,
-      "fg_id": "08-Mardia"
     }
   ]
 }
