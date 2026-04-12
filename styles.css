@@ -867,6 +867,58 @@ strong { font-weight: 600; }
 .theme-more-list { display: grid; gap: 1.25rem; margin-top: 1.25rem; }
 
 /* =====================================================================
+   More voices — unused-quote gallery
+   ===================================================================== */
+.more-voices-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.mv-chip {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  cursor: pointer;
+  transition: all 120ms;
+  color: var(--ink-soft);
+}
+.mv-chip:hover { border-color: var(--ink); color: var(--ink); }
+.mv-chip.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+.more-voices-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+.mv-card {
+  padding: 1.5rem;
+  border: 1px solid var(--rule);
+  background: var(--paper-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.mv-card blockquote {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.55;
+  margin: 0;
+  color: var(--ink);
+}
+.mv-card cite {
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 0.7rem;
+  color: var(--mute);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* =====================================================================
    Votes
    ===================================================================== */
 .votes-body { display: grid; gap: 1.5rem; }

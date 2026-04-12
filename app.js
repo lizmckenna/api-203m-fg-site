@@ -508,6 +508,75 @@ function renderBankQuote(q) {
   return e;
 }
 
+async function renderMoreVoices() {
+  const alloc = await loadJSON("public/data/quote_allocation.json");
+  const listEl = document.getElementById("more-voices-list");
+  const filtersEl = document.getElementById("more-voices-filters");
+  if (!listEl) return;
+  const unused = alloc?.unused || [];
+  if (!unused.length) {
+    listEl.innerHTML = `<div class="empty">no unused quotes in the bank.</div>`;
+    return;
+  }
+
+  // Group by section to allow filter-chip browsing
+  const sections = [
+    "s2_warmup_goaround",
+    "s3_warmup_reaction",
+    "s4_two_sided_risk",
+    "s5_professional_readiness",
+    "s6_pair_share",
+    "s7_dot_voting_close",
+  ];
+  const byMySection = new Map();
+  for (const q of unused) {
+    const sid = q.section_id || "other";
+    if (!byMySection.has(sid)) byMySection.set(sid, []);
+    byMySection.get(sid).push(q);
+  }
+
+  // Build filter chips
+  const chips = [`<button class="mv-chip active" data-sec="all">all (${unused.length})</button>`];
+  for (const sid of sections) {
+    const n = (byMySection.get(sid) || []).length;
+    if (n === 0) continue;
+    chips.push(`<button class="mv-chip" data-sec="${sid}">${prettySection(sid)} (${n})</button>`);
+  }
+  filtersEl.innerHTML = chips.join("");
+
+  // Render all initially, hide on filter change
+  const render = (filterSec) => {
+    listEl.innerHTML = "";
+    const quotes = filterSec === "all" ? unused : (byMySection.get(filterSec) || []);
+    // Sort by section then by length desc within section
+    const ordered = [...quotes].sort((a, b) => {
+      const as = sections.indexOf(a.section_id || "");
+      const bs = sections.indexOf(b.section_id || "");
+      if (as !== bs) return as - bs;
+      return (b.cleaned_text || "").length - (a.cleaned_text || "").length;
+    });
+    for (const q of ordered) {
+      const card = document.createElement("div");
+      card.className = "mv-card";
+      card.innerHTML = `
+        <blockquote>${escape(q.cleaned_text || q.raw_text || "")}</blockquote>
+        <cite>from the ${prettySection(q.section_id)} section</cite>
+      `;
+      listEl.appendChild(card);
+      attachReactionBar(card, "quote", q.id);
+    }
+  };
+  render("all");
+
+  filtersEl.addEventListener("click", (e) => {
+    const btn = e.target.closest(".mv-chip");
+    if (!btn) return;
+    filtersEl.querySelectorAll(".mv-chip").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    render(btn.dataset.sec);
+  });
+}
+
 async function renderVotes() {
   const votes = await loadJSON("public/data/vote_tallies.json");
   const el = document.getElementById("votes-body");
@@ -913,6 +982,7 @@ function escape(s) {
   await renderAiSlop();
   await renderFieldNotes();
   await renderThemes();
+  await renderMoreVoices();
   await renderVotes();
   initStaticReactionBars();
   await initAuth();
