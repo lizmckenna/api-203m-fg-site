@@ -693,8 +693,37 @@ async function renderVotes() {
     }
   }
 
-  // --- Pair-share dots aggregate chart ---
-  if (agg.length) {
+  // --- Pair-share dots: collapsed categories with hover sub-items ---
+  const collapsed = votes.collapsed_categories || [];
+  if (collapsed.length) {
+    const h = document.createElement("h3");
+    h.className = "vote-head";
+    h.style.marginTop = "2.5rem";
+    h.textContent = "what HKS should provide (pair-share dot votes)";
+    el.appendChild(h);
+    const caption = document.createElement("p");
+    caption.className = "vote-caption";
+    caption.textContent = `9 categories collapsed from 65 items across 11 posters · hover for sub-items`;
+    el.appendChild(caption);
+
+    const max = Math.max(...collapsed.map((d) => d.dots));
+    for (const d of collapsed) {
+      const row = document.createElement("div");
+      row.className = "vote-bar vote-bar--has-tooltip";
+      const pct = (d.dots / max) * 100;
+      const subs = (d.sub_items || [])
+        .map((s) => `<span class="tt-row"><span class="tt-item">${escape(s.item)}</span><span class="tt-dots">${s.dots}</span></span>`)
+        .join("");
+      row.innerHTML = `
+        <span class="label">${escape(d.category)}</span>
+        <div class="bar"><div class="bar-fill" style="width:${pct}%"></div></div>
+        <span class="count">${d.dots}</span>
+        ${subs ? `<div class="vote-tooltip">${subs}</div>` : ""}
+      `;
+      el.appendChild(row);
+    }
+  } else if (agg.length) {
+    // Fallback to raw aggregation if no collapsed categories
     const h = document.createElement("h3");
     h.className = "vote-head";
     h.style.marginTop = "2.5rem";

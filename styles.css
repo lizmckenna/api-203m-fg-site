@@ -1008,6 +1008,37 @@ strong { font-weight: 600; }
 .vote-bar .bar-fill { position: absolute; inset: 0 auto 0 0; background: var(--ink); transition: width 600ms ease; }
 .vote-bar .count { font-variant-numeric: tabular-nums; color: var(--mute); min-width: 3ch; text-align: right; font-weight: 600; }
 
+/* Collapsed-category tooltip (hover sub-items) */
+.vote-bar--has-tooltip { position: relative; cursor: default; }
+.vote-bar--has-tooltip .label { cursor: help; border-bottom: 1px dotted var(--rule); }
+.vote-tooltip {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
+  z-index: 20;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  padding: 0.6rem 0.85rem;
+  min-width: 22rem;
+  max-width: 32rem;
+}
+.vote-bar--has-tooltip:hover .vote-tooltip { display: block; }
+.tt-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.2rem 0;
+  font-size: var(--fs-small);
+  line-height: 1.4;
+  border-bottom: 1px solid var(--rule);
+}
+.tt-row:last-child { border-bottom: none; }
+.tt-item { flex: 1; }
+.tt-dots { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--mute); min-width: 2ch; text-align: right; flex-shrink: 0; }
+
 /* Two-sided risk split */
 .vote-split { display: grid; gap: 0.5rem; }
 .split-bar {

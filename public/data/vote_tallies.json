@@ -67,6 +67,226 @@
     },
     "fg_votes_recorded": 8
   },
+  "collapsed_categories": [
+    {
+      "category": "AI learning and skill building",
+      "dots": 24,
+      "sub_items": [
+        {
+          "item": "Safe and efficient AI use",
+          "dots": 7
+        },
+        {
+          "item": "AI for learning/framework",
+          "dots": 5
+        },
+        {
+          "item": "Encourage us to use AI",
+          "dots": 4
+        },
+        {
+          "item": "Encouraged to use AI correctly",
+          "dots": 3
+        },
+        {
+          "item": "AI/durable skill building",
+          "dots": 2
+        },
+        {
+          "item": "What are the AI skills of the future",
+          "dots": 2
+        },
+        {
+          "item": "How to use AI",
+          "dots": 1
+        }
+      ]
+    },
+    {
+      "category": "Real-world use cases",
+      "dots": 23,
+      "sub_items": [
+        {
+          "item": "Agentic AI for workflows/use cases esp. in gov work",
+          "dots": 9
+        },
+        {
+          "item": "Real-world use case policies/how alumni and employers are using it",
+          "dots": 6
+        },
+        {
+          "item": "Advanced AI policy at HKS/uniform policy across classes/ensuring students understand their output",
+          "dots": 5
+        },
+        {
+          "item": "Sectoral AI use case examples",
+          "dots": 3
+        }
+      ]
+    },
+    {
+      "category": "Critical thinking about AI output",
+      "dots": 23,
+      "sub_items": [
+        {
+          "item": "Consider expectations of output with readings",
+          "dots": 10
+        },
+        {
+          "item": "Shifting cultural narrative/be judicious and philosophical about it",
+          "dots": 8
+        },
+        {
+          "item": "Mental impacts of over-reliance",
+          "dots": 4
+        },
+        {
+          "item": "Good output vs bad output",
+          "dots": 1
+        }
+      ]
+    },
+    {
+      "category": "AI policy/guidance standardization",
+      "dots": 19,
+      "sub_items": [
+        {
+          "item": "Responsible use of AI/understanding constraints and threats",
+          "dots": 13
+        },
+        {
+          "item": "School should be strict about using AI",
+          "dots": 4
+        },
+        {
+          "item": "Teacher discretion on AI usage",
+          "dots": 2
+        },
+        {
+          "item": "Standardize AI guidance across classes",
+          "dots": 0
+        },
+        {
+          "item": "Standardize disciplinary AI use",
+          "dots": 0
+        }
+      ]
+    },
+    {
+      "category": "Hands-on practice and tools in curriculum",
+      "dots": 19,
+      "sub_items": [
+        {
+          "item": "Give tools and opportunities to use it in the curriculum",
+          "dots": 10
+        },
+        {
+          "item": "Dedicated projects or spaces to get practice using AI",
+          "dots": 5
+        },
+        {
+          "item": "Weaving AI into curriculum",
+          "dots": 2
+        },
+        {
+          "item": "Classes on AI with practice using it",
+          "dots": 2
+        }
+      ]
+    },
+    {
+      "category": "Workshops and training (outside main curriculum)",
+      "dots": 18,
+      "sub_items": [
+        {
+          "item": "Shorter workshops on AI use/integrated into required events like orientation",
+          "dots": 6
+        },
+        {
+          "item": "AI professional skill building and competency training",
+          "dots": 6
+        },
+        {
+          "item": "AI orientation class/how to use effectively",
+          "dots": 4
+        },
+        {
+          "item": "Upskilling workshops",
+          "dots": 2
+        }
+      ]
+    },
+    {
+      "category": "Career/workplace readiness",
+      "dots": 18,
+      "sub_items": [
+        {
+          "item": "Workplace and skill impacts/coding",
+          "dots": 5
+        },
+        {
+          "item": "Economics of AI discussion and labor market impact",
+          "dots": 5
+        },
+        {
+          "item": "Strategic use and relationship to future jobs",
+          "dots": 4
+        },
+        {
+          "item": "Application of AI for career skills",
+          "dots": 2
+        },
+        {
+          "item": "Train us to use AI for jobs",
+          "dots": 2
+        }
+      ]
+    },
+    {
+      "category": "AI ethics, equity, and responsibility",
+      "dots": 15,
+      "sub_items": [
+        {
+          "item": "Discuss ethics and people behind AI",
+          "dots": 7
+        },
+        {
+          "item": "AI ethics and academic intention setting",
+          "dots": 3
+        },
+        {
+          "item": "Ethical uses/environment etc.",
+          "dots": 3
+        },
+        {
+          "item": "Lack of equity of AI",
+          "dots": 2
+        }
+      ]
+    },
+    {
+      "category": "Data and research applications",
+      "dots": 8,
+      "sub_items": [
+        {
+          "item": "Data analysis and statistics",
+          "dots": 4
+        },
+        {
+          "item": "Research and policy applications",
+          "dots": 2
+        },
+        {
+          "item": "Data analysis/processing/regression etc.",
+          "dots": 1
+        },
+        {
+          "item": "Data viz + AI",
+          "dots": 1
+        }
+      ]
+    }
+  ],
   "pair_share_dots": {
     "items_aggregated": [
       {
