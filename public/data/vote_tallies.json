@@ -1,6 +1,6 @@
 {
   "two_sided_risk": {
-    "overuse": 25,
+    "overuse": 31,
     "underuse": 24,
     "ambivalent": 0,
     "by_fg": {
@@ -17,10 +17,10 @@
         "note": "lots of agreement on concern A; qualitative lean-A"
       },
       "03-Davis": {
-        "overuse": null,
-        "underuse": null,
-        "ambivalent": null,
-        "note": "everyone chose concern A; qualitative lean-A"
+        "overuse": 6,
+        "underuse": 0,
+        "ambivalent": 0,
+        "note": "unanimous concern A (6 of 6)"
       },
       "04-Fausto": {
         "overuse": 3,
@@ -65,7 +65,7 @@
         "note": "notes only, no transcript"
       }
     },
-    "fg_votes_recorded": 8
+    "fg_votes_recorded": 9
   },
   "collapsed_categories": [
     {

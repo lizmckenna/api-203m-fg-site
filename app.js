@@ -668,25 +668,40 @@ async function renderVotes() {
       const fgWrap = document.createElement("div");
       fgWrap.className = "vote-per-fg";
       fgWrap.innerHTML = `<h4 class="vote-subhead">by focus group</h4>`;
-      const entries = Object.entries(two.by_fg)
-        .filter(([_, row]) => (row.overuse || row.underuse || row.ambivalent))
-        .sort();
+      const allFgKeys = Object.keys(two.by_fg).sort();
+      const entries = Object.entries(two.by_fg).sort();
       if (entries.length) {
         for (const [fgId, row] of entries) {
+          const hasNumeric = (row.overuse != null || row.underuse != null || row.ambivalent != null);
           const t = (row.overuse || 0) + (row.underuse || 0) + (row.ambivalent || 0);
-          const letter = "ABCDEFGHIJK"[Object.keys(two.by_fg).sort().indexOf(fgId)] || "?";
-          const row_html = `
-            <div class="vote-fg-row">
-              <span class="vote-fg-label">focus group ${letter}</span>
-              <div class="split-bar">
-                <div class="split-seg seg-overuse" style="width:${(row.overuse || 0) / t * 100}%"></div>
-                <div class="split-seg seg-ambivalent" style="width:${(row.ambivalent || 0) / t * 100}%"></div>
-                <div class="split-seg seg-underuse" style="width:${(row.underuse || 0) / t * 100}%"></div>
+          const letter = "ABCDEFGHIJK"[allFgKeys.indexOf(fgId)] || "?";
+          const note = row.note || "";
+          let row_html;
+          if (hasNumeric && t > 0) {
+            row_html = `
+              <div class="vote-fg-row">
+                <span class="vote-fg-label">focus group ${letter}</span>
+                <div class="split-bar">
+                  <div class="split-seg seg-overuse" style="width:${(row.overuse || 0) / t * 100}%"></div>
+                  <div class="split-seg seg-ambivalent" style="width:${(row.ambivalent || 0) / t * 100}%"></div>
+                  <div class="split-seg seg-underuse" style="width:${(row.underuse || 0) / t * 100}%"></div>
+                </div>
+                <span class="vote-fg-total">${t}${note ? ` <span style="color:var(--mute);font-weight:400;font-size:0.85em;">${escape(note)}</span>` : ""}</span>
               </div>
-              <span class="vote-fg-total">${t}</span>
-            </div>
-          `;
-          fgWrap.insertAdjacentHTML("beforeend", row_html);
+            `;
+          } else if (note) {
+            // Qualitative-only groups (no numeric vote but have a note)
+            row_html = `
+              <div class="vote-fg-row">
+                <span class="vote-fg-label">focus group ${letter}</span>
+                <div class="split-bar" style="opacity:0.4;">
+                  <div class="split-seg seg-overuse" style="width:100%"></div>
+                </div>
+                <span class="vote-fg-total" style="font-weight:400;font-size:0.85em;color:var(--mute);">${escape(note)}</span>
+              </div>
+            `;
+          }
+          if (row_html) fgWrap.insertAdjacentHTML("beforeend", row_html);
         }
         el.appendChild(fgWrap);
       }
