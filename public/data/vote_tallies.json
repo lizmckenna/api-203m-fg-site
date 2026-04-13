@@ -69,8 +69,8 @@
   },
   "collapsed_categories": [
     {
-      "category": "AI learning and skill building",
-      "dots": 24,
+      "category": "Guidance and encouragement on AI use",
+      "dots": 22,
       "sub_items": [
         {
           "item": "Safe and efficient AI use",
@@ -87,10 +87,6 @@
         {
           "item": "Encouraged to use AI correctly",
           "dots": 3
-        },
-        {
-          "item": "AI/durable skill building",
-          "dots": 2
         },
         {
           "item": "What are the AI skills of the future",
@@ -174,7 +170,7 @@
     },
     {
       "category": "Hands-on practice and tools in curriculum",
-      "dots": 19,
+      "dots": 21,
       "sub_items": [
         {
           "item": "Give tools and opportunities to use it in the curriculum",
@@ -183,6 +179,10 @@
         {
           "item": "Dedicated projects or spaces to get practice using AI",
           "dots": 5
+        },
+        {
+          "item": "AI/durable skill building",
+          "dots": 2
         },
         {
           "item": "Weaving AI into curriculum",
