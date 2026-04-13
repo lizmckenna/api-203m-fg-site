@@ -69,8 +69,58 @@
   },
   "collapsed_categories": [
     {
+      "category": "Hands-on practice and tools in curriculum",
+      "dots": 39,
+      "sub_items": [
+        {
+          "item": "Give tools and opportunities to use it in the curriculum",
+          "dots": 10
+        },
+        {
+          "item": "Building tangible things",
+          "dots": 6
+        },
+        {
+          "item": "Dedicated projects or spaces to get practice using AI",
+          "dots": 5
+        },
+        {
+          "item": "AI related content in class and assignments",
+          "dots": 3
+        },
+        {
+          "item": "AI curriculum",
+          "dots": 3
+        },
+        {
+          "item": "Proofreading/dogfooding (stress-test)",
+          "dots": 3
+        },
+        {
+          "item": "AI/durable skill building",
+          "dots": 2
+        },
+        {
+          "item": "AI memo writing (where allowed)",
+          "dots": 2
+        },
+        {
+          "item": "Weaving AI into curriculum",
+          "dots": 2
+        },
+        {
+          "item": "Classes on AI with practice using it",
+          "dots": 2
+        },
+        {
+          "item": "Use AI as a tutor",
+          "dots": 1
+        }
+      ]
+    },
+    {
       "category": "Guidance and encouragement on AI use",
-      "dots": 22,
+      "dots": 30,
       "sub_items": [
         {
           "item": "Safe and efficient AI use",
@@ -89,18 +139,38 @@
           "dots": 3
         },
         {
+          "item": "Tech literacy",
+          "dots": 3
+        },
+        {
           "item": "What are the AI skills of the future",
           "dots": 2
         },
         {
+          "item": "Effective use and legibility",
+          "dots": 2
+        },
+        {
           "item": "How to use AI",
+          "dots": 1
+        },
+        {
+          "item": "Learning experience, tool utilization",
+          "dots": 1
+        },
+        {
+          "item": "Chatbot skills",
+          "dots": 1
+        },
+        {
+          "item": "Prompt building",
           "dots": 1
         }
       ]
     },
     {
       "category": "Real-world use cases",
-      "dots": 23,
+      "dots": 29,
       "sub_items": [
         {
           "item": "Agentic AI for workflows/use cases esp. in gov work",
@@ -115,14 +185,64 @@
           "dots": 5
         },
         {
+          "item": "Policymaker role in AI and impacts thereof",
+          "dots": 5
+        },
+        {
           "item": "Sectoral AI use case examples",
           "dots": 3
+        },
+        {
+          "item": "Admin (using agents)",
+          "dots": 1
+        }
+      ]
+    },
+    {
+      "category": "AI policy/guidance standardization",
+      "dots": 29,
+      "sub_items": [
+        {
+          "item": "Responsible use of AI/understanding constraints and threats",
+          "dots": 13
+        },
+        {
+          "item": "School should be strict about using AI",
+          "dots": 4
+        },
+        {
+          "item": "More/different AI subscriptions by Harvard and transparency over what Harvard can see",
+          "dots": 3
+        },
+        {
+          "item": "Accountability process understanding",
+          "dots": 3
+        },
+        {
+          "item": "Teacher discretion on AI usage",
+          "dots": 2
+        },
+        {
+          "item": "Governance, do's, don'ts, and general information",
+          "dots": 2
+        },
+        {
+          "item": "Faster and better AI options",
+          "dots": 2
+        },
+        {
+          "item": "Standardize AI guidance across classes",
+          "dots": 0
+        },
+        {
+          "item": "Standardize disciplinary AI use",
+          "dots": 0
         }
       ]
     },
     {
       "category": "Critical thinking about AI output",
-      "dots": 23,
+      "dots": 28,
       "sub_items": [
         {
           "item": "Consider expectations of output with readings",
@@ -137,59 +257,49 @@
           "dots": 4
         },
         {
+          "item": "Avoid AI training, encourage lack of use",
+          "dots": 2
+        },
+        {
+          "item": "Humans' value-add",
+          "dots": 2
+        },
+        {
           "item": "Good output vs bad output",
+          "dots": 1
+        },
+        {
+          "item": "AI solutions vs non-AI",
           "dots": 1
         }
       ]
     },
     {
-      "category": "AI policy/guidance standardization",
-      "dots": 19,
+      "category": "AI ethics, equity, and responsibility",
+      "dots": 22,
       "sub_items": [
         {
-          "item": "Responsible use of AI/understanding constraints and threats",
-          "dots": 13
+          "item": "Discuss ethics and people behind AI",
+          "dots": 7
         },
         {
-          "item": "School should be strict about using AI",
+          "item": "Expand AI use discussion (e.g. coding, counter-arguments)",
           "dots": 4
         },
         {
-          "item": "Teacher discretion on AI usage",
-          "dots": 2
+          "item": "AI ethics and academic intention setting",
+          "dots": 3
         },
         {
-          "item": "Standardize AI guidance across classes",
-          "dots": 0
+          "item": "Environmental impact of AI",
+          "dots": 3
         },
         {
-          "item": "Standardize disciplinary AI use",
-          "dots": 0
-        }
-      ]
-    },
-    {
-      "category": "Hands-on practice and tools in curriculum",
-      "dots": 21,
-      "sub_items": [
-        {
-          "item": "Give tools and opportunities to use it in the curriculum",
-          "dots": 10
+          "item": "Ethical uses/environment etc.",
+          "dots": 3
         },
         {
-          "item": "Dedicated projects or spaces to get practice using AI",
-          "dots": 5
-        },
-        {
-          "item": "AI/durable skill building",
-          "dots": 2
-        },
-        {
-          "item": "Weaving AI into curriculum",
-          "dots": 2
-        },
-        {
-          "item": "Classes on AI with practice using it",
+          "item": "Lack of equity of AI",
           "dots": 2
         }
       ]
@@ -243,34 +353,16 @@
       ]
     },
     {
-      "category": "AI ethics, equity, and responsibility",
-      "dots": 15,
-      "sub_items": [
-        {
-          "item": "Discuss ethics and people behind AI",
-          "dots": 7
-        },
-        {
-          "item": "AI ethics and academic intention setting",
-          "dots": 3
-        },
-        {
-          "item": "Ethical uses/environment etc.",
-          "dots": 3
-        },
-        {
-          "item": "Lack of equity of AI",
-          "dots": 2
-        }
-      ]
-    },
-    {
       "category": "Data and research applications",
-      "dots": 8,
+      "dots": 11,
       "sub_items": [
         {
           "item": "Data analysis and statistics",
           "dots": 4
+        },
+        {
+          "item": "R and vibe coding",
+          "dots": 3
         },
         {
           "item": "Research and policy applications",
