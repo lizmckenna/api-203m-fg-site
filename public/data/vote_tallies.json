@@ -1,7 +1,7 @@
 {
   "two_sided_risk": {
-    "overuse": 31,
-    "underuse": 24,
+    "overuse": 36,
+    "underuse": 25,
     "ambivalent": 0,
     "by_fg": {
       "01-Cheng": {
@@ -11,10 +11,10 @@
         "note": ""
       },
       "02-Chyung": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 5,
+        "underuse": 1,
         "ambivalent": null,
-        "note": "lots of agreement on concern A; qualitative lean-A"
+        "note": "moderator: 'mainly concern one' (estimated 5/1 from 6 participants)"
       },
       "03-Davis": {
         "overuse": 6,
@@ -65,7 +65,7 @@
         "note": "notes only, no transcript"
       }
     },
-    "fg_votes_recorded": 9
+    "fg_votes_recorded": 10
   },
   "collapsed_categories": [
     {
