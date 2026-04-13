@@ -1,12 +1,12 @@
 {
   "two_sided_risk": {
-    "overuse": 0,
-    "underuse": 0,
+    "overuse": 25,
+    "underuse": 24,
     "ambivalent": 0,
     "by_fg": {
       "01-Cheng": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 3,
+        "underuse": 3,
         "ambivalent": null,
         "note": ""
       },
@@ -14,65 +14,622 @@
         "overuse": null,
         "underuse": null,
         "ambivalent": null,
-        "note": ""
+        "note": "lots of agreement on concern A; qualitative lean-A"
       },
       "03-Davis": {
         "overuse": null,
         "underuse": null,
         "ambivalent": null,
-        "note": ""
+        "note": "everyone chose concern A; qualitative lean-A"
       },
       "04-Fausto": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 3,
+        "underuse": 3,
         "ambivalent": null,
         "note": ""
       },
       "05-Ge": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 4,
+        "underuse": 2,
         "ambivalent": null,
         "note": ""
       },
       "06-Giles": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 4,
+        "underuse": 2,
+        "ambivalent": null,
+        "note": ""
+      },
+      "07-KlineCostaChavez": {
+        "overuse": 2,
+        "underuse": 5,
         "ambivalent": null,
         "note": ""
       },
       "08-Mardia": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 4,
+        "underuse": 2,
         "ambivalent": null,
         "note": ""
       },
       "10-Sanchez": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 3,
+        "underuse": 3,
         "ambivalent": null,
         "note": ""
       },
       "11-Workman": {
-        "overuse": null,
-        "underuse": null,
+        "overuse": 2,
+        "underuse": 4,
         "ambivalent": null,
         "note": "notes only, no transcript"
       }
     },
-    "fg_votes_recorded": 0
+    "fg_votes_recorded": 8
   },
   "pair_share_dots": {
-    "items_aggregated": [],
+    "items_aggregated": [
+      {
+        "item": "Responsible use of AI, understanding constraints and threats of AI",
+        "count": 13,
+        "fgs": [
+          "06-Giles"
+        ]
+      },
+      {
+        "item": "Consider expectations of output with readings",
+        "count": 10,
+        "fgs": [
+          "05-Ge"
+        ]
+      },
+      {
+        "item": "Agentic AI for workflows, use cases esp. in gov work",
+        "count": 9,
+        "fgs": [
+          "06-Giles"
+        ]
+      },
+      {
+        "item": "Safe and efficient AI use",
+        "count": 7,
+        "fgs": [
+          "10-Sanchez"
+        ]
+      },
+      {
+        "item": "Building tangible things",
+        "count": 6,
+        "fgs": [
+          "02-Chyung"
+        ]
+      },
+      {
+        "item": "Real-world use case policies, how alumni and employers are using it",
+        "count": 6,
+        "fgs": [
+          "04-Fausto"
+        ]
+      },
+      {
+        "item": "Shorter workshops on AI use, integrated into required events like orientation",
+        "count": 6,
+        "fgs": [
+          "04-Fausto"
+        ]
+      },
+      {
+        "item": "AI professional skill building, competency training",
+        "count": 6,
+        "fgs": [
+          "11-Workman"
+        ]
+      },
+      {
+        "item": "Workplace and skill impacts, coding",
+        "count": 5,
+        "fgs": [
+          "02-Chyung"
+        ]
+      },
+      {
+        "item": "Dedicated projects or spaces to get practice using AI",
+        "count": 5,
+        "fgs": [
+          "04-Fausto"
+        ]
+      },
+      {
+        "item": "Advanced AI policy at HKS, uniform policy across classes, ensuring students understand their output",
+        "count": 5,
+        "fgs": [
+          "06-Giles"
+        ]
+      },
+      {
+        "item": "Policymaker role in AI and impacts thereof",
+        "count": 5,
+        "fgs": [
+          "07-KlineCostaChavez"
+        ]
+      },
+      {
+        "item": "Economics of AI discussion, labor market impact",
+        "count": 5,
+        "fgs": [
+          "07-KlineCostaChavez"
+        ]
+      },
+      {
+        "item": "AI for learning, framework",
+        "count": 5,
+        "fgs": [
+          "08-Mardia"
+        ]
+      },
+      {
+        "item": "Data analysis and statistics",
+        "count": 4,
+        "fgs": [
+          "01-Cheng"
+        ]
+      },
+      {
+        "item": "Strategic use in relation to future jobs",
+        "count": 4,
+        "fgs": [
+          "01-Cheng"
+        ]
+      },
+      {
+        "item": "Expand AI use discussion (e.g. coding, counter-arguments)",
+        "count": 4,
+        "fgs": [
+          "05-Ge"
+        ]
+      },
+      {
+        "item": "School should be strict about using AI",
+        "count": 4,
+        "fgs": [
+          "08-Mardia"
+        ]
+      },
+      {
+        "item": "Encourage us to use AI",
+        "count": 4,
+        "fgs": [
+          "08-Mardia"
+        ]
+      },
+      {
+        "item": "AI related content in class and assignments",
+        "count": 3,
+        "fgs": [
+          "01-Cheng"
+        ]
+      },
+      {
+        "item": "R and vibe coding",
+        "count": 3,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "Tech literacy",
+        "count": 3,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "AI curriculum",
+        "count": 3,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "More and different AI subscriptions by Harvard and transparency over what Harvard can see",
+        "count": 3,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "AI ethics and academic intention setting",
+        "count": 3,
+        "fgs": [
+          "07-KlineCostaChavez"
+        ]
+      },
+      {
+        "item": "Environmental impact of AI",
+        "count": 3,
+        "fgs": [
+          "07-KlineCostaChavez"
+        ]
+      },
+      {
+        "item": "Proofreading/dogfooding (stress-test)",
+        "count": 3,
+        "fgs": [
+          "10-Sanchez"
+        ]
+      },
+      {
+        "item": "Accountability process understanding",
+        "count": 3,
+        "fgs": [
+          "11-Workman"
+        ]
+      },
+      {
+        "item": "Mental impacts of over-reliance",
+        "count": 2,
+        "fgs": [
+          "01-Cheng"
+        ]
+      },
+      {
+        "item": "Governance, do's, don'ts, and general information",
+        "count": 2,
+        "fgs": [
+          "02-Chyung"
+        ]
+      },
+      {
+        "item": "Effective use and legibility",
+        "count": 2,
+        "fgs": [
+          "02-Chyung"
+        ]
+      },
+      {
+        "item": "Humans' value-add",
+        "count": 2,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "Research and policy applications",
+        "count": 2,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "Faster and better AI options",
+        "count": 2,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "Classes on AI with practice using it",
+        "count": 2,
+        "fgs": [
+          "04-Fausto"
+        ]
+      },
+      {
+        "item": "Lack of equity of AI",
+        "count": 2,
+        "fgs": [
+          "07-KlineCostaChavez"
+        ]
+      },
+      {
+        "item": "Upskilling workshops",
+        "count": 2,
+        "fgs": [
+          "07-KlineCostaChavez"
+        ]
+      },
+      {
+        "item": "Train us to AI for jobs",
+        "count": 2,
+        "fgs": [
+          "08-Mardia"
+        ]
+      },
+      {
+        "item": "AI memo writing (where allowed)",
+        "count": 2,
+        "fgs": [
+          "10-Sanchez"
+        ]
+      },
+      {
+        "item": "Application of AI for career skills",
+        "count": 2,
+        "fgs": [
+          "10-Sanchez"
+        ]
+      },
+      {
+        "item": "What are the AI skills of the future",
+        "count": 2,
+        "fgs": [
+          "10-Sanchez"
+        ]
+      },
+      {
+        "item": "Weaving AI into curriculum",
+        "count": 2,
+        "fgs": [
+          "11-Workman"
+        ]
+      },
+      {
+        "item": "AI/durable skill building",
+        "count": 2,
+        "fgs": [
+          "11-Workman"
+        ]
+      },
+      {
+        "item": "Good output vs bad output",
+        "count": 1,
+        "fgs": [
+          "01-Cheng"
+        ]
+      },
+      {
+        "item": "AI solutions vs non-AI",
+        "count": 1,
+        "fgs": [
+          "02-Chyung"
+        ]
+      },
+      {
+        "item": "Learning experience, tool utilization",
+        "count": 1,
+        "fgs": [
+          "02-Chyung"
+        ]
+      },
+      {
+        "item": "Chatbot skills",
+        "count": 1,
+        "fgs": [
+          "03-Davis"
+        ]
+      },
+      {
+        "item": "Data viz and AI",
+        "count": 1,
+        "fgs": [
+          "07-KlineCostaChavez"
+        ]
+      },
+      {
+        "item": "How to use AI",
+        "count": 1,
+        "fgs": [
+          "08-Mardia"
+        ]
+      }
+    ],
     "by_fg": {
-      "01-Cheng": [],
-      "02-Chyung": [],
-      "03-Davis": [],
-      "04-Fausto": [],
-      "05-Ge": [],
-      "06-Giles": [],
-      "08-Mardia": [],
-      "10-Sanchez": [],
-      "11-Workman": []
+      "01-Cheng": [
+        {
+          "item": "Data analysis and statistics",
+          "count": 4
+        },
+        {
+          "item": "Strategic use in relation to future jobs",
+          "count": 4
+        },
+        {
+          "item": "Good output vs bad output",
+          "count": 1
+        },
+        {
+          "item": "Mental impacts of over-reliance",
+          "count": 2
+        },
+        {
+          "item": "AI related content in class and assignments",
+          "count": 3
+        }
+      ],
+      "02-Chyung": [
+        {
+          "item": "Building tangible things",
+          "count": 6
+        },
+        {
+          "item": "Governance, do's, don'ts, and general information",
+          "count": 2
+        },
+        {
+          "item": "AI solutions vs non-AI",
+          "count": 1
+        },
+        {
+          "item": "Workplace and skill impacts, coding",
+          "count": 5
+        },
+        {
+          "item": "Learning experience, tool utilization",
+          "count": 1
+        },
+        {
+          "item": "Effective use and legibility",
+          "count": 2
+        }
+      ],
+      "03-Davis": [
+        {
+          "item": "Humans' value-add",
+          "count": 2
+        },
+        {
+          "item": "R and vibe coding",
+          "count": 3
+        },
+        {
+          "item": "Research and policy applications",
+          "count": 2
+        },
+        {
+          "item": "Chatbot skills",
+          "count": 1
+        },
+        {
+          "item": "Tech literacy",
+          "count": 3
+        },
+        {
+          "item": "AI curriculum",
+          "count": 3
+        },
+        {
+          "item": "More and different AI subscriptions by Harvard and transparency over what Harvard can see",
+          "count": 3
+        },
+        {
+          "item": "Faster and better AI options",
+          "count": 2
+        }
+      ],
+      "04-Fausto": [
+        {
+          "item": "Dedicated projects or spaces to get practice using AI",
+          "count": 5
+        },
+        {
+          "item": "Real-world use case policies, how alumni and employers are using it",
+          "count": 6
+        },
+        {
+          "item": "Shorter workshops on AI use, integrated into required events like orientation",
+          "count": 6
+        },
+        {
+          "item": "Classes on AI with practice using it",
+          "count": 2
+        }
+      ],
+      "05-Ge": [
+        {
+          "item": "Expand AI use discussion (e.g. coding, counter-arguments)",
+          "count": 4
+        },
+        {
+          "item": "Consider expectations of output with readings",
+          "count": 10
+        }
+      ],
+      "06-Giles": [
+        {
+          "item": "Agentic AI for workflows, use cases esp. in gov work",
+          "count": 9
+        },
+        {
+          "item": "Responsible use of AI, understanding constraints and threats of AI",
+          "count": 13
+        },
+        {
+          "item": "Advanced AI policy at HKS, uniform policy across classes, ensuring students understand their output",
+          "count": 5
+        }
+      ],
+      "07-KlineCostaChavez": [
+        {
+          "item": "Data viz and AI",
+          "count": 1
+        },
+        {
+          "item": "Lack of equity of AI",
+          "count": 2
+        },
+        {
+          "item": "AI ethics and academic intention setting",
+          "count": 3
+        },
+        {
+          "item": "Policymaker role in AI and impacts thereof",
+          "count": 5
+        },
+        {
+          "item": "Upskilling workshops",
+          "count": 2
+        },
+        {
+          "item": "Economics of AI discussion, labor market impact",
+          "count": 5
+        },
+        {
+          "item": "Environmental impact of AI",
+          "count": 3
+        }
+      ],
+      "08-Mardia": [
+        {
+          "item": "School should be strict about using AI",
+          "count": 4
+        },
+        {
+          "item": "How to use AI",
+          "count": 1
+        },
+        {
+          "item": "Encourage us to use AI",
+          "count": 4
+        },
+        {
+          "item": "Train us to AI for jobs",
+          "count": 2
+        },
+        {
+          "item": "AI for learning, framework",
+          "count": 5
+        }
+      ],
+      "10-Sanchez": [
+        {
+          "item": "Proofreading/dogfooding (stress-test)",
+          "count": 3
+        },
+        {
+          "item": "AI memo writing (where allowed)",
+          "count": 2
+        },
+        {
+          "item": "Safe and efficient AI use",
+          "count": 7
+        },
+        {
+          "item": "Application of AI for career skills",
+          "count": 2
+        },
+        {
+          "item": "What are the AI skills of the future",
+          "count": 2
+        }
+      ],
+      "11-Workman": [
+        {
+          "item": "AI professional skill building, competency training",
+          "count": 6
+        },
+        {
+          "item": "Accountability process understanding",
+          "count": 3
+        },
+        {
+          "item": "Weaving AI into curriculum",
+          "count": 2
+        },
+        {
+          "item": "AI/durable skill building",
+          "count": 2
+        }
+      ]
     }
   }
 }
