@@ -32,7 +32,8 @@
           490
         ]
       }
-    ]
+    ],
+    "fg_id": "07-KlineCostaChavez"
   },
   {
     "id": "fg01-ai-muscle",
@@ -191,6 +192,126 @@
       {
         "speaker": "D",
         "text": "since there are no days when we don't use AI and I'm taking some writing course where I have to refrain myself not using since it's a writing course and otherwise I wouldn't learn anything but we are so habitual to give everything to AI so it's gonna be very hard in the coming days that if there are some courses in which we learn really something on our own then we have to make our brain habitual not using it for some stuff and in some cases that we just but I'm struggling I'm not using it for writing course because that's the one of the major thing I wanted to learn here"
+      }
+    ]
+  },
+  {
+    "id": "fg09-relationships-and-trust",
+    "fg_id": "09-Nachtwey",
+    "section_id": "s6_pair_share",
+    "line_range": [
+      206,
+      221
+    ],
+    "label": "What if I no longer believe my mother? On AI and the erosion of human trust",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "Yeah, we were talking about being able to discern what is good output from bad output. Sangam was also talking about the data analysis side \u2014 over reliance. Sangam was mentioning how worried about the over reliance on AI..."
+      },
+      {
+        "speaker": "MOD",
+        "text": "Can you say a little bit more about that?"
+      },
+      {
+        "speaker": "B",
+        "text": "About mental, mental impact for off reliance of AI? It could change the behavior, the way we think, the way we try to generate ideas, the way we even, the way we believe. This perspective \u2014 because what if someone no longer believe her mother or her wife, simply because AI can answer everything better?"
+      },
+      {
+        "speaker": "MOD",
+        "text": "Interesting example."
+      },
+      {
+        "speaker": "B",
+        "text": "So even I can no longer believe... I cannot no longer believe my peers or even my subordinate. One day I become a boss, because I really \u2014 I more more believe with AI right now."
+      },
+      {
+        "speaker": "A",
+        "text": "I also wonder if the way that we interact with AI will change the way that we interact with other humans \u2014 whether or not we're saying please and thank you, using manners, and how direct we are."
+      }
+    ]
+  },
+  {
+    "id": "fg04-refuse-in-government",
+    "fg_id": "04-Fausto",
+    "section_id": "s5_professional_readiness",
+    "line_range": [
+      219,
+      245
+    ],
+    "label": "Refusing AI in government: 'I would feel dishonest'",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "I think I could, but I'm not going to. It's my first foray into government. All my career is private sector, and I don't want to use it. I'm going to be with the caucus, and I'll be in North Carolina. The government wants \u2014 so I'm just refusing not to. I think I have the skills, but I would feel dishonest using, or giving it data, or even if it's anecdotal or qualitative. Like, I just don't feel like I want to do that."
+      },
+      {
+        "speaker": "B",
+        "text": "Is that because you worry that, if you put sensitive data \u2014 and if they're negative \u2014 and the cushions or something, or are mental?"
+      },
+      {
+        "speaker": "A",
+        "text": "All of us. All of us."
+      },
+      {
+        "speaker": "MOD",
+        "text": "Did you feel different about it when you were in the private sector?"
+      },
+      {
+        "speaker": "A",
+        "text": "Well, it was really a big thing in the private sector."
+      }
+    ]
+  },
+  {
+    "id": "fg06-inferior-to-college-self",
+    "fg_id": "06-Giles",
+    "section_id": "s4_two_sided_risk",
+    "line_range": [
+      92,
+      128
+    ],
+    "label": "Inferior to my college self: the atrophy concern",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "I voted for the first concern. Maybe part of the reason is because I'm an international student and I wanted to kind of improve my English by reading or practicing writing. But using AI is really convenient and it helps me a lot. At the same time, I feel like I kind of can't improve my skills \u2014 my own writing skills or my English skills. So I think I need to have some balance between improving my own skill and using AI effectively to shorten some time and the cost of work."
+      },
+      {
+        "speaker": "MOD",
+        "text": "Anyone else voted for concern one?"
+      },
+      {
+        "speaker": "B",
+        "text": "I came to Harvard. I realized that I developed AI using capability a lot. I use like multiple AI's \u2014 AI's from Google or Anthropic. I use about four to five AI's. Sometimes I think AI severely decreased my ability to assess something. So I'm trying not to use too much AI. These days I draft everything on my own, and I just ask for the editing of everything \u2014 just make it sound naturally for native speakers."
+      },
+      {
+        "speaker": "C",
+        "text": "I've been thinking a lot about how I didn't use AI in college at all, and feeling like inferior to my college self in the way that I have started to rely on it for so many assignments. Looking back retrospectively at what I was able to do on my own makes me more existentially stressed for my brain as I become more and more reliant on it."
+      }
+    ]
+  },
+  {
+    "id": "fg08-taught-himself-r",
+    "fg_id": "08-Mardia",
+    "section_id": "s5_professional_readiness",
+    "line_range": [
+      126,
+      140
+    ],
+    "label": "Taught himself R in two days: the fluency gap",
+    "turns": [
+      {
+        "speaker": "A",
+        "text": "I feel maybe I'm not the target demographic because I don't feel like I will be confident and prepared. People keep telling me like, oh, you can do this or you should be using Cod instead of Chat \u2014 it's way better for XYZ, it's way safer and ethical and whatever. And I'm like, I don't know. I feel like I have not a single course on it, we have not a single discussion. I've been much more in my own realm and not maybe dove into that, so I don't think I will be prepared. At least coming out of this program, it certainly won't give me any skill in it."
+      },
+      {
+        "speaker": "MOD",
+        "text": "Does anybody relate to what was just shared, or feel like that in a specific kind of way or skillset within AI?"
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe a relevant anecdote is yesterday I was in a network analysis workshop, which was mostly for researchers. One person there had never used R before and was so excited because he had taught himself how to use R using Claude in two days. And it was interesting to me because I chose not to take the R section and instead took Excel. That made me feel sort of indicted, because I was like \u2014 oh, maybe I can just teach myself R in two days using Claude. Or maybe I can't. I don't know. But it seemed like the person next to me had done it. So that was interesting."
       }
     ]
   }

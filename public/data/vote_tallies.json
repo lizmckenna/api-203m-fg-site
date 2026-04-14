@@ -1,7 +1,7 @@
 {
   "two_sided_risk": {
-    "overuse": 36,
-    "underuse": 25,
+    "overuse": 38,
+    "underuse": 29,
     "ambivalent": 0,
     "by_fg": {
       "01-Cheng": {
@@ -52,6 +52,12 @@
         "ambivalent": null,
         "note": ""
       },
+      "09-Nachtwey": {
+        "overuse": 2,
+        "underuse": 4,
+        "ambivalent": null,
+        "note": ""
+      },
       "10-Sanchez": {
         "overuse": 3,
         "underuse": 3,
@@ -65,7 +71,7 @@
         "note": "notes only, no transcript"
       }
     },
-    "fg_votes_recorded": 10
+    "fg_votes_recorded": 11
   },
   "collapsed_categories": [
     {
