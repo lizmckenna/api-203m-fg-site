@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20260414084653">
+  <link rel="stylesheet" href="styles.css?v=20260414090936">
 </head>
 <body>
 
@@ -25,11 +25,8 @@
     <a href="#methods-intro">methods</a>
     <a href="#method">tradeoffs</a>
     <a href="#three-codes">three codes</a>
-    <a href="#where-claude-broke">disagreements</a>
     <a href="#ai-slop">ai slop</a>
     <a href="#field-notes">field notes</a>
-    <a href="#themes">themes</a>
-    <a href="#exchanges">exchanges</a>
     <a href="#more-voices">more voices</a>
     <a href="#votes">votes</a>
     <a href="#comments">comments</a>
@@ -102,10 +99,10 @@
     <div class="methods-item">
       <div class="methods-item-label">coding</div>
       <div class="methods-item-body">
-        A 20-code a-priori deductive framework applied twice (once by the
-        instructor, once by Claude) with disagreements surfaced rather than
-        reconciled. One protocol section was also coded inductively by
-        hand as a demonstration.
+        A 20-code a-priori deductive framework applied by an LLM
+        (Claude), with human inductive coding surfaced rather than
+        reconciled. One focus group was also coded inductively by hand
+        as a demonstration.
       </div>
     </div>
     <div class="methods-item">
@@ -135,7 +132,7 @@
     <tbody>
       <tr>
         <td>human deductive</td>
-        <td>fast, comparable across FGs</td>
+        <td>fairly fast</td>
         <td><strong>blind to what you didn't ask</strong></td>
       </tr>
       <tr>
@@ -201,20 +198,6 @@
 </section>
 
 <!-- ================================================================
-     WHERE CLAUDE BROKE
-================================================================ -->
-<section id="where-claude-broke" class="section section-disagreements">
-  <div class="section-label">04 / where Claude broke</div>
-  <h2>Disagreements between me and the model.</h2>
-  <p class="section-lede">
-    These are the utterances where my codes and Claude's codes diverged.
-  </p>
-  <div id="disagreements-list" class="disagreements-list">
-    <div class="empty">no disagreements recorded yet.</div>
-  </div>
-</section>
-
-<!-- ================================================================
      AI SLOP DEMO
 ================================================================ -->
 <section id="ai-slop" class="section section-ai-slop">
@@ -248,8 +231,8 @@
   <p class="section-lede">
     A note-taker in each focus group wrote down what the microphone
     couldn't hear: who laughed, who went quiet, who crossed their arms,
-    who leaned in. Below are the most revealing of those observations
-    paired with the transcript moment they were describing.
+    who leaned in. Below are four moments — this is just a selection —
+    paired with the exchange in the transcript.
   </p>
   <div id="field-pairings" class="field-pairings">
     <div class="empty">no pairings yet — run <code>make stage01e</code>.</div>
@@ -259,33 +242,17 @@
 <!-- ================================================================
      THEMES (from inductive demo + deductive aggregate)
 ================================================================ -->
-<section id="themes" class="section section-themes">
-  <div class="section-label">06 / themes</div>
-  <h2>What the students said.</h2>
-  <p class="section-lede">
-    Aggregated across focus groups. Each theme shows its code definition,
-    how many utterances landed there, and up to five example quotes. Hover
-    a quote to see which focus group it came from.
-  </p>
-  <div id="themes-list" class="themes-list">
-    <div class="empty">no themes computed yet.</div>
-  </div>
-</section>
-
 <!-- ================================================================
-     EXCHANGES — multi-voice moments
+     EXECUTIVE SUMMARY placeholder (replaces themes + exchanges sections)
 ================================================================ -->
-<section id="exchanges" class="section section-exchanges">
-  <div class="section-label">/ exchanges</div>
-  <h2>When students talked to each other.</h2>
+<section id="exec-summary" class="section section-exec-summary">
+  <div class="section-label">06 / executive summary</div>
+  <h2>Coming soon.</h2>
   <p class="section-lede">
-    A focus group is not a group interview. The moments below are where
-    participants responded directly to each other, not just to the
-    moderator. Different voices are labeled A, B, C, D.
+    We're going to build an example executive summary of what the focus
+    groups said, as a demonstration of how findings get synthesized from
+    qualitative data. Check back after class 12.
   </p>
-  <div id="exchanges-list" class="exchanges-list">
-    <div class="empty">no exchanges curated yet.</div>
-  </div>
 </section>
 
 <!-- ================================================================
@@ -295,14 +262,15 @@
   <div class="section-label">/ more voices</div>
   <h2>More from the focus groups.</h2>
   <p class="section-lede">
-    Substantive quotes that didn't get assigned to any of the curated
-    sections above. Still worth reading. Ordered by protocol section so
-    you can browse by topic.
+    Every substantive quote from the eleven focus groups, plus the eleven
+    multi-voice exchanges, grouped by the section of the protocol they
+    came from. Lives on its own page so it doesn't swallow this one.
   </p>
-  <div id="more-voices-filters" class="more-voices-filters"></div>
-  <div id="more-voices-list" class="more-voices-list">
-    <div class="empty">quote bank not built yet.</div>
-  </div>
+  <p class="more-voices-cta">
+    <a class="more-voices-link" href="quotes.html">
+      Open the quote bank →
+    </a>
+  </p>
 </section>
 
 <!-- ================================================================
@@ -398,6 +366,6 @@
   </form>
 </dialog>
 
-<script type="module" src="app.js?v=20260414084653"></script>
+<script type="module" src="app.js?v=20260414090936"></script>
 </body>
 </html>

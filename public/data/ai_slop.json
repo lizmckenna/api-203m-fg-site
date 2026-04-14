@@ -909,26 +909,6 @@
         "evidence": "I think I feel that a lot. Like I fear that AI is making me less creative a lot."
       },
       {
-        "name": "Lack of Clear Ethical Guidelines",
-        "description": "Students feel confused by ambiguous or inconsistent institutional policies about acceptable AI use, creating anxiety about crossing ethical boundaries unknowingly.",
-        "evidence": "I wish there was an ethical guideline list from HKS. These are the yes buckets. The green buckets, the red buckets, and the yellow buckets... I experience a lot of anxiety in the gray areas. Where I'm like, am I near the line?"
-      },
-      {
-        "name": "Trust and Accountability Issues",
-        "description": "Participants emphasized the need to personally verify and defend every piece of work, expressing distrust in AI-generated content due to accuracy concerns and professional accountability requirements.",
-        "evidence": "I need to be able to like maybe this is like paranoid of me, like defend every sentence I put in a memo or like recommendation. I can't just spit out like what feels like paragraphs."
-      },
-      {
-        "name": "Domain-Specific Utility Varies",
-        "description": "Students noted that AI effectiveness differs dramatically by field\u2014excelling at quantitative/technical tasks but struggling with nuanced, qualitative, or creative work.",
-        "evidence": "AI is fantastic at anything quantitative because math is math... My focus at Kennedy School has been in international relations, which is by definition gray areas... I've just found that it just gives me the most generic, like boring, not like really thinking."
-      },
-      {
-        "name": "Desire for Practical AI Training",
-        "description": "Students want concrete instruction on prompt engineering, ethical frameworks, and technical understanding of how AI works, rather than vague policies or theoretical discussions.",
-        "evidence": "Just like having, you know, an hour seminar by some AI researcher teaching us how to write prompts and like telling us how like neural networks work better so we could just more effectively use it would be pretty helpful."
-      },
-      {
         "name": "Professional Context Matters",
         "description": "Acceptable and practical AI use varies significantly by career field, with some professions (like law) having strict limitations while others expect fluency, creating confusion about how to prepare.",
         "evidence": "There are a lot of legal and ethical things around using AI with consumer data and where that data goes... The legal profession will probably be the most conservative when it comes to this type of use... Not all chat bots are created equal and not all chat bots should be used for the exact same things."

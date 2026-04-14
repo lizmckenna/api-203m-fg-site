@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quote bank — API-203M</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-course">API-203M</span>
+    <span class="brand-term">SPRING 2026</span>
+  </div>
+  <nav class="site-nav">
+    <a href="index.html">← back to site</a>
+    <a href="#s2_warmup_goaround">warm-up</a>
+    <a href="#s3_warmup_reaction">reaction</a>
+    <a href="#s4_two_sided_risk">risk vote</a>
+    <a href="#s5_professional_readiness">readiness</a>
+    <a href="#s6_pair_share">pair share</a>
+    <a href="#exchanges">exchanges</a>
+  </nav>
+</header>
+
+<section class="hero hero-compact">
+  <div class="hero-inner">
+    <div class="hero-meta">Quote bank</div>
+    <h1>What they said,<br>in their own words.</h1>
+    <p class="hero-lede">
+      Every substantive quote pulled from the eleven focus groups, grouped
+      by the section of the protocol it came from, plus the multi-voice
+      exchanges where participants responded directly to each other.
+      <span id="qb-counts"></span>
+    </p>
+  </div>
+</section>
+
+<main id="qb-root" class="section qb-root">
+  <div class="empty">loading quote bank…</div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>API-203M, Spring 2026. <a href="https://github.com/lizmckenna/api-203m-fg-site">source</a>.</div>
+    <div class="footer-note">
+      Participant names pseudonymized. Quote consent obtained prior to recording.
+    </div>
+  </div>
+</footer>
+
+<script type="module">
+const CACHE_BUST = `?v=${Date.now()}`;
+
+function escape(s) {
+  if (s == null) return "";
+  return String(s)
+    .replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;").replaceAll("'","&#39;");
+}
+
+const SECTIONS = [
+  { id: "s2_warmup_goaround",       label: "warm-up go-around" },
+  { id: "s3_warmup_reaction",       label: "group reaction" },
+  { id: "s4_two_sided_risk",        label: "two-sided risk vote" },
+  { id: "s5_professional_readiness",label: "professional readiness" },
+  { id: "s6_pair_share",            label: "pair share" },
+];
+
+async function loadJSON(path) {
+  const r = await fetch(path + CACHE_BUST);
+  if (!r.ok) return null;
+  return r.json();
+}
+
+function quoteCard(q) {
+  const topics = (q.topics || []).map(t => `<span class="qb-topic">${escape(t)}</span>`).join("");
+  const text = q.cleaned_text || q.raw_text || "";
+  return `
+    <article class="qb-quote">
+      <blockquote class="qb-quote-text">${escape(text)}</blockquote>
+      <div class="qb-quote-meta">
+        ${topics}
+      </div>
+    </article>`;
+}
+
+function exchangeCard(x) {
+  const turns = (x.turns || []).map((t, i) => {
+    const letter = String.fromCharCode(65 + (i % 6));
+    return `<p class="qb-exchange-turn"><span class="qb-exchange-speaker">${letter}</span>${escape(t.text)}</p>`;
+  }).join("");
+  return `
+    <article class="qb-exchange">
+      <h3 class="qb-exchange-label">${escape(x.label || "")}</h3>
+      <div class="qb-exchange-body">${turns}</div>
+    </article>`;
+}
+
+(async () => {
+  const [bank, exchanges] = await Promise.all([
+    loadJSON("public/data/quote_bank.json"),
+    loadJSON("public/data/exchanges.json"),
+  ]);
+
+  const root = document.getElementById("qb-root");
+  const quotes = (bank && bank.quotes) || [];
+  const xs = Array.isArray(exchanges) ? exchanges : [];
+
+  document.getElementById("qb-counts").textContent =
+    ` ${quotes.length} quotes · ${xs.length} exchanges.`;
+
+  const bySection = {};
+  for (const q of quotes) (bySection[q.section_id] ||= []).push(q);
+
+  const html = [];
+  for (const s of SECTIONS) {
+    const list = bySection[s.id] || [];
+    if (!list.length) continue;
+    html.push(`
+      <section id="${s.id}" class="qb-section">
+        <div class="section-label">${escape(s.label)}</div>
+        <h2>${list.length} quote${list.length===1?"":"s"} from the ${escape(s.label)} section.</h2>
+        <div class="qb-quotes">${list.map(quoteCard).join("")}</div>
+      </section>
+    `);
+  }
+
+  if (xs.length) {
+    html.push(`
+      <section id="exchanges" class="qb-section">
+        <div class="section-label">exchanges</div>
+        <h2>When students talked to each other.</h2>
+        <p class="section-lede">
+          The moments where participants responded directly to each other,
+          not just to the moderator. Different voices are labeled A, B, C, D.
+        </p>
+        <div class="qb-exchanges">${xs.map(exchangeCard).join("")}</div>
+      </section>
+    `);
+  }
+
+  root.innerHTML = html.join("") || `<div class="empty">no quotes found.</div>`;
+})();
+</script>
+
+</body>
+</html>

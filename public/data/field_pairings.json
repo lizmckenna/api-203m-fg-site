@@ -171,204 +171,80 @@
         }
       ],
       "section_id": "s4_two_sided_risk"
-    },
+    }
+  ],
+  "10-Sanchez": [
     {
-      "observation": "When another participant asked one how he reacted to his student using AI to complete a homework assignment, he hesitated and scratched his neck, then pushed forward.",
-      "label": "a defensive hand gesture when challenged on teaching standards",
       "affect": "tense",
+      "label": "defending the vote: guilt of using AI vs. anxiety of not using enough",
+      "observation": "A long stretch where participants defend their vote on which AI anxiety feels more real \u2014 the guilt of using it too much, or the fear of being left behind. The conversation circles the contradiction without resolving it.",
+      "section_id": "s4_two_sided_risk",
       "transcript_lines": [
         {
-          "line_id": 273,
-          "speaker": "STU",
-          "text": "When did you end up telling him?",
-          "section_id": "s4_two_sided_risk"
+          "line_id": 100,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "A",
+          "text": "ones okay um so anyone wants to defend their their vote?"
         },
         {
-          "line_id": 274,
-          "speaker": "STU",
-          "text": "I mean, I did not tell him about making a better prompt.",
-          "section_id": "s4_two_sided_risk"
+          "line_id": 101,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "B",
+          "text": "This is something I've been struggling with a lot like when I first came to HKS um I'd really never used AI before um just like when I was in college it wasn't a thing when I was in the workforce it wasn't a thing maybe I'd use it to come up with like punchy titles for like pitches for in my past comms job um but that was really and then like the busier I've gotten at school the more readings and the more helpful I found it um and I always feel like guilty when I use it like wow I should really be figuring out how to rework the sentence myself versus like put my own thought in um and have it put it back in a way if I'm like I don't like how I said this fix it oh that is what I wanted to say um but that is something that like really upsets me too because I'm like I love writing I think writing is such a good way to learn um and I'm always like doing the thoughts and concepts myself it's just sometimes like the cleaning up that it's so helpful it'll be like it'll spark another thought for me where it's like oh yeah now I know what I want to say because I saw it written a different way um but then yeah I just also just struggle with wanting to feel like I'm learning and like not using a crutch to accomplish stuff and contrasting that with being so busy and overwhelmed at school"
         },
         {
-          "line_id": 275,
-          "speaker": "STU",
-          "text": "So I said,",
-          "section_id": "s4_two_sided_risk"
+          "line_id": 102,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "C",
+          "text": "I'm doing research with a couple other people with a fellow on intellectual atrophy from AI and it's like a real concern that like your ability to use judgment and especially if you're not doing first passes on things to lose that muscle but I think that like when I thought about how you frame the two options like I think not using AI is more costly than like learning how to use AI in a way that is still conducive to your learning which I think is totally possible and that's kind of like the thesis of the paper which is like there is a way to use AI that still preserves your ability to learn and also focuses on like enduring human skills um as opposed to just ignoring it and losing out because I'm working in like an AI native like not profit right now and like it's really important that we understand how to build and use AI or else we can't compete"
         },
         {
-          "line_id": 276,
-          "speaker": "STU",
-          "text": "I was like, okay, let's give me that presentation right now",
-          "section_id": "s4_two_sided_risk"
+          "line_id": 103,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "D",
+          "text": "I used to worry more about like the losing skills part but my partner he is doing a gap year right now and he spends eight hours a day using fluid to build different things um because it helps him all kinds of projects and I think like seeing that has made me realize that that is something I would not be able to do right now and I feel like that might also be like of course our situation is a little bit special because he is doing a gap year but I think that there's also a gender gap emerging and how we're using AI and I think if you just use it to outsource your learning then it's a problem for you but if you use it to enhance your skills like for instance your coding abilities and then it can really help you succeed and I fear that if like if AI takes over a lot of jobs in the labor market then everyone who is not capable of using it in that way might be at risk of using their job at least if they have like desk jobs um so I've started to become more worried"
         },
         {
-          "line_id": 277,
-          "speaker": "STU",
-          "text": "and he fumbled through it.",
-          "section_id": "s4_two_sided_risk"
+          "line_id": 104,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "E",
+          "text": "I don't know if other people feel this way too but there's some like anxiety surrounding it in the sense that like oh if I used AI for this and someone else didn't like are they better than me are they doing school better how can they manage their time and like get all this done without AI when like I'm drowning in work and almost all hours of the day and sometimes need to use it to help me not like do the work but like summarize a reading or clean up the sentence as I mentioned before um then you hear like someone else like no I don't really use AI for that or no I haven't and then you're like well what am I doing wrong so I think that's another interesting aspect of just like being at a very like competitive and like hard time I feel like I almost I have the opposite anxiety where I'm like where's the fine line of turning in something that like the sentences like maybe I had some help editing it through AI like like where's the line of like me being allowed to do that and then me like getting expelled for plagiarism like not like I don't abuse AI in that way but I feel like especially coming here I'm like oh my gosh I got to Harvard I did it what if I get expelled because I used AI in the wrong way and so I almost have anxiety from that I think the other piece is like some of the assignments we got for this class I felt very proud of because I didn't use AI at all like for the like the interview you're not really using AI or for observation you're not using AI and so it felt good I felt a lot more proud of things I've turned in where I haven't touched at all anyone else felt that anxiety of like oh no did I use too much AI am I gonna get in trouble you know"
         },
         {
-          "line_id": 278,
-          "speaker": "STU",
-          "text": "Kind of proved the point.",
-          "section_id": "s4_two_sided_risk"
-        },
-        {
-          "line_id": 279,
-          "speaker": "STU",
-          "text": "If you don't actually know what you're putting into it",
-          "section_id": "s4_two_sided_risk"
-        },
-        {
-          "line_id": 280,
-          "speaker": "STU",
-          "text": "when it comes out, you're not going to be able to speak to it.",
-          "section_id": "s4_two_sided_risk"
-        },
-        {
-          "line_id": 281,
-          "speaker": "STU",
-          "text": "And kind of what we see here,",
-          "section_id": "s4_two_sided_risk"
+          "line_id": 105,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "F",
+          "text": "since there are no days when we don't use AI and I'm taking some writing course where I have to refrain myself not using since it's a writing course and otherwise I wouldn't learn anything but we are so habitual to give everything to AI so it's gonna be very hard in the coming days that if there are some courses in which we learn really something on our own then we have to make our brain habitual not using it for some stuff and in some cases that we just but I'm struggling I'm not using it for writing course because that's the one of the major thing I wanted to learn here"
         }
-      ],
-      "section_id": "s4_two_sided_risk"
-    },
+      ]
+    }
+  ],
+  "03-Davis": [
     {
-      "observation": "Everyone is engaged in intense conversation when they break into groups. It takes the moderator a few attempts to bring everyone back.",
-      "label": "the room went hard into pair work",
-      "affect": "engaged",
+      "affect": "disagreement",
+      "label": "is AI just a calculator?",
+      "observation": "Three participants in consecutive turns disagreeing on whether AI will become the next calculator \u2014 a tool you cannot not use, or a shortcut that weakens the skill it is supposed to help.",
+      "section_id": "s4_two_sided_risk",
       "transcript_lines": [
         {
-          "line_id": 561,
-          "speaker": "STU",
-          "text": "we're free.",
-          "section_id": "s6_pair_share"
+          "line_id": 100,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "A",
+          "text": "Actually, in South Korea, a student, especially elementary school students, and middle school students, all other students are not allowed to use calculator in mathematics class. But in America, many people use calculator, right? It is, I think, in the future, AI becomes kind of a calculator in the end. But I have my daughter, and I recommend her not to use calculator, but calculate by your brain. It is very helpful to learn something, learn mathematics, scheme, and mathematics structures. So, in terms of academic fields, AI is definitely not useful to learning and structuring our knowledge."
         },
         {
-          "line_id": 562,
-          "speaker": "STU",
-          "text": "I mean,",
-          "section_id": "s6_pair_share"
+          "line_id": 101,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "B",
+          "text": "So, saying you have to just learn to do it yourself before you start using... But I think in the end, in the future, it could be like a calculator. So, everybody should use it in order to be more efficient."
         },
         {
-          "line_id": 563,
-          "speaker": "STU",
-          "text": "you can just say",
-          "section_id": "s6_pair_share"
-        },
-        {
-          "line_id": 564,
-          "speaker": "STU",
-          "text": "I don't have too much",
-          "section_id": "s6_pair_share"
-        },
-        {
-          "line_id": 565,
-          "speaker": "STU",
-          "text": "I can observe here.",
-          "section_id": "s6_pair_share"
-        },
-        {
-          "line_id": 625,
-          "speaker": "STU",
-          "text": "And the next step, sorry that you guys.",
-          "section_id": "s6_pair_share"
-        },
-        {
-          "line_id": 626,
-          "speaker": "STU",
-          "text": "We're gonna go around table and write the ideas",
-          "section_id": "s6_pair_share"
+          "line_id": 102,
+          "section_id": "s4_two_sided_risk",
+          "speaker": "C",
+          "text": "I do think, for example, it's really great for coding. Like, the role of a simple software engineer will be eliminated because this is exactly what AI is better at doing at. Hopefully, for jobs, whether it's in physics or chemistry, where coding is sort of like it means to an end versus the career that this can help a lot with innovation. And I also think, in many ways, it's allowing people to innovate and maybe didn't have the technical skills prior. So, I think for those things, there will be always an efficiency argument, but I can really agree that in a classroom setting, and I think it has almost no use case."
         }
-      ],
-      "section_id": "s6_pair_share"
-    },
-    {
-      "observation": "Two participants put dots on quickly and then go back on their phones. Three participants linger to discuss with each other, asking each other to elaborate on their suggestions before they put their dots on.",
-      "label": "split investment during dot voting",
-      "affect": "other",
-      "transcript_lines": [
-        {
-          "line_id": 693,
-          "speaker": "STU",
-          "text": "But we can all start putting on stickers",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 694,
-          "speaker": "STU",
-          "text": "to the things you think are most important.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 695,
-          "speaker": "STU",
-          "text": "So it can be your own idea for us,",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 696,
-          "speaker": "STU",
-          "text": "or the ideas of your teammates.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 697,
-          "speaker": "STU",
-          "text": "The knees like have a meaning.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 715,
-          "speaker": "STU",
-          "text": "You can spread your dots across multiple items",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 716,
-          "speaker": "STU",
-          "text": "or put several.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 717,
-          "speaker": "STU",
-          "text": "They're like grams of them for ants.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 718,
-          "speaker": "STU",
-          "text": "Like, it looks like them.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 719,
-          "speaker": "STU",
-          "text": "It looks like the same thing.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 720,
-          "speaker": "STU",
-          "text": "I don't know.",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 721,
-          "speaker": "STU",
-          "text": "Which one is that?",
-          "section_id": "s7_dot_voting_close"
-        },
-        {
-          "line_id": 722,
-          "speaker": "STU",
-          "text": "That one.",
-          "section_id": "s7_dot_voting_close"
-        }
-      ],
-      "section_id": "s7_dot_voting_close"
+      ]
     }
   ]
 }

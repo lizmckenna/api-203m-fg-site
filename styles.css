@@ -1285,6 +1285,104 @@ strong { font-weight: 600; }
 }
 
 /* =====================================================================
+   More voices CTA (teaser → quote bank)
+   ===================================================================== */
+.more-voices-cta { margin-top: 1.25rem; }
+.more-voices-link {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.85rem 1.25rem;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--paper);
+  transition: background 0.15s, color 0.15s;
+}
+.more-voices-link:hover { background: var(--ink); color: var(--paper); }
+
+/* =====================================================================
+   Quote bank standalone page (quotes.html)
+   ===================================================================== */
+.hero-compact { padding: 3rem 0 2rem; }
+.qb-root { padding: 2rem 0 5rem; }
+.qb-section { margin-top: 3.5rem; }
+.qb-section:first-child { margin-top: 0; }
+.qb-section > h2 { margin-bottom: 2rem; }
+
+.qb-quotes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+.qb-quote {
+  border: 1px solid var(--rule);
+  padding: 1.25rem;
+  background: var(--paper);
+  display: flex; flex-direction: column; gap: 0.75rem;
+}
+.qb-quote-text {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0;
+  border-left: 2px solid var(--accent);
+  padding-left: 1rem;
+}
+.qb-quote-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.qb-topic {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  letter-spacing: 0.04em;
+  color: var(--ink-dim, #666);
+  border: 1px solid var(--rule);
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  background: transparent;
+}
+
+.qb-exchanges { display: flex; flex-direction: column; gap: 1.5rem; }
+.qb-exchange {
+  border: 1px solid var(--rule);
+  padding: 1.5rem;
+  background: var(--paper);
+}
+.qb-exchange-label {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: var(--ink);
+}
+.qb-exchange-turn {
+  font-family: var(--font-quote);
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 0.85rem 0;
+  padding-left: 2.25rem;
+  position: relative;
+}
+.qb-exchange-turn:last-child { margin-bottom: 0; }
+.qb-exchange-speaker {
+  position: absolute; left: 0; top: 0;
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  width: 1.5rem;
+  text-align: center;
+  border: 1px solid var(--accent);
+  padding: 0.1rem 0;
+}
+
+/* =====================================================================
    Responsive
    ===================================================================== */
 @media (max-width: 820px) {

@@ -1063,14 +1063,7 @@ function escape(s) {
   await renderMemo();
   await renderPositionality();
   await renderThreeCodes();
-  await renderDisagreements();
   await renderAiSlop();
   await renderFieldNotes();
-  await renderThemes();
-  await renderExchanges();
-  await renderMoreVoices();
   await renderVotes();
-  initStaticReactionBars();
-  await initAuth();
-  await initComments();
 })();

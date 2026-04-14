@@ -1300,29 +1300,6 @@
   },
   "ai_slop_rigorous": [
     {
-      "id": "4aef5e6878",
-      "fg_id": "01-Cheng",
-      "section_id": "s4_two_sided_risk",
-      "line_range": [
-        181,
-        193
-      ],
-      "raw_text": "I find that AI is really good at some things and really, really bad at other things. I mean, where my interests lie and are more so where AI is very bad. So like what Kathy was talking about coding, AI is fantastic at anything quantitative because math is math. It literally has its own set of rules. But LLMs are just predictive models or literally just statistical models. At this point, there's no like truly like, it's called generative AI right now. Like there's the next level where it's like truly thinking for itself. And so my focus at Kennedy School has been in international relations, which is by definition great areas, you know. And I found that trying to get it to see great areas, it's horrible at that because it's trained to go to like the most common, like the most statistically probable answer.",
-      "cleaned_text": "I find that AI is really good at some things and really, really bad at other things. I mean, where my interests lie ... are more so where AI is very bad. So like what Kathy was talking about coding, AI is fantastic at anything quantitative because math is math. It literally has its own set of rules. But LLMs are just predictive models or literally just statistical models. At this point, there's no ... truly ... thinking for itself. And so my focus at Kennedy School has been in international relations, which is by definition great areas ... And I found that trying to get it to see great areas, it's horrible at that because it's trained to go to like the most common, like the most statistically probable answer.",
-      "memorable_phrase": "the most statistically probable answer",
-      "topics": [
-        "limitations",
-        "international-relations",
-        "quantitative-qualitative",
-        "LLMs"
-      ],
-      "_codes": [
-        "use.meta",
-        "use.academic"
-      ],
-      "claimed_by": "ai_slop_rigorous"
-    },
-    {
       "id": "db649f0ea8",
       "fg_id": "05-Ge",
       "section_id": "s4_two_sided_risk",
@@ -1331,7 +1308,7 @@
         209
       ],
       "raw_text": "I've got to myself, like, when am I going to reflect on my life? Am I going to have time to reflect on my life, like, before I die? Right, like, that's very, like, heavy. But I just, I have no mental space for it, if I'm on the toilet, I'm on social media. I'm going, before bed, I'm on social media, when I wake up, because I'm, like, also, get my news from there, you know? And, like, obviously, that's a me thing, but then with AI, it's like, one of my, one of my, there's, like, everyone's trying to penetrate your attention. Like, that's the biggest resource, and it's, like, there's no space for me anymore.",
-      "cleaned_text": "I've got to myself, like, when am I going to reflect on my life? Am I going to have time to reflect on my life ... before I die? Right, like, that's very ... heavy. But I just, I have no mental space for it, if I'm on the toilet, I'm on social media ... before bed, I'm on social media, when I wake up, because I'm ... also, get my news from there ... And ... obviously, that's a me thing, but then with AI, it's like ... everyone's trying to penetrate your attention. Like, that's the biggest resource, and it's ... there's no space for me anymore.",
+      "cleaned_text": "I ask myself ... when am I going to reflect on my life? Am I going to have time to reflect on my life ... before I die? Right, like, that's very ... heavy. But I just, I have no mental space for it. If I'm on the toilet, I'm on social media. Before bed, I'm on social media. When I wake up ... I get my news from there ... obviously, that's a me thing, but then with AI, it's like ... everyone's trying to penetrate your attention. That's the biggest resource, and ... there's no space for me anymore.",
       "memorable_phrase": "there's no space for me anymore",
       "topics": [
         "reflection",
@@ -1339,7 +1316,9 @@
         "mental space",
         "social media"
       ],
-      "_codes": [],
+      "_codes": [
+        "use.meta"
+      ],
       "claimed_by": "ai_slop_rigorous"
     },
     {
@@ -1351,7 +1330,7 @@
         236
       ],
       "raw_text": "I would agree with what Nicole said in terms of there's a pressure to be really efficient both at school and in the workplace. And I know previously to coming to HKS, I was on a grant writing team. And we started using AI sort of in the last year. That I was there and we were able to like double trouble our output because people weren't taking as much time to write each grant because a lot of the grants asked for similar things. So you can just plug in what you had and said reword it to include this specific aspect with this specific aspect. And we really were a lot more of an efficient team.",
-      "cleaned_text": "I would agree ... there's a pressure to be really efficient both at school and in the workplace. And I know previously to coming to HKS, I was on a grant writing team. And we started using AI sort of in the last year ... and we were able to like double trouble our output because people weren't taking as much time to write each grant because a lot of the grants asked for similar things. So you can just plug in what you had and said reword it to include this specific aspect ... And we really were a lot more of an efficient team.",
+      "cleaned_text": "I would agree ... there's a pressure to be really efficient both at school and in the workplace. And I know previously to coming to HKS, I was on a grant writing team. And we started using AI sort of in the last year ... and we were able to like double or triple our output because people weren't taking as much time to write each grant because a lot of the grants asked for similar things. So you can just plug in what you had and said reword it to include this specific aspect ... And we really were a lot more of an efficient team.",
       "memorable_phrase": "double trouble our output",
       "topics": [
         "efficiency gains",
@@ -1363,29 +1342,6 @@
         "meta.agreement",
         "use.professional",
         "use.academic"
-      ],
-      "claimed_by": "ai_slop_rigorous"
-    },
-    {
-      "id": "a0c8b9dbc4",
-      "fg_id": "05-Ge",
-      "section_id": "s2_warmup_goaround",
-      "line_range": [
-        90,
-        100
-      ],
-      "raw_text": "I'm using for homework for a class who is a congress class or do any simulation of congress and we're supposed to write laws and none of us have enough time to like do the actual research and so we're all having chat GPT read it but then none of us knows if chat GPT is right. So we're all like offering or we're all like oh is this actually should we actually amend the fast act? I don't know. I saw a chat GPT. Oh and then somebody's like actually I read the bill and like we can't do that. Oh shit. We were operating off of chat GPT.",
-      "cleaned_text": "I'm using for homework for a class ... a congress class ... simulation of congress and we're supposed to write laws and none of us have enough time to ... do the actual research and so we're all having chat GPT read it but then none of us knows if chat GPT is right. So we're all like ... oh is this actually should we actually amend the fast act? I don't know. I saw a chat GPT. Oh and then somebody's like actually I read the bill and like we can't do that. Oh shit. We were operating off of chat GPT.",
-      "memorable_phrase": "none of us knows if chat GPT is right",
-      "topics": [
-        "homework",
-        "accuracy concerns",
-        "congressional simulation",
-        "verification"
-      ],
-      "_codes": [
-        "use.academic",
-        "anxiety.learning_loss"
       ],
       "claimed_by": "ai_slop_rigorous"
     },
