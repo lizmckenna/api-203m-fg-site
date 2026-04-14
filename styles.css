@@ -1296,6 +1296,62 @@ strong { font-weight: 600; }
 .tc-lens-deductive { border-left: 4px solid #5371ff; }
 .tc-lens-inductive { border-left: 4px solid #8b7355; background: #faf9f6; }
 .tc-lens-invivo    { border-left: 4px solid #7a3e20; background: #fffef9; }
+.tc-lens-bonus     { border-left: 4px solid #4aa07c; background: #f4fbf7; }
+
+/* Collapsible wrapper around the three lenses + bonus */
+.tc-expander { margin: 1.5rem 0 0.5rem; }
+.tc-expander > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--paper);
+  transition: background 0.15s, color 0.15s;
+}
+.tc-expander > summary::-webkit-details-marker { display: none; }
+.tc-expander > summary:hover { background: var(--ink); color: var(--paper); }
+.tc-expander > summary .tc-expander-open { display: none; }
+.tc-expander[open] > summary .tc-expander-open { display: inline; }
+.tc-expander[open] > summary .tc-expander-close { display: none; }
+.tc-expander > summary .tc-expander-close { display: inline; }
+
+/* Bonus lens layout — full width body instead of 3fr/2fr */
+.tc-lens-body-full { grid-template-columns: 1fr 1fr; }
+.tc-note-lede {
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-dim, #666);
+  margin: 0 0 0.5rem 0;
+}
+.tc-note-quote {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-size: 1.08rem;
+  line-height: 1.55;
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 2px solid #4aa07c;
+  color: var(--ink);
+}
+
+/* Exec summary aside link (Little Mermaid) */
+.exec-aside a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+.exec-aside a:hover { background: var(--accent); color: var(--paper); text-decoration-color: var(--paper); }
 
 .tc-lens-head { margin-bottom: 1.5rem; }
 .tc-lens-kicker {
