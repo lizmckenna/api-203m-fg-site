@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20260414075800">
+  <link rel="stylesheet" href="styles.css?v=20260414084653">
 </head>
 <body>
 
@@ -34,7 +34,7 @@
     <a href="#votes">votes</a>
     <a href="#comments">comments</a>
   </nav>
-  <div class="auth-slot" id="auth-slot">
+  <div class="auth-slot" id="auth-slot" hidden>
     <button id="signin-btn" class="btn btn-ghost">sign in</button>
   </div>
 </header>
@@ -326,8 +326,13 @@
 <section id="comments" class="section section-comments">
   <div class="section-label">08 / say something back</div>
   <h2>What do you think?</h2>
-  <div id="comments-state" class="comments-state">loading…</div>
-  <div id="site-comments" class="comments-root" data-target-type="section" data-target-id="site-wide" hidden></div>
+  <p class="section-lede">
+    Tell me what landed, what didn't, or what you're still chewing on.
+    Anonymous unless you say otherwise.
+  </p>
+  <div class="form-embed">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe85ecubHKdQOpPUslC1VwzJcNbXeyuLmRRCdbutqxmgFbuFw/viewform?embedded=true" width="640" height="1091" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+  </div>
 </section>
 
 <footer class="site-footer">
@@ -393,6 +398,6 @@
   </form>
 </dialog>
 
-<script type="module" src="app.js?v=20260414075800"></script>
+<script type="module" src="app.js?v=20260414084653"></script>
 </body>
 </html>

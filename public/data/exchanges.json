@@ -314,5 +314,33 @@
         "text": "Maybe a relevant anecdote is yesterday I was in a network analysis workshop, which was mostly for researchers. One person there had never used R before and was so excited because he had taught himself how to use R using Claude in two days. And it was interesting to me because I chose not to take the R section and instead took Excel. That made me feel sort of indicted, because I was like \u2014 oh, maybe I can just teach myself R in two days using Claude. Or maybe I can't. I don't know. But it seemed like the person next to me had done it. So that was interesting."
       }
     ]
+  },
+  {
+    "id": "fg06-concern-two-typewriters",
+    "fg_id": "06-Giles",
+    "section_id": "s4_two_sided_risk",
+    "line_range": [
+      143,
+      165
+    ],
+    "label": "The typewriter analogy: anxiety about falling behind",
+    "turns": [
+      {
+        "speaker": "MOD",
+        "text": "I would love to hear from people who voted for concern two. If anyone would want to elaborate more on why did you choose concern two?"
+      },
+      {
+        "speaker": "A",
+        "text": "Currently I almost feel like at a disadvantage. I also didn't use it at all in college and I literally didn't use it at all until I got here. I saw other people using it to be more efficient, to anticipate questions on presentations, so many things that I didn't even think of. I could be better at my academics if I used it more. And leaving here, I feel already a little bit behind in terms of using it \u2014 and in my future career, if I don't start using it now more, I'm not going to learn how to use it in all these ways that could be helpful."
+      },
+      {
+        "speaker": "B",
+        "text": "I had never really used it until I got here myself. The way I kind of think about it is \u2014 if you used to write on typewriters and then computers came around... it's just kind of like a reality that is evolving as we speak. If you're not using it, I feel like I want to learn more about how I can use it. I think it's more efficient."
+      },
+      {
+        "speaker": "B",
+        "text": "I found it super helpful. I do agree with you all about being worried about how we can make effects \u2014 writing ability or something like that. But I still try to just write my own papers, and I definitely incorporate AI in a lot of stuff. I just think it's super helpful and efficient."
+      }
+    ]
   }
 ]

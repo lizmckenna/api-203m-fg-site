@@ -1248,6 +1248,43 @@ strong { font-weight: 600; }
 .auth-error { color: var(--accent); font-size: var(--fs-small); min-height: 1.2em; margin: 0; }
 
 /* =====================================================================
+   Embedded Google Forms (song-vote attention check + reactions form)
+   ===================================================================== */
+.form-embed,
+.memo-embed {
+  margin: 1.5rem 0 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.form-embed iframe,
+.memo-embed iframe {
+  width: 100%;
+  max-width: 640px;
+  border: 1px solid var(--rule-strong);
+  background: var(--paper);
+}
+.memo-attention-check {
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--rule-strong);
+  border-left: 3px solid var(--accent);
+  background: var(--paper);
+}
+.memo-attention-label {
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.memo-attention-lede {
+  font-family: var(--font-body);
+  margin: 0 0 0.75rem 0;
+}
+
+/* =====================================================================
    Responsive
    ===================================================================== */
 @media (max-width: 820px) {

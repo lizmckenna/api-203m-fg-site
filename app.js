@@ -155,8 +155,26 @@ async function renderMemo() {
 
   const introEl = document.getElementById("memo-intro");
   const restEl  = document.getElementById("memo-rest");
-  if (introEl) introEl.innerHTML = mdToHTML(intro);
-  if (restEl)  restEl.innerHTML  = mdToHTML(rest);
+  if (introEl) introEl.innerHTML = injectEmbeds(mdToHTML(intro));
+  if (restEl)  restEl.innerHTML  = injectEmbeds(mdToHTML(rest));
+}
+
+// Replace [[SONG_VOTE]] placeholder (escaped to &#91;...&#93; by the md renderer)
+// with the embedded Google Form iframe + an "attention check" framing.
+function injectEmbeds(html) {
+  const SONG_VOTE_HTML = `
+    <aside class="memo-attention-check">
+      <div class="memo-attention-label">attention check</div>
+      <p class="memo-attention-lede">
+        Still with me? Pick the song that should play before class starts on Tuesday.
+      </p>
+      <div class="memo-embed">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeye8YnCVBZxC86YN3qzgW_58iPsJWt2PgLCgWYRS0DouTdaw/viewform?embedded=true" width="640" height="532" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+      </div>
+    </aside>`;
+  return html
+    .replace(/<p>\s*\[\[SONG_VOTE\]\]\s*<\/p>/g, SONG_VOTE_HTML)
+    .replace(/\[\[SONG_VOTE\]\]/g, SONG_VOTE_HTML);
 }
 
 // Split the memo so the intro cuts off MID-SENTENCE in the 2nd paragraph.
