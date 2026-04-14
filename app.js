@@ -1065,7 +1065,7 @@ function escape(s) {
   await renderThreeCodes();
   await renderFieldNotes();
   await renderVotes();
-  initExecEmojiBars();
+  await initExecEmojiBars();
 })();
 
 // =====================================================================
@@ -1076,6 +1076,8 @@ function escape(s) {
 // table and counts read from `v_reaction_counts`.
 // =====================================================================
 const EXEC_EMOJI = [
+  { key: "up",     char: "👍" },
+  { key: "down",   char: "👎" },
   { key: "yes",    char: "💯" },
   { key: "think",  char: "🤔" },
   { key: "ouch",   char: "😬" },
@@ -1083,12 +1085,43 @@ const EXEC_EMOJI = [
   { key: "fire",   char: "🔥" },
 ];
 
-function initExecEmojiBars() {
+function getVisitorId() {
+  let v = localStorage.getItem("visitor-id");
+  if (!v) {
+    v = (crypto.randomUUID && crypto.randomUUID()) ||
+        ("v_" + Math.random().toString(36).slice(2) + Date.now());
+    localStorage.setItem("visitor-id", v);
+  }
+  return v;
+}
+
+async function fetchExecCounts() {
+  if (!supabase) return null;
+  const { data, error } = await supabase.from("v_exec_reaction_counts").select("*");
+  if (error) { console.warn("exec counts fetch failed:", error); return null; }
+  return data;
+}
+
+async function writeExecReaction(targetId, emojiKey) {
+  if (!supabase) return;
+  const visitorId = getVisitorId();
+  await supabase.from("exec_reactions")
+    .delete().eq("visitor_id", visitorId).eq("target_id", targetId);
+  if (emojiKey) {
+    const { error } = await supabase.from("exec_reactions").insert({
+      visitor_id: visitorId, target_id: targetId, emoji_key: emojiKey,
+    });
+    if (error) console.warn("exec reaction insert failed:", error);
+  }
+}
+
+async function initExecEmojiBars() {
   const bars = document.querySelectorAll(".emoji-bar");
   if (!bars.length) return;
   const storeKey = "exec-emoji-pick";
   const picks = JSON.parse(localStorage.getItem(storeKey) || "{}");
 
+  // Initial render with zero counts
   bars.forEach((bar) => {
     const target = bar.dataset.target;
     bar.innerHTML = EXEC_EMOJI.map((e) => `
@@ -1099,20 +1132,19 @@ function initExecEmojiBars() {
       </button>
     `).join("");
 
-    bar.addEventListener("click", (ev) => {
+    bar.addEventListener("click", async (ev) => {
       const btn = ev.target.closest(".emoji-btn");
       if (!btn) return;
       const key = btn.dataset.key;
       const prev = picks[target];
 
-      // Toggle off if same emoji clicked again
       if (prev === key) {
         delete picks[target];
         bar.querySelectorAll(".emoji-btn").forEach((b) => b.classList.remove("is-picked"));
         adjustCount(bar, key, -1);
+        await writeExecReaction(target, null);
       } else {
         if (prev) {
-          // Switching: decrement previous
           const oldBtn = bar.querySelector(`.emoji-btn[data-key="${prev}"]`);
           if (oldBtn) {
             oldBtn.classList.remove("is-picked");
@@ -1123,16 +1155,38 @@ function initExecEmojiBars() {
         bar.querySelectorAll(".emoji-btn").forEach((b) =>
           b.classList.toggle("is-picked", b.dataset.key === key));
         adjustCount(bar, key, +1);
+        await writeExecReaction(target, key);
       }
       localStorage.setItem(storeKey, JSON.stringify(picks));
     });
   });
 
-  // Hydrate the local counts (visitor sees their own pick reflected in count)
-  bars.forEach((bar) => {
-    const target = bar.dataset.target;
-    if (picks[target]) adjustCount(bar, picks[target], +1);
-  });
+  // Hydrate from Supabase aggregate view; fall back to local-only if no supabase.
+  const counts = await fetchExecCounts();
+  if (counts) {
+    // Set absolute counts from server, then add this visitor's local pick on top.
+    const byTarget = {};
+    for (const r of counts) {
+      (byTarget[r.target_id] ||= {})[r.emoji_key] = r.n;
+    }
+    bars.forEach((bar) => {
+      const target = bar.dataset.target;
+      const ts = byTarget[target] || {};
+      bar.querySelectorAll(".emoji-btn").forEach((btn) => {
+        const k = btn.dataset.key;
+        const el = btn.querySelector(".emoji-count");
+        const n = ts[k] || 0;
+        el.dataset.count = n;
+        el.textContent = n;
+      });
+    });
+  } else {
+    // Local-only mode: reflect the visitor's own pick in the count.
+    bars.forEach((bar) => {
+      const target = bar.dataset.target;
+      if (picks[target]) adjustCount(bar, picks[target], +1);
+    });
+  }
 }
 
 function adjustCount(bar, key, delta) {
