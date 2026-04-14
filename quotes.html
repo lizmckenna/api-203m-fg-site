@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Quote bank — API-203M</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css?v=1">
+  <link rel="stylesheet" href="styles.css?v=20260414201800">
 </head>
 <body>
 
@@ -24,15 +24,20 @@
   </nav>
 </header>
 
-<section class="hero hero-compact">
-  <div class="hero-inner">
-    <div class="hero-meta">Quote bank</div>
-    <h1>What they said,<br>in their own words.</h1>
+<section class="hero hero-compact qb-hero">
+  <div class="hero-inner qb-hero-inner">
+    <div class="hero-meta">Student voices</div>
+    <h1 class="qb-hero-title">Quote bank.</h1>
     <p class="hero-lede">
-      Every substantive quote pulled from the eleven focus groups, grouped
-      by the section of the protocol it came from, plus the multi-voice
-      exchanges where participants responded directly to each other.
+      Substantive quotes pulled from the 11 focus groups.
       <span id="qb-counts"></span>
+    </p>
+    <p class="qb-disclaimer">
+      <strong>Disclaimer:</strong> these are raw Whisper auto-transcriptions
+      and have not been cleaned for errors. Expect mis-heard words
+      (&ldquo;chat GBT,&rdquo; &ldquo;chatchubit,&rdquo; &ldquo;cod code&rdquo;),
+      dropped punctuation, and run-on phrasing. Known mistranscriptions have
+      not been edited out yet.
     </p>
   </div>
 </section>
@@ -114,6 +119,19 @@ function exchangeCard(x) {
   const bySection = {};
   for (const q of quotes) (bySection[q.section_id] ||= []).push(q);
 
+  const INITIAL = 3;
+
+  const collapsibleBlock = (items, renderItem, wrapClass) => {
+    const visible = items.slice(0, INITIAL).map(renderItem).join("");
+    const hidden = items.slice(INITIAL).map(renderItem).join("");
+    const remaining = items.length - INITIAL;
+    const hiddenBlock = remaining > 0
+      ? `<div class="${wrapClass} qb-hidden" hidden>${hidden}</div>
+         <button type="button" class="qb-read-more" data-remaining="${remaining}">read ${remaining} more &rarr;</button>`
+      : "";
+    return `<div class="${wrapClass}">${visible}</div>${hiddenBlock}`;
+  };
+
   const html = [];
   for (const s of SECTIONS) {
     const list = bySection[s.id] || [];
@@ -122,7 +140,7 @@ function exchangeCard(x) {
       <section id="${s.id}" class="qb-section">
         <div class="section-label">${escape(s.label)}</div>
         <h2>${list.length} quote${list.length===1?"":"s"} from the ${escape(s.label)} section.</h2>
-        <div class="qb-quotes">${list.map(quoteCard).join("")}</div>
+        ${collapsibleBlock(list, quoteCard, "qb-quotes")}
       </section>
     `);
   }
@@ -136,12 +154,28 @@ function exchangeCard(x) {
           The moments where participants responded directly to each other,
           not just to the moderator. Different voices are labeled A, B, C, D.
         </p>
-        <div class="qb-exchanges">${xs.map(exchangeCard).join("")}</div>
+        ${collapsibleBlock(xs, exchangeCard, "qb-exchanges")}
       </section>
     `);
   }
 
   root.innerHTML = html.join("") || `<div class="empty">no quotes found.</div>`;
+
+  root.addEventListener("click", (e) => {
+    const btn = e.target.closest(".qb-read-more");
+    if (!btn) return;
+    const hiddenEl = btn.previousElementSibling;
+    if (!hiddenEl) return;
+    const isHidden = hiddenEl.hasAttribute("hidden");
+    if (isHidden) {
+      hiddenEl.removeAttribute("hidden");
+      btn.textContent = "\u2190 collapse";
+    } else {
+      hiddenEl.setAttribute("hidden", "");
+      const remaining = btn.dataset.remaining;
+      btn.textContent = `read ${remaining} more \u2192`;
+    }
+  });
 })();
 </script>
 

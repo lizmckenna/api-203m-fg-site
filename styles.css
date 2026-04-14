@@ -1308,6 +1308,47 @@ strong { font-weight: 600; }
    Quote bank standalone page (quotes.html)
    ===================================================================== */
 .hero-compact { padding: 3rem 0 2rem; }
+
+/* Quote bank hero — extra breathing room around the title */
+.qb-hero { padding: 5rem 0 4rem; }
+.qb-hero-inner { max-width: 820px; padding-left: 2rem; padding-right: 2rem; }
+.qb-hero-title { margin-top: 1.5rem; margin-bottom: 1.25rem; }
+.qb-hero .hero-lede { margin-bottom: 2rem; }
+
+.qb-disclaimer {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--rule-strong);
+  background: var(--paper-soft);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+.qb-disclaimer strong {
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+  margin-right: 0.35rem;
+}
+
+/* Collapsible read-more button for quote bank sections */
+.qb-read-more {
+  margin-top: 1rem;
+  align-self: flex-start;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 0.55rem 1rem;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  cursor: pointer;
+  color: var(--ink-soft);
+  transition: all 120ms;
+}
+.qb-read-more:hover { border-color: var(--ink); color: var(--ink); background: var(--paper-soft); }
+.qb-hidden { margin-top: 1.25rem; }
+
 .qb-root { padding: 2rem 0 5rem; }
 .qb-section { margin-top: 3.5rem; }
 .qb-section:first-child { margin-top: 0; }
