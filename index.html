@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20260414090936">
+  <link rel="stylesheet" href="styles.css?v=20260414095856">
 </head>
 <body>
 
@@ -23,12 +23,11 @@
   <nav class="site-nav">
     <a href="#memo">letter</a>
     <a href="#methods-intro">methods</a>
+    <a href="#votes">votes</a>
     <a href="#method">tradeoffs</a>
     <a href="#three-codes">three codes</a>
-    <a href="#ai-slop">ai slop</a>
     <a href="#field-notes">field notes</a>
     <a href="#more-voices">more voices</a>
-    <a href="#votes">votes</a>
     <a href="#comments">comments</a>
   </nav>
   <div class="auth-slot" id="auth-slot" hidden>
@@ -117,6 +116,21 @@
 </section>
 
 <!-- ================================================================
+     DOT VOTES — placed right after methods so numbers ground the page
+================================================================ -->
+<section id="votes" class="section section-votes">
+  <div class="section-label">/ votes</div>
+  <h2>What the rooms voted for.</h2>
+  <p class="section-lede">
+    Two-sided risk split and pair-share dot totals, hand-entered from notes
+    and flip-chart photos.
+  </p>
+  <div id="votes-body" class="votes-body">
+    <div class="empty">no vote tallies entered yet.</div>
+  </div>
+</section>
+
+<!-- ================================================================
      METHOD — tradeoffs table
 ================================================================ -->
 <section id="method" class="section section-method">
@@ -198,31 +212,6 @@
 </section>
 
 <!-- ================================================================
-     AI SLOP DEMO
-================================================================ -->
-<section id="ai-slop" class="section section-ai-slop">
-  <div class="section-label">05 / ai slop</div>
-  <h2>What happens when you let the model do everything.</h2>
-  <p class="section-lede">
-    On the left, an example of unconstrained LLM-inductive coding (asking
-    the model "what are the main themes in this transcript?" with no
-    codebook, no protocol, and no other constraints). On the right, the
-    rigorous LLM-deductive output from the same transcript, using the
-    a-priori codebook.
-  </p>
-  <div class="slop-compare">
-    <div class="slop-col slop-col-slop">
-      <h3>slop</h3>
-      <div id="slop-slop" class="slop-body"><div class="empty">pre-generated cache will load here</div></div>
-    </div>
-    <div class="slop-col slop-col-rigorous">
-      <h3>better</h3>
-      <div id="slop-rigorous" class="slop-body"><div class="empty">run stage 02 first</div></div>
-    </div>
-  </div>
-</section>
-
-<!-- ================================================================
      FIELD NOTES — note-taker observations paired with transcript moments
 ================================================================ -->
 <section id="field-notes" class="section section-field-notes">
@@ -231,7 +220,7 @@
   <p class="section-lede">
     A note-taker in each focus group wrote down what the microphone
     couldn't hear: who laughed, who went quiet, who crossed their arms,
-    who leaned in. Below are four moments — this is just a selection —
+    who leaned in. Below are three moments — this is just a selection —
     paired with the exchange in the transcript.
   </p>
   <div id="field-pairings" class="field-pairings">
@@ -271,21 +260,6 @@
       Open the quote bank →
     </a>
   </p>
-</section>
-
-<!-- ================================================================
-     DOT VOTES
-================================================================ -->
-<section id="votes" class="section section-votes">
-  <div class="section-label">07 / votes</div>
-  <h2>What the rooms voted for.</h2>
-  <p class="section-lede">
-    Two-sided risk split and pair-share dot totals, hand-entered from notes
-    and flip-chart photos.
-  </p>
-  <div id="votes-body" class="votes-body">
-    <div class="empty">no vote tallies entered yet.</div>
-  </div>
 </section>
 
 <!-- ================================================================
@@ -366,6 +340,6 @@
   </form>
 </dialog>
 
-<script type="module" src="app.js?v=20260414090936"></script>
+<script type="module" src="app.js?v=20260414095856"></script>
 </body>
 </html>
