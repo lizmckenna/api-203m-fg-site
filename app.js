@@ -1065,4 +1065,80 @@ function escape(s) {
   await renderThreeCodes();
   await renderFieldNotes();
   await renderVotes();
+  initExecEmojiBars();
 })();
+
+// =====================================================================
+// Executive-summary emoji bars
+// One emoji per finding per visitor (enforced via localStorage).
+// Counts are local-only until a Supabase project is configured; once
+// SUPABASE_URL is set in config.js, reactions write to the `reactions`
+// table and counts read from `v_reaction_counts`.
+// =====================================================================
+const EXEC_EMOJI = [
+  { key: "yes",    char: "💯" },
+  { key: "think",  char: "🤔" },
+  { key: "ouch",   char: "😬" },
+  { key: "heart",  char: "❤️" },
+  { key: "fire",   char: "🔥" },
+];
+
+function initExecEmojiBars() {
+  const bars = document.querySelectorAll(".emoji-bar");
+  if (!bars.length) return;
+  const storeKey = "exec-emoji-pick";
+  const picks = JSON.parse(localStorage.getItem(storeKey) || "{}");
+
+  bars.forEach((bar) => {
+    const target = bar.dataset.target;
+    bar.innerHTML = EXEC_EMOJI.map((e) => `
+      <button type="button" class="emoji-btn ${picks[target] === e.key ? "is-picked" : ""}"
+              data-key="${e.key}" aria-label="React with ${e.key}">
+        <span class="emoji-char">${e.char}</span>
+        <span class="emoji-count" data-count="0">0</span>
+      </button>
+    `).join("");
+
+    bar.addEventListener("click", (ev) => {
+      const btn = ev.target.closest(".emoji-btn");
+      if (!btn) return;
+      const key = btn.dataset.key;
+      const prev = picks[target];
+
+      // Toggle off if same emoji clicked again
+      if (prev === key) {
+        delete picks[target];
+        bar.querySelectorAll(".emoji-btn").forEach((b) => b.classList.remove("is-picked"));
+        adjustCount(bar, key, -1);
+      } else {
+        if (prev) {
+          // Switching: decrement previous
+          const oldBtn = bar.querySelector(`.emoji-btn[data-key="${prev}"]`);
+          if (oldBtn) {
+            oldBtn.classList.remove("is-picked");
+            adjustCount(bar, prev, -1);
+          }
+        }
+        picks[target] = key;
+        bar.querySelectorAll(".emoji-btn").forEach((b) =>
+          b.classList.toggle("is-picked", b.dataset.key === key));
+        adjustCount(bar, key, +1);
+      }
+      localStorage.setItem(storeKey, JSON.stringify(picks));
+    });
+  });
+
+  // Hydrate the local counts (visitor sees their own pick reflected in count)
+  bars.forEach((bar) => {
+    const target = bar.dataset.target;
+    if (picks[target]) adjustCount(bar, picks[target], +1);
+  });
+}
+
+function adjustCount(bar, key, delta) {
+  const el = bar.querySelector(`.emoji-btn[data-key="${key}"] .emoji-count`);
+  if (!el) return;
+  const n = (parseInt(el.dataset.count, 10) || 0) + delta;
+  el.dataset.count = n;
+  el.textContent = n;
+}

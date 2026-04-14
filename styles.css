@@ -1285,6 +1285,117 @@ strong { font-weight: 600; }
 }
 
 /* =====================================================================
+   Nav CTA — red underline link to executive summary
+   ===================================================================== */
+.site-nav .nav-cta {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.site-nav .nav-cta:hover { background: var(--accent); color: var(--paper); text-decoration-color: var(--paper); }
+
+/* =====================================================================
+   Executive summary section
+   ===================================================================== */
+.section-exec-summary { padding-top: 4rem; padding-bottom: 4rem; }
+.exec-findings {
+  list-style: none;
+  counter-reset: exec;
+  padding: 0;
+  margin: 2.5rem 0 0 0;
+}
+.exec-finding {
+  counter-increment: exec;
+  position: relative;
+  padding: 1.75rem 1.75rem 1.5rem 4.5rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--paper);
+  margin-bottom: 1.5rem;
+}
+.exec-finding::before {
+  content: counter(exec);
+  position: absolute;
+  left: 1.5rem;
+  top: 1.6rem;
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+.exec-finding > p {
+  margin: 0 0 0.85rem 0;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+.exec-finding > p:last-of-type { margin-bottom: 1rem; }
+.exec-finding strong {
+  color: var(--ink);
+  background: linear-gradient(transparent 60%, color-mix(in srgb, var(--accent) 25%, transparent) 60%);
+  padding: 0 0.1em;
+}
+.exec-caveat {
+  border-left: 2px solid var(--rule-strong);
+  padding-left: 1rem;
+  font-size: 0.95rem;
+  color: var(--ink-dim, #555);
+  font-style: italic;
+}
+.exec-aside {
+  display: inline;
+  font-size: 0.85em;
+  color: var(--ink-dim, #777);
+  margin-left: 0.25rem;
+}
+.exec-foot {
+  margin-top: 1.5rem;
+  font-size: var(--fs-small);
+  color: var(--ink-dim, #777);
+  text-align: center;
+  font-style: italic;
+}
+
+/* Emoji reaction bar */
+.emoji-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--rule);
+}
+.emoji-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--paper);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1;
+  transition: background 0.12s, border-color 0.12s, transform 0.08s;
+}
+.emoji-btn:hover { background: var(--paper-soft, #f7f7f7); transform: translateY(-1px); }
+.emoji-btn.is-picked {
+  background: color-mix(in srgb, var(--accent) 12%, var(--paper));
+  border-color: var(--accent);
+}
+.emoji-btn .emoji-char { font-size: 1.15rem; }
+.emoji-btn .emoji-count {
+  font-size: 0.8rem;
+  color: var(--ink-dim, #777);
+  min-width: 0.8em;
+  text-align: right;
+}
+.emoji-btn.is-picked .emoji-count { color: var(--accent); font-weight: 700; }
+
+/* =====================================================================
    More voices CTA (teaser → quote bank)
    ===================================================================== */
 .more-voices-cta { margin-top: 1.25rem; }

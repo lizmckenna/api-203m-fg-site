@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20260414100720">
+  <link rel="stylesheet" href="styles.css?v=20260414104909">
 </head>
 <body>
 
@@ -21,6 +21,7 @@
     <span class="brand-term">SPRING 2026</span>
   </div>
   <nav class="site-nav">
+    <a href="#exec-summary" class="nav-cta">→ exec summary</a>
     <a href="#memo">letter</a>
     <a href="#methods-intro">methods</a>
     <a href="#votes">votes</a>
@@ -236,11 +237,77 @@
 ================================================================ -->
 <section id="exec-summary" class="section section-exec-summary">
   <div class="section-label">06 / executive summary</div>
-  <h2>Coming soon.</h2>
+  <h2>Four findings, briefly.</h2>
   <p class="section-lede">
-    We're going to build an example executive summary of what the focus
-    groups said, as a demonstration of how findings get synthesized from
-    qualitative data. Check back after class 12.
+    Grounded in 67 votes on the two-sided risk question, 90 dot-vote items
+    aggregated across eleven focus groups, and 1,565 substantively coded
+    utterances (out of 3,674 transcribed segments).
+  </p>
+
+  <ol class="exec-findings">
+
+    <li class="exec-finding" data-finding="dominant-anxiety">
+      <p>
+        <strong>The dominant emotional register is anxiety, not enthusiasm</strong>
+        (but the protocol primes for this). When asked which risk feels more
+        present, 57% of students named over-use (their own learning, writing,
+        and judgment) over the 43% who named under-use (falling behind peers
+        and employers). Across the corpus, anxiety codes — about lost skill,
+        loss of authorship, dependency — appear roughly 250 times;
+        <code>anxiety.learning_loss</code> alone is the fourth-most-frequent
+        code. Students' main concern seems to be something like
+        <em>"I am not yet calibrated."</em>
+      </p>
+      <p class="exec-caveat">
+        However: Section 4 of the protocol asked participants to pick
+        between an over-use concern and an under-use concern, which
+        structurally invited concern-talk; a different opening prompt
+        might surface a different register.
+      </p>
+      <div class="emoji-bar" data-target="dominant-anxiety"></div>
+    </li>
+
+    <li class="exec-finding" data-finding="integrity-vs-atrophy">
+      <p>
+        <strong>The integrity worry is less salient than the learning-atrophy worry.</strong>
+        Anxiety about getting caught or plagiarism
+        (<code>anxiety.integrity</code>, 77 utterances) lands well below
+        anxiety about losing skill (<code>anxiety.learning_loss</code>, 130).
+        The dominant fear is not <em>"what will my professor think,"</em>
+        it's <em>"what is this doing to me?"</em>
+        <span class="exec-aside">[see also: <em>The Little Mermaid</em> code]</span>
+      </p>
+      <div class="emoji-bar" data-target="integrity-vs-atrophy"></div>
+    </li>
+
+    <li class="exec-finding" data-finding="credential-fragile">
+      <p>
+        <strong>The credential feels fragile.</strong>
+        Many students seem to be experiencing the degree itself as
+        vulnerable to being hollowed out by AI use while they are earning
+        it, or to being devalued by a generation-level stigma they did not
+        choose. The learning-atrophy worry and the credential-devaluation
+        worry are fused in ways the codebook does not capture separately.
+      </p>
+      <div class="emoji-bar" data-target="credential-fragile"></div>
+    </li>
+
+    <li class="exec-finding" data-finding="what-students-want">
+      <p>
+        <strong>What students want is judgment, not vague honor-code policy or a new course on how to use ChatGPT.</strong>
+        They want a framework for making their own decisions, consistent
+        guidance across classes, and real-world case studies of how people
+        in their intended fields are actually using these tools. They want
+        to be treated as people making serious bets about their own
+        formation.
+      </p>
+      <div class="emoji-bar" data-target="what-students-want"></div>
+    </li>
+
+  </ol>
+
+  <p class="exec-foot">
+    React to any finding with one emoji (your pick is sticky on this device).
   </p>
 </section>
 
@@ -340,6 +407,6 @@
   </form>
 </dialog>
 
-<script type="module" src="app.js?v=20260414100720"></script>
+<script type="module" src="app.js?v=20260414104909"></script>
 </body>
 </html>
