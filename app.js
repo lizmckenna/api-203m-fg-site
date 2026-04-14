@@ -1062,7 +1062,6 @@ function escape(s) {
   await renderMeta();
   await renderMemo();
   await renderPositionality();
-  await renderThreeCodes();
   await renderFieldNotes();
   await renderVotes();
   await initExecEmojiBars();

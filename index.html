@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@300;400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20260414111758">
+  <link rel="stylesheet" href="styles.css?v=20260414112918">
 </head>
 <body>
 
@@ -180,36 +180,134 @@
 </section>
 
 <!-- ================================================================
-     SAME QUOTE, THREE CODES
+     SAME EXCHANGE, THREE CODINGS (ported from class 11 slides 6-8)
 ================================================================ -->
 <section id="three-codes" class="section section-three-codes">
-  <div class="section-label">03 / same quote, three codes</div>
+  <div class="section-label">03 / same exchange, three codings</div>
   <h2>What the coders saw.</h2>
   <p class="section-lede">
-    The same utterance, coded three ways: by Prof. McKenna (deductively), by
-    Claude (same codebook), and (for one section) inductively by hand. Click
-    a row to see the codebook definitions.
+    One six-turn exchange from FG-10 Sanchez (§4, two-sided risk vote),
+    read three ways: by an LLM applying the a-priori codebook, by the
+    same LLM generating themes from scratch, and by a human reading
+    closely for what the other two missed.
   </p>
-  <div id="three-codes-table" class="three-codes-table">
-    <div class="three-codes-header">
-      <div class="tch-quote">the quote</div>
-      <div class="tch-col tch-col-ded">
-        <div class="tch-col-title">LLM deductive</div>
-        <div class="tch-col-sub">Claude applying the a-priori codebook</div>
-      </div>
-      <div class="tch-col tch-col-ind">
-        <div class="tch-col-title">LLM inductive</div>
-        <div class="tch-col-sub">Claude generating in-vivo codes from scratch</div>
-      </div>
-      <div class="tch-col tch-col-hand">
-        <div class="tch-col-title">human in-vivo</div>
-        <div class="tch-col-sub">pending (see positionality statement)</div>
-      </div>
+
+  <div class="tc-lens tc-lens-deductive">
+    <div class="tc-lens-head">
+      <div class="tc-lens-kicker">Lens 1 · LLM deductive</div>
+      <h3>LLM deductive coding is fast, <em>(usually pretty)</em> accurate, and unsurprising.</h3>
     </div>
-    <div id="three-codes-rows" class="three-codes-rows">
-      <div class="empty">no picks yet — run <code>make stage07 stage08</code>.</div>
+    <div class="tc-lens-body">
+      <div class="tc-exchange">
+        <p class="tc-turn"><span class="tc-spk tc-spk-mod">MOD</span>"anyone wants to defend their vote?"</p>
+        <p class="tc-turn"><span class="tc-spk">A</span>"<span class="hl hl-anxiety">I always feel guilty when I use it</span>… I love <span class="hl hl-academic">writing, I think writing is such a good way to learn</span>… I just struggle with wanting to feel like I'm learning and not using a <span class="hl hl-anxiety">crutch</span>."</p>
+        <p class="tc-turn"><span class="tc-spk">B</span>"I'm doing research on intellectual atrophy from AI… I think <span class="hl hl-underuse">not using AI is more costly</span> than learning how to use AI in a way that is still conducive to your learning… that's kind of like the <span class="hl hl-meta">thesis of the paper</span>."</p>
+        <p class="tc-turn"><span class="tc-spk">C</span>"My partner spends eight hours a day using Fluid to build different things… <span class="hl hl-uncertain">that is something I would not be able to do right now</span>… I think there's also a gender gap emerging in how we're using AI… everyone who is not capable might be <span class="hl hl-displacement">at risk of losing their job</span>."</p>
+        <p class="tc-turn"><span class="tc-spk">A</span>"I got to Harvard, I did it… what if I get expelled because I used AI in the wrong way… I felt very proud of things I've turned in where I haven't touched it at all."</p>
+        <p class="tc-turn"><span class="tc-spk">D</span>"I'm taking some writing course where I have to refrain myself… I'm <span class="hl hl-anxiety">struggling</span> not using it for writing course because that's one of the major things I <span class="hl hl-anxiety">wanted to learn</span> here."</p>
+      </div>
+      <aside class="tc-margin">
+        <div class="tc-pills">
+          <span class="tc-pill tc-pill-anxiety">anxiety.learning_loss</span>
+          <span class="tc-pill tc-pill-academic">use.academic</span>
+          <span class="tc-pill tc-pill-meta">use.meta</span>
+          <span class="tc-pill tc-pill-underuse">risk.underuse</span>
+          <span class="tc-pill tc-pill-uncertain">readiness.uncertain</span>
+          <span class="tc-pill tc-pill-displacement">anxiety.displacement</span>
+        </div>
+        <p class="tc-annotation">
+          The LLM applied the codebook fairly accurately and very quickly;
+          every tag is mostly defensible.
+        </p>
+        <p class="tc-annotation">
+          A proponent might say better prompting fixes the shortcomings
+          — but you usually have to already know what is worth looking
+          for.
+        </p>
+      </aside>
     </div>
   </div>
+
+  <div class="tc-lens tc-lens-inductive">
+    <div class="tc-lens-head">
+      <div class="tc-lens-kicker">Lens 2 · LLM inductive</div>
+      <h3>LLM inductive coding summarizes rather than discovers.</h3>
+    </div>
+    <div class="tc-lens-body">
+      <div class="tc-exchange">
+        <p class="tc-turn"><span class="tc-spk tc-spk-mod">MOD</span>"anyone wants to defend their vote?"</p>
+        <p class="tc-turn"><span class="tc-spk">A</span>"I always feel <span class="hl hl-risk-framing">guilty when I use it</span>… I love <span class="hl hl-prosthetic">writing… the cleaning up is so helpful</span>… I just struggle with wanting to feel like I'm learning and not using a crutch."</p>
+        <p class="tc-turn"><span class="tc-spk">B</span>"I'm doing research on <span class="hl hl-peer">intellectual atrophy</span> from AI… I think <span class="hl hl-risk-framing">not using AI is more costly</span> than learning how to use AI… that's the thesis of the paper."</p>
+        <p class="tc-turn"><span class="tc-spk">C</span>"<span class="hl hl-gap">My partner spends eight hours a day using Fluid to build different things… that is something I would not be able to do</span> right now… I think there's also a <span class="hl hl-gender">gender gap emerging</span> in how we're using AI."</p>
+        <p class="tc-turn"><span class="tc-spk">A</span>"I got to Harvard, I did it… what if I get expelled because I used AI in the wrong way… I felt very proud of things I've turned in where I haven't touched it at all."</p>
+        <p class="tc-turn"><span class="tc-spk">D</span>"I'm taking some writing course where I have to refrain myself… I'm struggling not using it for writing course."</p>
+      </div>
+      <aside class="tc-margin">
+        <div class="tc-pills">
+          <span class="tc-pill tc-pill-ind tc-pill-risk-framing">Competing Risk Framings</span>
+          <span class="tc-pill tc-pill-ind tc-pill-prosthetic">AI as Cognitive Prosthetic</span>
+          <span class="tc-pill tc-pill-ind tc-pill-peer">Peer Influence on AI Adoption</span>
+          <span class="tc-pill tc-pill-ind tc-pill-gap">Fear of Capability Gap</span>
+          <span class="tc-pill tc-pill-ind tc-pill-gender">Gendered Technology Access</span>
+        </div>
+      </aside>
+    </div>
+    <div class="tc-callouts">
+      <div class="tc-callout">
+        LLM-generated themes <em>look</em> inductive but they aren't
+        emerging from the data — they reflect patterns the model learned
+        from vast prior texts about AI, anxiety, gender, and work.
+        Without a codebook, the model defaults to the statistically
+        common frames.
+      </div>
+      <div class="tc-callout">
+        Which means it can miss moments where the data resists easy
+        categorization. <strong>Those moments of friction are where real
+        insight lives.</strong>
+      </div>
+      <div class="tc-callout">
+        "Gendered Technology Access" may be technically accurate, but it
+        overlooks how the dynamic plays out inside a specific personal
+        relationship and everyday life.
+      </div>
+    </div>
+  </div>
+
+  <div class="tc-lens tc-lens-invivo">
+    <div class="tc-lens-head">
+      <div class="tc-lens-kicker">Lens 3 · Human in-vivo</div>
+      <h3>The human reader discovers what she did not expect.</h3>
+    </div>
+    <div class="tc-lens-body">
+      <div class="tc-exchange">
+        <p class="tc-turn"><span class="tc-spk tc-spk-mod">MOD</span>"anyone wants to defend their vote?"</p>
+        <p class="tc-turn"><span class="tc-spk">A</span>"<span class="hl hl-emerald">I always feel guilty when I use it… I love writing, I think writing is such a good way to learn… I just struggle with wanting to feel like I'm learning and not using a crutch.</span>"</p>
+        <p class="tc-turn"><span class="tc-spk">B</span>"I'm doing research on intellectual atrophy from AI… <span class="hl hl-sapphire">I think not using AI is more costly than learning how to use AI in a way that is still conducive to your learning</span>… that's the thesis of the paper."</p>
+        <p class="tc-turn"><span class="tc-spk">C</span>"My partner spends eight hours a day using Fluid to build different things… that is something I would not be able to do right now… I think there's also a gender gap emerging in how we're using AI."</p>
+        <p class="tc-turn"><span class="tc-spk">A</span>"<span class="hl hl-garnet">I got to Harvard, I did it… what if I get expelled because I used AI in the wrong way?</span> I felt very proud of things I've turned in where I haven't touched it at all."</p>
+        <p class="tc-turn"><span class="tc-spk">D</span>"I'm taking some writing course where I have to refrain myself… I'm struggling not using it for writing course because that's one of the major things I wanted to learn here."</p>
+      </div>
+      <aside class="tc-margin tc-invivo-cards">
+        <div class="tc-invivo-card tc-invivo-emerald">
+          <p class="tc-invivo-head">Guilt as value trace</p>
+          <p class="tc-invivo-body">Guilt is a signal telling us what she still values — not just a negative affect (anxiety / learning loss).</p>
+        </div>
+        <div class="tc-invivo-card tc-invivo-sapphire">
+          <p class="tc-invivo-head">Binary refusal as policy literacy</p>
+          <p class="tc-invivo-body">A direct rejection of the either/or structure the protocol set up. Tells you something about this population: MPP students trained to identify false dichotomies, reframe policy tradeoffs, resist binary framings.</p>
+        </div>
+        <div class="tc-invivo-card tc-invivo-garnet">
+          <p class="tc-invivo-head">"Don't screw this up"</p>
+          <p class="tc-invivo-body">A student who worked hard to reach a high-stakes institution experiences AI as a potential threat; rule-checking and anxiety about crossing lines seem to be about protecting something hard-won and potentially fragile.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <p class="tc-foot">
+    Same six turns. Three different things you can see in them depending
+    on the lens you bring.
+  </p>
 </section>
 
 <!-- ================================================================
@@ -221,7 +319,7 @@
   <p class="section-lede">
     A note-taker in each focus group wrote down what the microphone
     couldn't hear: who laughed, who went quiet, who crossed their arms,
-    who leaned in. Below are three moments — this is just a selection —
+    who leaned in. Below are four moments — this is just a selection —
     paired with the exchange in the transcript.
   </p>
   <div id="field-pairings" class="field-pairings">
@@ -237,11 +335,11 @@
 ================================================================ -->
 <section id="exec-summary" class="section section-exec-summary">
   <div class="section-label">06 / executive summary</div>
-  <h2>Four findings, briefly.</h2>
+  <h2>Four preliminary findings.</h2>
   <p class="section-lede">
     Grounded in 67 votes on the two-sided risk question, 90 dot-vote items
-    aggregated across eleven focus groups, and 1,565 substantively coded
-    utterances (out of 3,674 transcribed segments).
+    aggregated across eleven focus groups, and 1,565 coded utterances (out
+    of 3,674 transcribed segments).
   </p>
 
   <ol class="exec-findings">
@@ -407,6 +505,6 @@
   </form>
 </dialog>
 
-<script type="module" src="app.js?v=20260414111758"></script>
+<script type="module" src="app.js?v=20260414112918"></script>
 </body>
 </html>

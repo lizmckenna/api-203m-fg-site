@@ -715,7 +715,7 @@ strong { font-weight: 600; }
    ===================================================================== */
 .field-pairings {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
@@ -1282,6 +1282,194 @@ strong { font-weight: 600; }
 .memo-attention-lede {
   font-family: var(--font-body);
   margin: 0 0 0.75rem 0;
+}
+
+/* =====================================================================
+   Three codings (ported from class-11 slides 6-8)
+   ===================================================================== */
+.tc-lens {
+  margin: 2rem 0 2.5rem;
+  padding: 1.75rem 1.75rem 1.5rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--paper);
+}
+.tc-lens-deductive { border-left: 4px solid #5371ff; }
+.tc-lens-inductive { border-left: 4px solid #8b7355; background: #faf9f6; }
+.tc-lens-invivo    { border-left: 4px solid #7a3e20; background: #fffef9; }
+
+.tc-lens-head { margin-bottom: 1.5rem; }
+.tc-lens-kicker {
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+.tc-lens h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0;
+}
+.tc-lens h3 em { font-style: italic; color: var(--ink-dim, #666); }
+
+.tc-lens-body {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 1.75rem;
+}
+.tc-exchange {
+  font-family: var(--font-quote);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+.tc-turn {
+  padding: 0.5rem 0;
+  margin: 0;
+  border-bottom: 1px solid var(--rule);
+}
+.tc-turn:last-child { border-bottom: none; }
+.tc-spk {
+  display: inline-block;
+  min-width: 2rem;
+  margin-right: 0.6rem;
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.05rem 0.3rem;
+  text-align: center;
+  vertical-align: baseline;
+}
+.tc-spk-mod { color: var(--ink-dim, #666); border-color: var(--rule-strong); }
+
+.tc-margin {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 1.25rem;
+  border-left: 1px solid var(--rule);
+}
+.tc-pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tc-pill {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.25rem 0.6rem;
+  border-radius: 2px;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Deductive code highlights (mapped to pill colors) */
+.tc-pill-anxiety      { background: #c04040; }
+.tc-pill-academic     { background: #5371ff; }
+.tc-pill-meta         { background: #7a5fc4; }
+.tc-pill-underuse     { background: #d08f3e; }
+.tc-pill-uncertain    { background: #3e8f5a; }
+.tc-pill-displacement { background: #b5762a; }
+
+.hl {
+  padding: 0 0.18em;
+  border-radius: 2px;
+}
+.hl-anxiety      { background: #fce8e8; }
+.hl-academic     { background: #e8ecff; }
+.hl-meta         { background: #f0e8ff; }
+.hl-underuse     { background: #fff3e0; }
+.hl-uncertain    { background: #e8f5e8; }
+.hl-displacement { background: #ffe6b0; }
+.hl-risk-framing { background: #e0f0ee; }
+.hl-prosthetic   { background: #e8ecff; }
+.hl-peer         { background: #ece0f5; }
+.hl-gap          { background: #fff3e0; }
+.hl-gender       { background: #fce8f0; }
+.hl-emerald      { background: #c9ebdb; }
+.hl-sapphire     { background: #c9d6f0; }
+.hl-garnet       { background: #eecdd5; }
+
+/* Inductive pill overrides */
+.tc-pill-ind { background: #6b5d3e; color: #faf9f6; white-space: normal; text-transform: none; letter-spacing: 0.01em; }
+.tc-pill-ind.tc-pill-risk-framing { background: #4a7a73; }
+.tc-pill-ind.tc-pill-prosthetic   { background: #5371ff; }
+.tc-pill-ind.tc-pill-peer         { background: #7a5fc4; }
+.tc-pill-ind.tc-pill-gap          { background: #c48f3e; }
+.tc-pill-ind.tc-pill-gender       { background: #b55f87; }
+
+.tc-annotation {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0;
+  color: var(--ink);
+}
+.tc-annotation + .tc-annotation {
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--rule);
+}
+
+.tc-callouts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.tc-callout {
+  background: var(--paper);
+  border-left: 3px solid #8b7355;
+  padding: 0.9rem 1.1rem;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.tc-invivo-cards { gap: 0.75rem; }
+.tc-invivo-card {
+  padding: 0.85rem 1.1rem;
+  border-left: 3px solid transparent;
+  background: var(--paper);
+}
+.tc-invivo-emerald  { border-left-color: #4aa07c; background: #eef7f2; }
+.tc-invivo-sapphire { border-left-color: #4a6bb5; background: #eef1f8; }
+.tc-invivo-garnet   { border-left-color: #a04a5a; background: #f7edef; }
+
+.tc-invivo-head {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.35rem 0;
+  color: var(--ink);
+}
+.tc-invivo-body {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  margin: 0;
+  color: var(--ink);
+}
+
+.tc-foot {
+  margin-top: 1rem;
+  font-size: var(--fs-small);
+  color: var(--ink-dim, #777);
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 820px) {
+  .tc-lens-body { grid-template-columns: 1fr; }
+  .tc-margin { border-left: none; padding-left: 0; border-top: 1px solid var(--rule); padding-top: 1rem; }
+  .tc-callouts { grid-template-columns: 1fr; }
+  .field-pairings { grid-template-columns: 1fr; }
 }
 
 /* =====================================================================

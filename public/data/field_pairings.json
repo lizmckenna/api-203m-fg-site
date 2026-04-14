@@ -177,7 +177,7 @@
     {
       "affect": "tense",
       "label": "the typewriter analogy",
-      "observation": "Two participants defending their vote on concern two \u2014 that not using AI enough is itself a risk. The note-taker logs: \"Everyone looks attentively at whoever is speaking.\"",
+      "observation": "Two participants defending concern two \u2014 that under-use is the real risk. The first speaks haltingly about already feeling at a disadvantage; the second reaches for the typewriter analogy, and the room doesn't laugh. The note-taker logs: \u201cThere is slightly nervous laughter, then a pause.\u201d",
       "section_id": "s4_two_sided_risk",
       "transcript_lines": [
         {
@@ -191,6 +191,28 @@
           "section_id": "s4_two_sided_risk",
           "speaker": "B",
           "text": "I had never really used it until I got here myself. The way I kind of think about it is \u2014 if you used to write on typewriters and then computers came around ... it's just kind of like a reality that is evolving as we speak. If you're not using it, I feel behind."
+        }
+      ]
+    }
+  ],
+  "05-Ge": [
+    {
+      "affect": "disagreement",
+      "label": "who gets fired, who gets promoted?",
+      "observation": "Two participants trading positions on what AI means for entry-level hiring \u2014 one framing junior analysts as a generation being 'canceled out,' the other pushing back that it depends on whether a firm cuts headcount or force-multiplies. The note-taker records that during this stretch, \u201cfewer people nod along than on earlier questions.\u201d",
+      "section_id": "s5_professional_readiness",
+      "transcript_lines": [
+        {
+          "line_id": 200,
+          "section_id": "s5_professional_readiness",
+          "speaker": "A",
+          "text": "It really depends. What level of expertise do you already have before you're using AI when you enter the field? If you're already an expert, you can use AI in a way that makes you more productive. But you're kind of canceling out a whole generation of junior analysts."
+        },
+        {
+          "line_id": 201,
+          "section_id": "s5_professional_readiness",
+          "speaker": "B",
+          "text": "I'll push back on that. It really depends on how the business looks at it \u2014 whether they cut the position to make more money at the same output, or whether they bring in another person and force-multiply with the tool."
         }
       ]
     }
