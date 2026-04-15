@@ -740,24 +740,6 @@
       ]
     },
     {
-      "id": "2fe2da99c5",
-      "fg_id": "03-Davis",
-      "section_id": "s4_two_sided_risk",
-      "line_range": [
-        276,
-        287
-      ],
-      "raw_text": "In South Korea, a student, especially elementary school students, and middle school students, all other students are not allowed to use calculator in mathematics class. But in America, many people use calculator, right? It is, I think, in the future, AI becomes kind of a calculator in the end. But I have my daughter, and I recommend her not to use calculator, but calculate by your brain. It is very helpful to learn something, learn mathematics, scheme, and mathematics structures.",
-      "cleaned_text": "In South Korea ... elementary school students, and middle school students ... are not allowed to use calculator in mathematics class. But in America, many people use calculator ... I think, in the future, AI becomes kind of a calculator in the end. But I have my daughter, and I recommend her not to use calculator, but calculate by your brain. It is very helpful to learn something, learn mathematics ... and mathematics structures.",
-      "memorable_phrase": "AI becomes kind of a calculator",
-      "topics": [
-        "learning fundamentals",
-        "calculator analogy",
-        "parenting",
-        "skill development"
-      ]
-    },
-    {
       "id": "3de82682a0",
       "fg_id": "03-Davis",
       "section_id": "s4_two_sided_risk",
@@ -2845,42 +2827,6 @@
         "gray area",
         "fear",
         "mixed messages"
-      ]
-    },
-    {
-      "id": "938fd25bda",
-      "fg_id": "07-KlineCostaChavez",
-      "section_id": "s4_two_sided_risk",
-      "line_range": [
-        98,
-        107
-      ],
-      "raw_text": "and it can be so over hours, right? I've included a challenge, something, write down ideas. See what it makes sense. This is really allowed to do so. Tell me the loss that you've heard too. And isn't it too psychopandic? Like, it's trying to tell you that your ideas are good too much? Yeah, I always worry about this sometimes, and I also really noticed some forthcoming.",
-      "cleaned_text": "I used to worry more about the losing skills part, but my partner is doing a gap year right now and he spends eight hours a day using Claude to build different things \u2014 it helps him with all kinds of projects. Seeing that has made me realize that that is something I would not be able to do right now. I think that there's also a gender gap emerging in how we're using AI.",
-      "memorable_phrase": "a gender gap emerging in how we're using AI",
-      "topics": [
-        "gender gap",
-        "skill gap",
-        "partner comparison",
-        "falling behind"
-      ]
-    },
-    {
-      "id": "d3d4eaff28",
-      "fg_id": "10-Sanchez",
-      "section_id": "s5_professional_readiness",
-      "line_range": [
-        147,
-        157
-      ],
-      "raw_text": "it's so different like I feel like Claude and like how it can make slide decks was not where it was four months ago like I was shocked I was still using like the canva trying to tweak slides and then now it just builds out a beautiful slide deck it's yeah it's just so rapid at like what the improvements are and especially what to your point the like advertisement piece of it like that's fairly new I think so it just made me crazy sorry I'm gonna go down no sorry I just I got excited and then then I'll go back down yes so okay let's shift to our professional lives so think about your future job fellowship or whatever you're going to do after HDS how do you do you feel like you could walk in on day one and use AI confidently and competently in that context to be in after graduation I don't know after after my job but I'm doing internship and I don't think so I can use a lot of AI because there's a real time situation",
-      "cleaned_text": "I disagree with that very strongly because I think the fundamental skills you describe \u2014 it's like how to build an agent doesn't change with the model. How you use AI does not necessarily change with the model. It's like if you learn Excel in the 90s \u2014 a lot of people still use Excel in the 2020 version. You have the fundamental skills. So just because the model is evolving is not a reason not to teach people the skills that are fundamentally central to all of our functions for the next 30-40 years.",
-      "memorable_phrase": "if you learn Excel in the 90s",
-      "topics": [
-        "fundamental skills",
-        "Excel analogy",
-        "curriculum",
-        "transferable skills"
       ]
     }
   ]
