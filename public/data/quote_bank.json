@@ -1259,9 +1259,9 @@
         250,
         250
       ],
-      "raw_text": "We felt, like, if we weren't using it, we were doing it to service to our constituents.",
-      "cleaned_text": "We felt ... if we weren't using it, we were doing it to service to our constituents.",
-      "memorable_phrase": "doing it to service to our constituents",
+      "raw_text": "We felt, like, if we weren't using it, we were doing a disservice to our constituents.",
+      "cleaned_text": "We felt ... if we weren't using it, we were doing a disservice to our constituents.",
+      "memorable_phrase": "doing a disservice to our constituents",
       "topics": [
         "public service",
         "ethical obligations",
