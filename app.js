@@ -1163,7 +1163,16 @@ async function initExecEmojiBars() {
   // Hydrate from Supabase aggregate view; fall back to local-only if no supabase.
   const counts = await fetchExecCounts();
   if (counts) {
-    // Set absolute counts from server, then add this visitor's local pick on top.
+    // Replay any local picks that never made it to Supabase (e.g. clicks
+    // from before the backend was wired, or from a page load where the
+    // network request failed). writeExecReaction is idempotent.
+    const localTargets = Object.keys(picks);
+    if (localTargets.length) {
+      await Promise.all(localTargets.map((t) => writeExecReaction(t, picks[t])));
+      // Re-fetch so the catch-up writes show up immediately.
+      const updated = await fetchExecCounts();
+      if (updated) counts.splice(0, counts.length, ...updated);
+    }
     const byTarget = {};
     for (const r of counts) {
       (byTarget[r.target_id] ||= {})[r.emoji_key] = r.n;
