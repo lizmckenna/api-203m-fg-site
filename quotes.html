@@ -111,11 +111,9 @@ function quoteCard(q) {
   const text = q.cleaned_text || q.raw_text || "";
   return `
     <article class="qb-quote qb-card" data-quote-id="${escape(q.id)}">
-      ${upvoteHTML(q.id)}
       <blockquote class="qb-quote-text">${escape(text)}</blockquote>
-      <div class="qb-quote-meta">
-        ${topics}
-      </div>
+      <div class="qb-quote-meta">${topics}</div>
+      <div class="qb-card-foot">${upvoteHTML(q.id)}</div>
     </article>`;
 }
 
@@ -126,9 +124,9 @@ function exchangeCard(x) {
   }).join("");
   return `
     <article class="qb-exchange qb-card" data-quote-id="${escape(x.id)}">
-      ${upvoteHTML(x.id)}
       <h3 class="qb-exchange-label">${escape(x.label || "")}</h3>
       <div class="qb-exchange-body">${turns}</div>
+      <div class="qb-card-foot">${upvoteHTML(x.id)}</div>
     </article>`;
 }
 
