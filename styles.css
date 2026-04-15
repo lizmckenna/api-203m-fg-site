@@ -1752,7 +1752,51 @@ strong { font-weight: 600; }
   padding: 1.25rem;
   background: var(--paper);
   display: flex; flex-direction: column; gap: 0.75rem;
+  position: relative;
+  transition: background 0.2s, border-color 0.2s;
 }
+
+/* Upvote button — small, top-right of any qb-card */
+.qb-card { position: relative; }
+.qb-upvote {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.5rem;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--ink-dim, #777);
+  transition: all 0.12s;
+  z-index: 1;
+}
+.qb-upvote:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+.qb-upvote.is-voted {
+  background: var(--accent);
+  color: var(--paper);
+  border-color: var(--accent);
+}
+.qb-upvote-arrow { font-size: 0.85em; line-height: 1; }
+.qb-upvote-count { font-variant-numeric: tabular-nums; min-width: 0.7em; text-align: right; }
+
+/* Tier shading — soft red wash, three steps */
+.qb-card.qb-tier-1 { background: color-mix(in srgb, var(--accent) 5%,  var(--paper)); border-color: color-mix(in srgb, var(--accent) 25%, var(--rule)); }
+.qb-card.qb-tier-2 { background: color-mix(in srgb, var(--accent) 12%, var(--paper)); border-color: color-mix(in srgb, var(--accent) 45%, var(--rule)); }
+.qb-card.qb-tier-3 { background: color-mix(in srgb, var(--accent) 22%, var(--paper)); border-color: color-mix(in srgb, var(--accent) 70%, var(--rule)); }
+
+/* Make room for the upvote button on the right of quote text + exchange title */
+.qb-quote-text { padding-right: 3.5rem; }
+.qb-exchange-label { padding-right: 3.5rem; }
 .qb-quote-text {
   font-family: var(--font-quote);
   font-style: italic;

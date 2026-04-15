@@ -1435,8 +1435,8 @@
         43,
         43
       ],
-      "raw_text": "I used it to understand what's going on in e-colon by screenshotting the slides and saying, explain this to me like I'm invisible.",
-      "cleaned_text": "I used it to understand what's going on in e-colon by screenshotting the slides and saying, explain this to me like I'm invisible.",
+      "raw_text": "I used it to understand what's going on in e-colon [econ] by screenshotting the slides and saying, explain this to me like I'm invisible.",
+      "cleaned_text": "I used it to understand what's going on in e-colon [econ] by screenshotting the slides and saying, explain this to me like I'm invisible.",
       "memorable_phrase": "explain this to me like I'm invisible",
       "topics": [
         "economics class",

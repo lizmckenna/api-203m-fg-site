@@ -27,7 +27,7 @@
 <section class="hero hero-compact qb-hero">
   <div class="hero-inner qb-hero-inner">
     <div class="hero-meta">Student voices</div>
-    <h1 class="qb-hero-title">Quote bank.</h1>
+    <h1 class="qb-hero-title">Quote bank</h1>
     <p class="hero-lede">
       Substantive quotes pulled from the 11 focus groups.
       <span id="qb-counts"></span>
@@ -56,6 +56,25 @@
 </footer>
 
 <script type="module">
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+let supabase = null;
+try {
+  const cfg = await import("./config.js");
+  if (cfg.SUPABASE_URL && !cfg.SUPABASE_URL.includes("YOUR-PROJECT")) {
+    supabase = createClient(cfg.SUPABASE_URL, cfg.SUPABASE_ANON_KEY);
+  }
+} catch (e) { /* config.js missing — upvotes degrade to local-only */ }
+
+function getVisitorId() {
+  let v = localStorage.getItem("visitor-id");
+  if (!v) {
+    v = (crypto.randomUUID && crypto.randomUUID()) ||
+        ("v_" + Math.random().toString(36).slice(2) + Date.now());
+    localStorage.setItem("visitor-id", v);
+  }
+  return v;
+}
+
 const CACHE_BUST = `?v=${Date.now()}`;
 
 function escape(s) {
@@ -79,11 +98,20 @@ async function loadJSON(path) {
   return r.json();
 }
 
+function upvoteHTML(quoteId) {
+  return `
+    <button type="button" class="qb-upvote" data-quote-id="${escape(quoteId)}" aria-label="Upvote this quote">
+      <span class="qb-upvote-arrow" aria-hidden="true">▲</span>
+      <span class="qb-upvote-count" data-count="0">0</span>
+    </button>`;
+}
+
 function quoteCard(q) {
   const topics = (q.topics || []).map(t => `<span class="qb-topic">${escape(t)}</span>`).join("");
   const text = q.cleaned_text || q.raw_text || "";
   return `
-    <article class="qb-quote">
+    <article class="qb-quote qb-card" data-quote-id="${escape(q.id)}">
+      ${upvoteHTML(q.id)}
       <blockquote class="qb-quote-text">${escape(text)}</blockquote>
       <div class="qb-quote-meta">
         ${topics}
@@ -97,7 +125,8 @@ function exchangeCard(x) {
     return `<p class="qb-exchange-turn"><span class="qb-exchange-speaker">${letter}</span>${escape(t.text)}</p>`;
   }).join("");
   return `
-    <article class="qb-exchange">
+    <article class="qb-exchange qb-card" data-quote-id="${escape(x.id)}">
+      ${upvoteHTML(x.id)}
       <h3 class="qb-exchange-label">${escape(x.label || "")}</h3>
       <div class="qb-exchange-body">${turns}</div>
     </article>`;
@@ -211,6 +240,86 @@ function exchangeCard(x) {
     const el = document.querySelector(location.hash);
     if (el) el.scrollIntoView({ block: "start" });
   }
+
+  // -------- Upvotes --------
+  // Tier shading: 0 = none, 1-4 = light, 5-9 = medium, 10+ = strong.
+  function tierClass(n) {
+    if (n >= 10) return "qb-tier-3";
+    if (n >= 5)  return "qb-tier-2";
+    if (n >= 1)  return "qb-tier-1";
+    return "";
+  }
+  function applyVote(card, n, voted) {
+    const countEl = card.querySelector(".qb-upvote-count");
+    if (countEl) { countEl.dataset.count = n; countEl.textContent = n; }
+    card.classList.remove("qb-tier-1","qb-tier-2","qb-tier-3");
+    const t = tierClass(n);
+    if (t) card.classList.add(t);
+    const btn = card.querySelector(".qb-upvote");
+    if (btn) btn.classList.toggle("is-voted", !!voted);
+  }
+
+  // Hydrate counts from Supabase (or stay at 0s if offline).
+  const myVotesKey = "qb-my-votes";
+  const myVotes = JSON.parse(localStorage.getItem(myVotesKey) || "{}");
+  if (supabase) {
+    const { data: counts } = await supabase.from("v_quote_vote_counts").select("*");
+    const byId = {};
+    if (counts) for (const r of counts) byId[r.quote_id] = r.n;
+    document.querySelectorAll(".qb-card").forEach((card) => {
+      const id = card.dataset.quoteId;
+      applyVote(card, byId[id] || 0, !!myVotes[id]);
+    });
+
+    // Replay any local votes not yet on server (e.g. from before backend was wired).
+    const visitorId = getVisitorId();
+    const localIds = Object.keys(myVotes);
+    if (localIds.length) {
+      await Promise.all(localIds.map(async (qid) => {
+        await supabase.from("quote_votes")
+          .insert({ visitor_id: visitorId, quote_id: qid })
+          .then(() => {}, () => {}); // ignore unique-constraint dupes
+      }));
+    }
+  } else {
+    // Local-only: at least show the visitor's own votes
+    document.querySelectorAll(".qb-card").forEach((card) => {
+      const id = card.dataset.quoteId;
+      if (myVotes[id]) applyVote(card, 1, true);
+    });
+  }
+
+  // Click handler: toggle vote on/off
+  root.addEventListener("click", async (e) => {
+    const btn = e.target.closest(".qb-upvote");
+    if (!btn) return;
+    e.stopPropagation();
+    const card = btn.closest(".qb-card");
+    const qid = btn.dataset.quoteId;
+    const countEl = btn.querySelector(".qb-upvote-count");
+    const cur = parseInt(countEl.dataset.count, 10) || 0;
+    const wasVoted = !!myVotes[qid];
+
+    if (wasVoted) {
+      applyVote(card, Math.max(0, cur - 1), false);
+      delete myVotes[qid];
+      if (supabase) {
+        await supabase.from("quote_votes")
+          .delete().eq("visitor_id", getVisitorId()).eq("quote_id", qid);
+      }
+    } else {
+      applyVote(card, cur + 1, true);
+      myVotes[qid] = true;
+      if (supabase) {
+        const { error } = await supabase.from("quote_votes")
+          .insert({ visitor_id: getVisitorId(), quote_id: qid });
+        if (error && !String(error.code || "").startsWith("23")) {
+          console.warn("quote vote insert failed:", error);
+        }
+      }
+    }
+    localStorage.setItem(myVotesKey, JSON.stringify(myVotes));
+  });
 })();
 </script>
 
