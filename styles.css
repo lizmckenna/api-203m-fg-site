@@ -1698,6 +1698,31 @@ strong { font-weight: 600; }
   -webkit-box-decoration-break: clone;
 }
 
+.qb-howto {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.qb-howto-vote {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.05rem 0.4rem;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: 2px;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: var(--ink-dim, #777);
+  vertical-align: middle;
+}
+
 .qb-section { margin-top: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--rule); }
 .qb-section:first-child { margin-top: 0; }
 .qb-section:last-child { border-bottom: none; }
