@@ -2703,23 +2703,6 @@
       ]
     },
     {
-      "id": "23cf44f6f9",
-      "fg_id": "09-Nachtwey",
-      "section_id": "s6_pair_share",
-      "line_range": [
-        218,
-        218
-      ],
-      "raw_text": "I more more believe with AI right now",
-      "cleaned_text": "I more more believe with AI right now",
-      "memorable_phrase": "I more more believe with AI",
-      "topics": [
-        "trust",
-        "dependence",
-        "belief shift"
-      ]
-    },
-    {
       "id": "0ef753a775",
       "fg_id": "09-Nachtwey",
       "section_id": "s6_pair_share",
@@ -2764,7 +2747,7 @@
         442
       ],
       "raw_text": "But then what's a green area? What's a yellow area? What's the specter of punishment as well? This is like something because like I get scared whenever I use to chat GBT because I'm like, I actually don't know what I'm allowed to do. And it seems like all the stuff about pagerism, like do you get kicked out of school? Like I said, there's no transparency to the process of accountability. Are there opportunities to like talk with people or is it like, no, you did wrong. We're going to treat it like a black and white thing and you're gone.",
-      "cleaned_text": "But then what's a green area? What's a yellow area? What's the specter of punishment as well? This is like something because I get scared whenever I use ChatGPT because I'm like, I actually don't know what I'm allowed to do. And it seems like all the stuff about plagiarism — like do you get kicked out of school? There's no transparency to the process of accountability. Are there opportunities to talk with people, or is it like, no, you did wrong — we're going to treat it like a black and white thing and you're gone.",
+      "cleaned_text": "But then what's a green area? What's a yellow area? What's the specter of punishment as well? This is like something because I get scared whenever I use ChatGPT because I'm like, I actually don't know what I'm allowed to do. And it seems like all the stuff about plagiarism \u2014 like do you get kicked out of school? There's no transparency to the process of accountability. Are there opportunities to talk with people, or is it like, no, you did wrong \u2014 we're going to treat it like a black and white thing and you're gone.",
       "memorable_phrase": "what's a green area? what's a yellow area?",
       "topics": [
         "institutional guidance",
@@ -2782,7 +2765,7 @@
         261
       ],
       "raw_text": "But I mean, I do get scared that like, oh my God, I don't want to lose the sort of like unique parts of my own writing and of my own thinking. And I initially tried not to use it as much as possible and now I am using it a bit more. So it's like a balance for me, yeah.",
-      "cleaned_text": "I do get scared that — oh my God, I don't want to lose the sort of unique parts of my own writing and of my own thinking. I initially tried not to use it as much as possible and now I am using it a bit more. So it's like a balance for me.",
+      "cleaned_text": "I do get scared that \u2014 oh my God, I don't want to lose the sort of unique parts of my own writing and of my own thinking. I initially tried not to use it as much as possible and now I am using it a bit more. So it's like a balance for me.",
       "memorable_phrase": "lose the unique parts of my own writing",
       "topics": [
         "identity",
@@ -2800,7 +2783,7 @@
         85
       ],
       "raw_text": "I wonder if there's something we're like afraid to talk about on this group like if we use it to help directly with homework or essays or things like that seems like we're talking about really cool but whatever we don't have to go into that right now I'm just addressing that.",
-      "cleaned_text": "I wonder if there's something we're afraid to talk about on this group — like, if we use it to help directly with homework or essays or things like that. It seems like we're talking about really cool... whatever. We don't have to go into that right now. I'm just addressing that.",
+      "cleaned_text": "I wonder if there's something we're afraid to talk about on this group \u2014 like, if we use it to help directly with homework or essays or things like that. It seems like we're talking about really cool... whatever. We don't have to go into that right now. I'm just addressing that.",
       "memorable_phrase": "afraid to talk about",
       "topics": [
         "taboo",
@@ -2818,7 +2801,7 @@
         212
       ],
       "raw_text": "Like, I think Claude is optimized for you. I don't know. I don't think so. I think that makes me feel better, actually. I was going to say I'm on the same page. I am also an AI. I don't know about skeptic. But I worry about just unregulated use and proliferation of data without any sort of guardrails or study on negative impacts I could have. So, but that's kind of my policy area. So, I have much to say.",
-      "cleaned_text": "In South Korea, elementary school students and middle school students are not allowed to use a calculator in mathematics class. But in America, many people use calculators, right? In the future, AI becomes kind of a calculator in the end. I have my daughter, and I recommend her not to use a calculator, but calculate by your brain. It is very helpful to learn something — mathematics, mathematical structures. So in terms of academic fields, AI is definitely not useful to learning and structuring our knowledge.",
+      "cleaned_text": "In South Korea, elementary school students and middle school students are not allowed to use a calculator in mathematics class. But in America, many people use calculators, right? In the future, AI becomes kind of a calculator in the end. I have my daughter, and I recommend her not to use a calculator, but calculate by your brain. It is very helpful to learn something \u2014 mathematics, mathematical structures. So in terms of academic fields, AI is definitely not useful to learning and structuring our knowledge.",
       "memorable_phrase": "AI becomes kind of a calculator in the end",
       "topics": [
         "calculator analogy",
@@ -2836,7 +2819,7 @@
         291
       ],
       "raw_text": "And I think it's interesting, because they talk a lot about how AI is used to it, and I know for a fact that a lot of it is true, because they love to sell that we use it a lot, but I think there's such a very specific standards on how things have done that, that, like, there isn't nowhere that you would ever get away from using a slide made by AI, because things meet. There's a very specific way to do it, which you can say whether that's good or bad, but that's how it's done. And, like, you could show that to a partner and be like, no, that's wrong. And it's, there's not, like, definitely, there's just not the way that we would make it. And it's just nowhere near capable of making them in that it's specific way. You just can't give it directions that are that specific.",
-      "cleaned_text": "I'm going back to the management consultancy firm I was at before being here. It's interesting, because they talk a lot about how AI is used, and I know for a fact that a lot of it is true, because they love to sell that we use it a lot. But there are such very specific standards on how things are done that there is nowhere that you would ever get away with using a slide made by AI. There's a very specific way to do it — you could show that to a partner and be like, no, that's wrong. There's just not the way that we would make it.",
+      "cleaned_text": "I'm going back to the management consultancy firm I was at before being here. It's interesting, because they talk a lot about how AI is used, and I know for a fact that a lot of it is true, because they love to sell that we use it a lot. But there are such very specific standards on how things are done that there is nowhere that you would ever get away with using a slide made by AI. There's a very specific way to do it \u2014 you could show that to a partner and be like, no, that's wrong. There's just not the way that we would make it.",
       "memorable_phrase": "you would never get away with using a slide made by AI",
       "topics": [
         "consulting",
@@ -2854,7 +2837,7 @@
         192
       ],
       "raw_text": "So think about the job fellowship or program that you're hitting into after HKS or maybe just like over this summer. Do you feel like you could walk in on one day and use AI confidently? Oh, use it confident. Yeah, like do you think that hitting into your job after HKS or let's say like you're in summer internship with the current skills that you have right now? Do you think you'd be able to like walk into this job or this experience and use AI confidently in that context? I think so. I would like to learn more. Yeah, that's kind of why I'm like cheers back. I think it's going to be like obviously a big thing moving forward. I want to figure out how to like use it more in my life. So that just might be... And can you elaborate a bit more on that? How do you think that? How do you think I'm helping you? How do you think of it? Of course there's more problem related. Yeah, like I've never taken like an AI course. I think that could be cool. So I mentioned like they use like five different AI things. I actually just... I guess I'd be on the times I just kind of use chat to do some of that. So yeah, it'd be cool to get a little familiar with all like everything available. I don't really know. What do you guys think? I don't... I'm not so much confident right now for using AI when I start working. Because I hope to learn more about how to use them efficiently. More efficiently than I am using them now. And also I guess like there would be some ethical questions or concerns that I have to pay attention to when using the AI for your job or like making policies and so on. So I guess I need to learn that about that more. And then I would be very kind of confident when using AI in my job.",
-      "cleaned_text": "There's always a line you kind of have to tell with what's acceptable and what's not. But at the same time, it's such a fast-paced environment where AI can really enhance your efficiency and your ability to get things done. This summer, I'm going to have to be pretty efficient — it's going to be a fast-paced team. I don't feel like... it's never set in stone what's acceptable in a specific office and what's not. You kind of have to figure that out as you're there, and I don't think we talk about that really at all here. Even the use in classes — AI policy — I feel scared sometimes to use it with school-related stuff because the consequences seem really high, but then we're also encouraged to use it sometimes. So it's kind of like this gray area right now.",
+      "cleaned_text": "There's always a line you kind of have to tell with what's acceptable and what's not. But at the same time, it's such a fast-paced environment where AI can really enhance your efficiency and your ability to get things done. This summer, I'm going to have to be pretty efficient \u2014 it's going to be a fast-paced team. I don't feel like... it's never set in stone what's acceptable in a specific office and what's not. You kind of have to figure that out as you're there, and I don't think we talk about that really at all here. Even the use in classes \u2014 AI policy \u2014 I feel scared sometimes to use it with school-related stuff because the consequences seem really high, but then we're also encouraged to use it sometimes. So it's kind of like this gray area right now.",
       "memorable_phrase": "never set in stone what's acceptable",
       "topics": [
         "workplace norms",
@@ -2873,7 +2856,7 @@
         107
       ],
       "raw_text": "and it can be so over hours, right? I've included a challenge, something, write down ideas. See what it makes sense. This is really allowed to do so. Tell me the loss that you've heard too. And isn't it too psychopandic? Like, it's trying to tell you that your ideas are good too much? Yeah, I always worry about this sometimes, and I also really noticed some forthcoming.",
-      "cleaned_text": "I used to worry more about the losing skills part, but my partner is doing a gap year right now and he spends eight hours a day using Claude to build different things — it helps him with all kinds of projects. Seeing that has made me realize that that is something I would not be able to do right now. I think that there's also a gender gap emerging in how we're using AI.",
+      "cleaned_text": "I used to worry more about the losing skills part, but my partner is doing a gap year right now and he spends eight hours a day using Claude to build different things \u2014 it helps him with all kinds of projects. Seeing that has made me realize that that is something I would not be able to do right now. I think that there's also a gender gap emerging in how we're using AI.",
       "memorable_phrase": "a gender gap emerging in how we're using AI",
       "topics": [
         "gender gap",
@@ -2891,7 +2874,7 @@
         157
       ],
       "raw_text": "it's so different like I feel like Claude and like how it can make slide decks was not where it was four months ago like I was shocked I was still using like the canva trying to tweak slides and then now it just builds out a beautiful slide deck it's yeah it's just so rapid at like what the improvements are and especially what to your point the like advertisement piece of it like that's fairly new I think so it just made me crazy sorry I'm gonna go down no sorry I just I got excited and then then I'll go back down yes so okay let's shift to our professional lives so think about your future job fellowship or whatever you're going to do after HDS how do you do you feel like you could walk in on day one and use AI confidently and competently in that context to be in after graduation I don't know after after my job but I'm doing internship and I don't think so I can use a lot of AI because there's a real time situation",
-      "cleaned_text": "I disagree with that very strongly because I think the fundamental skills you describe — it's like how to build an agent doesn't change with the model. How you use AI does not necessarily change with the model. It's like if you learn Excel in the 90s — a lot of people still use Excel in the 2020 version. You have the fundamental skills. So just because the model is evolving is not a reason not to teach people the skills that are fundamentally central to all of our functions for the next 30-40 years.",
+      "cleaned_text": "I disagree with that very strongly because I think the fundamental skills you describe \u2014 it's like how to build an agent doesn't change with the model. How you use AI does not necessarily change with the model. It's like if you learn Excel in the 90s \u2014 a lot of people still use Excel in the 2020 version. You have the fundamental skills. So just because the model is evolving is not a reason not to teach people the skills that are fundamentally central to all of our functions for the next 30-40 years.",
       "memorable_phrase": "if you learn Excel in the 90s",
       "topics": [
         "fundamental skills",
