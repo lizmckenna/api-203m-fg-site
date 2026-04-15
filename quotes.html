@@ -36,8 +36,8 @@
       <strong>Disclaimer:</strong> these are raw Whisper auto-transcriptions
       and have not been cleaned for errors. Expect mis-heard words
       (&ldquo;chat GBT,&rdquo; &ldquo;chatchubit,&rdquo; &ldquo;cod code&rdquo;),
-      dropped punctuation, and run-on phrasing. Known mistranscriptions have
-      not been edited out yet.
+      dropped punctuation, and run-on phrasing.
+      <mark class="qb-warn">Known mistranscriptions have not been edited out yet.</mark>
     </p>
   </div>
 </section>
@@ -123,7 +123,19 @@ function exchangeCard(x) {
   // a "read N more" link beneath them that toggles the rest.
   const PREVIEW_N = 3;
 
+  // Shuffle items per page load so the 3 preview cards aren't always the
+  // first three in source order (which biases toward FG-01).
+  const shuffle = (arr) => {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  };
+
   const renderSection = ({ id, label, heading, ledeHTML, items, renderItem, wrapClass }) => {
+    items = shuffle(items);
     const total = items.length;
     const countLabel = `${total} ${wrapClass === "qb-exchanges" ? "exchange" : "quote"}${total === 1 ? "" : "s"}`;
     const preview = items.slice(0, PREVIEW_N).map(renderItem).join("");
