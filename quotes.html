@@ -119,63 +119,60 @@ function exchangeCard(x) {
   const bySection = {};
   for (const q of quotes) (bySection[q.section_id] ||= []).push(q);
 
-  const INITIAL = 3;
-
-  const collapsibleBlock = (items, renderItem, wrapClass) => {
-    const visible = items.slice(0, INITIAL).map(renderItem).join("");
-    const hidden = items.slice(INITIAL).map(renderItem).join("");
-    const remaining = items.length - INITIAL;
-    const hiddenBlock = remaining > 0
-      ? `<div class="${wrapClass} qb-hidden" hidden>${hidden}</div>
-         <button type="button" class="qb-read-more" data-remaining="${remaining}">read ${remaining} more &rarr;</button>`
-      : "";
-    return `<div class="${wrapClass}">${visible}</div>${hiddenBlock}`;
-  };
+  // Each section renders as a <details> expander. Default collapsed so the
+  // reader sees the table-of-contents view first, then opens sections one
+  // by one. No inner preview / "read more" — a section is either closed
+  // (just its title) or open (all its quotes).
+  const sectionExpander = (id, label, headingInner, countLabel, bodyHTML) => `
+    <details id="${id}" class="qb-section">
+      <summary class="qb-section-summary">
+        <div class="qb-section-kicker">
+          <span class="section-label">${escape(label)}</span>
+          <span class="qb-section-count">${escape(countLabel)}</span>
+        </div>
+        <h2 class="qb-section-h2">${headingInner}</h2>
+        <span class="qb-section-cue" aria-hidden="true">
+          <span class="qb-cue-open">Open section →</span>
+          <span class="qb-cue-close">← Collapse section</span>
+        </span>
+      </summary>
+      <div class="qb-section-body">${bodyHTML}</div>
+    </details>
+  `;
 
   const html = [];
   for (const s of SECTIONS) {
     const list = bySection[s.id] || [];
     if (!list.length) continue;
-    html.push(`
-      <section id="${s.id}" class="qb-section">
-        <div class="section-label">${escape(s.label)}</div>
-        <h2>${list.length} quote${list.length===1?"":"s"} from the ${escape(s.label)} section.</h2>
-        ${collapsibleBlock(list, quoteCard, "qb-quotes")}
-      </section>
-    `);
+    const body = `<div class="qb-quotes">${list.map(quoteCard).join("")}</div>`;
+    const countLabel = `${list.length} quote${list.length===1?"":"s"}`;
+    const heading = `From the ${escape(s.label)} section.`;
+    html.push(sectionExpander(s.id, s.label, heading, countLabel, body));
   }
 
   if (xs.length) {
-    html.push(`
-      <section id="exchanges" class="qb-section">
-        <div class="section-label">exchanges</div>
-        <h2>When students talked to each other.</h2>
-        <p class="section-lede">
-          The moments where participants responded directly to each other,
-          not just to the moderator. Different voices are labeled A, B, C, D.
-        </p>
-        ${collapsibleBlock(xs, exchangeCard, "qb-exchanges")}
-      </section>
-    `);
+    const body = `
+      <p class="section-lede">
+        The moments where participants responded directly to each other,
+        not just to the moderator. Different voices are labeled A, B, C, D.
+      </p>
+      <div class="qb-exchanges">${xs.map(exchangeCard).join("")}</div>
+    `;
+    const countLabel = `${xs.length} exchange${xs.length===1?"":"s"}`;
+    const heading = `When students talked to each other.`;
+    html.push(sectionExpander("exchanges", "exchanges", heading, countLabel, body));
   }
 
   root.innerHTML = html.join("") || `<div class="empty">no quotes found.</div>`;
 
-  root.addEventListener("click", (e) => {
-    const btn = e.target.closest(".qb-read-more");
-    if (!btn) return;
-    const hiddenEl = btn.previousElementSibling;
-    if (!hiddenEl) return;
-    const isHidden = hiddenEl.hasAttribute("hidden");
-    if (isHidden) {
-      hiddenEl.removeAttribute("hidden");
-      btn.textContent = "\u2190 collapse";
-    } else {
-      hiddenEl.setAttribute("hidden", "");
-      const remaining = btn.dataset.remaining;
-      btn.textContent = `read ${remaining} more \u2192`;
+  // If the URL has a #section-id, auto-open that section and scroll.
+  if (location.hash) {
+    const el = document.querySelector(location.hash);
+    if (el && el.tagName === "DETAILS") {
+      el.open = true;
+      el.scrollIntoView({ block: "start" });
     }
-  });
+  }
 })();
 </script>
 

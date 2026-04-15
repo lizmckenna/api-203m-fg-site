@@ -1688,26 +1688,70 @@ strong { font-weight: 600; }
   margin-right: 0.35rem;
 }
 
-/* Collapsible read-more button for quote bank sections */
-.qb-read-more {
-  margin-top: 1rem;
-  align-self: flex-start;
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  padding: 0.55rem 1rem;
-  background: var(--paper);
-  border: 1px solid var(--rule-strong);
-  cursor: pointer;
-  color: var(--ink-soft);
-  transition: all 120ms;
-}
-.qb-read-more:hover { border-color: var(--ink); color: var(--ink); background: var(--paper-soft); }
-.qb-hidden { margin-top: 1.25rem; }
-
 .qb-root { padding: 2rem 0 5rem; }
-.qb-section { margin-top: 3.5rem; }
+.qb-section { margin-top: 1.5rem; }
 .qb-section:first-child { margin-top: 0; }
-.qb-section > h2 { margin-bottom: 2rem; }
+
+/* Section-as-expander: closed = just the TOC row; open = quotes revealed */
+details.qb-section {
+  border-top: 1px solid var(--rule-strong);
+  padding: 0;
+  background: transparent;
+}
+details.qb-section:last-of-type { border-bottom: 1px solid var(--rule-strong); }
+
+.qb-section-summary {
+  list-style: none;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 1.5rem 0;
+  transition: background 0.1s;
+}
+.qb-section-summary::-webkit-details-marker { display: none; }
+.qb-section-summary:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+
+.qb-section-kicker {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.35rem;
+}
+.qb-section-count {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  color: var(--ink-dim, #777);
+  font-variant-numeric: tabular-nums;
+}
+.qb-section-h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0;
+  grid-column: 1;
+}
+.qb-section-cue {
+  grid-column: 2;
+  font-family: var(--font-display);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  align-self: center;
+  white-space: nowrap;
+}
+details.qb-section[open] .qb-cue-open { display: none; }
+details.qb-section:not([open]) .qb-cue-close { display: none; }
+.qb-section-body {
+  padding: 0.5rem 0 2.25rem;
+}
 
 .qb-quotes {
   display: grid;
