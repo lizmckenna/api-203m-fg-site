@@ -1208,8 +1208,8 @@ function adjustCount(bar, key, delta) {
 
 // =====================================================================
 // Per-finding inline comments
-// Lets readers leave a short written response on each preliminary finding.
-// Uses the existing `comments` table with target_type = "finding".
+// Anonymous — uses `finding_comments` table with visitor_id, no auth.
+// Same trust model as exec_reactions: localStorage visitor ID.
 // Works without Supabase (localStorage-only), upgrades to live when connected.
 // =====================================================================
 
@@ -1275,21 +1275,16 @@ function initFindingComments() {
       charCount.textContent = remaining <= 100 ? `${remaining} left` : "";
     });
 
-    // Submit
+    // Submit — no sign-in required
     area.querySelector(".fc-form").addEventListener("submit", async (e) => {
       e.preventDefault();
       const body = textarea.value.trim();
       if (!body) return;
 
       if (supabase) {
-        const { data: { session } } = await supabase.auth.getSession();
-        if (!session) {
-          document.getElementById("auth-dialog").showModal();
-          return;
-        }
-        const { error } = await supabase.from("comments").insert({
-          user_id: session.user.id,
-          target_type: "finding",
+        const visitorId = getVisitorId();
+        const { error } = await supabase.from("finding_comments").insert({
+          visitor_id: visitorId,
           target_id: findingId,
           body,
         });
@@ -1301,7 +1296,6 @@ function initFindingComments() {
       textarea.value = "";
       charCount.textContent = "";
       loadFindingComments(findingId, area.querySelector(".fc-list"));
-      // Update the toggle label with new count
       updateToggleCount(toggle, findingId);
     });
   });
@@ -1322,13 +1316,10 @@ function initFindingComments() {
 
 async function loadAllFindingCounts() {
   if (!supabase) return;
-  const { data } = await supabase.from("v_comments_public").select("target_id")
-    .eq("target_type", "finding");
+  const { data } = await supabase.from("v_finding_comment_counts").select("*");
   if (!data) return;
   const counts = {};
-  for (const row of data) {
-    counts[row.target_id] = (counts[row.target_id] || 0) + 1;
-  }
+  for (const row of data) counts[row.target_id] = row.n;
   document.querySelectorAll(".finding-comments").forEach((w) => {
     const fid = w.dataset.findingTarget;
     const n = counts[fid] || 0;
@@ -1341,10 +1332,9 @@ async function loadAllFindingCounts() {
 
 async function updateToggleCount(toggle, findingId) {
   if (supabase) {
-    const { count } = await supabase.from("comments")
-      .select("*", { count: "exact", head: true })
-      .eq("target_type", "finding").eq("target_id", findingId);
-    const n = count || 0;
+    const { data } = await supabase.from("v_finding_comment_counts")
+      .select("n").eq("target_id", findingId).single();
+    const n = data?.n || 0;
     toggle.innerHTML = `<span class="fc-toggle-icon">💬</span> ${n} comment${n === 1 ? "" : "s"}`;
   } else {
     const local = getLocalFindingComments();
@@ -1355,16 +1345,15 @@ async function updateToggleCount(toggle, findingId) {
 
 async function loadFindingComments(findingId, listEl) {
   if (supabase) {
-    const { data } = await supabase.from("v_comments_public").select("*")
-      .eq("target_type", "finding").eq("target_id", findingId)
-      .order("created_at", { ascending: true }).limit(50);
+    const { data } = await supabase.from("v_finding_comments").select("*")
+      .eq("target_id", findingId).limit(50);
     if (!data || !data.length) {
       listEl.innerHTML = `<div class="fc-empty">no comments yet — be first.</div>`;
       return;
     }
     listEl.innerHTML = data.map((c) => `
       <div class="fc-comment">
-        <div class="fc-comment-meta">${escape(c.display_name || "anonymous")} · ${c.program || c.role || ""} · ${new Date(c.created_at).toLocaleDateString()}</div>
+        <div class="fc-comment-meta">${new Date(c.created_at).toLocaleDateString()}</div>
         <div class="fc-comment-body">${escape(c.body)}</div>
       </div>
     `).join("");
