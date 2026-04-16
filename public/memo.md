@@ -8,7 +8,7 @@
 
 >> The disagreements, the moments of recognition ("I hadn't thought about it that way"), the silences after someone admits something uncomfortable, and so forth, are data.
 
-**AI attitudes at HKS right now have both properties.** We are in a moment of epistemic flux, where students are peer-learning norms with limited institutional guidance, where "using AI" covers everything from transcription and translation to light editing assistance to wholesale outsourcing of thinking, and where the costs of over-use and under-use feel very real. The focus group lets those uncertainties surface but at a cost: what we gain in depth and interaction we give up in breadth and generalizability. These eleven focus groups cannot tell us how HKS students feel about AI, but they can tell us how AI is being talked about, negotiated, and made sense of among the 90 MPP1s who were in the room.
+**AI attitudes at HKS right now have both properties.** We are in a moment of epistemic flux, where students are peer-learning norms with limited institutional guidance, where "using AI" covers everything from transcription and translation to light editing assistance to wholesale outsourcing of thinking, and where the costs of over-use and under-use feel very real. The focus group lets those uncertainties surface but at a cost: what we gain in depth and interaction we give up in breadth and generalizability. These ten focus groups cannot tell us how HKS students feel about AI, but they can tell us how AI is being talked about, negotiated, and made sense of among the 90 MPP1s who were in the room.
 
 ## What this project is, and what it's trying to teach
 
