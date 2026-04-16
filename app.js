@@ -1065,6 +1065,7 @@ function escape(s) {
   await renderFieldNotes();
   await renderVotes();
   await initExecEmojiBars();
+  initFindingComments();
 })();
 
 // =====================================================================
@@ -1203,4 +1204,182 @@ function adjustCount(bar, key, delta) {
   const n = (parseInt(el.dataset.count, 10) || 0) + delta;
   el.dataset.count = n;
   el.textContent = n;
+}
+
+// =====================================================================
+// Per-finding inline comments
+// Lets readers leave a short written response on each preliminary finding.
+// Uses the existing `comments` table with target_type = "finding".
+// Works without Supabase (localStorage-only), upgrades to live when connected.
+// =====================================================================
+
+const FINDING_COMMENT_STORE = "finding-comments-local";
+
+function getLocalFindingComments() {
+  return JSON.parse(localStorage.getItem(FINDING_COMMENT_STORE) || "{}");
+}
+
+function saveLocalFindingComment(findingId, body) {
+  const store = getLocalFindingComments();
+  if (!store[findingId]) store[findingId] = [];
+  store[findingId].push({ body, ts: new Date().toISOString() });
+  localStorage.setItem(FINDING_COMMENT_STORE, JSON.stringify(store));
+}
+
+function initFindingComments() {
+  const widgets = document.querySelectorAll(".finding-comments");
+  if (!widgets.length) return;
+
+  widgets.forEach((widget) => {
+    const findingId = widget.dataset.findingTarget;
+
+    // Toggle button to reveal the comment area
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "fc-toggle";
+    toggle.innerHTML = `<span class="fc-toggle-icon">💬</span> add a comment`;
+    widget.appendChild(toggle);
+
+    // Collapsible comment area
+    const area = document.createElement("div");
+    area.className = "fc-area";
+    area.hidden = true;
+    area.innerHTML = `
+      <form class="fc-form">
+        <textarea class="fc-input" placeholder="What resonates? What's missing? Say more..." rows="2" maxlength="500"></textarea>
+        <div class="fc-form-footer">
+          <span class="fc-char-count"></span>
+          <button type="submit" class="fc-submit">post</button>
+        </div>
+      </form>
+      <div class="fc-list"></div>
+    `;
+    widget.appendChild(area);
+
+    // Toggle open/close
+    toggle.addEventListener("click", () => {
+      const opening = area.hidden;
+      area.hidden = !area.hidden;
+      toggle.classList.toggle("fc-toggle-open", opening);
+      if (opening) {
+        area.querySelector(".fc-input").focus();
+        loadFindingComments(findingId, area.querySelector(".fc-list"));
+      }
+    });
+
+    // Character count
+    const textarea = area.querySelector(".fc-input");
+    const charCount = area.querySelector(".fc-char-count");
+    textarea.addEventListener("input", () => {
+      const remaining = 500 - textarea.value.length;
+      charCount.textContent = remaining <= 100 ? `${remaining} left` : "";
+    });
+
+    // Submit
+    area.querySelector(".fc-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const body = textarea.value.trim();
+      if (!body) return;
+
+      if (supabase) {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (!session) {
+          document.getElementById("auth-dialog").showModal();
+          return;
+        }
+        const { error } = await supabase.from("comments").insert({
+          user_id: session.user.id,
+          target_type: "finding",
+          target_id: findingId,
+          body,
+        });
+        if (error) { console.warn("finding comment failed:", error); return; }
+      } else {
+        saveLocalFindingComment(findingId, body);
+      }
+
+      textarea.value = "";
+      charCount.textContent = "";
+      loadFindingComments(findingId, area.querySelector(".fc-list"));
+      // Update the toggle label with new count
+      updateToggleCount(toggle, findingId);
+    });
+  });
+
+  // Show comment counts on toggles
+  if (supabase) {
+    loadAllFindingCounts();
+  } else {
+    const local = getLocalFindingComments();
+    widgets.forEach((w) => {
+      const fid = w.dataset.findingTarget;
+      const n = (local[fid] || []).length;
+      const toggle = w.querySelector(".fc-toggle");
+      if (n > 0) toggle.innerHTML = `<span class="fc-toggle-icon">💬</span> ${n} comment${n === 1 ? "" : "s"}`;
+    });
+  }
+}
+
+async function loadAllFindingCounts() {
+  if (!supabase) return;
+  const { data } = await supabase.from("v_comments_public").select("target_id")
+    .eq("target_type", "finding");
+  if (!data) return;
+  const counts = {};
+  for (const row of data) {
+    counts[row.target_id] = (counts[row.target_id] || 0) + 1;
+  }
+  document.querySelectorAll(".finding-comments").forEach((w) => {
+    const fid = w.dataset.findingTarget;
+    const n = counts[fid] || 0;
+    const toggle = w.querySelector(".fc-toggle");
+    if (n > 0) {
+      toggle.innerHTML = `<span class="fc-toggle-icon">💬</span> ${n} comment${n === 1 ? "" : "s"}`;
+    }
+  });
+}
+
+async function updateToggleCount(toggle, findingId) {
+  if (supabase) {
+    const { count } = await supabase.from("comments")
+      .select("*", { count: "exact", head: true })
+      .eq("target_type", "finding").eq("target_id", findingId);
+    const n = count || 0;
+    toggle.innerHTML = `<span class="fc-toggle-icon">💬</span> ${n} comment${n === 1 ? "" : "s"}`;
+  } else {
+    const local = getLocalFindingComments();
+    const n = (local[findingId] || []).length;
+    toggle.innerHTML = `<span class="fc-toggle-icon">💬</span> ${n} comment${n === 1 ? "" : "s"}`;
+  }
+}
+
+async function loadFindingComments(findingId, listEl) {
+  if (supabase) {
+    const { data } = await supabase.from("v_comments_public").select("*")
+      .eq("target_type", "finding").eq("target_id", findingId)
+      .order("created_at", { ascending: true }).limit(50);
+    if (!data || !data.length) {
+      listEl.innerHTML = `<div class="fc-empty">no comments yet — be first.</div>`;
+      return;
+    }
+    listEl.innerHTML = data.map((c) => `
+      <div class="fc-comment">
+        <div class="fc-comment-meta">${escape(c.display_name || "anonymous")} · ${c.program || c.role || ""} · ${new Date(c.created_at).toLocaleDateString()}</div>
+        <div class="fc-comment-body">${escape(c.body)}</div>
+      </div>
+    `).join("");
+  } else {
+    const local = getLocalFindingComments();
+    const items = local[findingId] || [];
+    if (!items.length) {
+      listEl.innerHTML = `<div class="fc-empty">no comments yet — be first.</div>`;
+      return;
+    }
+    listEl.innerHTML = items.map((c) => `
+      <div class="fc-comment">
+        <div class="fc-comment-meta">you · ${new Date(c.ts).toLocaleDateString()}</div>
+        <div class="fc-comment-body">${escape(c.body)}</div>
+      </div>
+    `).join("");
+  }
 }
