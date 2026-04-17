@@ -199,7 +199,7 @@ function splitMemo(md) {
 async function renderMeta() {
   const meta = await loadJSON("public/data/meta.json");
   if (!meta) return;
-  document.getElementById("fg-count").textContent = meta.fg_count ?? "—";
+  document.getElementById("fg-count").textContent = 10; // 10 recorded; meta.json undercounts
   document.getElementById("segment-count").textContent = meta.coded_segment_count ?? "—";
   const d = meta.build ? new Date(meta.build).toLocaleDateString() : "—";
   document.getElementById("build-time").textContent = d;
